@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# infomaxxing
 
-## Getting Started
+Doomscroll your way to knowledge. An infinite-scroll feed of core engineering concepts, styled like X/Twitter.
 
-First, run the development server:
+Replace mindless scrolling with learning. Security, networking, algorithms, design patterns, systems, cryptography, and more - one concept at a time.
+
+![infomaxxing screenshot](https://github.com/user-attachments/assets/placeholder)
+
+## Run it
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+bun install
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+That's it. No environment variables, no database, no API keys.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## What you get
 
-## Learn More
+- Dark-themed X/Twitter-style infinite scroll feed
+- 60+ curated engineering concepts across 14 categories
+- Tap any card to expand: full explanation, examples, "why it matters", related terms
+- Category filtering via sidebar
+- Mobile responsive
+- Zero external dependencies beyond Next.js
 
-To learn more about Next.js, take a look at the following resources:
+## Add concepts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Edit `src/data/concepts.ts`. Each concept follows this shape:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```ts
+{
+  id: "your-concept",
+  term: "Your Concept",
+  category: "security", // see Category type for options
+  tags: ["tag1", "tag2"],
+  oneLiner: "One sentence hook.",
+  body: "Full explanation.",
+  example: "Optional concrete example.",
+  whyItMatters: "Why an engineer should care.",
+  relatedTerms: ["term1", "term2"]
+}
+```
 
-## Deploy on Vercel
+Categories: `security`, `networking`, `algorithms`, `data-structures`, `design-patterns`, `systems`, `web`, `databases`, `devops`, `cryptography`, `architecture`, `programming`, `performance`, `concurrency`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js 16 (App Router)
+- TypeScript
+- Tailwind CSS v4
+- Bun
+
+## License
+
+MIT
