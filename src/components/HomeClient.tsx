@@ -121,7 +121,7 @@ export function HomeClient({
             <div className="lg:hidden">
               {/* Row 1: logo + progress */}
               <div className="px-4 py-2.5 flex items-center justify-between">
-                <h1 className="text-[18px] font-bold text-white tracking-tight uppercase">infoma<span className="text-[#ff0040]">x</span><span className="text-[#00e639]">x</span><span className="text-[#0099ff]">x</span>ing</h1>
+                <h1 className="text-[18px] font-bold text-white tracking-tight uppercase">infoma<span className="text-[#ff1744]">xxx</span>ing</h1>
                 <button
                   onClick={() => setMobileStatsOpen(!mobileStatsOpen)}
                   className="flex items-center gap-1.5 text-white hover:text-[var(--accent)] transition-colors"
