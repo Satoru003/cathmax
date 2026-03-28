@@ -4,7 +4,7 @@ Doomscroll your way to knowledge. An infinite-scroll feed of core engineering co
 
 Replace mindless scrolling with learning. Security, networking, algorithms, design patterns, systems, cryptography, and more - one concept at a time.
 
-![infomaxxing screenshot](https://github.com/user-attachments/assets/placeholder)
+![infomaxxing screenshot](public/screenshot.png)
 
 ## Run it
 
