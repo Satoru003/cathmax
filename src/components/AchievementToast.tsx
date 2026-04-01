@@ -9,11 +9,11 @@ interface AchievementToastProps {
 }
 
 function getMessage(milestone: number) {
-  if (milestone >= 560) return "INFOMAXXED";
-  if (milestone >= 250) return "Knowledge overload";
+  if (milestone >= 500) return "CATHOLICMAXXED";
+  if (milestone >= 250) return "Doctor of the Faith";
   if (milestone >= 100) return "Triple digits";
-  if (milestone >= 50) return "Half century";
-  if (milestone >= 25) return "Getting serious";
+  if (milestone >= 50) return "Half century of wisdom";
+  if (milestone >= 25) return "Growing in faith";
   return "First steps";
 }
 

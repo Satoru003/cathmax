@@ -58,7 +58,7 @@ export function RightSidebar({
         </svg>
         <input
           type="text"
-          placeholder="Search concepts"
+          placeholder="Search teachings"
           value={searchQuery}
           onChange={(e) => onSearch(e.target.value)}
           className="w-full bg-[var(--background)] text-[var(--foreground)] placeholder-[var(--muted)] rounded-full py-2.5 pl-10 pr-8 text-[15px] border border-[var(--border)] focus:border-[var(--accent)] outline-none transition-colors"
@@ -78,7 +78,7 @@ export function RightSidebar({
       {/* What to learn - suggestions */}
       <div className="bg-[var(--background)] border border-[var(--border)] rounded-2xl overflow-hidden">
         <h3 className="px-4 py-3 text-[20px] font-bold text-[var(--foreground)]">
-          What to learn
+          What to explore
         </h3>
         {suggestions.map((concept) => {
           const meta = CATEGORY_META[concept.category];

@@ -31,7 +31,7 @@ export function ConceptDetail({ concept, onBack, onSelectRelated }: ConceptDetai
     const url = `${window.location.origin}?post=${encodeURIComponent(concept.id)}`;
     if (navigator.share) {
       try {
-        await navigator.share({ title: `${concept.term} - infomaxxxing`, url });
+        await navigator.share({ title: `${concept.term} - catholicmaxxxing`, url });
         return;
       } catch {
         // user cancelled or share failed, fall through to clipboard

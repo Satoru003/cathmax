@@ -9,14 +9,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "infomaxxxing",
-  description: "Doomscroll your way to knowledge. Core engineering concepts in an infinite feed.",
-  metadataBase: new URL("https://infomaxxx.ing"),
+  title: "catholicmaxxxing",
+  description: "Doomscroll your way to holiness. Catholic teachings in an infinite feed.",
+  metadataBase: new URL("https://catholicmaxxxing.com"),
   openGraph: {
-    title: "infomaxxxing",
-    description: "Doomscroll your way to knowledge. Core engineering concepts in an infinite feed.",
-    url: "https://infomaxxx.ing",
-    siteName: "infomaxxxing",
+    title: "catholicmaxxxing",
+    description: "Doomscroll your way to holiness. Catholic teachings in an infinite feed.",
+    url: "https://catholicmaxxxing.com",
+    siteName: "catholicmaxxxing",
     images: [
       {
         url: "/og.png",
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "infomaxxxing",
-    description: "Doomscroll your way to knowledge. Core engineering concepts in an infinite feed.",
+    title: "catholicmaxxxing",
+    description: "Doomscroll your way to holiness. Catholic teachings in an infinite feed.",
     images: ["/og.png"],
   },
   icons: {

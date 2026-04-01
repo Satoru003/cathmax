@@ -109,7 +109,7 @@ export function ConceptCard({ concept, onSelect }: ConceptCardProps) {
                 e.stopPropagation();
                 const url = `${window.location.origin}?post=${encodeURIComponent(concept.id)}`;
                 if (navigator.share) {
-                  navigator.share({ title: `${concept.term} - infomaxxxing`, url }).catch(() => {});
+                  navigator.share({ title: `${concept.term} - catholicmaxxxing`, url }).catch(() => {});
                 } else {
                   navigator.clipboard.writeText(url);
                 }

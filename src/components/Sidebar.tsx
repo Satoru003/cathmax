@@ -20,7 +20,7 @@ export function Sidebar({
         {/* Logo */}
         <div className="px-3 py-3 mb-2">
           <h1 className="text-xl font-bold text-[var(--foreground)] uppercase">
-            infoma<span className="text-[#ff1744]">xxx</span>ing
+            catholic<span className="text-[#ff1744]">maxxx</span>ing
           </h1>
         </div>
 
@@ -74,7 +74,7 @@ export function Sidebar({
 
       {/* Bottom info */}
       <div className="px-3 py-2 text-[13px] text-[var(--muted)]">
-        Scroll to learn. Tap to expand.
+        Scroll to grow in faith. Tap to expand.
       </div>
     </nav>
   );

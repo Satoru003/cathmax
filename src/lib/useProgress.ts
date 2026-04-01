@@ -3,8 +3,8 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import { Category } from "./types";
 
-const STORAGE_KEY = "infomaxxxing_progress";
-const MILESTONES = [10, 25, 50, 100, 250, 560];
+const STORAGE_KEY = "catholicmaxxxing_progress";
+const MILESTONES = [10, 25, 50, 100, 250, 500];
 
 interface SeenConcept {
   timestamp: number;

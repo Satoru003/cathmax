@@ -11,34 +11,34 @@ export interface Concept {
 }
 
 export type Category =
-  | "security"
-  | "networking"
-  | "algorithms"
-  | "data-structures"
-  | "design-patterns"
-  | "systems"
-  | "web"
-  | "databases"
-  | "devops"
-  | "cryptography"
-  | "architecture"
-  | "programming"
-  | "performance"
-  | "concurrency";
+  | "saints"
+  | "sacraments"
+  | "scripture"
+  | "prayers"
+  | "doctrine"
+  | "morality"
+  | "church-history"
+  | "mary"
+  | "liturgy"
+  | "virtues"
+  | "apologetics"
+  | "social-teaching"
+  | "tradition"
+  | "devotions";
 
 export const CATEGORY_META: Record<Category, { label: string; icon: string; color: string }> = {
-  security: { label: "Security", icon: "shield", color: "#f43f5e" },
-  networking: { label: "Networking", icon: "globe", color: "#3b82f6" },
-  algorithms: { label: "Algorithms", icon: "cpu", color: "#8b5cf6" },
-  "data-structures": { label: "Data Structures", icon: "layers", color: "#f59e0b" },
-  "design-patterns": { label: "Design Patterns", icon: "grid", color: "#10b981" },
-  systems: { label: "Systems", icon: "server", color: "#6366f1" },
-  web: { label: "Web", icon: "code", color: "#06b6d4" },
-  databases: { label: "Databases", icon: "database", color: "#ec4899" },
-  devops: { label: "DevOps", icon: "terminal", color: "#84cc16" },
-  cryptography: { label: "Cryptography", icon: "lock", color: "#f97316" },
-  architecture: { label: "Architecture", icon: "building", color: "#14b8a6" },
-  programming: { label: "Programming", icon: "braces", color: "#a855f7" },
-  performance: { label: "Performance", icon: "zap", color: "#eab308" },
-  concurrency: { label: "Concurrency", icon: "shuffle", color: "#0ea5e9" },
+  saints: { label: "Saints", icon: "halo", color: "#f59e0b" },
+  sacraments: { label: "Sacraments", icon: "chalice", color: "#8b5cf6" },
+  scripture: { label: "Scripture", icon: "book", color: "#3b82f6" },
+  prayers: { label: "Prayers", icon: "hands", color: "#14b8a6" },
+  doctrine: { label: "Doctrine", icon: "shield", color: "#f43f5e" },
+  morality: { label: "Moral Theology", icon: "scale", color: "#10b981" },
+  "church-history": { label: "Church History", icon: "clock", color: "#6366f1" },
+  mary: { label: "Marian Devotion", icon: "star", color: "#06b6d4" },
+  liturgy: { label: "Liturgy", icon: "candle", color: "#ec4899" },
+  virtues: { label: "Virtues", icon: "heart", color: "#84cc16" },
+  apologetics: { label: "Apologetics", icon: "message", color: "#f97316" },
+  "social-teaching": { label: "Social Teaching", icon: "people", color: "#a855f7" },
+  tradition: { label: "Sacred Tradition", icon: "scroll", color: "#eab308" },
+  devotions: { label: "Devotions", icon: "flame", color: "#0ea5e9" },
 };

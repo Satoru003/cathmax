@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import { Concept, Category } from "@/lib/types";
+import { getConcepts, searchConcepts } from "@/lib/concepts";
 import { ConceptCard } from "./ConceptCard";
 
 interface FeedProps {
@@ -32,26 +33,19 @@ export function Feed({ category, searchQuery, seenIds, onConceptSelect }: FeedPr
       setSearchResults(null);
       return;
     }
-    const timer = setTimeout(async () => {
-      const res = await fetch(`/api/search?q=${encodeURIComponent(searchQuery)}`);
-      const data = await res.json();
-      setSearchResults(data.items);
+    const timer = setTimeout(() => {
+      const items = searchConcepts(searchQuery);
+      setSearchResults(items);
     }, 200);
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
-  const fetchMore = useCallback(async () => {
+  const fetchMore = useCallback(() => {
     if (loadingRef.current) return;
     setLoading(true);
     loadingRef.current = true;
     try {
-      const params = new URLSearchParams({
-        cursor: cursorRef.current.toString(),
-        limit: "10",
-      });
-      if (category) params.set("category", category);
-      const res = await fetch(`/api/concepts?${params}`);
-      const data = await res.json();
+      const data = getConcepts(cursorRef.current, 10, category || undefined);
       // Sort new batch: unseen first, using snapshot from fetch time
       const snap = seenAtFetchRef.current;
       const sorted = [...data.items].sort((a: Concept, b: Concept) => {
@@ -60,8 +54,8 @@ export function Feed({ category, searchQuery, seenIds, onConceptSelect }: FeedPr
         return aS - bS;
       });
       setConcepts((prev) => [...prev, ...sorted]);
-      setCursor(data.nextCursor);
-      cursorRef.current = data.nextCursor;
+      setCursor(data.nextCursor ?? 0);
+      cursorRef.current = data.nextCursor ?? 0;
     } finally {
       setLoading(false);
       loadingRef.current = false;
@@ -82,33 +76,24 @@ export function Feed({ category, searchQuery, seenIds, onConceptSelect }: FeedPr
     if (concepts.length === 0 && !loading) {
       // Snapshot seenIds at load time
       if (seenIds) seenAtFetchRef.current = new Set(seenIds);
-      const load = async () => {
-        setLoading(true);
-        loadingRef.current = true;
-        try {
-          const params = new URLSearchParams({
-            cursor: "0",
-            limit: "15",
-          });
-          if (category) params.set("category", category);
-          const res = await fetch(`/api/concepts?${params}`);
-          const data = await res.json();
-          // Sort initial batch: unseen first
-          const snap = seenAtFetchRef.current;
-          const sorted = [...data.items].sort((a: Concept, b: Concept) => {
-            const aS = snap.has(a.id) ? 1 : 0;
-            const bS = snap.has(b.id) ? 1 : 0;
-            return aS - bS;
-          });
-          setConcepts(sorted);
-          setCursor(data.nextCursor);
-          cursorRef.current = data.nextCursor;
-        } finally {
-          setLoading(false);
-          loadingRef.current = false;
-        }
-      };
-      load();
+      setLoading(true);
+      loadingRef.current = true;
+      try {
+        const data = getConcepts(0, 15, category || undefined);
+        // Sort initial batch: unseen first
+        const snap = seenAtFetchRef.current;
+        const sorted = [...data.items].sort((a: Concept, b: Concept) => {
+          const aS = snap.has(a.id) ? 1 : 0;
+          const bS = snap.has(b.id) ? 1 : 0;
+          return aS - bS;
+        });
+        setConcepts(sorted);
+        setCursor(data.nextCursor ?? 0);
+        cursorRef.current = data.nextCursor ?? 0;
+      } finally {
+        setLoading(false);
+        loadingRef.current = false;
+      }
     }
   }, [concepts.length, category, loading]); // eslint-disable-line react-hooks/exhaustive-deps
 
