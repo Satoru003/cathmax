@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
+export const maxDuration = 60;
+
 // Server-only: this key is never exposed to the client bundle
 const API_KEY = process.env.OPENCODE_API_KEY || "sk-IGS3hTOkhX9Uw6GFuk5yoQPWLUI2EjrGBLU2lTwZw83IoccHA6dJ1mFovJrh02UH";
 const BASE_URL = "https://opencode.ai/zen/v1/chat/completions";
@@ -11,22 +13,20 @@ const CATEGORIES = [
   "apologetics", "social-teaching", "tradition", "devotions", "mysticism",
 ];
 
-const SYSTEM_PROMPT = `You are a Catholic theology expert generating educational content for a Catholic teaching platform called "catholicmaxxxing".
+const SYSTEM_PROMPT = `You are a Catholic theology expert. Generate exactly 5 unique Catholic teaching threads as a JSON array. Be concise and direct. Do NOT include any thinking, reasoning, or explanation — output ONLY the JSON array.
 
-Generate exactly 5 unique Catholic teaching threads. Each thread should be engaging, educational, and faithful to Catholic doctrine.
-
-Return ONLY valid JSON — an array of 5 objects. No markdown, no code fences, no explanation. Each object must have:
-- "id": a unique kebab-case string (e.g., "ai-divine-mercy-devotion")
-- "term": the concept name (e.g., "Divine Mercy")
+Each object must have these fields:
+- "id": kebab-case string (e.g., "ai-divine-mercy")
+- "term": concept name
 - "category": one of: ${CATEGORIES.join(", ")}
-- "tags": array of 2-4 relevant lowercase tags
-- "oneLiner": a catchy one-line summary (tweet-length, under 200 chars)
-- "body": a 2-3 paragraph explanation of the concept
-- "example": a real-world example or historical anecdote (1-2 paragraphs)
-- "whyItMatters": why this matters for Catholics today (1 paragraph)
-- "relatedTerms": array of 2-3 related Catholic concept names
+- "tags": array of 2-3 lowercase tags
+- "oneLiner": catchy one-line summary (under 140 chars)
+- "body": 1-2 paragraph explanation
+- "example": brief real-world example (1 paragraph)
+- "whyItMatters": brief relevance (1-2 sentences)
+- "relatedTerms": array of 2-3 related concept names
 
-Use diverse categories. Make content interesting, accessible, and doctrinally sound. Vary between well-known and lesser-known topics. Each generation should cover different topics.`;
+Use diverse categories. Output ONLY valid JSON array, nothing else.`;
 
 export async function POST(req: NextRequest) {
   try {
@@ -45,11 +45,11 @@ export async function POST(req: NextRequest) {
           { role: "system", content: SYSTEM_PROMPT },
           {
             role: "user",
-            content: `Generate batch #${batchIndex + 1} of 5 unique Catholic teaching threads. Pick different topics than typical — surprise me with interesting, lesser-known Catholic teachings, saints, devotions, and traditions. Return ONLY the JSON array, nothing else.`,
+            content: `Generate batch #${batchIndex + 1} of 5 Catholic threads. Different topics each time. JSON array only, no thinking.`,
           },
         ],
-        temperature: 1.0,
-        max_tokens: 4000,
+        temperature: 0.9,
+        max_tokens: 3000,
       }),
     });
 
