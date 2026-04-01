@@ -782,4 +782,724 @@ export const apologeticsConcepts: Concept[] = [
     whyItMatters: "The Catholic intellectual tradition is a powerful counter-witness to the myth of a faith-reason conflict and an invitation to see the life of the mind as a form of worship, demonstrating that the Church has always been a friend—not an enemy—of human knowledge.",
     relatedTerms: ["Faith and Reason Compatibility", "Response to Scientism", "Natural Theology Overview"]
   },
+{
+    id: "apol-argument-from-consciousness-deeper",
+    term: "Argument from Consciousness (Deeper)",
+    category: "apologetics",
+    tags: ["Philosophy of Mind", "Theism", "Materialism"],
+    oneLiner: "The existence of subjective conscious experience — qualia, self-awareness, intentionality — cannot be explained by purely material processes and points to a non-material Creator.",
+    body: "Consciousness presents the 'hard problem': no arrangement of matter can logically necessitate subjective experience. Physical processes can explain brain states but not why there is 'something it is like' to see red or feel pain. If the universe were purely material, consciousness would be a brute, inexplicable fact. A theistic worldview, in which reality is grounded in a supreme Mind, makes the emergence of consciousness intelligible rather than miraculous.",
+    whyItMatters: "This argument challenges the materialist assumption that dominates modern thought, showing that the most immediate reality we know — our own awareness — points beyond matter to a transcendent Mind.",
+    relatedTerms: ["apol-consciousness-and-materialism", "apol-soul-argument-from-reason", "apol-argument-from-reason-ext"]
+  },
+  {
+    id: "apol-argument-from-reason-ext",
+    term: "Argument from Reason",
+    category: "apologetics",
+    tags: ["C.S. Lewis", "Epistemology", "Naturalism"],
+    oneLiner: "If our thoughts are merely the product of blind physical processes, we have no reason to trust them — including the thought that naturalism is true.",
+    body: "C.S. Lewis and Alvin Plantinga developed this argument: naturalism, combined with evolution, gives us faculties aimed at survival, not truth. If our reasoning is just electrochemical reactions selected for reproductive fitness, there is no guarantee our beliefs are true. But we do trust reason — we must, to do science or philosophy. This self-defeating character of naturalism suggests that reason is grounded in a rational Creator whose mind is the source of the intelligibility we find in the world.",
+    whyItMatters: "The argument from reason shows that the very act of reasoning presupposes a worldview more hospitable to theism than to materialism, undermining atheism's intellectual foundations from within.",
+    relatedTerms: ["apol-argument-from-consciousness-deeper", "apol-free-will-vs-determinism", "apol-faith-and-reason"]
+  },
+  {
+    id: "apol-argument-from-beauty",
+    term: "Argument from Beauty",
+    category: "apologetics",
+    tags: ["Aesthetics", "Transcendentals", "Theism"],
+    oneLiner: "The human experience of beauty — in nature, art, and music — is best explained by a Creator who is the source of all beauty.",
+    body: "Beauty is one of the transcendental properties of being in classical philosophy. The human capacity to perceive beauty and be moved by it goes beyond survival needs: a sunset's grandeur, a fugue's complexity, or a face's loveliness stir longings that material explanations cannot fully account for. If the universe is the product of blind forces, beauty is a cosmic accident. If it is the creation of a supremely beautiful God, beauty becomes an expected feature of reality — a signature of its Maker.",
+    whyItMatters: "The argument from beauty appeals to a universal human experience, opening a path to God for those unmoved by purely abstract philosophical reasoning.",
+    relatedTerms: ["apol-argument-from-desire-deeper", "apol-argument-from-religious-experience", "apol-objective-morality-argument"]
+  },
+  {
+    id: "apol-argument-from-religious-experience",
+    term: "Argument from Religious Experience",
+    category: "apologetics",
+    tags: ["Mysticism", "Evidence", "Phenomenology"],
+    oneLiner: "The widespread and consistent testimony of people across cultures who report encountering God constitutes evidence that deserves serious consideration.",
+    body: "Billions of people throughout history have reported experiences of the divine — from mystical visions to a quiet sense of God's presence in prayer. While individual experiences can be explained away, the cumulative weight, cross-cultural consistency, and life-transforming effects of these experiences form a significant body of evidence. William Alston argued that religious experience is as epistemically valid as sense perception, absent specific defeaters. The Catholic mystics — Teresa of Avila, John of the Cross, Catherine of Siena — exemplify the coherence and fruitfulness of these encounters.",
+    whyItMatters: "Taking religious experience seriously as evidence broadens the apologetic case beyond abstract arguments, showing that God is not merely a philosophical conclusion but a reality people actually encounter.",
+    relatedTerms: ["apol-argument-from-beauty", "apol-cumulative-case-for-god", "apol-argument-from-miracles-general"]
+  },
+  {
+    id: "apol-argument-from-miracles-general",
+    term: "Argument from Miracles (General)",
+    category: "apologetics",
+    tags: ["Miracles", "Evidence", "Theism"],
+    oneLiner: "Well-documented miracles — healings, eucharistic phenomena, incorrupt bodies — serve as empirical signs that God acts within the natural order.",
+    body: "Catholic apologetics does not rest on miracles alone but presents them as confirmatory evidence. The Lourdes Medical Bureau has rigorously documented unexplained healings. Eucharistic miracles have undergone scientific analysis. The key philosophical point is that miracles are not violations of natural law but actions of the Author of nature operating beyond the normal course of events. If God exists, miracles are not only possible but expected as signs of His loving involvement in creation.",
+    whyItMatters: "Miracles bridge the gap between philosophical theism and the personal God of Christianity, showing that God is not a distant first cause but an active agent in human history.",
+    relatedTerms: ["apol-hume-on-miracles-rebuttal", "apol-argument-from-religious-experience", "apol-miracles-evidence"]
+  },
+  {
+    id: "apol-cumulative-case-for-god",
+    term: "Cumulative Case for God",
+    category: "apologetics",
+    tags: ["Methodology", "Evidence", "Theism"],
+    oneLiner: "No single argument proves God's existence beyond all doubt, but the convergence of many independent lines of evidence makes theism far more probable than atheism.",
+    body: "Basil Mitchell and Richard Swinburne developed the cumulative case approach: cosmological, teleological, moral, and experiential arguments each contribute probability. Like a legal case built on circumstantial evidence, the combined weight of these independent arguments creates a powerful case. The Catholic intellectual tradition has always favored this approach, as seen in Aquinas's Five Ways and Vatican I's teaching that God can be known with certainty by the natural light of reason from created things.",
+    whyItMatters: "The cumulative case approach reflects how people actually form reasonable beliefs — not by one knockdown proof but by the convergence of many lines of evidence pointing in the same direction.",
+    relatedTerms: ["apol-argument-from-consciousness-deeper", "apol-argument-from-beauty", "apol-existence-of-god-five-ways"]
+  },
+  {
+    id: "apol-argument-from-contingency-deeper",
+    term: "Argument from Contingency (Deeper)",
+    category: "apologetics",
+    tags: ["Cosmology", "Leibniz", "Metaphysics"],
+    oneLiner: "Everything that exists contingently requires an explanation, and the chain of explanations must terminate in a necessary being — God.",
+    body: "Building on Leibniz's Principle of Sufficient Reason, the contingency argument observes that the universe and everything in it exists but need not have existed. Contingent things require external explanations for their existence. Even if the universe were eternal, it would still be contingent and require a reason for its existence. Only a necessary being — one that exists by its own nature and could not fail to exist — can serve as the ultimate explanation. This being is what classical theism identifies as God.",
+    whyItMatters: "The contingency argument addresses the most fundamental question in philosophy — why is there something rather than nothing? — and shows that God is the only sufficient answer.",
+    relatedTerms: ["apol-leibniz-cosmological-argument", "apol-modal-ontological-argument", "apol-cosmological-argument"]
+  },
+  {
+    id: "apol-leibniz-cosmological-argument",
+    term: "Leibniz Cosmological Argument",
+    category: "apologetics",
+    tags: ["Leibniz", "Cosmology", "Sufficient Reason"],
+    oneLiner: "Leibniz argued that the sufficient reason for the existence of the contingent world must be found in a necessary substance — God — whose reason for existing lies within its own nature.",
+    body: "Leibniz's version of the cosmological argument differs from the Thomistic version by focusing on the Principle of Sufficient Reason rather than efficient causality. Everything that exists has a reason for its existence, either in the necessity of its own nature or in an external cause. The entire collection of contingent things cannot explain itself, since each member is contingent. Therefore, the sufficient reason must lie outside the collection, in a necessary being whose essence involves existence — God.",
+    whyItMatters: "Leibniz's argument complements the Thomistic approach and remains influential in contemporary analytic philosophy of religion, providing a rigorous rational foundation for belief in God.",
+    relatedTerms: ["apol-argument-from-contingency-deeper", "apol-modal-ontological-argument", "apol-kalam-cosmological-argument"]
+  },
+  {
+    id: "apol-modal-ontological-argument",
+    term: "Modal Ontological Argument",
+    category: "apologetics",
+    tags: ["Plantinga", "Modal Logic", "Theism"],
+    oneLiner: "If it is even possible that a maximally great being exists, then by the logic of possible worlds, that being must exist in the actual world.",
+    body: "Alvin Plantinga reformulated Anselm's ontological argument using modal logic. A maximally great being is defined as one that possesses maximal excellence (omnipotence, omniscience, moral perfection) in every possible world. If such a being is possible — that is, if there is at least one possible world where it exists — then by the nature of maximal greatness, it exists in all possible worlds, including the actual one. The key premise is the possibility premise: is a maximally great being logically possible? If it is not self-contradictory, the argument succeeds.",
+    whyItMatters: "The modal ontological argument demonstrates that the concept of God is not merely coherent but, if coherent, necessarily instantiated — placing the burden of proof on the atheist to show God is impossible.",
+    relatedTerms: ["apol-leibniz-cosmological-argument", "apol-argument-from-contingency-deeper", "apol-cumulative-case-for-god"]
+  },
+  {
+    id: "apol-argument-from-information",
+    term: "Argument from Information",
+    category: "apologetics",
+    tags: ["DNA", "Information Theory", "Design"],
+    oneLiner: "The complex specified information encoded in DNA and biological systems points to an intelligent source, since information invariably originates from a mind.",
+    body: "DNA stores information in a four-letter chemical alphabet (A, T, G, C) that functions as a digital code directing the assembly of proteins. This information is specified (it conforms to an independent pattern) and complex (it is statistically improbable). Our uniform experience shows that complex specified information always comes from an intelligent agent. Natural processes like chance and necessity can produce order or randomness but not the kind of functional information found in living systems. This points to a designing intelligence behind life.",
+    whyItMatters: "The information argument brings the design case into the modern era of molecular biology, demonstrating that the more we learn about life's complexity, the stronger the case for an intelligent Creator becomes.",
+    relatedTerms: ["apol-dna-and-design", "apol-fine-tuning-constants", "apol-argument-from-mathematics"]
+  },
+  {
+    id: "apol-argument-from-mathematics",
+    term: "Argument from Mathematics",
+    category: "apologetics",
+    tags: ["Mathematics", "Intelligibility", "Theism"],
+    oneLiner: "The unreasonable effectiveness of mathematics in describing the physical world suggests that the universe was designed by a rational Mind.",
+    body: "Eugene Wigner famously noted the 'unreasonable effectiveness of mathematics in the natural sciences.' Abstract mathematical structures, developed by pure thought, turn out to describe physical reality with astonishing precision. On a materialist view, this is a baffling coincidence. On a theistic view, it is expected: a rational Creator would design a universe that is mathematically intelligible and endow creatures with minds capable of grasping that intelligibility. The applicability of mathematics to physics is a feature, not a bug, of a divinely created cosmos.",
+    whyItMatters: "The mathematical argument appeals to scientists and philosophers alike, showing that the very language of science presupposes an ordered, intelligible universe best explained by a rational Creator.",
+    relatedTerms: ["apol-argument-from-information", "apol-argument-from-reason-ext", "apol-fine-tuning-constants"]
+  },
+  {
+    id: "apol-argument-from-moral-knowledge",
+    term: "Argument from Moral Knowledge",
+    category: "apologetics",
+    tags: ["Ethics", "Epistemology", "Theism"],
+    oneLiner: "Our reliable access to objective moral truths is best explained by a God who created us with the capacity to know the moral law He authored.",
+    body: "If objective moral truths exist (as most people intuitively believe), we need an explanation for how we come to know them. On a naturalistic view, our moral beliefs are the product of evolutionary pressures aimed at survival, not truth — which undermines confidence in their reliability. On a theistic view, God created us with a moral sense (conscience) oriented toward the objective moral order He established. Our moral knowledge is thus reliable because it is designed to track moral reality.",
+    whyItMatters: "This argument extends the moral case for God beyond the existence of moral truths to our knowledge of them, showing that theism provides a more complete account of the moral life.",
+    relatedTerms: ["apol-objective-morality-argument", "apol-argument-from-conscience", "apol-moral-argument"]
+  },
+  {
+    id: "apol-argument-from-free-will",
+    term: "Argument from Free Will",
+    category: "apologetics",
+    tags: ["Free Will", "Materialism", "Theism"],
+    oneLiner: "The reality of genuine free choice is inexplicable under materialism but fits naturally within a theistic worldview that includes non-material souls.",
+    body: "If the brain is merely a physical system governed entirely by the laws of physics and chemistry, then every 'decision' is determined by prior physical states, and free will is an illusion. But our direct experience of deliberation, moral responsibility, and the ability to choose otherwise all testify to genuine freedom. Catholic anthropology holds that the human soul, as a spiritual substance, possesses an intellect and will not reducible to material processes. Free will is thus a sign of our spiritual nature and, ultimately, of our Creator.",
+    whyItMatters: "The free will argument defends the reality of moral responsibility and human dignity, both of which collapse if determinism is true, and points to a Creator who endowed us with genuine agency.",
+    relatedTerms: ["apol-free-will-vs-determinism", "apol-response-to-determinism", "apol-soul-argument-from-reason"]
+  },
+  {
+    id: "apol-argument-from-desire-deeper",
+    term: "Argument from Desire (Deeper)",
+    category: "apologetics",
+    tags: ["C.S. Lewis", "Longing", "Theism"],
+    oneLiner: "Every natural desire corresponds to a real object that can satisfy it; the universal human longing for transcendence therefore points to a transcendent God who can fulfill it.",
+    body: "C.S. Lewis argued that the inconsolable longing (Sehnsucht) that no earthly pleasure fully satisfies is evidence that we were made for another world. The argument's structure is simple: hunger proves food exists; thirst proves water exists; the desire for transcendent joy, beauty, and meaning proves a transcendent fulfillment exists. Peter Kreeft formalized this: every natural desire has a real correlate; the desire for God is natural; therefore God exists. The key is distinguishing natural desires (universal, innate) from artificial ones (culturally conditioned).",
+    whyItMatters: "The argument from desire speaks to the heart as well as the mind, showing that our deepest longings are not neurotic symptoms but signposts pointing toward our true home in God.",
+    relatedTerms: ["apol-argument-from-beauty", "apol-argument-from-religious-experience", "apol-argument-from-consciousness-deeper"]
+  },
+  {
+    id: "apol-response-to-islam",
+    term: "Catholic Response to Islam",
+    category: "apologetics",
+    tags: ["Islam", "Interreligious", "Dialogue"],
+    oneLiner: "While respecting what is true in Islam, Catholic apologetics shows that the Christian understanding of God as Trinity and Christ as divine Son offers a fuller revelation.",
+    body: "Nostra Aetate (3) acknowledges that Muslims worship one God and honor Jesus as a prophet. Catholic apologetics respectfully engages Islamic claims while noting key differences: Islam denies the Trinity, the Incarnation, the Crucifixion, and the divine sonship of Christ. The Catholic response argues that the New Testament documents, written within decades of Christ, are more historically reliable than the Quran's seventh-century corrections. The Christian claim that God is love (1 Jn 4:8) is most fully realized in the Trinitarian understanding of God as an eternal communion of persons.",
+    whyItMatters: "Engaging Islam charitably but truthfully helps Catholics articulate the uniqueness of Christian revelation and understand why the Trinity and Incarnation are not dispensable additions but the heart of the Gospel.",
+    relatedTerms: ["apol-response-to-judaism", "the-trinity", "homoousios-ext"]
+  },
+  {
+    id: "apol-response-to-judaism",
+    term: "Catholic Response to Judaism",
+    category: "apologetics",
+    tags: ["Judaism", "Interreligious", "Covenant"],
+    oneLiner: "The Catholic Church affirms its deep roots in Judaism while explaining how Jesus fulfills the Old Testament promises and inaugurates the New Covenant.",
+    body: "Nostra Aetate (4) repudiates antisemitism and affirms the ongoing significance of God's covenant with Israel. Catholic apologetics shows how Old Testament types, prophecies, and institutions (Temple, priesthood, sacrifice) find their fulfillment in Christ and the Church. The key claim is not replacement but fulfillment: the New Covenant does not cancel the Old but brings it to its intended completion. Paul in Romans 9-11 teaches that God's gifts and calling to Israel are irrevocable.",
+    whyItMatters: "Understanding the Jewish roots of Christianity deepens Catholic self-understanding while fostering genuine dialogue rooted in shared Scripture and mutual respect.",
+    relatedTerms: ["apol-response-to-islam", "apol-defense-of-the-canon", "apol-old-testament-prophecy"]
+  },
+  {
+    id: "apol-response-to-hinduism",
+    term: "Catholic Response to Hinduism",
+    category: "apologetics",
+    tags: ["Hinduism", "Interreligious", "Dialogue"],
+    oneLiner: "Catholic engagement with Hinduism acknowledges its search for the divine while distinguishing the personal God of Christianity from Hindu conceptions of Brahman.",
+    body: "Nostra Aetate (2) recognizes that Hinduism explores the divine mystery through myth, philosophy, and ascetical practice. Catholic apologetics engages Hindu thought respectfully while noting crucial differences: Christianity affirms a personal God who creates freely (not by emanation), the unique dignity of each individual person (not absorption into the Absolute), the goodness of the material world (not maya or illusion), and a linear history that culminates in Christ's return. The Incarnation is a unique, unrepeatable event, not one of many avatars.",
+    whyItMatters: "Dialogue with Hinduism sharpens Catholic understanding of creation, personhood, and history, while inviting Hindus to consider the radical claim that God has entered history definitively in Christ.",
+    relatedTerms: ["apol-response-to-buddhism", "apol-response-to-new-age", "apol-response-to-pluralism"]
+  },
+  {
+    id: "apol-response-to-buddhism",
+    term: "Catholic Response to Buddhism",
+    category: "apologetics",
+    tags: ["Buddhism", "Interreligious", "Suffering"],
+    oneLiner: "While appreciating Buddhism's insight into suffering and detachment, Catholic thought affirms that suffering has redemptive meaning and the self is real and destined for eternal communion.",
+    body: "Buddhism identifies suffering (dukkha) as the fundamental problem and prescribes the cessation of desire and the dissolution of the self (anatta) as the solution. Catholic teaching agrees that disordered attachment causes suffering but proposes a radically different solution: not the extinction of desire but its redirection toward God, and not the dissolution of the self but its fulfillment in loving communion. Christianity insists that the individual person is real, infinitely valued by God, and destined not for Nirvana (extinction) but for the beatific vision.",
+    whyItMatters: "Engaging Buddhism highlights the distinctively Christian understanding that suffering is not merely to be escaped but can be redemptive, and that personal existence has eternal significance.",
+    relatedTerms: ["apol-response-to-hinduism", "apol-why-suffering-not-pointless", "apol-redemptive-suffering-argument"]
+  },
+  {
+    id: "apol-response-to-new-age",
+    term: "Catholic Response to New Age",
+    category: "apologetics",
+    tags: ["New Age", "Spirituality", "Critique"],
+    oneLiner: "The Catholic Church critiques New Age spirituality for replacing the personal God with impersonal cosmic energy and substituting self-divinization for genuine salvation.",
+    body: "The Pontifical Council for Culture's document 'Jesus Christ, the Bearer of the Water of Life' (2003) analyzed New Age thought. Catholic apologetics notes that New Age typically denies a personal Creator, reduces Christ to a spiritual master among many, replaces sin with ignorance, and substitutes techniques of self-realization for grace. While validating the authentic spiritual hunger behind the movement, the Church insists that the human person finds fulfillment not in discovering an inner divinity but in a relationship with the transcendent God who created and redeems us.",
+    whyItMatters: "Responding to New Age spirituality helps Catholics articulate why personal relationship with God, the sacraments, and the communion of the Church cannot be replaced by spiritual eclecticism.",
+    relatedTerms: ["apol-response-to-hinduism", "apol-response-to-pluralism", "apol-response-to-relativism"]
+  },
+  {
+    id: "apol-response-to-mormonism",
+    term: "Catholic Response to Mormonism",
+    category: "apologetics",
+    tags: ["Mormonism", "Christology", "Critique"],
+    oneLiner: "Catholic apologetics shows that Mormonism departs from historic Christianity by teaching that God was once a man, denying creation from nothing, and adding post-biblical scriptures.",
+    body: "Mormonism (the Church of Jesus Christ of Latter-day Saints) diverges from Catholic and historic Christian teaching in fundamental ways: it holds that God the Father has a physical body and was once a mortal man, that humans can become gods, that the Father, Son, and Spirit are three separate gods, and that the Book of Mormon and other texts are additional scripture. Catholic apologetics responds that these claims contradict the biblical witness, the early Church Fathers, and the ecumenical councils. The Catholic Church does not recognize Mormon baptism as valid because of its non-Trinitarian theology.",
+    whyItMatters: "Understanding the differences between Catholicism and Mormonism equips Catholics to dialogue respectfully while explaining why core Mormon claims are incompatible with historic Christianity.",
+    relatedTerms: ["apol-response-to-jehovahs-witnesses", "the-trinity", "homoousios-ext"]
+  },
+  {
+    id: "apol-response-to-jehovahs-witnesses",
+    term: "Catholic Response to Jehovah's Witnesses",
+    category: "apologetics",
+    tags: ["Jehovah's Witnesses", "Trinity", "Critique"],
+    oneLiner: "Catholic apologetics demonstrates that Jehovah's Witnesses deny the Trinity, the divinity of Christ, and the immortality of the soul — all doctrines firmly rooted in Scripture and Tradition.",
+    body: "Jehovah's Witnesses (Watchtower Society) reject the Trinity as pagan, teach that Jesus is the archangel Michael, deny the immortality of the soul, and reject the visible Church. Catholic responses show that the New Testament calls Jesus God (Jn 1:1, 20:28; Tit 2:13), attributes divine prerogatives to Him (creation, worship, forgiveness of sins), and presents the Holy Spirit as a Person, not a force. Their New World Translation alters key texts to support their theology, which can be demonstrated by comparison with the Greek manuscripts.",
+    whyItMatters: "Equipping Catholics to respond to Jehovah's Witnesses strengthens their own understanding of the Trinity and the divinity of Christ while offering truth in charity to those who come to their doors.",
+    relatedTerms: ["apol-response-to-mormonism", "the-trinity", "homoousios-ext"]
+  },
+  {
+    id: "apol-defense-of-marian-dogmas",
+    term: "Defense of Marian Dogmas",
+    category: "apologetics",
+    tags: ["Mary", "Dogma", "Scripture"],
+    oneLiner: "The four Marian dogmas — divine motherhood, perpetual virginity, immaculate conception, and assumption — are defensible from Scripture, Tradition, and theological reasoning.",
+    body: "Catholic apologetics defends each dogma: Mary's divine motherhood follows from the hypostatic union (if Jesus is God, His mother is Theotokos). Her perpetual virginity is attested by early tradition and supported by Jesus's entrusting Mary to John (Jn 19:27). The Immaculate Conception is a fitting anticipation of Christ's redemption, and the Assumption follows from her sinlessness and unique role. Protestant objections typically rest on sola scriptura, but even on scriptural grounds, these doctrines have strong implicit support (Lk 1:28, Rev 12).",
+    whyItMatters: "Defending the Marian dogmas shows that Catholic Mariology is not pious exaggeration but a coherent extension of Christology — everything said about Mary ultimately glorifies Christ.",
+    relatedTerms: ["apol-mary-in-scripture", "apol-defense-of-infallibility", "immaculate-conception"]
+  },
+  {
+    id: "apol-defense-of-priestly-ordination",
+    term: "Defense of Priestly Ordination",
+    category: "apologetics",
+    tags: ["Priesthood", "Sacrament", "Succession"],
+    oneLiner: "The Catholic priesthood is not a medieval invention but a continuation of the apostolic ministry instituted by Christ at the Last Supper.",
+    body: "Jesus commanded the Apostles to 'do this in remembrance of me' (Lk 22:19) and gave them power to forgive sins (Jn 20:23). The Apostles ordained successors through the laying on of hands (1 Tim 4:14; 2 Tim 1:6; Tit 1:5). The early Church Fathers — Clement of Rome, Ignatius of Antioch, Irenaeus — consistently testify to a threefold ministry of bishop, priest, and deacon in apostolic succession. The ministerial priesthood is distinct from the common priesthood of all believers and is ordered to the Eucharistic sacrifice.",
+    whyItMatters: "Defending priestly ordination upholds the sacramental structure of the Church and shows that Catholic worship is not a human invention but a continuation of Christ's own priestly action.",
+    relatedTerms: ["apol-defense-of-transubstantiation", "apol-apostolic-succession", "apol-defense-of-infallibility"]
+  },
+  {
+    id: "apol-defense-of-transubstantiation",
+    term: "Defense of Transubstantiation",
+    category: "apologetics",
+    tags: ["Eucharist", "Real Presence", "Scripture"],
+    oneLiner: "The Catholic doctrine that bread and wine become the Body and Blood of Christ is supported by Jesus's own words, Paul's testimony, and the unanimous witness of the early Church.",
+    body: "Jesus said 'This is my body' and 'This is my blood' (Mt 26:26-28), and in John 6 insisted on the literal eating of His flesh to the point of losing followers. Paul warns against receiving the Eucharist unworthily, treating it as the actual Body and Blood (1 Cor 11:27-29). The early Fathers — Ignatius, Justin Martyr, Irenaeus, Cyril of Jerusalem — unanimously taught the Real Presence. Transubstantiation, defined at Lateran IV (1215) and Trent, uses Aristotelian categories to explain how the substance changes while the appearances (accidents) remain.",
+    whyItMatters: "The defense of transubstantiation safeguards the heart of Catholic worship: the Eucharist is not a symbol but the actual presence of Christ, making the Mass a true encounter with the Risen Lord.",
+    relatedTerms: ["apol-defense-of-priestly-ordination", "apol-biblical-basis-eucharist", "apol-eucharistic-miracles"]
+  },
+  {
+    id: "apol-defense-of-infallibility",
+    term: "Defense of Infallibility",
+    category: "apologetics",
+    tags: ["Papacy", "Infallibility", "Scripture"],
+    oneLiner: "Papal infallibility is not a claim to divine omniscience but a charism preserving the Church from error when solemnly defining faith and morals.",
+    body: "Jesus promised Peter that 'the gates of hell shall not prevail' against the Church (Mt 16:18) and prayed that Peter's faith would not fail (Lk 22:32). These promises imply a divinely guaranteed teaching authority. The early Church acted on this conviction: ecumenical councils defined doctrine with binding authority, and papal decisions settled disputes (as with Leo's Tome at Chalcedon). Infallibility is exercised rarely and under strict conditions. Far from being an arrogant claim, it is a servant charism that protects the faithful from being led astray on matters essential to salvation.",
+    whyItMatters: "Defending infallibility shows it to be a reasonable consequence of Christ's promises and the Church's historical practice, not an arbitrary power grab by medieval popes.",
+    relatedTerms: ["apol-defense-of-marian-dogmas", "infallibility-conditions-ext", "apol-defense-of-papal-primacy"]
+  },
+  {
+    id: "apol-defense-of-purgatory-scriptural",
+    term: "Defense of Purgatory (Scriptural Basis)",
+    category: "apologetics",
+    tags: ["Purgatory", "Scripture", "Defense"],
+    oneLiner: "Purgatory is not an unbiblical Catholic invention but has roots in both Old and New Testament texts about purification after death.",
+    body: "2 Maccabees 12:46 records prayers and sacrifices for the dead, presupposing a state where they can be helped. Jesus speaks of a sin that 'will not be forgiven, either in this age or in the age to come' (Mt 12:32), implying some sins can be forgiven after death. Paul describes being saved 'as through fire' (1 Cor 3:15). Revelation 21:27 states nothing unclean can enter heaven. The early Church universally prayed for the dead, as inscriptions in the catacombs testify. Purgatory is the logical corollary of these scriptural data.",
+    whyItMatters: "Showing the scriptural basis for purgatory dismantles one of the most common Protestant objections and reveals the deep biblical roots of this Catholic teaching.",
+    relatedTerms: ["purgatory-deeper-ext", "apol-defense-of-indulgences", "apol-biblical-basis-purgatory"]
+  },
+  {
+    id: "apol-defense-of-indulgences",
+    term: "Defense of Indulgences",
+    category: "apologetics",
+    tags: ["Indulgences", "Purgatory", "Merit"],
+    oneLiner: "Indulgences are not 'buying forgiveness' but the Church's application of the treasury of merit — the superabundant merits of Christ and the saints — to remit temporal punishment due to sin.",
+    body: "Protestant reformers attacked indulgences based on real abuses, but the doctrine itself is sound. The Church holds the power to bind and loose (Mt 16:19; 18:18). Temporal punishment remains even after sin is forgiven (as David was forgiven but still suffered consequences, 2 Sam 12:13-14). The communion of saints means that the merits of Christ and the saints can be applied to others. An indulgence, properly understood, is the Church exercising her spiritual authority to draw on this treasury for the benefit of the living and the dead.",
+    whyItMatters: "Properly understanding indulgences reveals the beauty of the communion of saints and the Church's maternal care for souls, while addressing a historical source of division.",
+    relatedTerms: ["apol-defense-of-purgatory-scriptural", "purgatory-deeper-ext", "apol-communion-of-saints"]
+  },
+  {
+    id: "apol-defense-of-religious-life",
+    term: "Defense of Religious Life",
+    category: "apologetics",
+    tags: ["Religious Life", "Vows", "Evangelical Counsels"],
+    oneLiner: "Consecrated religious life — lived through the vows of poverty, chastity, and obedience — is rooted in Christ's own example and His explicit invitation to radical discipleship.",
+    body: "Jesus invited the rich young man to 'sell what you have and follow me' (Mt 19:21), praised those who 'made themselves eunuchs for the sake of the kingdom' (Mt 19:12), and lived a life of poverty and obedience. Paul recommends celibacy for undivided devotion to the Lord (1 Cor 7:32-35). From the earliest centuries, Christians embraced consecrated life as a prophetic witness. Religious life is not a rejection of creation's goodness but an anticipation of the heavenly state where God alone fully satisfies every desire.",
+    whyItMatters: "Defending religious life affirms that the evangelical counsels are gifts of the Spirit, not merely human customs, and that the Church needs the prophetic witness of those who live radically for Christ.",
+    relatedTerms: ["apol-defense-of-priestly-ordination", "apol-defense-of-marian-dogmas", "apol-male-priesthood"]
+  },
+  {
+    id: "apol-defense-of-papal-primacy",
+    term: "Defense of Papal Primacy",
+    category: "apologetics",
+    tags: ["Papacy", "Peter", "Authority"],
+    oneLiner: "Christ conferred a unique leadership role on Peter, and the Bishop of Rome inherits this primacy as Peter's successor.",
+    body: "Matthew 16:18-19 records Jesus giving Peter the keys of the kingdom, a symbol of vicarious authority drawn from Isaiah 22:22. Peter is consistently listed first among the apostles, speaks on behalf of the group, and plays a leading role in Acts. The early Church Fathers — Clement of Rome, Irenaeus, Cyprian — recognized Rome's preeminent authority. The historical succession of bishops of Rome from Peter onward is documented by Irenaeus (Against Heresies III.3.3). Papal primacy is not autocracy but a ministry of unity and doctrinal preservation.",
+    whyItMatters: "Defending papal primacy addresses the central question of Christian authority — who has the final word in doctrinal disputes? — and shows the Catholic answer is grounded in Scripture and history.",
+    relatedTerms: ["apol-defense-of-infallibility", "apol-peter-as-rock", "apol-catholic-vs-orthodox-primacy"]
+  },
+  {
+    id: "apol-defense-of-the-canon",
+    term: "Defense of the Biblical Canon",
+    category: "apologetics",
+    tags: ["Canon", "Bible", "Authority"],
+    oneLiner: "The canon of Scripture was determined by the Church under the guidance of the Holy Spirit, demonstrating that Church authority logically precedes and authenticates the Bible.",
+    body: "The 27 books of the New Testament were not self-evidently canonical; disputed books (Hebrews, James, Revelation, 2 Peter) required discernment. The Church used criteria of apostolicity, orthodoxy, and liturgical use to identify the canon, formally affirmed at the councils of Hippo (393) and Carthage (397). This means the Bible did not create the Church; the Church, guided by the Spirit, recognized and certified which writings constitute Scripture. Sola scriptura faces a circularity problem: it relies on a canon that only Church authority can certify.",
+    whyItMatters: "The canon argument demonstrates that an authoritative Church is not opposed to Scripture but is the very institution that identified, preserved, and transmitted it — undermining the sola scriptura principle.",
+    relatedTerms: ["apol-defense-of-oral-tradition", "apol-church-authority-bible-canon", "apol-deuterocanonical-defense"]
+  },
+  {
+    id: "apol-defense-of-oral-tradition",
+    term: "Defense of Oral Tradition",
+    category: "apologetics",
+    tags: ["Tradition", "Scripture", "Transmission"],
+    oneLiner: "Sacred Tradition is not a corruption of Christianity but the original mode of transmitting the apostolic faith, predating and complementing the written Scriptures.",
+    body: "Paul explicitly commands believers to hold to traditions received orally (2 Thess 2:15; 1 Cor 11:2). The Church existed for decades before the New Testament was complete, living from oral apostolic teaching. Not everything Jesus said and did was written down (Jn 21:25). The early Church relied on the 'rule of faith' — an oral summary of apostolic teaching — to interpret Scripture and identify heresy. Sacred Tradition and Sacred Scripture form one deposit of the Word of God, entrusted to the Church.",
+    whyItMatters: "Defending oral tradition corrects the Protestant misconception that Christianity is a 'book religion' and shows that Scripture itself testifies to the authority and necessity of Tradition.",
+    relatedTerms: ["apol-defense-of-the-canon", "apol-tradition-plus-scripture", "deposit-of-faith-deeper-ext"]
+  },
+  {
+    id: "apol-catholic-vs-orthodox-primacy",
+    term: "Catholic vs. Orthodox on Primacy",
+    category: "apologetics",
+    tags: ["Ecumenism", "Orthodox", "Papacy"],
+    oneLiner: "While both Catholics and Orthodox honor the Bishop of Rome's historical primacy, they disagree on whether this primacy involves jurisdiction over the universal Church.",
+    body: "The Orthodox accept a primacy of honor for Rome ('first among equals') but reject universal jurisdiction and papal infallibility as defined at Vatican I. Catholics argue that the early Church recognized Rome's authority as more than honorary: Pope Clement intervened in Corinth (AD 96), Victor threatened excommunication over the Easter controversy, and Leo's Tome was accepted at Chalcedon as Peter speaking through Leo. The Ravenna Document (2007) acknowledged that both sides agree on primacy at the universal level; the disagreement concerns its nature and exercise.",
+    whyItMatters: "Understanding this disagreement is vital for ecumenism, as the papacy is the single greatest obstacle to Catholic-Orthodox reunion, and progress requires honest engagement with the historical evidence.",
+    relatedTerms: ["apol-defense-of-papal-primacy", "apol-catholic-ecumenism-principles", "apol-defense-of-infallibility"]
+  },
+  {
+    id: "apol-catholic-ecumenism-principles",
+    term: "Catholic Ecumenism Principles",
+    category: "apologetics",
+    tags: ["Ecumenism", "Vatican II", "Unity"],
+    oneLiner: "Catholic ecumenism seeks the visible unity of all Christians not by compromising truth but by recovering shared foundations and engaging differences honestly.",
+    body: "Unitatis Redintegratio (1964) established the Catholic principles of ecumenism: Christian unity is Christ's will; separated communities retain real elements of sanctification; dialogue must be truthful and charitable; Catholics must acknowledge their own failings. Ecumenism is not doctrinal indifferentism — the goal is not a lowest-common-denominator Christianity but the fullness of truth and communion. The hierarchy of truths helps identify what is most essential. Interior conversion and prayer are the soul of the ecumenical movement.",
+    whyItMatters: "Catholic ecumenism offers a model for pursuing unity without sacrificing truth, showing that genuine dialogue requires both charity and conviction.",
+    relatedTerms: ["apol-catholic-vs-orthodox-primacy", "hierarchy-of-truths-deeper-ext", "apol-response-to-pluralism"]
+  },
+  {
+    id: "apol-response-to-suffering",
+    term: "Response to the Problem of Suffering",
+    category: "apologetics",
+    tags: ["Theodicy", "Suffering", "Evil"],
+    oneLiner: "Catholic theodicy argues that God permits suffering not because He is weak or indifferent but because He can draw greater good from it, including the supreme good of redemption.",
+    body: "The problem of evil is the strongest objection to theism. The Catholic response distinguishes moral evil (caused by free creatures) from natural evil (suffering from natural causes). God permits moral evil because genuine freedom requires the real possibility of misuse. Natural suffering serves purposes including soul-making, solidarity, and the opportunity for heroic virtue. Most importantly, God Himself entered suffering in Christ, transforming it from within. The Cross does not explain evil away but reveals that God is not distant from our pain but present in the heart of it.",
+    whyItMatters: "Addressing the problem of suffering is essential because it is the primary intellectual obstacle to faith and the existential crisis that confronts every believer at some point.",
+    relatedTerms: ["apol-why-suffering-not-pointless", "apol-innocent-suffering-and-god", "apol-response-to-divine-hiddenness"]
+  },
+  {
+    id: "apol-response-to-divine-hiddenness",
+    term: "Response to Divine Hiddenness",
+    category: "apologetics",
+    tags: ["Hiddenness", "Faith", "Theodicy"],
+    oneLiner: "God's apparent hiddenness is not evidence of absence but a feature of a relationship that requires faith, freedom, and growth.",
+    body: "J.L. Schellenberg argued that a loving God would make His existence obvious to all. The Catholic response notes that God does provide sufficient evidence (Rom 1:20) but does not compel belief, because forced conviction would undermine genuine love and freedom. Jacques Philippe teaches that God sometimes hides to draw us into deeper trust — as in the 'dark nights' described by John of the Cross. Furthermore, sin, distraction, and cultural conditioning can obscure what is otherwise available to a mind and heart open to truth.",
+    whyItMatters: "Addressing divine hiddenness shows that God's apparent absence is compatible with — and may even serve — a deeper relationship of faith, trust, and spiritual maturation.",
+    relatedTerms: ["apol-response-to-suffering", "apol-argument-from-religious-experience", "apol-faith-and-reason"]
+  },
+  {
+    id: "apol-response-to-pluralism",
+    term: "Response to Religious Pluralism",
+    category: "apologetics",
+    tags: ["Pluralism", "Truth", "Religions"],
+    oneLiner: "Catholic teaching respects elements of truth in other religions while maintaining that the fullness of God's revelation subsists in Christ and His Church.",
+    body: "John Hick's pluralistic hypothesis holds that all religions are equally valid paths to the same ultimate reality. The Catholic response, rooted in Dominus Iesus (2000), affirms that while the Holy Spirit can work outside the Church's visible boundaries and other religions may contain 'seeds of the Word,' Jesus Christ is the unique and universal mediator of salvation. Truth is not diminished by being exclusive; indeed, the claim that all paths are equally valid is itself an exclusive truth claim. Genuine dialogue requires taking truth claims seriously, not flattening them.",
+    whyItMatters: "Responding to pluralism defends the coherence and necessity of Christian mission while respecting the dignity of other believers and the universal reach of God's grace.",
+    relatedTerms: ["apol-response-to-relativism", "apol-catholic-ecumenism-principles", "apol-response-to-new-age"]
+  },
+  {
+    id: "apol-response-to-relativism",
+    term: "Response to Relativism",
+    category: "apologetics",
+    tags: ["Relativism", "Truth", "Culture"],
+    oneLiner: "Catholic philosophy demonstrates that relativism — the denial of objective truth — is self-refuting, since the claim 'there is no objective truth' presents itself as an objective truth.",
+    body: "Relativism holds that truth is merely a matter of perspective, culture, or personal preference. Benedict XVI warned against a 'dictatorship of relativism.' The Catholic response is both logical and existential: logically, relativism refutes itself (if all truth is relative, that claim is also relative and therefore not binding). Existentially, no one actually lives as a relativist — we all act as though some things (justice, love, human dignity) are objectively true. Catholic philosophy, following Aquinas, holds that truth is the conformity of the mind to reality, which is objective and knowable.",
+    whyItMatters: "Refuting relativism clears the ground for all other apologetic arguments, since no defense of objective moral or religious truth can succeed if truth itself is denied.",
+    relatedTerms: ["apol-moral-relativism-refutation", "apol-response-to-pluralism", "apol-response-to-nihilism"]
+  },
+  {
+    id: "apol-response-to-determinism",
+    term: "Response to Determinism",
+    category: "apologetics",
+    tags: ["Free Will", "Determinism", "Philosophy"],
+    oneLiner: "Catholic thought rejects hard determinism because it undermines moral responsibility, contradicts direct experience, and is self-defeating as a rational conclusion.",
+    body: "Hard determinism claims every event, including human choices, is necessitated by prior causes, leaving no room for genuine freedom. The Catholic response is threefold: (1) determinism is self-defeating — if our beliefs are determined by prior physical causes, we have no reason to trust them, including the belief in determinism; (2) direct experience of deliberation and choice is powerful evidence for freedom; (3) moral responsibility, the legal system, and interpersonal relationships all presuppose that we could have chosen otherwise. Aquinas teaches that the will is self-moving precisely because it is a spiritual power not determined by material causation.",
+    whyItMatters: "Defending free will against determinism is foundational for all of Catholic moral theology, since without freedom there can be no sin, no virtue, no merit, and no meaningful relationship with God.",
+    relatedTerms: ["apol-free-will-vs-determinism", "apol-argument-from-free-will", "apol-response-to-nihilism"]
+  },
+  {
+    id: "apol-response-to-nihilism",
+    term: "Response to Nihilism",
+    category: "apologetics",
+    tags: ["Nihilism", "Meaning", "Existentialism"],
+    oneLiner: "Catholic thought shows that nihilism — the denial of objective meaning and value — is existentially unlivable and philosophically refuted by the evident goodness of being.",
+    body: "Nihilism, associated with Nietzsche, holds that life has no inherent meaning, morality is a human construct, and existence is absurd. The Catholic response begins with the transcendental properties of being: whatever exists is true, good, and beautiful. Being is not neutral but inherently meaningful. Moreover, nihilism is existentially self-defeating: no one can live consistently as a nihilist, because every choice presupposes that something matters. The Christian proclamation that God is Love provides the ultimate answer to nihilism: existence is a gift from a loving Creator who endows it with purpose.",
+    whyItMatters: "Responding to nihilism addresses the spiritual despair at the heart of modern Western culture and opens a path to the recovery of meaning through faith in the God who is the ground of all value.",
+    relatedTerms: ["apol-response-to-relativism", "apol-response-to-determinism", "apol-argument-from-desire-deeper"]
+  },
+  {
+    id: "apol-hume-on-miracles-rebuttal",
+    term: "Hume on Miracles: Rebuttal",
+    category: "apologetics",
+    tags: ["Hume", "Miracles", "Philosophy"],
+    oneLiner: "Hume's argument that miracles are always less probable than their denial rests on circular reasoning and an impoverished view of evidence.",
+    body: "David Hume argued that uniform experience against miracles always outweighs testimony for them. The Catholic rebuttal notes several flaws: (1) Hume begs the question by defining 'experience' to exclude miracles from the start; (2) he ignores the quality of testimony — multiple, independent, credible witnesses can outweigh prior improbability; (3) Bayesian probability theory shows that sufficiently strong evidence can overcome low prior probability; (4) if God exists, miracles have a much higher prior probability than Hume assumes. The resurrection of Jesus, for instance, is supported by evidence that exceeds Hume's threshold for credible testimony.",
+    whyItMatters: "Rebutting Hume removes one of the most influential intellectual barriers to belief in miracles, opening the door to seriously examining the evidence for the Resurrection and other divine signs.",
+    relatedTerms: ["apol-argument-from-miracles-general", "apol-kant-critique-response", "apol-resurrection-evidence"]
+  },
+  {
+    id: "apol-kant-critique-response",
+    term: "Response to Kant's Critique",
+    category: "apologetics",
+    tags: ["Kant", "Metaphysics", "Critique"],
+    oneLiner: "Catholic philosophy challenges Kant's restriction of knowledge to phenomena, arguing that the mind can genuinely know reality as it is, including metaphysical truths about God.",
+    body: "Kant argued that we can only know things as they appear to us (phenomena), not as they are in themselves (noumena), effectively barring metaphysical knowledge of God. The Thomistic response challenges Kant's starting point: the intellect's first act is the apprehension of being, not the structuring of raw sense data. We do know things as they are, not merely as they appear. Furthermore, Kant's own critique is self-referentially incoherent: it makes metaphysical claims (about the limits of knowledge) while denying the possibility of metaphysics.",
+    whyItMatters: "Answering Kant is essential because his critique underlies much modern skepticism about natural theology, and overcoming it reopens the path from reason to God.",
+    relatedTerms: ["apol-hume-on-miracles-rebuttal", "apol-marxist-critique-response", "apol-faith-and-reason-deeper"]
+  },
+  {
+    id: "apol-marxist-critique-response",
+    term: "Response to Marxist Critique",
+    category: "apologetics",
+    tags: ["Marx", "Liberation", "Critique"],
+    oneLiner: "Catholic social teaching shares Marx's concern for the poor while rejecting his reduction of religion to an opiate and his materialist view of history.",
+    body: "Marx dismissed religion as the 'opium of the people,' a tool of the ruling class to pacify the oppressed. The Catholic response acknowledges that religion has sometimes been misused to justify oppression — the Church itself has confessed such failures. But Marx's critique is reductive: it cannot explain the prophetic tradition of Israel, the social revolutions inspired by Christianity (abolition of slavery, hospitals, universities), or the faith of the poor themselves. Catholic social teaching, from Rerum Novarum to Fratelli Tutti, demonstrates that authentic Christianity demands justice for the poor, not their pacification.",
+    whyItMatters: "Addressing the Marxist critique shows that Christianity is not an opiate but a catalyst for social transformation, while avoiding the errors of class warfare and atheistic materialism.",
+    relatedTerms: ["apol-freudian-critique-response", "apol-dawkins-critique-response", "apol-response-to-suffering"]
+  },
+  {
+    id: "apol-freudian-critique-response",
+    term: "Response to Freudian Critique",
+    category: "apologetics",
+    tags: ["Freud", "Psychology", "Projection"],
+    oneLiner: "Freud's claim that God is merely a wish-fulfilling projection of the father figure commits the genetic fallacy and can be turned against atheism itself.",
+    body: "Freud argued that belief in God is a projection of the child's need for a protective father. Catholic apologetics responds: (1) the genetic fallacy — explaining how a belief originated does not show it is false; one can explain why people believe in mathematics without undermining mathematical truth; (2) the argument is reversible — perhaps atheism is the projection of a wish to be free from moral authority (as Paul Vitz has argued); (3) Freud's theory cannot account for religious traditions that emphasize God's judgment, holiness, and demands for self-sacrifice, which are hardly wish-fulfillments.",
+    whyItMatters: "Answering Freud frees believers from the suspicion that their faith is merely psychological weakness, allowing them to examine the evidence for God on its own merits.",
+    relatedTerms: ["apol-marxist-critique-response", "apol-dawkins-critique-response", "apol-argument-from-desire-deeper"]
+  },
+  {
+    id: "apol-dawkins-critique-response",
+    term: "Response to Dawkins's Critique",
+    category: "apologetics",
+    tags: ["New Atheism", "Dawkins", "Science"],
+    oneLiner: "Dawkins's 'The God Delusion' misrepresents the classical arguments for God, confuses categories of explanation, and conflates God with a complex entity within the universe.",
+    body: "Richard Dawkins's central argument — 'Who designed the designer?' — misunderstands the classical theistic concept of God. God is not a complex physical entity requiring explanation but the simple, necessary ground of all being. Aquinas's God is not one more thing in the universe but the reason anything exists at all. Dawkins also conflates primary and secondary causality, treating God as a scientific hypothesis competing with natural explanations. Catholic thinkers like Edward Feser and David Bentley Hart have shown that Dawkins engages with a straw-man version of theism throughout his work.",
+    whyItMatters: "Responding to Dawkins is important because his popular influence has shaped millions of people's impressions of the God debate, impressions based on philosophical misunderstandings that Catholic thought can correct.",
+    relatedTerms: ["apol-hitchens-critique-response", "apol-response-to-scientism", "apol-science-and-faith-harmony"]
+  },
+  {
+    id: "apol-hitchens-critique-response",
+    term: "Response to Hitchens's Critique",
+    category: "apologetics",
+    tags: ["New Atheism", "Hitchens", "Morality"],
+    oneLiner: "Hitchens's moral objections to religion presuppose an objective moral standard that his own atheism cannot ground, and his historical claims about religion are selectively one-sided.",
+    body: "Christopher Hitchens argued that 'religion poisons everything' by cataloguing religious violence and hypocrisy. The Catholic response notes: (1) Hitchens's moral outrage presupposes objective morality, which atheism struggles to ground; (2) his historical account is selective, ignoring Christianity's positive contributions (hospitals, universities, abolition of slavery, human rights); (3) the worst atrocities of the 20th century were committed by atheistic regimes (Soviet, Maoist, Cambodian). The problem is not religion per se but fallen human nature, which corrupts every institution it touches — including secular ones.",
+    whyItMatters: "Answering Hitchens addresses the emotional power of the 'religion is harmful' argument and shows that the moral framework underlying his critique actually depends on the theistic worldview he rejects.",
+    relatedTerms: ["apol-dawkins-critique-response", "apol-response-to-suffering", "apol-objective-morality-argument"]
+  },
+  {
+    id: "apol-science-and-faith-harmony",
+    term: "Science and Faith Harmony",
+    category: "apologetics",
+    tags: ["Science", "Faith", "Methodology"],
+    oneLiner: "Catholic teaching holds that science and faith cannot truly conflict because they address different dimensions of the same reality — how things work and why they exist.",
+    body: "The supposed war between science and faith is a modern myth. The Catholic Church fostered scientific inquiry throughout history: Jesuit astronomers, Mendel's genetics, Lemaitre's Big Bang theory. The conflict thesis of Draper and White has been debunked by historians of science. Gaudium et Spes (36) affirms the legitimate autonomy of earthly sciences. Science investigates natural causes (secondary causality); theology investigates ultimate meaning and purpose (primary causality). They operate on different methodological levels and cannot contradict each other when both are properly understood.",
+    whyItMatters: "Demonstrating the harmony of science and faith dissolves the false dilemma that forces people to choose between their intellect and their belief, showing that both are gifts from the same God.",
+    relatedTerms: ["apol-galileo-affair-truth", "apol-evolution-and-catholic-faith", "apol-big-bang-and-creation"]
+  },
+  {
+    id: "apol-galileo-affair-truth",
+    term: "The Galileo Affair: The Real Story",
+    category: "apologetics",
+    tags: ["Galileo", "History", "Science"],
+    oneLiner: "The Galileo case was not a simple conflict of science versus faith but a complex affair involving personal politics, scientific uncertainty, and misunderstandings on both sides.",
+    body: "The popular narrative of Galileo as a martyr of science persecuted by an anti-scientific Church is historically inaccurate. Galileo was supported by many churchmen, including Jesuits who confirmed his telescopic observations. His condemnation in 1633 involved multiple factors: his inability to conclusively prove heliocentrism at the time (stellar parallax was not observed until 1838), his personal antagonism toward Pope Urban VIII, and a disciplinary (not doctrinal) judgment about how to interpret Scripture. John Paul II formally acknowledged the Church's error in 1992 while noting the complexity of the case.",
+    whyItMatters: "Correcting the Galileo myth removes the most frequently cited 'evidence' that the Church is anti-science, allowing honest engagement with the Church's actual track record of supporting scientific inquiry.",
+    relatedTerms: ["apol-science-and-faith-harmony", "apol-evolution-and-catholic-faith", "apol-catholic-intellectual-tradition"]
+  },
+  {
+    id: "apol-evolution-and-catholic-faith",
+    term: "Evolution and Catholic Faith",
+    category: "apologetics",
+    tags: ["Evolution", "Creation", "Science"],
+    oneLiner: "Catholic teaching permits acceptance of biological evolution as a natural process while insisting on God as Creator and the direct creation of each human soul.",
+    body: "Pius XII's Humani Generis (1950) stated that evolution is not contrary to faith provided certain conditions are met: God remains the Creator of all things, each human soul is directly created by God (not a product of material evolution), and monogenism (descent from original parents) is not ruled out without careful theological consideration. John Paul II affirmed in 1996 that evolution is 'more than a hypothesis.' The Catholic position avoids both fundamentalist creationism and atheistic evolutionism, recognizing that God can use natural processes as secondary causes.",
+    whyItMatters: "The Catholic approach to evolution models how faith and science can coexist, affirming both the truths of biology and the theological truths about creation, the soul, and human dignity.",
+    relatedTerms: ["apol-science-and-faith-harmony", "apol-big-bang-and-creation", "primary-secondary-causality-ext"]
+  },
+  {
+    id: "apol-big-bang-and-creation",
+    term: "Big Bang and Creation",
+    category: "apologetics",
+    tags: ["Cosmology", "Creation", "Lemaitre"],
+    oneLiner: "The Big Bang theory, first proposed by Catholic priest Georges Lemaitre, is compatible with creation from nothing and does not replace the need for a Creator.",
+    body: "Georges Lemaitre, a Belgian Catholic priest and physicist, proposed in 1927 that the universe is expanding from a 'primeval atom.' The Big Bang does not prove creation ex nihilo (it describes the initial state of the universe, not its ultimate cause), but it is strikingly consonant with it. A universe with a temporal beginning cries out for an explanation of why it began. Even if the universe were eternal, it would still be contingent and require a necessary ground. The Big Bang removes the old atheist assumption of an eternal, self-sufficient cosmos.",
+    whyItMatters: "The Big Bang illustrates how genuine science can point toward rather than away from God, and the story of Lemaitre embodies the Catholic conviction that faith and reason work in harmony.",
+    relatedTerms: ["apol-evolution-and-catholic-faith", "apol-science-and-faith-harmony", "apol-quantum-mechanics-and-god"]
+  },
+  {
+    id: "apol-quantum-mechanics-and-god",
+    term: "Quantum Mechanics and God",
+    category: "apologetics",
+    tags: ["Quantum Physics", "Causality", "Science"],
+    oneLiner: "Quantum indeterminacy does not disprove God's sovereignty or the principle of causality; it may even open space for divine and free human action within nature.",
+    body: "Some claim that quantum mechanics shows events can happen without a cause, undermining the cosmological argument. Catholic philosophers respond that quantum indeterminacy describes the limits of physical predictability, not the absence of causality. The principle of sufficient reason operates at the metaphysical level, not merely the physical. Some Catholic thinkers (like William Carroll and Robert Russell) suggest that quantum openness may be one avenue through which God acts within nature without violating natural laws, though this remains speculative.",
+    whyItMatters: "Engaging with quantum mechanics shows that Catholic thought is not intimidated by modern physics but can integrate its findings into a coherent metaphysical framework.",
+    relatedTerms: ["apol-big-bang-and-creation", "apol-science-and-faith-harmony", "apol-fine-tuning-constants"]
+  },
+  {
+    id: "apol-dna-and-design",
+    term: "DNA and Design",
+    category: "apologetics",
+    tags: ["DNA", "Design", "Biology"],
+    oneLiner: "The information-rich structure of DNA — a molecular language encoding instructions for life — is powerful evidence for an intelligent Designer.",
+    body: "DNA contains a four-letter digital code that stores the blueprints for all proteins in a living organism. The human genome contains approximately 3.2 billion base pairs arranged in a highly specific sequence. The probability of this sequence arising by chance is astronomically low. Bill Gates noted that 'DNA is like a software program, but far, far more complex than anything we've ever devised.' Software always has a programmer. The origin of biological information remains an unsolved problem for purely naturalistic accounts of life's origin.",
+    whyItMatters: "DNA evidence brings the design argument into the molecular age, showing that the deeper science probes into life, the more evidence of purposeful design it finds.",
+    relatedTerms: ["apol-argument-from-information", "apol-fine-tuning-constants", "apol-argument-from-mathematics"]
+  },
+  {
+    id: "apol-fine-tuning-constants",
+    term: "Fine-Tuning Constants",
+    category: "apologetics",
+    tags: ["Fine-Tuning", "Cosmology", "Design"],
+    oneLiner: "The fundamental physical constants of the universe are fine-tuned to an extraordinary degree for the existence of life, pointing to a cosmic Designer.",
+    body: "The cosmological constant, the strong nuclear force, the ratio of electromagnetic to gravitational force, and dozens of other constants must be calibrated to within incredibly narrow ranges for a life-permitting universe to exist. Change any of them by a tiny fraction and atoms, stars, or chemistry would be impossible. This fine-tuning cannot be dismissed as chance (the odds are astronomically small) or necessity (there is no known law requiring these specific values). The most economical explanation is that an intelligent Creator set these parameters with life in mind.",
+    whyItMatters: "Fine-tuning is one of the most compelling modern arguments for God, acknowledged even by atheist physicists as a genuine puzzle that materialism struggles to explain.",
+    relatedTerms: ["apol-multiverse-critique", "apol-dna-and-design", "apol-argument-from-information"]
+  },
+  {
+    id: "apol-multiverse-critique",
+    term: "Critique of the Multiverse Hypothesis",
+    category: "apologetics",
+    tags: ["Multiverse", "Fine-Tuning", "Critique"],
+    oneLiner: "The multiverse hypothesis, invoked to explain away fine-tuning, is speculative, unfalsifiable, and still requires an explanation for the multiverse-generating mechanism itself.",
+    body: "Some physicists propose that our universe is one of countless universes with random physical constants, and we happen to be in a life-permitting one. Catholic apologetics raises several objections: (1) the multiverse is unobservable and unfalsifiable, making it a metaphysical postulate rather than a scientific theory; (2) any multiverse-generating mechanism would itself require fine-tuning; (3) positing an infinity of unobservable entities to avoid one God violates Occam's Razor; (4) the multiverse does not eliminate the need for a necessary ground of existence — it merely pushes the question back one step.",
+    whyItMatters: "Critiquing the multiverse shows that the fine-tuning argument cannot be easily dismissed and that the atheist alternative requires at least as much 'faith' as theism, if not more.",
+    relatedTerms: ["apol-fine-tuning-constants", "apol-argument-from-contingency-deeper", "apol-cumulative-case-for-god"]
+  },
+  {
+    id: "apol-consciousness-and-materialism",
+    term: "Consciousness and Materialism",
+    category: "apologetics",
+    tags: ["Consciousness", "Materialism", "Philosophy"],
+    oneLiner: "Materialism cannot account for subjective conscious experience, suggesting that reality includes an irreducibly non-material dimension.",
+    body: "The 'hard problem of consciousness' (David Chalmers) is the question of why and how physical processes give rise to subjective experience. No amount of describing neural firings explains why there is 'something it is like' to see red. Materialism can describe brain correlates of consciousness but cannot explain consciousness itself. Catholic philosophy, following Aquinas, holds that the human intellect operates immaterially — understanding abstract universals, grasping truth, and performing self-reflection are acts that transcend any material process.",
+    whyItMatters: "The failure of materialism to explain consciousness supports the Catholic teaching that humans have spiritual souls and that reality is not exhausted by the material world.",
+    relatedTerms: ["apol-argument-from-consciousness-deeper", "apol-soul-argument-from-reason", "apol-argument-from-reason-ext"]
+  },
+  {
+    id: "apol-soul-argument-from-reason",
+    term: "The Soul: Argument from Reason",
+    category: "apologetics",
+    tags: ["Soul", "Reason", "Immateriality"],
+    oneLiner: "The human capacity for abstract reasoning — grasping universal concepts, logical relations, and mathematical truths — cannot be reduced to material brain processes.",
+    body: "Aquinas argues that the intellect must be immaterial because it can grasp universal, abstract concepts (like 'justice' or 'triangularity') that have no material properties. A brain state is always particular and physical; a concept is universal and abstract. If thought were merely a brain state, it could not be 'about' anything — a neuron firing has no inherent meaning or reference. The intentionality of thought (its 'aboutness') points to a non-material intellectual faculty, which Catholic philosophy identifies as the spiritual soul.",
+    whyItMatters: "This argument provides philosophical grounding for the existence of the soul, which is foundational to Catholic anthropology, ethics, and the doctrine of eternal life.",
+    relatedTerms: ["apol-consciousness-and-materialism", "apol-argument-from-free-will", "soul-body-unity"]
+  },
+  {
+    id: "apol-free-will-vs-determinism",
+    term: "Free Will vs. Determinism",
+    category: "apologetics",
+    tags: ["Free Will", "Determinism", "Debate"],
+    oneLiner: "The Catholic defense of free will against determinism draws on both philosophical argument and the direct experience of genuine choice.",
+    body: "The free will debate encompasses physical determinism (every event is caused by prior physical states), theological determinism (God determines everything), and compatibilism (freedom is compatible with determinism). Catholic teaching affirms libertarian free will: genuine alternative possibilities exist, and the human will is self-determining. This is grounded in the immateriality of the intellect and will (which transcend physical determinism) and in God's gift of genuine creaturely autonomy (which preserves freedom under divine sovereignty). Both Molinism and Thomism offer accounts of how divine sovereignty and human freedom coexist.",
+    whyItMatters: "The free will question underlies every moral, legal, and religious judgment — if freedom is an illusion, praise and blame, reward and punishment, love and sin become meaningless.",
+    relatedTerms: ["apol-response-to-determinism", "apol-argument-from-free-will", "apol-soul-argument-from-reason"]
+  },
+  {
+    id: "apol-moral-relativism-refutation",
+    term: "Refutation of Moral Relativism",
+    category: "apologetics",
+    tags: ["Ethics", "Relativism", "Natural Law"],
+    oneLiner: "Moral relativism — the claim that moral truths vary by culture or individual — is self-refuting and contradicted by the universal human experience of objective moral obligations.",
+    body: "Moral relativism fails on multiple levels: (1) it is self-refuting — the claim 'no moral view is objectively better than another' is itself a moral claim presented as objectively true; (2) cross-cultural moral agreement on basic principles (do not murder, keep promises, care for children) suggests a shared moral nature; (3) moral progress (abolition of slavery) presupposes an objective standard against which cultures are measured. Aquinas grounds objective morality in the natural law, which participates in the eternal law of God and is knowable by reason.",
+    whyItMatters: "Refuting moral relativism is foundational for all Catholic moral teaching, since the Church's ethical claims only make sense if there is an objective moral order discoverable by reason.",
+    relatedTerms: ["apol-objective-morality-argument", "apol-response-to-relativism", "apol-natural-law-and-non-believers"]
+  },
+  {
+    id: "apol-objective-morality-argument",
+    term: "Objective Morality Argument",
+    category: "apologetics",
+    tags: ["Morality", "Theism", "Natural Law"],
+    oneLiner: "If objective moral truths exist — and they do — the best explanation for their existence is a moral Lawgiver: God.",
+    body: "The moral argument proceeds: (1) if God does not exist, objective moral values and duties do not exist; (2) objective moral values and duties do exist; (3) therefore, God exists. Premise 1 is supported by the difficulty of grounding objective morality in a godless universe — matter arranged in patterns has no intrinsic moral value. Premise 2 is supported by moral experience: we genuinely perceive that torturing innocents is objectively wrong, not merely culturally disfavored. The best explanation for a binding moral law that transcends human convention is a transcendent moral Lawgiver.",
+    whyItMatters: "The moral argument connects the universal human experience of moral obligation to the existence of God, making it one of the most accessible and powerful arguments for theism.",
+    relatedTerms: ["apol-moral-relativism-refutation", "apol-argument-from-moral-knowledge", "apol-euthyphro-dilemma-resolution"]
+  },
+  {
+    id: "apol-divine-command-theory-critique",
+    term: "Critique of Divine Command Theory",
+    category: "apologetics",
+    tags: ["Ethics", "Voluntarism", "Natural Law"],
+    oneLiner: "Catholic ethics rejects pure divine command theory (morality is good simply because God commands it) in favor of natural law, where God commands what is good because it flows from His nature.",
+    body: "Divine command theory (DCT) in its pure form holds that actions are right solely because God wills them. This raises the Euthyphro dilemma: Is something good because God commands it, or does God command it because it is good? Catholic natural law theory avoids this dilemma by locating the foundation of morality in God's nature, not His arbitrary will. God's commands reflect His eternal wisdom and goodness. He does not make murder wrong by fiat; murder is wrong because it violates the human nature He created, which participates in His goodness.",
+    whyItMatters: "Critiquing pure divine command theory shows that Catholic morality is not arbitrary but rational, rooted in the intelligible nature of things and ultimately in the nature of God Himself.",
+    relatedTerms: ["apol-euthyphro-dilemma-resolution", "apol-objective-morality-argument", "apol-natural-law-and-non-believers"]
+  },
+  {
+    id: "apol-euthyphro-dilemma-resolution",
+    term: "Euthyphro Dilemma Resolution",
+    category: "apologetics",
+    tags: ["Euthyphro", "Ethics", "Philosophy"],
+    oneLiner: "The Catholic answer to the Euthyphro dilemma is that goodness is grounded in God's nature — He neither arbitrarily commands nor obeys an external standard.",
+    body: "Plato's Euthyphro dilemma asks: Is the pious loved by the gods because it is pious, or is it pious because they love it? Applied to monotheism: Does God command the good because it is good (making morality independent of God) or is it good because He commands it (making morality arbitrary)? Aquinas resolves this by identifying a third option: God's nature is the Good itself. Moral truths flow necessarily from who God is, not from arbitrary decrees or an external standard. God's will always conforms to His nature, which is goodness, wisdom, and love.",
+    whyItMatters: "Resolving the Euthyphro dilemma defuses one of the oldest philosophical objections to theistic ethics, showing that divine morality is neither arbitrary nor external to God.",
+    relatedTerms: ["apol-divine-command-theory-critique", "apol-objective-morality-argument", "divine-goodness-ext"]
+  },
+  {
+    id: "apol-natural-law-and-non-believers",
+    term: "Natural Law and Non-Believers",
+    category: "apologetics",
+    tags: ["Natural Law", "Ethics", "Reason"],
+    oneLiner: "The natural law is accessible to all people through reason, providing a common moral ground between Catholics and non-believers.",
+    body: "Catholic natural law theory holds that God has inscribed a moral law in human nature that reason can discern without explicit faith (Rom 2:14-15). This means moral dialogue between believers and non-believers is possible: we can argue about justice, human rights, and the common good on the basis of shared human reason. Aquinas teaches that the first principle of natural law — 'good is to be done and pursued, and evil is to be avoided' — is self-evident to all rational beings. This provides the Church with a universal moral language.",
+    whyItMatters: "Natural law enables Catholics to engage in public moral discourse without requiring others to accept revelation first, making Catholic moral teaching accessible to the wider culture.",
+    relatedTerms: ["apol-moral-relativism-refutation", "apol-objective-morality-argument", "apol-divine-command-theory-critique"]
+  },
+  {
+    id: "apol-argument-from-conscience",
+    term: "Argument from Conscience",
+    category: "apologetics",
+    tags: ["Conscience", "Newman", "Moral Law"],
+    oneLiner: "The voice of conscience — experienced as a command from beyond ourselves — points to a divine Lawgiver whose moral authority we recognize in the depths of our being.",
+    body: "John Henry Newman argued that conscience is not merely a feeling of social conditioning but a perception of an objective moral command. When we feel guilty, we feel answerable to someone, not something. The experience of conscience has the character of a personal relationship — it implies a Lawgiver who commands, approves, and judges. Conscience is thus 'the aboriginal Vicar of Christ,' as Newman called it. This experiential argument complements the abstract moral argument by grounding it in the universal human phenomenon of moral obligation.",
+    whyItMatters: "The argument from conscience connects the abstract moral argument to everyday human experience, making the case for God personal and immediate rather than merely theoretical.",
+    relatedTerms: ["apol-objective-morality-argument", "apol-argument-from-moral-knowledge", "apol-natural-law-and-non-believers"]
+  },
+  {
+    id: "apol-why-suffering-not-pointless",
+    term: "Why Suffering Is Not Pointless",
+    category: "apologetics",
+    tags: ["Suffering", "Theodicy", "Providence"],
+    oneLiner: "Catholic theology shows that suffering, while not good in itself, can serve as a means of purification, growth in virtue, and deeper union with the crucified Christ.",
+    body: "Jacques Philippe teaches that suffering, accepted in faith, becomes a privileged place of encounter with God. Catholic theology identifies multiple purposes: suffering can purify the soul of attachment to sin, build virtues like patience and compassion, deepen empathy for others, and unite the sufferer to Christ's redemptive passion (Col 1:24). This does not mean God directly wills all suffering, but that He can bring good from every evil. The Cross reveals that God Himself has entered into suffering, transforming it from meaningless pain into redemptive love.",
+    whyItMatters: "Showing that suffering has potential meaning is pastorally essential: it does not eliminate the pain but transforms how the sufferer relates to it, turning despair into hope.",
+    relatedTerms: ["apol-redemptive-suffering-argument", "apol-innocent-suffering-and-god", "apol-response-to-suffering"]
+  },
+  {
+    id: "apol-redemptive-suffering-argument",
+    term: "Redemptive Suffering",
+    category: "apologetics",
+    tags: ["Suffering", "Cross", "Colossians"],
+    oneLiner: "Paul teaches that believers can 'fill up what is lacking in Christ's afflictions' (Col 1:24) — not because Christ's sacrifice is insufficient but because He invites us to participate in His saving work.",
+    body: "Redemptive suffering is the Catholic teaching that human suffering, united to Christ's passion, acquires salvific value for oneself and others. Christ's sacrifice is infinitely sufficient, but He desires our free cooperation in applying its fruits. John Paul II's Salvifici Doloris explains that suffering becomes redemptive when offered in love and united to the Cross. This does not glorify suffering for its own sake but reveals that love can transform even the worst evil into an instrument of grace.",
+    whyItMatters: "Redemptive suffering gives believers a way to respond to unavoidable pain not with resignation but with active love, turning their trials into offerings that benefit the whole Body of Christ.",
+    relatedTerms: ["apol-why-suffering-not-pointless", "apol-innocent-suffering-and-god", "apol-response-to-suffering"]
+  },
+  {
+    id: "apol-innocent-suffering-and-god",
+    term: "Innocent Suffering and God",
+    category: "apologetics",
+    tags: ["Theodicy", "Innocence", "Job"],
+    oneLiner: "The suffering of innocents is the sharpest form of the problem of evil, to which the Catholic response points to the Cross, eschatological justice, and the mystery of divine wisdom.",
+    body: "The suffering of children and innocent people is the most emotionally powerful objection to God's existence. The Catholic response does not offer a complete rational explanation but points to several truths: (1) God Himself suffered as an innocent in Christ; (2) eschatological justice ensures that all wrongs will be set right; (3) the book of Job teaches that God's wisdom exceeds human understanding; (4) the suffering of innocents calls forth the heroic charity of others, revealing the deepest capacities of the human heart. Jacques Philippe emphasizes that trusting God in the face of incomprehensible suffering is the highest act of faith.",
+    whyItMatters: "Honestly engaging with innocent suffering prevents glib theodicy and shows that the Christian answer is not a theory but a Person — the crucified and risen Christ who shares our pain.",
+    relatedTerms: ["apol-why-suffering-not-pointless", "apol-animal-suffering-and-theodicy", "apol-response-to-suffering"]
+  },
+  {
+    id: "apol-animal-suffering-and-theodicy",
+    term: "Animal Suffering and Theodicy",
+    category: "apologetics",
+    tags: ["Animals", "Suffering", "Theodicy"],
+    oneLiner: "Animal suffering predating humanity challenges theodicies based solely on human free will, but Catholic thought offers responses from natural order, the Fall's cosmic effects, and eschatological renewal.",
+    body: "Animal suffering is a genuine challenge because it cannot be attributed to human free will. Catholic responses include: (1) some degree of struggle and predation is intrinsic to a world of finite, embodied beings; (2) the tradition has seen the Fall as affecting all creation (Rom 8:20-22), not just humanity; (3) animals, while capable of pain, lack the self-reflective suffering that makes human pain uniquely acute; (4) God promises to renew all creation (Rev 21:5), and some theologians hope this includes some form of redemption for animal suffering. The mystery remains, but it does not defeat the overall case for God.",
+    whyItMatters: "Addressing animal suffering shows theological honesty about the limits of theodicy while pointing to the cosmic scope of God's redemptive plan, which encompasses all creation.",
+    relatedTerms: ["apol-innocent-suffering-and-god", "apol-response-to-suffering", "new-heavens-new-earth-ext"]
+  },
+  {
+    id: "apol-hell-and-divine-love",
+    term: "Hell and Divine Love",
+    category: "apologetics",
+    tags: ["Hell", "Love", "Freedom"],
+    oneLiner: "Hell is not a vindictive punishment but the tragic consequence of a free creature's definitive rejection of God's love — which God respects because love cannot be forced.",
+    body: "Critics claim that eternal hell is incompatible with a loving God. The Catholic response emphasizes that hell is not imposed by a vengeful deity but chosen by creatures who definitively refuse God's love. C.S. Lewis wrote that 'the doors of hell are locked from the inside.' God's love is not diminished by hell; rather, hell reveals how seriously God takes human freedom. If God forced everyone into heaven, He would override free will and love would become coercion. The Catechism teaches that God 'predestines no one to hell' — it is a self-exclusion from communion with God.",
+    whyItMatters: "Understanding hell as the consequence of freedom rather than divine cruelty reconciles eternal punishment with divine love and underscores the seriousness of our moral choices.",
+    relatedTerms: ["apol-universalism-critique", "apol-annihilationism-critique", "hell-deeper-ext"]
+  },
+  {
+    id: "apol-universalism-critique",
+    term: "Critique of Universalism",
+    category: "apologetics",
+    tags: ["Universalism", "Hell", "Eschatology"],
+    oneLiner: "The belief that all people will inevitably be saved contradicts Scripture's warnings about hell and undermines the urgency of repentance and the reality of free will.",
+    body: "Universalism holds that God's love will eventually triumph over every resistance and all will be saved. While appealing, it faces serious objections: Jesus repeatedly warns of eternal punishment (Mt 25:46; Mk 9:43-48); the Church has defined that hell exists and is eternal (Fourth Lateran Council, Benedict XII's Benedictus Deus); universalism undermines free will by implying that all resistance to God is temporary and will inevitably be overcome. Hans Urs von Balthasar's 'dare we hope' position remains within orthodoxy, but confident assertion that all will be saved does not.",
+    whyItMatters: "Critiquing universalism preserves the genuine stakes of moral and spiritual life: our choices have eternal consequences, and God's gift of salvation must be freely accepted.",
+    relatedTerms: ["apol-annihilationism-critique", "apol-hell-and-divine-love", "hell-deeper-ext"]
+  },
+  {
+    id: "apol-annihilationism-critique",
+    term: "Critique of Annihilationism",
+    category: "apologetics",
+    tags: ["Annihilationism", "Hell", "Immortality"],
+    oneLiner: "The view that the damned are simply destroyed rather than eternally punished contradicts the Catholic doctrine of the soul's natural immortality and Scripture's teaching on eternal punishment.",
+    body: "Annihilationism (or conditional immortality) holds that the unsaved simply cease to exist rather than suffer eternally. Catholic doctrine rejects this because: (1) the soul is naturally immortal — Aquinas demonstrates that the intellect, being immaterial, is not subject to corruption; (2) Jesus explicitly speaks of eternal punishment alongside eternal life (Mt 25:46), using the same Greek word (aionios) for both; (3) Revelation 20:10 describes torment 'forever and ever'; (4) the Fifth Lateran Council (1513) defined the individual immortality of the human soul. Annihilationism, however compassionate in intent, softens the urgency of the Gospel.",
+    whyItMatters: "Defending the soul's immortality against annihilationism upholds the full weight of Christian eschatology and the dignity of the human person as created for eternity.",
+    relatedTerms: ["apol-universalism-critique", "apol-hell-and-divine-love", "hell-deeper-ext"]
+  },
+  {
+    id: "apol-catholic-intellectual-tradition-overview",
+    term: "Catholic Intellectual Tradition (Overview)",
+    category: "apologetics",
+    tags: ["Tradition", "Reason", "Culture"],
+    oneLiner: "The Catholic intellectual tradition is a two-thousand-year engagement of faith with reason, philosophy, science, and culture, producing many of Western civilization's greatest achievements.",
+    body: "From the Church Fathers' engagement with Greek philosophy, through the medieval universities, the scientific contributions of Jesuits and Benedictines, the artistic masterpieces of the Renaissance, to the modern social encyclicals, the Catholic intellectual tradition represents an unbroken commitment to the harmony of faith and reason. Figures like Augustine, Aquinas, Newman, Chesterton, and Ratzinger exemplify this tradition. It is not merely backward-looking but continually engages contemporary questions, showing that Catholic faith is not the enemy of thought but its greatest ally.",
+    whyItMatters: "The Catholic intellectual tradition demonstrates that Christianity is not anti-intellectual but has been the single greatest patron of learning, art, science, and philosophy in Western history.",
+    relatedTerms: ["apol-faith-and-reason-deeper", "apol-science-and-faith-harmony", "apol-galileo-affair-truth"]
+  },
+  {
+    id: "apol-faith-and-reason-deeper",
+    term: "Faith and Reason (Deeper)",
+    category: "apologetics",
+    tags: ["Faith", "Reason", "Fides et Ratio"],
+    oneLiner: "John Paul II's Fides et Ratio teaches that faith and reason are 'two wings' on which the human spirit rises to contemplation of truth — they need each other.",
+    body: "Fides et Ratio (1998) addresses the modern crisis of confidence in reason's ability to reach truth, arguing that faith without reason risks superstition while reason without faith risks nihilism. Faith purifies reason by freeing it from ideological distortion; reason serves faith by showing its credibility and articulating its content. Aquinas demonstrated this harmony supremely: natural reason can prove God's existence and some divine attributes, while faith reveals truths (like the Trinity) that exceed reason but do not contradict it. The two together give a fuller vision of reality than either alone.",
+    whyItMatters: "The faith-reason relationship is the foundational principle of Catholic apologetics: it grounds every argument for God, every defense of doctrine, and every engagement with modern thought.",
+    relatedTerms: ["apol-catholic-intellectual-tradition-overview", "apol-science-and-faith-harmony", "apol-kant-critique-response"]
+  },
+  {
+    id: "apol-fides-et-ratio",
+    term: "Fides et Ratio",
+    category: "apologetics",
+    tags: ["Encyclical", "John Paul II", "Philosophy"],
+    oneLiner: "John Paul II's 1998 encyclical defends the capacity of human reason to know truth, including metaphysical and moral truth, against the rising tide of skepticism and relativism.",
+    body: "Fides et Ratio addresses a crisis in philosophy: the abandonment of metaphysics, the fragmentation of knowledge, and the spread of nihilism and pragmatism. John Paul II calls philosophy back to its vocation of seeking ultimate truth. He affirms that reason can know God's existence and the natural moral law without revelation, while also showing that faith opens reason to truths it could not reach alone. The encyclical endorses Thomistic realism as a particularly fruitful philosophical tradition for dialogue with faith, while welcoming legitimate contributions from other schools.",
+    whyItMatters: "Fides et Ratio is the magna carta of the Catholic faith-reason synthesis, providing the intellectual framework for all Catholic engagement with philosophy, science, and culture.",
+    relatedTerms: ["apol-faith-and-reason-deeper", "apol-response-to-relativism", "apol-response-to-nihilism"]
+  }
 ];

@@ -782,4 +782,724 @@ export const maryConcepts: Concept[] = [
     whyItMatters: "Distinguishing these two Marys protects the unique theological identity of each. Confusing them diminishes both: it reduces the Mother of God to just another follower and obscures Mary Magdalene's extraordinary role as the first witness of the Resurrection.",
     relatedTerms: ["mary-theotokos", "mary-at-cross", "mary-early-church-fathers"]
   },
+{
+    id: "mary-interior-peace",
+    term: "Mary and Interior Peace",
+    category: "mary",
+    tags: ["spirituality", "Philippe", "peace"],
+    oneLiner: "Mary exemplifies the deep interior peace that comes from total surrender to God's will.",
+    body: "Fr. Jacques Philippe highlights Mary as the supreme model of interior peace, a peace rooted not in the absence of suffering but in unwavering trust in God. Her calm at the Annunciation, her serenity amid the flight to Egypt, and her silent standing at the Cross all reveal a soul perfectly ordered by grace. Mary's peace flows from her absolute poverty of spirit, which leaves no room for anxiety.",
+    whyItMatters: "Mary teaches that true peace is not a feeling but a fruit of abandonment to God, offering a concrete model for souls struggling with anxiety and spiritual restlessness.",
+    relatedTerms: ["mary-fiat", "mary-trust-providence", "mary-abandonment-to-god"]
+  },
+  {
+    id: "mary-trust-providence",
+    term: "Mary's Trust in Providence",
+    category: "mary",
+    tags: ["providence", "trust", "spirituality"],
+    oneLiner: "Mary's life reveals an unshakeable confidence that God guides all things for the good.",
+    body: "From the uncertain circumstances of the Nativity to the anguish of losing the child Jesus in the Temple, Mary consistently responded to life's upheavals with trust rather than panic. She did not demand explanations but allowed Providence to unfold in its own time. Her trust was not passive resignation but an active, loving cooperation with a plan she could not fully see.",
+    whyItMatters: "Mary's trust challenges believers to surrender their need to control outcomes and to rely on God's fatherly care even when His purposes remain hidden.",
+    relatedTerms: ["mary-interior-peace", "mary-fiat", "mary-pondering-heart"]
+  },
+  {
+    id: "mary-abandonment-to-god",
+    term: "Mary's Abandonment to God",
+    category: "mary",
+    tags: ["abandonment", "surrender", "de Caussade"],
+    oneLiner: "Mary is the perfect model of holy abandonment, entrusting every moment to God without reserve.",
+    body: "The spiritual tradition of abandonment to Divine Providence, articulated by figures like Jean-Pierre de Caussade, finds its highest realization in Mary. Her Fiat was not a one-time act but a lifelong disposition of handing herself over to God in each present moment. She embraced poverty, exile, misunderstanding, and the sword of sorrow without withdrawing her consent.",
+    whyItMatters: "Mary's abandonment shows that holiness consists not in extraordinary deeds but in the radical acceptance of God's will in the ordinary and painful circumstances of daily life.",
+    relatedTerms: ["mary-fiat-theology", "mary-interior-peace", "mary-trust-providence"]
+  },
+  {
+    id: "mary-model-faith-deeper",
+    term: "Mary as Model of Faith",
+    category: "mary",
+    tags: ["faith", "pilgrimage", "Redemptoris Mater"],
+    oneLiner: "Mary's faith was not static certainty but a living pilgrimage through darkness and light.",
+    body: "John Paul II's encyclical Redemptoris Mater describes Mary's faith as a continuous pilgrimage. She believed the angel's word without seeing how it could be fulfilled, trusted God during the hidden years at Nazareth, and maintained faith even beneath the Cross when everything seemed lost. Her faith was tested, purified, and deepened at every stage of her Son's life and mission.",
+    whyItMatters: "Recognizing Mary's faith as a journey encourages believers who struggle with doubt, showing that authentic faith can coexist with obscurity and grow through trial.",
+    relatedTerms: ["mary-fiat", "mary-pondering-heart", "mary-at-cross"]
+  },
+  {
+    id: "mary-silence",
+    term: "The Silence of Mary",
+    category: "mary",
+    tags: ["silence", "contemplation", "hiddenness"],
+    oneLiner: "Mary's few recorded words in Scripture point to a life shaped more by listening than by speaking.",
+    body: "The Gospels record only a handful of Mary's words, yet each one carries immense theological weight. Her characteristic posture is one of silent receptivity: she listens to the angel, treasures events in her heart, and stands wordlessly at the Cross. This silence is not emptiness but fullness, the silence of one so attuned to God that words become secondary to communion.",
+    whyItMatters: "In a culture saturated with noise and self-expression, Mary's silence is a prophetic witness to the primacy of listening to God and the power of a contemplative disposition.",
+    relatedTerms: ["mary-pondering-heart", "mary-contemplation", "mary-hiddenness"]
+  },
+  {
+    id: "mary-hiddenness",
+    term: "The Hiddenness of Mary",
+    category: "mary",
+    tags: ["hiddenness", "humility", "Nazareth"],
+    oneLiner: "Mary lived most of her life in obscurity, hidden with Christ in the small village of Nazareth.",
+    body: "Despite being the Mother of God, Mary spent the vast majority of her life in the unremarkable town of Nazareth, performing ordinary domestic tasks. She sought no public recognition and was content to remain in the background even during her Son's public ministry. This hiddenness is not accidental but providential, revealing that the greatest sanctity can flourish in the most ordinary circumstances.",
+    whyItMatters: "Mary's hidden life redeems the ordinary and assures those in humble circumstances that greatness before God does not require visibility before the world.",
+    relatedTerms: ["mary-silence", "mary-humility-deeper", "mary-patience"]
+  },
+  {
+    id: "mary-suffering-deeper",
+    term: "Mary's Suffering and Compassion",
+    category: "mary",
+    tags: ["suffering", "compassion", "Stabat Mater"],
+    oneLiner: "Mary's suffering at the Cross was a unique participation in her Son's redemptive sacrifice.",
+    body: "The tradition of the Church, expressed in hymns like the Stabat Mater and in the devotion of the Seven Sorrows, recognizes that Mary's suffering was not merely that of a grieving mother but a theological reality. United to Christ by grace and vocation, she experienced a compassio, a suffering-with her Son that made her the first and most perfect disciple of the Cross. Her pain was inseparable from her love and her mission.",
+    whyItMatters: "Mary's compassion reveals that suffering accepted in union with Christ becomes redemptive, giving meaning to the trials of every believer who unites their crosses to His.",
+    relatedTerms: ["mary-at-cross", "mary-simeon-prophecy", "mary-seven-sorrows"]
+  },
+  {
+    id: "mary-joy",
+    term: "The Joy of Mary",
+    category: "mary",
+    tags: ["joy", "Magnificat", "beatitude"],
+    oneLiner: "Mary's joy is the deep, abiding gladness of one who knows God's faithfulness firsthand.",
+    body: "The Magnificat overflows with joy as Mary proclaims that her spirit rejoices in God her Savior. This joy is not superficial happiness but the profound beatitude of a soul filled with the Holy Spirit. It persists through hardship because it is grounded not in circumstances but in God's saving action. The Joyful Mysteries of the Rosary celebrate key moments of this Marian gladness.",
+    whyItMatters: "Mary's joy witnesses that authentic Christian happiness is possible even amid poverty and suffering, because it rests on God's promises rather than worldly comforts.",
+    relatedTerms: ["mary-magnificat-theology", "mary-visitation-deeper", "mary-cause-joy"]
+  },
+  {
+    id: "mary-patience",
+    term: "The Patience of Mary",
+    category: "mary",
+    tags: ["patience", "waiting", "virtue"],
+    oneLiner: "Mary's life was marked by long seasons of patient waiting for God's promises to unfold.",
+    body: "Between the Annunciation and Pentecost, Mary endured decades of patient waiting. She waited nine months for the birth, thirty years of hidden life, three years of public ministry she could not control, and the days between Calvary and the Resurrection. Her patience was not passive endurance but an active, trusting cooperation with God's timing.",
+    whyItMatters: "Mary models the virtue of patience for all who find themselves in seasons of waiting, teaching that God's delays are not denials but part of His providential plan.",
+    relatedTerms: ["mary-trust-providence", "mary-hiddenness", "mary-pondering-heart"]
+  },
+  {
+    id: "mary-humility-deeper",
+    term: "Mary's Humility",
+    category: "mary",
+    tags: ["humility", "Magnificat", "handmaid"],
+    oneLiner: "Mary's self-description as the handmaid of the Lord reveals the deepest humility in salvation history.",
+    body: "Mary's humility is not mere self-deprecation but a truthful recognition of her total dependence on God. In the Magnificat she attributes everything to God's initiative, declaring that He has regarded the lowliness of His handmaid. St. Bernard taught that it was precisely Mary's humility that attracted God's gaze and made the Incarnation possible. Her humility is the foundation of all her other virtues.",
+    whyItMatters: "Mary's humility teaches that God exalts the lowly and resists the proud, making humility the essential disposition for receiving grace.",
+    relatedTerms: ["mary-magnificat-theology", "mary-fiat-theology", "mary-hiddenness"]
+  },
+  {
+    id: "mary-obedience",
+    term: "Mary's Obedience",
+    category: "mary",
+    tags: ["obedience", "new Eve", "fiat"],
+    oneLiner: "Mary's obedient yes reversed Eve's disobedient no, reopening the path to salvation.",
+    body: "The Church Fathers, beginning with St. Irenaeus, drew a parallel between Eve's disobedience and Mary's obedience. Where Eve said no to God's command, Mary said yes to God's invitation. This obedience was not blind submission but a free, informed, and loving act of the will. Mary's obedience continued throughout her life, from Bethlehem to Calvary, as she consistently aligned her will with the Father's plan.",
+    whyItMatters: "Mary's obedience demonstrates that human freedom finds its highest expression not in autonomy from God but in willing cooperation with His saving purpose.",
+    relatedTerms: ["mary-fiat-theology", "mary-eve-typology-deeper", "mary-new-eve"]
+  },
+  {
+    id: "mary-prayer-life",
+    term: "Mary's Prayer Life",
+    category: "mary",
+    tags: ["prayer", "contemplation", "liturgy"],
+    oneLiner: "Mary was steeped in the prayer traditions of Israel and became the model of Christian prayer.",
+    body: "As a devout Jewish woman, Mary would have prayed the psalms, observed the Sabbath, and participated in the Temple liturgy. Her Magnificat echoes Hannah's canticle and numerous Old Testament prayers, revealing a soul formed by Scripture. After Pentecost, Acts 1:14 places her at prayer with the apostles in the Upper Room. The Church sees in Mary the archetype of prayerful receptivity to the Word of God.",
+    whyItMatters: "Mary's prayer life shows that Christian prayer is rooted in Scripture and sustained by liturgy, providing a model of contemplative engagement with God's Word.",
+    relatedTerms: ["mary-pondering-heart", "mary-contemplation", "mary-model-of-prayer"]
+  },
+  {
+    id: "mary-pondering-heart",
+    term: "Mary Pondering in Her Heart",
+    category: "mary",
+    tags: ["pondering", "meditation", "Luke"],
+    oneLiner: "Luke twice records that Mary kept events and treasured them in her heart, revealing her contemplative depth.",
+    body: "In Luke 2:19 and 2:51, the evangelist notes that Mary kept all these things, pondering them in her heart. The Greek word symballousa suggests she was actively comparing, connecting, and meditating on the events of salvation as they unfolded. This pondering is the scriptural foundation for the contemplative tradition in the Church and for the practice of meditation on the mysteries of Christ's life.",
+    whyItMatters: "Mary's pondering heart is the biblical model for lectio divina and all forms of Christian meditation, inviting believers to move beyond surface reading of events to deeper spiritual understanding.",
+    relatedTerms: ["mary-silence", "mary-contemplation", "mary-prayer-life"]
+  },
+  {
+    id: "mary-contemplation",
+    term: "Mary and Contemplation",
+    category: "mary",
+    tags: ["contemplation", "mysticism", "Carmelite"],
+    oneLiner: "Mary is revered as the first and greatest contemplative, gazing on the face of God made flesh.",
+    body: "The Carmelite tradition especially honors Mary as the Queen of Contemplatives. She beheld the face of Christ more closely than any other creature, from the Incarnation in her womb to the hidden life at Nazareth. Her contemplation was not abstract speculation but a loving gaze upon her Son, uniting knowledge and love in a single act. The Rosary itself is structured as a contemplative prayer in Mary's company.",
+    whyItMatters: "Mary's contemplative life shows that the highest form of prayer is a simple, loving attention to Christ, accessible to all regardless of intellectual ability or external circumstances.",
+    relatedTerms: ["mary-pondering-heart", "mary-silence", "mary-prayer-life"]
+  },
+  {
+    id: "mary-eucharist",
+    term: "Mary and the Eucharist",
+    category: "mary",
+    tags: ["Eucharist", "Ecclesia de Eucharistia", "body"],
+    oneLiner: "Mary's body gave Christ the flesh He offers in the Eucharist, making her intimately connected to every Mass.",
+    body: "John Paul II's encyclical Ecclesia de Eucharistia devotes a chapter to Mary as a 'woman of the Eucharist.' She provided the body and blood that Christ would later offer under the species of bread and wine. At the Last Supper and in every subsequent Eucharist, the Body of Christ is the body received from Mary. Her Fiat at the Annunciation is thus a kind of anticipatory Amen to the Eucharistic sacrifice.",
+    whyItMatters: "The Marian dimension of the Eucharist deepens reverence for the Blessed Sacrament by reminding the faithful that the Body they receive was first formed in a mother's womb by the Holy Spirit.",
+    relatedTerms: ["mary-fiat-theology", "mary-at-cross", "mary-magnificat-theology"]
+  },
+  {
+    id: "mary-priesthood",
+    term: "Mary and the Priesthood",
+    category: "mary",
+    tags: ["priesthood", "offering", "ministerial"],
+    oneLiner: "Mary's unique union with Christ's sacrifice illuminates the meaning of the ministerial priesthood.",
+    body: "Though Mary did not receive the ministerial priesthood, her relationship to the priestly office is profound. She offered her Son at the Presentation and stood as co-offerer at Calvary. The priest at the altar acts in persona Christi, offering the same body Mary gave to Jesus. Many saints have noted that every priest receives Christ's body from Mary in a spiritual sense, just as Christ Himself did in a physical sense.",
+    whyItMatters: "Understanding Mary's bond with the priesthood enriches priestly spirituality and helps the faithful appreciate the sacrificial nature of the Mass.",
+    relatedTerms: ["mary-eucharist", "mary-at-cross", "mary-presentation-deeper"]
+  },
+  {
+    id: "mary-pentecost-deeper",
+    term: "Mary at Pentecost",
+    category: "mary",
+    tags: ["Pentecost", "Holy Spirit", "Acts"],
+    oneLiner: "Mary's prayerful presence in the Upper Room at Pentecost reveals her role as Mother of the newborn Church.",
+    body: "Acts 1:14 specifically names Mary among those gathered in prayer before Pentecost. The same Holy Spirit who overshadowed her at the Annunciation now descended upon the apostles while she was in their midst. The Fathers saw her as the spiritual mother who accompanied the Church from its very first breath, just as she had accompanied Christ from His. Her intercession helped prepare the disciples to receive the Spirit's gifts.",
+    whyItMatters: "Mary's presence at Pentecost confirms that her maternal mission did not end with Christ's Ascension but continues in the life of the Church through every age.",
+    relatedTerms: ["mary-mother-of-church", "mary-holy-spirit", "mary-cenacle"]
+  },
+  {
+    id: "mary-early-liturgy",
+    term: "Mary in the Early Liturgy",
+    category: "mary",
+    tags: ["liturgy", "early Church", "feasts"],
+    oneLiner: "Marian devotion was woven into Christian worship from the earliest centuries through hymns, feasts, and prayers.",
+    body: "The Sub Tuum Praesidium, dating to around 250 AD, is the oldest known Marian prayer. By the fourth and fifth centuries, Marian feasts were established in both East and West, including the Dormition and the Purification. Churches were dedicated to Mary, and her image appeared in the Roman catacombs. The liturgical veneration of Mary developed organically from the Church's reflection on the Incarnation and her role in salvation history.",
+    whyItMatters: "The early liturgical presence of Mary demonstrates that Marian devotion is not a medieval invention but an authentic expression of the apostolic faith from the very beginning.",
+    relatedTerms: ["mary-sub-tuum", "mary-feasts-calendar", "mary-early-church-fathers"]
+  },
+  {
+    id: "mary-eastern-theology",
+    term: "Mary in Eastern Theology",
+    category: "mary",
+    tags: ["Eastern", "Theotokos", "icons"],
+    oneLiner: "Eastern Christian theology venerates Mary with profound titles, rich iconography, and ancient hymns.",
+    body: "Eastern Orthodox and Eastern Catholic traditions hold Mary in the highest honor, using the title Theotokos as the cornerstone of Mariology. The Akathist Hymn, one of the most beautiful liturgical compositions in Christianity, is entirely dedicated to Mary. Eastern theology emphasizes Mary's role as the Panagia (All-Holy One) and the bridge between heaven and earth. Icons of the Theotokos hold a central place in worship and devotion.",
+    whyItMatters: "Eastern Mariology enriches the universal Church's understanding of Mary and serves as a powerful point of ecumenical convergence between Catholics and Orthodox Christians.",
+    relatedTerms: ["mary-theotokos", "mary-akathist", "mary-eastern-theology"]
+  },
+  {
+    id: "mary-patristic-era",
+    term: "Mary in the Patristic Era",
+    category: "mary",
+    tags: ["patristics", "Church Fathers", "development"],
+    oneLiner: "The Church Fathers laid the theological foundations of Mariology through their reflections on the Incarnation.",
+    body: "From St. Ignatius of Antioch to St. John Damascene, the Fathers developed Marian theology in close connection with Christology. St. Justin Martyr and St. Irenaeus articulated the Eve-Mary parallel. St. Athanasius and St. Cyril of Alexandria defended the Theotokos title. St. Ambrose and St. Jerome championed Mary's perpetual virginity. Each generation of Fathers deepened the Church's understanding of Mary's role in salvation.",
+    whyItMatters: "Patristic Mariology demonstrates that devotion to Mary is not a later accretion but is rooted in the earliest theological reflection of the Church.",
+    relatedTerms: ["mary-early-church-fathers", "mary-eve-typology-deeper", "mary-theotokos"]
+  },
+  {
+    id: "mary-eve-typology-deeper",
+    term: "Mary and Eve Typology",
+    category: "mary",
+    tags: ["typology", "Irenaeus", "recapitulation"],
+    oneLiner: "The parallel between Eve and Mary is one of the oldest and most consequential themes in Christian theology.",
+    body: "St. Irenaeus of Lyon developed the Eve-Mary typology as part of his recapitulation theology. Just as Eve, a virgin, disobeyed at a tree and brought death, so Mary, a virgin, obeyed at the Annunciation and brought life. This parallel extends to details: Eve conversed with a fallen angel and fell, Mary conversed with Gabriel and believed. The typology undergirds the doctrines of the Immaculate Conception and Mary's role as New Eve.",
+    whyItMatters: "The Eve-Mary parallel reveals the symmetry of God's saving plan and shows that Mary's role was foreseen from the very beginning of human history.",
+    relatedTerms: ["mary-new-eve", "mary-obedience", "mary-genesis-3-15"]
+  },
+  {
+    id: "mary-daughter-zion-deeper",
+    term: "Mary as Daughter of Zion",
+    category: "mary",
+    tags: ["Israel", "Zephaniah", "remnant"],
+    oneLiner: "Mary personifies the faithful remnant of Israel, the Daughter of Zion who awaited the Messiah with joy.",
+    body: "The prophet Zephaniah addressed the Daughter of Zion with words strikingly similar to Gabriel's greeting to Mary: 'Rejoice, the Lord is in your midst.' Mary embodies in her person the hopes, prayers, and faithfulness of Israel's holy remnant. She is the culmination of the long line of holy women—Sarah, Hannah, Judith, Esther—who trusted God's promises. In her, Israel's vocation reaches its fulfillment.",
+    whyItMatters: "Recognizing Mary as the Daughter of Zion connects the Old and New Testaments and honors the Jewish roots of Christian faith and Marian devotion.",
+    relatedTerms: ["mary-israel", "mary-magnificat-theology", "mary-covenant"]
+  },
+  {
+    id: "mary-israel",
+    term: "Mary and Israel",
+    category: "mary",
+    tags: ["Israel", "continuity", "salvation history"],
+    oneLiner: "Mary stands as the living bridge between the Old Covenant and the New, embodying Israel's faith and hope.",
+    body: "Mary was a devout daughter of Israel, formed by the Torah, the psalms, and the prophets. Her Magnificat echoes the great canticles of the Old Testament and expresses Israel's messianic hope. She observed Jewish law in the Presentation and Purification rites. In her, the promises made to Abraham and David find their fulfillment, for through her the Messiah entered the world.",
+    whyItMatters: "Understanding Mary's Israelite identity prevents a disembodied Mariology and preserves the historical continuity between God's covenant with Israel and the new covenant in Christ.",
+    relatedTerms: ["mary-daughter-zion-deeper", "mary-covenant", "mary-magnificat-theology"]
+  },
+  {
+    id: "mary-covenant",
+    term: "Mary and the Covenant",
+    category: "mary",
+    tags: ["covenant", "ark", "faithfulness"],
+    oneLiner: "Mary's role in salvation history fulfills and transcends the covenantal themes of the Old Testament.",
+    body: "In the Old Testament, God established covenants marked by faithful human cooperation. Mary's Fiat represents the most perfect human response to a divine covenant initiative. She is the new Ark of the Covenant who bore God's presence in her womb, just as the old ark bore the tablets, the manna, and Aaron's rod. Her faithfulness contrasts with Israel's frequent infidelity, making her the ideal covenant partner.",
+    whyItMatters: "Mary's covenantal role reveals that God's saving plan always involves human cooperation and that the new covenant surpasses the old in intimacy and grace.",
+    relatedTerms: ["mary-ark-covenant-deeper", "mary-fiat-theology", "mary-israel"]
+  },
+  {
+    id: "mary-wisdom-literature",
+    term: "Mary and Wisdom Literature",
+    category: "mary",
+    tags: ["wisdom", "Sirach", "Proverbs"],
+    oneLiner: "The Church's liturgy applies Old Testament wisdom passages to Mary, seeing her as the Seat of Wisdom incarnate.",
+    body: "Passages from Proverbs 8, Sirach 24, and the Wisdom of Solomon are read in the liturgy on Marian feasts because the Church recognizes in Mary a unique relationship to divine Wisdom. She carried Wisdom Incarnate in her womb, nurtured Him, and was herself the most perfectly wise of all creatures. The application of these texts is not mere allegory but a recognition that Mary's life fulfills the deepest aspirations of the wisdom tradition.",
+    whyItMatters: "Linking Mary to the wisdom tradition shows that Marian devotion is deeply scriptural, rooted in the Church's ancient practice of reading the Old Testament through a Christological and Marian lens.",
+    relatedTerms: ["mary-seat-wisdom-deeper", "mary-proverbs-31", "mary-song-of-songs"]
+  },
+  {
+    id: "mary-song-of-songs",
+    term: "Mary and the Song of Songs",
+    category: "mary",
+    tags: ["Song of Songs", "bridal", "mysticism"],
+    oneLiner: "The Church's mystical tradition reads the Song of Songs as a love song between God and Mary, the most beautiful of creatures.",
+    body: "Since the patristic era, the Song of Songs has been interpreted as an allegory of God's love for Israel, for the Church, and for Mary. Lines like 'You are all beautiful, my love, and there is no flaw in you' (4:7) have been applied to Mary's Immaculate Conception. The bridal imagery of the Song finds its highest human realization in Mary, who was wholly given to God in a union of love deeper than any earthly marriage.",
+    whyItMatters: "Reading the Song of Songs in a Marian key opens the faithful to the mystical dimension of Scripture and to the reality of God's passionate love for the souls He has created.",
+    relatedTerms: ["mary-wisdom-literature", "mary-immaculate-conception", "mary-contemplation"]
+  },
+  {
+    id: "mary-proverbs-31",
+    term: "Mary and Proverbs 31",
+    category: "mary",
+    tags: ["Proverbs", "valiant woman", "virtue"],
+    oneLiner: "The valiant woman of Proverbs 31 finds her supreme fulfillment in Mary, whose worth is beyond all reckoning.",
+    body: "Proverbs 31 describes a woman of strength, wisdom, and industry whose children call her blessed. The Church sees in this portrait a foreshadowing of Mary, whom all generations call blessed (Luke 1:48). Mary's quiet diligence at Nazareth, her courage at the Cross, and her spiritual motherhood of the Church fulfill every quality the passage celebrates. She is the valiant woman par excellence.",
+    whyItMatters: "Proverbs 31 reminds the faithful that Mary's holiness was expressed in practical love and daily faithfulness, not only in extraordinary supernatural events.",
+    relatedTerms: ["mary-wisdom-literature", "mary-hiddenness", "mary-humility-deeper"]
+  },
+  {
+    id: "mary-genesis-3-15",
+    term: "Mary and Genesis 3:15",
+    category: "mary",
+    tags: ["Protoevangelium", "enmity", "serpent"],
+    oneLiner: "The Protoevangelium of Genesis 3:15 is the first biblical prophecy pointing to Mary and her offspring's victory over evil.",
+    body: "Genesis 3:15, in which God declares enmity between the serpent and the woman and between their offspring, has been read by the Church as the first announcement of the Gospel. The woman is understood as Mary, and her offspring as Christ, who will crush the serpent's head. The Vulgate translation 'she shall crush' led to centuries of Marian art depicting Mary standing on the serpent. Whether 'he' or 'she,' the passage affirms Mary's unique place in the defeat of sin.",
+    whyItMatters: "Genesis 3:15 establishes that Mary's role in salvation was part of God's plan from the very dawn of human history, long before the Annunciation.",
+    relatedTerms: ["mary-eve-typology-deeper", "mary-immaculate-conception", "mary-new-eve"]
+  },
+  {
+    id: "mary-isaiah-7-14",
+    term: "Mary and Isaiah 7:14",
+    category: "mary",
+    tags: ["Isaiah", "virgin", "Emmanuel"],
+    oneLiner: "Isaiah's prophecy that a virgin would conceive and bear Emmanuel finds its fulfillment in Mary's miraculous motherhood.",
+    body: "Isaiah 7:14 declares, 'Behold, the virgin shall conceive and bear a son, and shall call his name Emmanuel.' Matthew 1:22-23 explicitly identifies this prophecy's fulfillment in Mary's virginal conception of Jesus. The Hebrew word almah (young woman) was translated as parthenos (virgin) in the Septuagint, and the Church has always understood the passage as a prophecy of the virginal conception. Mary is the virgin of Isaiah's oracle.",
+    whyItMatters: "This prophecy links the Incarnation to the long history of God's promises to Israel and confirms that Jesus' birth from a virgin was divinely planned centuries in advance.",
+    relatedTerms: ["mary-perpetual-virginity", "mary-annunciation", "mary-genesis-3-15"]
+  },
+  {
+    id: "mary-micah-5",
+    term: "Mary and Micah 5",
+    category: "mary",
+    tags: ["Micah", "Bethlehem", "she who is in labor"],
+    oneLiner: "Micah's prophecy of the ruler from Bethlehem and the one who is in labor points to Mary as the mother of the Messiah.",
+    body: "Micah 5:2-3 prophesies that a ruler of Israel will come from Bethlehem and that 'she who is in labor' will give birth to him. The passage connects the Messiah's birthplace to his mother's travail, and the Church sees Mary as this laboring woman. The detail that the ruler's origins are 'from of old, from ancient days' points to the divinity of the child she bears, reinforcing the Theotokos title.",
+    whyItMatters: "Micah 5 demonstrates that both the place and the manner of the Messiah's birth were foretold, strengthening faith in the prophetic consistency of God's plan.",
+    relatedTerms: ["mary-isaiah-7-14", "mary-revelation-12-deeper", "mary-theotokos"]
+  },
+  {
+    id: "mary-revelation-12-deeper",
+    term: "Mary and Revelation 12",
+    category: "mary",
+    tags: ["Revelation", "woman", "dragon"],
+    oneLiner: "The woman clothed with the sun in Revelation 12 is understood as Mary, the Church, and Israel in a layered typological reading.",
+    body: "Revelation 12 presents a cosmic woman clothed with the sun, crowned with twelve stars, who gives birth to a male child destined to rule the nations. While the primary reference may be to the Church or Israel, Catholic tradition has consistently recognized a Marian dimension. The woman's labor pains, her child's ascent to God's throne, and the dragon's pursuit of her and her offspring all find resonance in Mary's life. This passage undergirds the titles Queen of Heaven and Our Lady of the Assumption.",
+    whyItMatters: "Revelation 12 places Mary at the center of the cosmic battle between good and evil, showing that her role extends far beyond a private family story to the drama of all creation.",
+    relatedTerms: ["mary-queen-of-heaven", "mary-assumption", "mary-genesis-3-15"]
+  },
+  {
+    id: "mary-magnificat-theology",
+    term: "Theology of the Magnificat",
+    category: "mary",
+    tags: ["Magnificat", "canticle", "social justice"],
+    oneLiner: "The Magnificat is not only a hymn of praise but a prophetic proclamation of God's justice and the reversal of worldly power.",
+    body: "In Luke 1:46-55, Mary proclaims that God has scattered the proud, cast down the mighty, and lifted up the lowly. Liberation theologians and popes alike have recognized the Magnificat as a charter of divine justice. It echoes Hannah's canticle and the prophetic tradition of Israel. Theologically, it reveals Mary as a prophet who understands that God's salvation overturns the world's values, favoring the poor and hungry over the rich and powerful.",
+    whyItMatters: "The Magnificat shows that Marian devotion and concern for justice are inseparable, and that Mary's spirituality has profound social implications.",
+    relatedTerms: ["mary-joy", "mary-humility-deeper", "mary-israel"]
+  },
+  {
+    id: "mary-fiat-theology",
+    term: "Theology of Mary's Fiat",
+    category: "mary",
+    tags: ["fiat", "consent", "freedom"],
+    oneLiner: "Mary's Fiat at the Annunciation was the free human consent that made the Incarnation possible.",
+    body: "When Mary said 'Let it be done to me according to your word,' she gave the most consequential yes in human history. Theologians emphasize that God waited for Mary's free consent before the Word became flesh, honoring human freedom even in His most sovereign act. The Fiat was not mere acquiescence but an intelligent, courageous act of faith in the face of immense uncertainty. It is the model for every Christian's response to God's call.",
+    whyItMatters: "Mary's Fiat reveals that God's plan of salvation respects and requires human freedom, making each person's yes to God genuinely significant.",
+    relatedTerms: ["mary-fiat", "mary-obedience", "mary-abandonment-to-god"]
+  },
+  {
+    id: "mary-visitation-deeper",
+    term: "The Visitation of Mary",
+    category: "mary",
+    tags: ["Visitation", "Elizabeth", "charity"],
+    oneLiner: "Mary's journey to Elizabeth reveals that grace received must immediately be shared in loving service.",
+    body: "Upon learning of Elizabeth's pregnancy, Mary went in haste to serve her elderly cousin. This journey was no small undertaking for a young woman in first-century Palestine. The Visitation is a model of charity: the one who has received the greatest grace immediately sets out to serve another. Elizabeth's greeting, 'Blessed are you among women,' is the first human recognition of Mary's unique role. John the Baptist leapt in the womb, showing that Christ's presence in Mary sanctifies even before birth.",
+    whyItMatters: "The Visitation teaches that genuine encounter with Christ compels believers outward in service and that Mary is the first evangelist, carrying Christ to those in need.",
+    relatedTerms: ["mary-magnificat-theology", "mary-joy", "mary-charity"]
+  },
+  {
+    id: "mary-presentation-deeper",
+    term: "The Presentation of Mary",
+    category: "mary",
+    tags: ["Presentation", "Temple", "consecration"],
+    oneLiner: "The feast of Mary's Presentation celebrates the tradition that her parents dedicated her to God in the Temple as a young child.",
+    body: "The Protoevangelium of James recounts that Joachim and Anne presented the young Mary in the Temple, where she was raised in prayer and holiness. Though not found in canonical Scripture, this tradition is celebrated liturgically on November 21. It expresses the theological truth that Mary was consecrated to God from her earliest years, preparing her for her unique vocation as Mother of God.",
+    whyItMatters: "The Presentation of Mary reminds the faithful of the value of early consecration to God and of the role parents play in dedicating their children to divine service.",
+    relatedTerms: ["mary-immaculate-conception", "mary-prayer-life", "mary-hiddenness"]
+  },
+  {
+    id: "mary-purification",
+    term: "The Purification of Mary",
+    category: "mary",
+    tags: ["Purification", "Candlemas", "Law"],
+    oneLiner: "Mary's observance of the Jewish purification rite reveals her humility and obedience to the Law of Moses.",
+    body: "Forty days after Jesus' birth, Mary submitted to the purification rite prescribed by Leviticus 12, even though, being sinless and a virgin mother, she had no need of ritual purification. This act of humble obedience parallels her Son's later submission to baptism by John. The feast of the Purification, also called Candlemas, celebrates the light Christ brings to the world, as proclaimed by Simeon in the Temple.",
+    whyItMatters: "Mary's willingness to undergo a rite she did not need teaches that humility and obedience to God's law are more important than claiming exemptions based on one's spiritual status.",
+    relatedTerms: ["mary-humility-deeper", "mary-obedience", "mary-simeon-prophecy"]
+  },
+  {
+    id: "mary-simeon-prophecy",
+    term: "Mary and Simeon's Prophecy",
+    category: "mary",
+    tags: ["Simeon", "sword", "sorrow"],
+    oneLiner: "Simeon's prophecy that a sword would pierce Mary's soul foretold her unique share in Christ's suffering.",
+    body: "In Luke 2:34-35, the aged Simeon warned Mary that a sword would pierce her own soul. This prophecy was fulfilled throughout Mary's life, from the flight into Egypt to the agony of Calvary. The sword is not only grief but the painful penetration of faith, as Mary was called to trust God even when events seemed to contradict every promise. The devotion of the Seven Sorrows meditates on the progressive fulfillment of Simeon's words.",
+    whyItMatters: "Simeon's prophecy reveals that Mary's path to glory passed through suffering, assuring all Christians that their own crosses are not signs of God's absence but of His mysterious presence.",
+    relatedTerms: ["mary-suffering-deeper", "mary-seven-sorrows", "mary-at-cross"]
+  },
+  {
+    id: "mary-cana-deeper",
+    term: "Mary at the Wedding of Cana",
+    category: "mary",
+    tags: ["Cana", "intercession", "John"],
+    oneLiner: "At Cana, Mary's intercession prompted Christ's first miracle, revealing her role as advocate for those in need.",
+    body: "John 2:1-11 recounts how Mary noticed the wine had run out and brought the need to Jesus. His response, 'My hour has not yet come,' did not deter her; she simply told the servants, 'Do whatever He tells you.' This episode reveals three aspects of Mary's intercessory role: she notices human needs before others do, she brings them confidently to Christ, and she directs people to obey Him. Cana is the scriptural foundation for Marian intercession.",
+    whyItMatters: "Cana demonstrates that asking Mary to pray for us is not a bypass of Christ but a way of being directed more perfectly to Him, as she always points to her Son.",
+    relatedTerms: ["mary-mediatrix", "mary-trust-providence", "mary-wedding-cana"]
+  },
+  {
+    id: "mary-public-ministry",
+    term: "Mary and the Public Ministry",
+    category: "mary",
+    tags: ["ministry", "discipleship", "Gospels"],
+    oneLiner: "During Jesus' public ministry, Mary remained in the background, modeling a discipleship of faith rather than prominence.",
+    body: "After Cana, Mary largely recedes from the Gospel narrative during Jesus' public ministry. Passages like Mark 3:31-35, where Jesus redefines family in terms of doing God's will, are sometimes misread as a rebuke of Mary. In fact, she is the supreme example of the one who hears God's word and keeps it (Luke 11:28). Her apparent absence from center stage during the ministry years models a discipleship of trust and detachment.",
+    whyItMatters: "Mary's restraint during the public ministry teaches that faithful discipleship does not require constant visibility and that letting go can be a profound act of love.",
+    relatedTerms: ["mary-hiddenness", "mary-patience", "mary-disciples"]
+  },
+  {
+    id: "mary-disciples",
+    term: "Mary and the Disciples",
+    category: "mary",
+    tags: ["disciples", "community", "motherhood"],
+    oneLiner: "Mary accompanied the early community of disciples as a spiritual mother, forming them in faith and prayer.",
+    body: "After the Ascension, Mary was present among the disciples in the Upper Room (Acts 1:14), exercising a quiet maternal influence on the nascent Church. Tradition holds that she shared her memories of Jesus with the evangelists, particularly Luke, who records events only she could have witnessed. Her presence among the disciples was not one of authority but of maternal guidance, helping them recall and understand all that Jesus had said and done.",
+    whyItMatters: "Mary's relationship with the early disciples reveals her ongoing maternal role in the Church, accompanying and encouraging believers through every stage of their faith journey.",
+    relatedTerms: ["mary-pentecost-deeper", "mary-cenacle", "mary-mother-of-church"]
+  },
+  {
+    id: "mary-beloved-disciple",
+    term: "Mary and the Beloved Disciple",
+    category: "mary",
+    tags: ["John", "Cross", "motherhood"],
+    oneLiner: "At the Cross, Jesus entrusted Mary to the beloved disciple and the disciple to Mary, establishing her universal motherhood.",
+    body: "In John 19:26-27, Jesus said to Mary, 'Woman, behold your son,' and to the beloved disciple, 'Behold your mother.' The Church interprets this exchange not as mere filial care but as the solemn institution of Mary's spiritual motherhood over all disciples. The beloved disciple represents every believer who stands at the foot of the Cross. From that hour, he took her into his home, symbolizing the reception of Mary into one's spiritual life.",
+    whyItMatters: "This scene is the scriptural foundation for the doctrine that Mary is Mother of all Christians, not merely the physical mother of Jesus.",
+    relatedTerms: ["mary-at-cross", "mary-mother-of-church", "mary-suffering-deeper"]
+  },
+  {
+    id: "mary-burial-jesus",
+    term: "Mary and the Burial of Jesus",
+    category: "mary",
+    tags: ["burial", "Holy Saturday", "sorrow"],
+    oneLiner: "Though the Gospels do not explicitly name Mary at the burial, tradition holds she accompanied her Son's body to the tomb.",
+    body: "Pious tradition and Marian meditation place Mary at the burial of Jesus, receiving His body from the Cross in the scene known as the Pieta. Holy Saturday is sometimes called Mary's day, the day when she alone kept vigil in perfect faith while the world lay in darkness. Her faith did not waver even when the stone was rolled over the tomb; she believed in the Resurrection before anyone else saw it.",
+    whyItMatters: "Mary's steadfast faith on Holy Saturday is a model for all who endure spiritual darkness, trusting in God's promises when every visible sign points to defeat.",
+    relatedTerms: ["mary-suffering-deeper", "mary-resurrection", "mary-model-faith-deeper"]
+  },
+  {
+    id: "mary-resurrection",
+    term: "Mary and the Resurrection",
+    category: "mary",
+    tags: ["Resurrection", "Easter", "faith"],
+    oneLiner: "Though the Gospels do not record a Resurrection appearance to Mary, the Church's tradition affirms she was the first to know the Risen Lord.",
+    body: "The silence of the Gospels regarding a Resurrection appearance to Mary has puzzled commentators for centuries. Many theologians, including St. Ignatius of Loyola, hold that Jesus appeared first to His mother, reasoning that her unique bond with Him and her perfect faith merited this privilege. The liturgical tradition of the Regina Caeli celebrates Mary's joy at the Resurrection. Her Easter faith crowns her entire life of trusting abandonment.",
+    whyItMatters: "Mary's Easter experience, whether recorded or hidden, reminds the faithful that the deepest encounters with the Risen Christ may happen in the silence of the heart, beyond public record.",
+    relatedTerms: ["mary-joy", "mary-model-faith-deeper", "mary-burial-jesus"]
+  },
+  {
+    id: "mary-ascension",
+    term: "Mary and the Ascension",
+    category: "mary",
+    tags: ["Ascension", "separation", "hope"],
+    oneLiner: "Mary witnessed her Son's Ascension, experiencing a second separation that deepened her longing for heaven.",
+    body: "Tradition places Mary among those who witnessed the Ascension on the Mount of Olives. This moment required a new act of faith and surrender, as Mary allowed her risen Son to depart visibly so that the Holy Spirit could come. Her experience of the Ascension prefigures her own Assumption, when she would be reunited with her Son body and soul in glory.",
+    whyItMatters: "Mary at the Ascension teaches the faithful to let go of spiritual consolations and visible signs, trusting that Christ's apparent absence opens the door to a deeper presence through the Spirit.",
+    relatedTerms: ["mary-assumption", "mary-pentecost-deeper", "mary-cenacle"]
+  },
+  {
+    id: "mary-cenacle",
+    term: "Mary in the Cenacle",
+    category: "mary",
+    tags: ["Upper Room", "prayer", "Acts"],
+    oneLiner: "In the days between the Ascension and Pentecost, Mary prayed with the apostles in the Upper Room, preparing the Church for the Spirit's descent.",
+    body: "Acts 1:14 explicitly names Mary among those gathered in the Upper Room in prayer. She who had received the Holy Spirit at the Annunciation now helped the apostles prepare to receive the same Spirit at Pentecost. Her presence was a living reminder of the Incarnation and a source of encouragement for the frightened disciples. The cenacle became the first Marian shrine, where the Church was formed under Mary's prayerful gaze.",
+    whyItMatters: "Mary in the cenacle shows that the Church is born in prayer and that Mary's intercession is essential to every new outpouring of the Holy Spirit.",
+    relatedTerms: ["mary-pentecost-deeper", "mary-disciples", "mary-prayer-life"]
+  },
+  {
+    id: "mary-mother-divine-grace",
+    term: "Mother of Divine Grace",
+    category: "mary",
+    tags: ["title", "grace", "Litany"],
+    oneLiner: "This Litany title honors Mary as the mother through whom the Author of all grace entered the world.",
+    body: "The title Mother of Divine Grace acknowledges that Mary bore in her womb the source of all grace, Jesus Christ. Because she cooperated in the Incarnation, she is intimately connected to every grace that flows from her Son to humanity. The title does not mean Mary is the origin of grace but that she is the human instrument through whom Grace Incarnate was given to the world.",
+    whyItMatters: "This title deepens appreciation for Mary's unique place in the economy of salvation and encourages the faithful to seek her intercession in their pursuit of holiness.",
+    relatedTerms: ["mary-mediatrix", "mary-fiat-theology", "mary-eucharist"]
+  },
+  {
+    id: "mary-mother-most-pure",
+    term: "Mother Most Pure",
+    category: "mary",
+    tags: ["title", "purity", "Litany"],
+    oneLiner: "This title celebrates Mary's perfect purity of body, mind, and will, a purity that was a gift of God's grace.",
+    body: "Mother Most Pure (Mater Purissima) honors the total purity of Mary, encompassing her virginal integrity, her freedom from original sin, and the perfect ordering of her passions to God's will. This purity was not achieved by her own effort but was the fruit of the singular grace of the Immaculate Conception. Mary's purity made her a fitting dwelling place for the Holy One of God.",
+    whyItMatters: "Mary's purity is not a rebuke to human weakness but an invitation to trust that God's grace can purify and transform any soul willing to receive it.",
+    relatedTerms: ["mary-immaculate-conception", "mary-perpetual-virginity", "mary-mother-inviolate"]
+  },
+  {
+    id: "mary-good-counsel-deeper",
+    term: "Mother of Good Counsel",
+    category: "mary",
+    tags: ["title", "counsel", "discernment"],
+    oneLiner: "Mary is invoked as Mother of Good Counsel because she guides souls to follow her Son's will through the promptings of the Holy Spirit.",
+    body: "The title Mother of Good Counsel has its origins in a miraculous image venerated at Genazzano, Italy, since 1467. Theologically, it recognizes Mary as the one who always gives the best advice: 'Do whatever He tells you' (John 2:5). Because she lived in perfect docility to the Holy Spirit, she is the ideal guide for souls seeking to discern God's will. Popes have added this invocation to the Litany of Loreto and encouraged its use.",
+    whyItMatters: "In an age of confusion and competing voices, invoking Mary as Mother of Good Counsel expresses confidence that she leads souls to truth and to her Son.",
+    relatedTerms: ["mary-cana-deeper", "mary-contemplation", "mary-good-counsel"]
+  },
+  {
+    id: "mary-mother-inviolate",
+    term: "Mother Inviolate",
+    category: "mary",
+    tags: ["title", "integrity", "Litany"],
+    oneLiner: "This title affirms that Mary's physical and spiritual integrity was never compromised in any way.",
+    body: "Mother Inviolate (Mater Inviolata) declares that Mary's virginal integrity remained perfectly intact. The term 'inviolate' means uninjured, unbroken, and untouched by any corruption. It is closely related to the doctrine of virginitas in partu, the belief that Mary's bodily integrity was preserved even in the act of giving birth. This title points beyond physical virginity to the total spiritual wholeness of Mary's person.",
+    whyItMatters: "The title Mother Inviolate affirms the miraculous nature of Christ's birth and the extraordinary grace that preserved Mary's complete integrity as a sign of God's power.",
+    relatedTerms: ["mary-perpetual-virginity", "mary-mother-most-pure", "mary-mother-undefiled"]
+  },
+  {
+    id: "mary-mother-undefiled",
+    term: "Mother Undefiled",
+    category: "mary",
+    tags: ["title", "sinlessness", "Litany"],
+    oneLiner: "This title proclaims that Mary was never touched by any stain of sin, original or actual.",
+    body: "Mother Undefiled (Mater Intemerata) celebrates the fact that Mary was preserved from every kind of sin throughout her life. This includes both original sin, by the grace of the Immaculate Conception, and any personal sin, by a special privilege of God. The Council of Trent affirmed the Church's belief that Mary, by a special privilege, never committed any sin. She is the only purely human person to have lived a life entirely free of moral defilement.",
+    whyItMatters: "Mary's sinlessness is not a distant ideal but a sign of what God's grace can accomplish and a promise of the complete purification awaiting all the redeemed in heaven.",
+    relatedTerms: ["mary-immaculate-conception", "mary-mother-most-pure", "mary-mother-inviolate"]
+  },
+  {
+    id: "mary-mirror-justice",
+    term: "Mirror of Justice",
+    category: "mary",
+    tags: ["title", "justice", "Litany"],
+    oneLiner: "Mary is called Mirror of Justice because she perfectly reflects the righteousness of God.",
+    body: "The title Mirror of Justice (Speculum Iustitiae) portrays Mary as one whose soul so perfectly reflected divine holiness that to look at her is to see justice itself. In biblical terms, justice means right relationship with God, and Mary's entire life was one of perfect alignment with God's will. She mirrors Christ, the Sun of Justice, as the moon mirrors the sun's light.",
+    whyItMatters: "Mary as Mirror of Justice invites the faithful to examine their own lives against her example and to seek the grace of right relationship with God.",
+    relatedTerms: ["mary-humility-deeper", "mary-obedience", "mary-model-faith-deeper"]
+  },
+  {
+    id: "mary-seat-wisdom-deeper",
+    term: "Seat of Wisdom",
+    category: "mary",
+    tags: ["title", "wisdom", "throne"],
+    oneLiner: "Mary is the living throne upon which Divine Wisdom Incarnate sat, making her the Seat of Wisdom.",
+    body: "The title Seat of Wisdom (Sedes Sapientiae) has ancient roots. Just as Solomon's throne was the seat of Israel's wisest king, Mary's lap was the throne of Christ, the Wisdom of God. Medieval universities adopted this title as their patronal invocation, recognizing that true knowledge leads to Christ and that Mary bore Wisdom in her very body. The title unites the intellectual and devotional dimensions of Catholic life.",
+    whyItMatters: "Invoking Mary as Seat of Wisdom reminds scholars and students that the pursuit of truth ultimately leads to Christ, and that faith and reason are allies, not enemies.",
+    relatedTerms: ["mary-wisdom-literature", "mary-contemplation", "mary-seat-of-wisdom"]
+  },
+  {
+    id: "mary-cause-joy",
+    term: "Cause of Our Joy",
+    category: "mary",
+    tags: ["title", "joy", "Litany"],
+    oneLiner: "Mary is Cause of Our Joy because through her yes, the source of all joy entered the world.",
+    body: "The title Causa Nostrae Laetitiae honors Mary as the one through whom Christ, the world's true joy, was given to humanity. Her Fiat at the Annunciation reversed Eve's sorrow and opened the door to salvation. Every genuine Christian joy can be traced back to the Incarnation, and the Incarnation was made possible by Mary's consent. The title is also connected to the Visitation, where Elizabeth declared Mary blessed and the unborn John leapt for joy.",
+    whyItMatters: "This title reminds the faithful that Christian joy is not self-generated but received as a gift, flowing from the Incarnation that Mary made possible.",
+    relatedTerms: ["mary-joy", "mary-fiat-theology", "mary-visitation-deeper"]
+  },
+  {
+    id: "mary-spiritual-vessel",
+    term: "Spiritual Vessel",
+    category: "mary",
+    tags: ["title", "vessel", "Litany"],
+    oneLiner: "Mary is honored as a Spiritual Vessel, a sacred container chosen by God to bear His divine presence.",
+    body: "The title Spiritual Vessel (Vas Spirituale) describes Mary as a vessel fashioned by the Holy Spirit for the singular purpose of bearing the Son of God. Just as the vessels of the Temple were consecrated and set apart for sacred use, Mary was consecrated from the moment of her conception. The 'spiritual' dimension indicates that her value lies not in material worth but in the holiness of her soul and her openness to God.",
+    whyItMatters: "This title encourages the faithful to see themselves as vessels meant to carry God's grace, following Mary's example of spiritual receptivity.",
+    relatedTerms: ["mary-vessel-honor", "mary-immaculate-conception", "mary-prayer-life"]
+  },
+  {
+    id: "mary-vessel-honor",
+    term: "Vessel of Honor",
+    category: "mary",
+    tags: ["title", "honor", "Litany"],
+    oneLiner: "Mary is the Vessel of Honor, set apart by God for the noblest purpose in all of creation.",
+    body: "Drawing on St. Paul's image in 2 Timothy 2:20-21 of vessels for noble and ignoble use, the title Vessel of Honor (Vas Honorabile) declares that Mary was set apart for the most honorable purpose imaginable: bearing God Incarnate. Her honor derives entirely from God's choice and grace, not from any worldly distinction. She is the preeminent example of a life purified and prepared for divine use.",
+    whyItMatters: "The title Vessel of Honor teaches that true dignity comes from being chosen and used by God, encouraging every believer to offer their lives as instruments of grace.",
+    relatedTerms: ["mary-spiritual-vessel", "mary-mother-most-pure", "mary-humility-deeper"]
+  },
+  {
+    id: "mary-mystical-rose",
+    term: "Mystical Rose",
+    category: "mary",
+    tags: ["title", "rose", "beauty"],
+    oneLiner: "Mary is called the Mystical Rose, a flower of surpassing beauty blooming in the garden of God's grace.",
+    body: "The title Mystical Rose (Rosa Mystica) evokes the beauty, fragrance, and hidden depth of Mary's holiness. The rose has long symbolized love, beauty, and sacrifice in Christian tradition. Mary is mystical because her beauty is not merely natural but supernatural, a beauty of soul that reflects the glory of God. The Rosary itself takes its name from this floral imagery, as a spiritual garland of roses offered to Mary.",
+    whyItMatters: "The Mystical Rose reminds the faithful that holiness is beautiful, and that Mary's life of grace is the most attractive and fragrant flower in the garden of the Church.",
+    relatedTerms: ["mary-contemplation", "mary-immaculate-conception", "mary-song-of-songs"]
+  },
+  {
+    id: "mary-tower-david",
+    term: "Tower of David",
+    category: "mary",
+    tags: ["title", "David", "strength"],
+    oneLiner: "Mary is the Tower of David, a fortress of faith and strength in the lineage of the great king.",
+    body: "The title Tower of David (Turris Davidica) draws on Song of Songs 4:4, which describes the beloved's neck as the Tower of David hung with a thousand shields. Applied to Mary, it signifies her strength, fortitude, and her place in the Davidic royal line from which the Messiah came. The tower represents an impregnable defense, and Mary's faith is the strongest bulwark the Church possesses against error and despair.",
+    whyItMatters: "This title assures the faithful that Mary is a powerful protector whose strength, rooted in David's royal line, defends the Church against spiritual enemies.",
+    relatedTerms: ["mary-tower-ivory", "mary-israel", "mary-queen-of-heaven"]
+  },
+  {
+    id: "mary-tower-ivory",
+    term: "Tower of Ivory",
+    category: "mary",
+    tags: ["title", "ivory", "purity"],
+    oneLiner: "Mary is the Tower of Ivory, symbolizing the lofty purity and precious beauty of her immaculate soul.",
+    body: "The title Tower of Ivory (Turris Eburnea) also derives from the Song of Songs (7:4). Ivory in the ancient world was a symbol of royal beauty, purity, and costliness. Applied to Mary, the tower of ivory signifies her elevated holiness, her spotless purity, and the precious nature of her vocation. The tower image also conveys strength and visibility, as Mary stands as a beacon of holiness visible to the whole Church.",
+    whyItMatters: "The Tower of Ivory reminds believers that purity and holiness are not fragile weaknesses but sources of strength and enduring beauty.",
+    relatedTerms: ["mary-tower-david", "mary-mother-most-pure", "mary-mystical-rose"]
+  },
+  {
+    id: "mary-house-gold",
+    term: "House of Gold",
+    category: "mary",
+    tags: ["title", "gold", "dwelling"],
+    oneLiner: "Mary is the House of Gold, the precious dwelling place in which God chose to reside.",
+    body: "The title House of Gold (Domus Aurea) recalls the gold-overlaid inner sanctuary of Solomon's Temple, the Holy of Holies where God's presence dwelt. Mary's womb was the new Holy of Holies, the place where God Incarnate took up His dwelling among humanity. Gold represents what is most precious and incorruptible, signifying the incomparable value of Mary's role and the incorruptibility of her grace-filled soul.",
+    whyItMatters: "This title deepens eucharistic piety by reminding the faithful that the first tabernacle of Christ's body was Mary herself, the living House of Gold.",
+    relatedTerms: ["mary-ark-covenant-deeper", "mary-eucharist", "mary-spiritual-vessel"]
+  },
+  {
+    id: "mary-ark-covenant-deeper",
+    term: "Ark of the Covenant",
+    category: "mary",
+    tags: ["ark", "typology", "Luke"],
+    oneLiner: "Mary is the new Ark of the Covenant, bearing in her body what the old ark bore in shadow.",
+    body: "Luke's account of the Visitation deliberately echoes 2 Samuel 6, where David dances before the Ark of the Covenant. Elizabeth's exclamation, 'Who am I that the mother of my Lord should come to me?' mirrors David's cry, 'Who am I that the ark of the Lord should come to me?' The old ark contained the tablets of the Law, manna, and Aaron's rod; Mary bore the Lawgiver, the Bread of Life, and the eternal High Priest. The parallel is precise and intentional.",
+    whyItMatters: "The Ark typology demonstrates the deep scriptural logic behind Catholic Marian devotion and reveals the unity of God's saving plan across both Testaments.",
+    relatedTerms: ["mary-covenant", "mary-visitation-deeper", "mary-ark-of-covenant"]
+  },
+  {
+    id: "mary-gate-heaven",
+    term: "Gate of Heaven",
+    category: "mary",
+    tags: ["title", "gate", "salvation"],
+    oneLiner: "Mary is the Gate of Heaven because through her the Savior entered the world, opening heaven's doors to humanity.",
+    body: "The title Gate of Heaven (Ianua Caeli) appears in the ancient hymn Ave Maris Stella and in the Litany of Loreto. The imagery recalls Jacob's dream of a gate of heaven at Bethel (Genesis 28:17) and Ezekiel's vision of the sealed eastern gate through which only the Lord could pass (Ezekiel 44:1-3). Mary is this gate: through her virginal conception, God entered humanity, and through her intercession, humanity finds the way to God.",
+    whyItMatters: "The title Gate of Heaven expresses confidence that Mary's intercession assists souls on their journey to eternal life, making her a sure guide to paradise.",
+    relatedTerms: ["mary-mediatrix", "mary-perpetual-virginity", "mary-star-of-sea"]
+  },
+  {
+    id: "mary-morning-star",
+    term: "Morning Star",
+    category: "mary",
+    tags: ["title", "star", "dawn"],
+    oneLiner: "Mary is the Morning Star who heralds the rising of Christ, the Sun of Justice.",
+    body: "The title Morning Star (Stella Matutina) likens Mary to the star that appears just before dawn, announcing the imminent arrival of the sun. In salvation history, Mary appeared at the end of the long night of the Old Covenant, heralding the dawn of the New. Her Immaculate Conception was the first light of redemption, and her Fiat brought forth Christ, the Sun of Justice. The title is closely related to Star of the Sea (Stella Maris), both evoking Mary's guiding light.",
+    whyItMatters: "The Morning Star reminds believers that even in the darkest moments of history and personal life, Mary's presence signals that Christ's light is about to break through.",
+    relatedTerms: ["mary-star-of-sea", "mary-immaculate-conception", "mary-cause-joy"]
+  },
+  {
+    id: "mary-health-sick",
+    term: "Health of the Sick",
+    category: "mary",
+    tags: ["title", "healing", "intercession"],
+    oneLiner: "Mary is invoked as Health of the Sick because her maternal intercession brings comfort and healing to those who suffer.",
+    body: "The title Health of the Sick (Salus Infirmorum) has been cherished especially at Marian shrines like Lourdes, where countless healings have been attributed to Mary's intercession. The title does not claim Mary heals by her own power but that she intercedes with her Son, the Divine Physician, on behalf of the suffering. The Church's anointing of the sick and its care for the ill find a powerful patroness in Mary.",
+    whyItMatters: "Invoking Mary as Health of the Sick encourages the ill to entrust their suffering to her intercession and reminds the healthy of their duty to care for those who are sick.",
+    relatedTerms: ["mary-lourdes", "mary-suffering-deeper", "mary-comforter-afflicted"]
+  },
+  {
+    id: "mary-refuge-sinners",
+    term: "Refuge of Sinners",
+    category: "mary",
+    tags: ["title", "mercy", "intercession"],
+    oneLiner: "Mary is the Refuge of Sinners, a merciful mother who never turns away those who seek her help.",
+    body: "The title Refuge of Sinners (Refugium Peccatorum) expresses the Catholic conviction that no one is too far gone for Mary's maternal mercy. St. Alphonsus Liguori devoted much of his Glories of Mary to demonstrating that Mary's intercession has rescued even the most hardened sinners. The title echoes the Old Testament cities of refuge and presents Mary as the New Covenant's place of sanctuary for those fleeing the consequences of sin.",
+    whyItMatters: "This title combats despair by assuring sinners that Mary's mercy mirrors her Son's and that her intercession is available to all who ask, regardless of their past.",
+    relatedTerms: ["mary-our-lady-mercy", "mary-mediatrix", "mary-comforter-afflicted"]
+  },
+  {
+    id: "mary-comforter-afflicted",
+    term: "Comforter of the Afflicted",
+    category: "mary",
+    tags: ["title", "comfort", "suffering"],
+    oneLiner: "Mary is the Comforter of the Afflicted, drawing near to those in pain with a mother's tender compassion.",
+    body: "The title Comforter of the Afflicted (Consolatrix Afflictorum) recognizes that Mary, having suffered deeply at the Cross, understands human affliction from the inside. She is the patroness of Luxembourg under this title, and shrines dedicated to her under this invocation have been centers of consolation for centuries. Her comfort is not mere sentiment but the strength that comes from being accompanied by a mother who has known the worst of human pain.",
+    whyItMatters: "This title assures those in distress that Mary's compassion is not abstract sympathy but the empathy of one who has stood beneath the Cross and knows the weight of sorrow.",
+    relatedTerms: ["mary-suffering-deeper", "mary-refuge-sinners", "mary-our-lady-sorrows"]
+  },
+  {
+    id: "mary-help-christians",
+    term: "Help of Christians",
+    category: "mary",
+    tags: ["title", "protection", "Lepanto"],
+    oneLiner: "Mary is invoked as Help of Christians, a powerful protector of the faithful in times of persecution and danger.",
+    body: "The title Help of Christians (Auxilium Christianorum) was added to the Litany of Loreto by Pope Pius VII in 1815 after his release from Napoleonic captivity, which he attributed to Mary's intercession. The title's history extends to the Battle of Lepanto (1571), where the Rosary was credited with the Christian naval victory. St. John Bosco had a special devotion to Mary Help of Christians and built a basilica in her honor in Turin.",
+    whyItMatters: "This title strengthens the faithful's confidence that Mary actively assists the Church in its struggles, whether against external enemies or internal spiritual battles.",
+    relatedTerms: ["mary-our-lady-rosary", "mary-queen-of-heaven", "mary-refuge-sinners"]
+  },
+  {
+    id: "mary-queen-angels",
+    term: "Queen of Angels",
+    category: "mary",
+    tags: ["title", "angels", "queenship"],
+    oneLiner: "Mary reigns as Queen of Angels, exalted above every angelic choir by the dignity of her divine motherhood.",
+    body: "The title Queen of Angels (Regina Angelorum) affirms that Mary, though a human creature, surpasses the angels in dignity and glory because of her unique role as Mother of God. The angels serve Christ, and Mary bore Him; they worship from afar, while she held Him in her arms. At the Annunciation, Gabriel, one of the highest angels, was sent to serve Mary's vocation. The Assumption placed her bodily above all the angelic hosts.",
+    whyItMatters: "Mary's queenship over the angels reveals that God's plan of salvation elevates humanity to astonishing heights, surpassing even the angelic nature through the Incarnation.",
+    relatedTerms: ["mary-assumption", "mary-queen-of-heaven", "mary-queen-patriarchs"]
+  },
+  {
+    id: "mary-queen-patriarchs",
+    term: "Queen of Patriarchs",
+    category: "mary",
+    tags: ["title", "patriarchs", "queenship"],
+    oneLiner: "Mary is Queen of Patriarchs because in her the hopes of Abraham, Isaac, and Jacob found their fulfillment.",
+    body: "The patriarchs of the Old Testament lived by faith in God's promises, looking forward to the coming of the Messiah. Mary surpasses them all because she not only believed in the promise but bore its fulfillment in her womb. Abraham was called the father of faith, but Mary's faith exceeded his: she believed a more astonishing word and cooperated more intimately in God's saving work. She is their queen because she crowns their long journey of faith.",
+    whyItMatters: "This title connects Mary to the patriarchs and affirms that the Old Testament's story of faith reaches its climax in her consent to bear the Savior.",
+    relatedTerms: ["mary-israel", "mary-model-faith-deeper", "mary-queen-prophets"]
+  },
+  {
+    id: "mary-queen-prophets",
+    term: "Queen of Prophets",
+    category: "mary",
+    tags: ["title", "prophets", "Magnificat"],
+    oneLiner: "Mary is Queen of Prophets because her Magnificat is the greatest prophetic canticle and she bore the Prophet foretold by Moses.",
+    body: "The prophets of Israel spoke God's word and pointed forward to the Messiah. Mary surpasses them because she did not merely speak about the coming Savior but gave Him flesh and blood. Her Magnificat contains prophetic themes of justice, mercy, and divine reversal that echo Isaiah, Jeremiah, and the psalmists. She is the queen of all who prophesied because she brought to fulfillment everything they foretold.",
+    whyItMatters: "Honoring Mary as Queen of Prophets affirms the continuity between Old Testament prophecy and its New Testament fulfillment, with Mary as the living hinge.",
+    relatedTerms: ["mary-magnificat-theology", "mary-queen-patriarchs", "mary-queen-apostles"]
+  },
+  {
+    id: "mary-queen-apostles",
+    term: "Queen of Apostles",
+    category: "mary",
+    tags: ["title", "apostles", "mission"],
+    oneLiner: "Mary is Queen of Apostles because she received and nurtured the faith before and more deeply than any apostle.",
+    body: "Though Mary was not numbered among the Twelve, she preceded them in faith, accompanied them after the Ascension, and sustained them with her prayer. She believed in the Incarnation before Peter's confession, she stood at the Cross when most apostles fled, and she prayed with them in the cenacle before Pentecost. The Legion of Mary and other apostolic movements honor her under this title as the model and mother of all evangelizers.",
+    whyItMatters: "This title reminds all Christians engaged in evangelization that missionary zeal is sustained by contemplation and Marian intercession, not merely human effort.",
+    relatedTerms: ["mary-disciples", "mary-cenacle", "mary-queen-martyrs"]
+  },
+  {
+    id: "mary-queen-martyrs",
+    term: "Queen of Martyrs",
+    category: "mary",
+    tags: ["title", "martyrdom", "suffering"],
+    oneLiner: "Mary is Queen of Martyrs because her interior suffering at the Cross surpassed the bodily torments of all the martyrs.",
+    body: "Though Mary did not shed her blood, the Church honors her as Queen of Martyrs because the sword that pierced her soul (Luke 2:35) inflicted a spiritual martyrdom more intense than any physical death. She suffered in perfect love and in complete union with her Son's Passion, making her compassion the greatest act of co-suffering in history. Every martyr drew strength from the same grace that sustained Mary at Calvary.",
+    whyItMatters: "This title consoles those who suffer interiorly without visible wounds, affirming that spiritual suffering can be as real and as meritorious as physical martyrdom.",
+    relatedTerms: ["mary-suffering-deeper", "mary-simeon-prophecy", "mary-queen-peace"]
+  },
+  {
+    id: "mary-queen-peace",
+    term: "Queen of Peace",
+    category: "mary",
+    tags: ["title", "peace", "Medjugorje"],
+    oneLiner: "Mary is invoked as Queen of Peace because she bore the Prince of Peace and intercedes for harmony among nations and souls.",
+    body: "The title Queen of Peace (Regina Pacis) was added to the Litany of Loreto by Pope Benedict XV in 1917, during the devastation of World War I. Mary is Queen of Peace because she bore Christ, the Prince of Peace (Isaiah 9:6), and because her intercession has been sought in times of conflict throughout history. The reported apparitions at Medjugorje have popularized this title in recent decades, with Mary calling her children to prayer, fasting, and reconciliation as the path to peace.",
+    whyItMatters: "In a world torn by conflict, invoking Mary as Queen of Peace expresses the Christian conviction that true and lasting peace comes only from God and is obtained through prayer.",
+    relatedTerms: ["mary-interior-peace", "mary-help-christians", "mary-queen-angels"]
+  }
 ];

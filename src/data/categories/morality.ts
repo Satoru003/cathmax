@@ -792,5 +792,735 @@ export const moralityConcepts: Concept[] = [
     example: "A Catholic pharmacist who refuses to dispense abortifacient drugs exercises conscientious objection rooted in the moral conviction that these drugs can destroy innocent human life — a conviction the Church affirms and protects.",
     whyItMatters: "Conscientious objection protects the primacy of conscience against the tyranny of unjust laws, defending the principle that human law cannot override divine and natural law.",
     relatedTerms: ["conscience", "formation-of-conscience", "civic-duties", "intrinsic-evil"]
+  },
+{
+    id: "conscience-formation-deeper",
+    term: "Conscience Formation (In Depth)",
+    category: "morality",
+    tags: ["conscience", "formation", "truth", "catechesis"],
+    oneLiner: "The ongoing process of educating one's moral judgment through prayer, study, and submission to the teaching authority of the Church.",
+    body: "Conscience formation in depth involves more than learning rules; it is the cultivation of a reliable interior compass through study of Scripture, the Catechism, and the moral tradition, combined with prayer and the practice of virtue. The Church teaches that conscience must be formed in light of the Word of God and the Magisterium, not merely personal preference or cultural norms.",
+    whyItMatters: "A poorly formed conscience leads to confident but erroneous moral judgments. Ongoing formation ensures that the interior moral sense stays aligned with objective truth.",
+    relatedTerms: ["conscience", "formation-of-conscience", "erroneous-conscience", "moral-certitude"]
+  },
+  {
+    id: "erroneous-conscience",
+    term: "Erroneous Conscience",
+    category: "morality",
+    tags: ["conscience", "error", "moral-theology", "ignorance"],
+    oneLiner: "A conscience that judges wrongly about the morality of an act due to ignorance or faulty reasoning.",
+    body: "An erroneous conscience sincerely but incorrectly judges a good act to be evil or an evil act to be good. Catholic moral theology distinguishes between vincible error (which the person could and should have corrected) and invincible error (which is not the person's fault). One must always follow a certain conscience, even if erroneous, but one has a duty to correct vincible error through diligent formation.",
+    example: "A person raised in complete ignorance of the Church's teaching on a moral matter may act in good faith with an invincibly erroneous conscience, which diminishes or removes culpability.",
+    whyItMatters: "Understanding erroneous conscience clarifies both the duty to follow conscience and the equally serious duty to form it well, avoiding the extremes of scrupulosity and laxity.",
+    relatedTerms: ["conscience-formation-deeper", "vincible-vs-invincible-ignorance", "certain-vs-doubtful-conscience", "formation-of-conscience"]
+  },
+  {
+    id: "certain-vs-doubtful-conscience",
+    term: "Certain vs. Doubtful Conscience",
+    category: "morality",
+    tags: ["conscience", "certainty", "doubt", "moral-judgment"],
+    oneLiner: "The distinction between a conscience that judges with firm assurance and one that remains uncertain about the morality of an act.",
+    body: "A certain conscience judges firmly, without prudent fear of error, that an action is right or wrong. A doubtful conscience cannot reach a firm judgment. Catholic moral theology teaches that one may never act with a doubtful conscience; the doubt must first be resolved through study, prayer, or consultation. If doubt persists, the safer course should be followed.",
+    whyItMatters: "Acting with a doubtful conscience risks sin because the person has not established that the action is morally permissible. This principle protects against moral recklessness.",
+    relatedTerms: ["erroneous-conscience", "moral-certitude", "conscience", "prudential-reasoning"]
+  },
+  {
+    id: "vincible-vs-invincible-ignorance",
+    term: "Vincible vs. Invincible Ignorance",
+    category: "morality",
+    tags: ["ignorance", "culpability", "moral-theology"],
+    oneLiner: "The distinction between ignorance that could be overcome with reasonable effort and ignorance for which the person bears no blame.",
+    body: "Vincible ignorance is ignorance of a moral truth that the person could and should have corrected through reasonable diligence. It diminishes but does not eliminate culpability. Invincible ignorance is ignorance that persists despite the person's best efforts or through no fault of their own. It excuses from sin entirely, though the act remains objectively wrong. The distinction is crucial for assessing moral responsibility.",
+    whyItMatters: "This distinction allows the Church to uphold objective moral truth while recognizing that subjective culpability varies with each person's situation and opportunities for knowledge.",
+    relatedTerms: ["erroneous-conscience", "full-knowledge-deliberate-consent", "moral-certitude", "conscience"]
+  },
+  {
+    id: "moral-certitude",
+    term: "Moral Certitude",
+    category: "morality",
+    tags: ["conscience", "certainty", "prudence", "judgment"],
+    oneLiner: "The degree of confidence sufficient for responsible moral action, excluding prudent doubt though not all theoretical possibility of error.",
+    body: "Moral certitude is the practical assurance required before acting. It does not demand mathematical certainty but excludes reasonable doubt. In moral matters, absolute certainty is often unattainable, so the Church recognizes that a well-formed conscience acting with moral certitude is sufficient for responsible decision-making. This concept is central to casuistry and probabilistic reasoning.",
+    whyItMatters: "Moral certitude prevents both scrupulosity (demanding impossible certainty) and laxity (acting without sufficient reflection). It enables confident, responsible moral action in an uncertain world.",
+    relatedTerms: ["certain-vs-doubtful-conscience", "prudential-reasoning", "conscience", "probabilism"]
+  },
+  {
+    id: "prudential-reasoning",
+    term: "Prudential Reasoning",
+    category: "morality",
+    tags: ["prudence", "practical-reason", "moral-method", "aquinas"],
+    oneLiner: "The process of applying universal moral principles to particular concrete situations through careful deliberation.",
+    body: "Prudential reasoning is the method by which the virtue of prudence operates: moving from general moral principles to specific judgments about what should be done here and now. It involves gathering relevant information, identifying the moral principles at stake, weighing circumstances, and arriving at a practical judgment. Catholics of good will may reach different prudential conclusions on complex issues where principles must be applied to ambiguous facts.",
+    whyItMatters: "Not all moral questions have simple, predetermined answers. Prudential reasoning is the bridge between abstract moral truth and the concrete complexity of real life.",
+    relatedTerms: ["prudence", "practical-syllogism", "moral-certitude", "conscience"]
+  },
+  {
+    id: "practical-syllogism",
+    term: "Practical Syllogism",
+    category: "morality",
+    tags: ["aquinas", "moral-reasoning", "logic", "action"],
+    oneLiner: "The logical structure of moral reasoning: a universal principle applied to a particular case yields a conclusion about what to do.",
+    body: "The practical syllogism, used by Aquinas following Aristotle, is the reasoning process behind every moral act. The major premise is a universal principle (e.g., 'One must care for the sick'), the minor premise is a particular judgment (e.g., 'This person before me is sick'), and the conclusion is a practical directive (e.g., 'I should help this person'). Errors can occur in either premise, leading to wrong action despite good intentions.",
+    whyItMatters: "Understanding the practical syllogism clarifies how moral errors occur and where formation is needed. It shows that both knowledge of principles and accurate perception of situations are essential for virtue.",
+    relatedTerms: ["prudential-reasoning", "prudence", "moral-object-analysis", "synderesis"]
+  },
+  {
+    id: "moral-object-analysis",
+    term: "Moral Object Analysis",
+    category: "morality",
+    tags: ["moral-object", "fontes-moralitatis", "aquinas"],
+    oneLiner: "The careful identification of what a moral act is 'about' at its core, which is the primary determinant of its morality.",
+    body: "The moral object is the act itself considered according to its essential nature, abstracted from intention and circumstances. Aquinas teaches that the object is the first and most fundamental source of morality. An act with an intrinsically evil object (such as direct killing of the innocent) can never be made good by a good intention or favorable circumstances. Careful analysis of the moral object requires distinguishing the act's essential nature from its accidental features.",
+    whyItMatters: "Moral object analysis protects against consequentialism and proportionalism by insisting that some acts are wrong by their very nature, regardless of outcomes or intentions.",
+    relatedTerms: ["fontes-moralitatis", "intrinsically-evil-acts-deeper", "intention-and-moral-act", "moral-object-intention-circumstances"]
+  },
+  {
+    id: "intention-and-moral-act",
+    term: "Intention and the Moral Act",
+    category: "morality",
+    tags: ["intention", "fontes-moralitatis", "will", "aquinas"],
+    oneLiner: "The purpose or goal the agent has in mind when performing an act, which significantly affects its moral quality.",
+    body: "Intention (finis operantis) is the purpose for which the agent acts, distinct from the moral object of the act itself. A good intention cannot make an intrinsically evil act good, but a bad intention can corrupt an otherwise good act. For example, giving alms (good object) done to gain praise (bad intention) diminishes or negates the act's moral value. Multiple intentions can coexist in a single act.",
+    example: "A doctor who prescribes medication to relieve pain (good object) with the intention of healing (good intention) acts morally well. The same prescription given with intent to cause addiction would be morally evil.",
+    whyItMatters: "Intention reveals the heart's orientation and affects the act's moral quality. Christ's teaching consistently emphasizes that God judges not only the deed but the heart behind it.",
+    relatedTerms: ["moral-object-analysis", "circumstances-and-morality", "fontes-moralitatis", "moral-object-intention-circumstances"]
+  },
+  {
+    id: "circumstances-and-morality",
+    term: "Circumstances and Morality",
+    category: "morality",
+    tags: ["circumstances", "fontes-moralitatis", "moral-evaluation"],
+    oneLiner: "The accidental features surrounding a moral act (who, what, where, when, how, how much) that can increase or diminish its goodness or malice.",
+    body: "Circumstances are the secondary factors that affect the morality of an act without changing its essential nature. They include the identity of the agent, the persons affected, the place, time, manner, and consequences. Circumstances can increase or diminish the gravity of sin (e.g., stealing from the poor is worse than stealing from the wealthy), and they can add a new species of sin (e.g., stealing sacred objects adds sacrilege). However, no circumstance can make an intrinsically evil act good.",
+    whyItMatters: "Attention to circumstances is essential for accurate moral evaluation and for the proper administration of the sacrament of Penance, where the penitent must confess relevant circumstances that change the species of sin.",
+    relatedTerms: ["moral-object-analysis", "intention-and-moral-act", "fontes-moralitatis", "gravity-of-sin-analysis"]
+  },
+  {
+    id: "intrinsically-evil-acts-deeper",
+    term: "Intrinsically Evil Acts (In Depth)",
+    category: "morality",
+    tags: ["intrinsic-evil", "veritatis-splendor", "moral-absolutes"],
+    oneLiner: "Acts whose moral object is always and everywhere wrong, regardless of intention, circumstances, or consequences.",
+    body: "Intrinsically evil acts, examined in depth, are those whose object is inherently disordered and can never be justified by any intention or circumstance. Veritatis Splendor reaffirmed this teaching against consequentialist and proportionalist challenges. Examples include direct killing of the innocent, torture, adultery, and blasphemy. This teaching preserves moral absolutes that protect human dignity against utilitarian calculations.",
+    whyItMatters: "The category of intrinsic evil is the Church's strongest bulwark against moral relativism. It affirms that certain acts violate human dignity so fundamentally that no end can justify them.",
+    relatedTerms: ["moral-object-analysis", "proportionate-reason-deeper", "veritatis-splendor", "intrinsic-evil"]
+  },
+  {
+    id: "proportionate-reason-deeper",
+    term: "Proportionate Reason (In Depth)",
+    category: "morality",
+    tags: ["proportionalism", "moral-theology", "double-effect"],
+    oneLiner: "The requirement that any harmful side effect of a moral act be justified by a correspondingly serious good, properly understood within traditional moral theology.",
+    body: "Proportionate reason, examined in depth, is a legitimate concept within the principle of double effect: one must have a sufficiently grave reason to tolerate an evil side effect of a good action. However, proportionalist theologians wrongly extended this concept to argue that any evil could be justified by a proportionate good. The Church condemns this extension while affirming the legitimate role of proportionate reason within traditional moral analysis.",
+    whyItMatters: "Clarifying proportionate reason protects both the principle of double effect (a legitimate and necessary tool) and the teaching on intrinsic evil (which proportionalism dangerously undermines).",
+    relatedTerms: ["double-effect", "intrinsically-evil-acts-deeper", "proportionalism", "lesser-evil-reasoning"]
+  },
+  {
+    id: "lesser-evil-reasoning",
+    term: "Lesser Evil Reasoning",
+    category: "morality",
+    tags: ["moral-reasoning", "proportionalism", "compromise"],
+    oneLiner: "The disputed claim that one may choose an evil act if it prevents a greater evil.",
+    body: "Lesser evil reasoning holds that when faced with two evils, one may choose the lesser. Catholic moral theology rejects this reasoning when applied to intrinsically evil acts: one may never do evil that good may come of it (Romans 3:8). However, one may tolerate a lesser evil as an unintended side effect of a good act (principle of double effect), and in political life, one may vote for a less harmful candidate when no morally ideal option exists.",
+    whyItMatters: "Misapplied lesser evil reasoning is one of the most common paths to moral compromise. The proper distinction prevents both rigid impracticality and utilitarian erosion of moral absolutes.",
+    relatedTerms: ["proportionate-reason-deeper", "double-effect", "intrinsically-evil-acts-deeper", "cooperation-with-evil"]
+  },
+  {
+    id: "material-cooperation-deeper",
+    term: "Material Cooperation (In Depth)",
+    category: "morality",
+    tags: ["cooperation", "moral-theology", "complicity"],
+    oneLiner: "Contributing to another's wrongdoing without sharing their evil intention, which may be permissible under certain conditions.",
+    body: "Material cooperation in depth involves assisting another's evil act without sharing the evil intention. It may be proximate (closely connected to the evil act) or remote (distantly connected). The morality of material cooperation depends on the gravity of the evil, the degree of cooperation, the necessity of the cooperator's contribution, and whether proportionate reasons exist. Remote material cooperation is more easily justified than proximate.",
+    example: "A pharmacist who fills a morally problematic prescription under duress of losing their livelihood cooperates materially. Whether this is morally permissible depends on how closely the cooperation facilitates the evil and what alternatives exist.",
+    whyItMatters: "In a complex society, Christians inevitably interact with systems that involve evil. Understanding material cooperation helps navigate these situations without either needless complicity or impossible withdrawal from society.",
+    relatedTerms: ["formal-cooperation-deeper", "cooperation-with-evil", "cooperation-in-evil-types", "proportionate-reason-deeper"]
+  },
+  {
+    id: "formal-cooperation-deeper",
+    term: "Formal Cooperation (In Depth)",
+    category: "morality",
+    tags: ["cooperation", "moral-theology", "intention", "complicity"],
+    oneLiner: "Assisting another's wrongdoing while sharing or endorsing their evil intention, which is always morally wrong.",
+    body: "Formal cooperation involves both assisting in another's evil act and sharing or approving of the evil intention behind it. It is always sinful because the cooperator adopts the evil will of the principal agent. Formal cooperation can be explicit (openly endorsing the evil) or implicit (when the nature of the cooperation is so closely tied to the evil that endorsement must be inferred). No proportionate reason can justify formal cooperation.",
+    whyItMatters: "The distinction between formal and material cooperation is essential for Catholics working in healthcare, law, business, and politics, where they may face pressure to endorse or facilitate immoral actions.",
+    relatedTerms: ["material-cooperation-deeper", "cooperation-with-evil", "scandal-deeper", "intrinsically-evil-acts-deeper"]
+  },
+  {
+    id: "scandal-deeper",
+    term: "Scandal (In Depth)",
+    category: "morality",
+    tags: ["scandal", "charity", "responsibility", "sin"],
+    oneLiner: "An attitude or behavior that leads another person toward sin, violating the duty of charity toward their soul.",
+    body: "Scandal, examined in depth, is any word, action, or omission that provides an occasion of sin for another. Direct scandal (deliberately leading another into sin) is always gravely sinful. Indirect scandal (carelessly creating conditions that tempt others) varies in gravity. Jesus warns severely against scandal: 'Whoever causes one of these little ones to sin, it would be better for him to have a millstone hung around his neck' (Matthew 18:6).",
+    whyItMatters: "Scandal extends moral responsibility beyond one's own actions to their effects on others' spiritual welfare. It underscores that charity includes responsibility for the souls of those we influence.",
+    relatedTerms: ["formal-vs-material-scandal", "occasions-of-sin-deeper", "charity", "formal-cooperation-deeper"]
+  },
+  {
+    id: "occasions-of-sin-deeper",
+    term: "Occasions of Sin (In Depth)",
+    category: "morality",
+    tags: ["temptation", "prudence", "avoidance", "sin"],
+    oneLiner: "External circumstances that provide an opportunity or inducement to sin, which prudence requires one to avoid or manage.",
+    body: "Occasions of sin are external situations, persons, places, or things that incline a person toward sin. They differ from temptation (an interior experience) in being external circumstances. Moral theology distinguishes proximate occasions (where sin is very likely) from remote occasions (where sin is possible but less probable). The obligation to avoid proximate occasions of sin is serious; confessors traditionally require a firm purpose to avoid them as a condition for absolution.",
+    whyItMatters: "Knowing one's occasions of sin and managing them prudently is a practical necessity for moral progress. Ignoring them while claiming to hate sin is a contradiction that ensures repeated failure.",
+    relatedTerms: ["proximate-vs-remote-occasion", "temptation-and-consent", "prudence", "occasion-of-sin"]
+  },
+  {
+    id: "proximate-vs-remote-occasion",
+    term: "Proximate vs. Remote Occasion of Sin",
+    category: "morality",
+    tags: ["occasion-of-sin", "prudence", "moral-theology"],
+    oneLiner: "The distinction between situations where sin is highly likely (proximate) and where it is merely possible (remote).",
+    body: "A proximate occasion of sin is a situation in which a person, given their particular weaknesses and history, will very likely fall into sin. A remote occasion is one where sin is possible but not probable. The obligation to avoid proximate occasions is grave, while remote occasions may be tolerated with due caution. What constitutes a proximate occasion varies by person: a situation that is remote for one person may be proximate for another.",
+    whyItMatters: "This distinction allows for realistic moral guidance that accounts for individual vulnerability rather than applying one-size-fits-all rules that are either too lax or too strict.",
+    relatedTerms: ["occasions-of-sin-deeper", "temptation-and-consent", "prudence", "self-denial"]
+  },
+  {
+    id: "temptation-and-consent",
+    term: "Temptation and Consent",
+    category: "morality",
+    tags: ["temptation", "will", "sin", "freedom"],
+    oneLiner: "The crucial moral distinction between experiencing temptation (not sinful) and giving deliberate consent to it (sinful).",
+    body: "Temptation is the experience of attraction toward a sinful object or action. Catholic moral theology insists that temptation itself is not sin; sin begins only with the consent of the will. Christ Himself was tempted (Matthew 4:1-11) without sinning. The moral life is determined not by what spontaneously arises in consciousness but by what the will freely embraces or rejects.",
+    example: "A person who experiences a sudden impulse of anger at an insult has not sinned. Sin occurs only if the person deliberately chooses to nurse that anger, plan revenge, or act on it.",
+    whyItMatters: "This distinction prevents scrupulosity (feeling guilty for every involuntary thought) and clarifies that holiness is about the will's free choices, not the absence of interior struggle.",
+    relatedTerms: ["stages-of-temptation", "first-movements-moral", "concupiscence", "full-knowledge-deliberate-consent"]
+  },
+  {
+    id: "stages-of-temptation",
+    term: "Stages of Temptation",
+    category: "morality",
+    tags: ["temptation", "spiritual-combat", "moral-psychology"],
+    oneLiner: "The progressive movement from initial suggestion through deliberation to consent that characterizes how temptation operates.",
+    body: "The spiritual tradition identifies stages in temptation: suggestion (the evil thought or image arises), delight (the imagination or emotions engage with it), and consent (the will embraces it). The earlier one resists, the easier the victory. Delectatio morosa — lingering willfully over sinful pleasure in thought — is a critical intermediate stage where the will begins to cooperate without yet reaching full consent to an external act.",
+    whyItMatters: "Understanding the stages of temptation equips the Christian to recognize the enemy's tactics early and resist effectively, rather than being caught off guard when consent seems almost inevitable.",
+    relatedTerms: ["temptation-and-consent", "first-movements-moral", "delectatio-morosa", "vigilance-virtue"]
+  },
+  {
+    id: "first-movements-moral",
+    term: "First Movements",
+    category: "morality",
+    tags: ["temptation", "passions", "aquinas", "involuntary"],
+    oneLiner: "The spontaneous, pre-voluntary stirrings of appetite or emotion that arise before the will can engage.",
+    body: "First movements (primi motus) are the initial, involuntary stirrings of the passions — a flash of anger, a surge of desire, a pang of envy — that arise before deliberate choice. Aquinas teaches that these are not sinful because they precede the will's engagement. They become the raw material of temptation only when the will begins to entertain or consent to them. Recognizing first movements helps the soul practice vigilance without falling into scrupulosity.",
+    whyItMatters: "Many Christians suffer needless guilt over involuntary thoughts and feelings. Understanding first movements liberates them to focus their moral energy on what they can control: the will's response.",
+    relatedTerms: ["temptation-and-consent", "stages-of-temptation", "concupiscence", "passions-and-virtue"]
+  },
+  {
+    id: "delectatio-morosa",
+    term: "Delectatio Morosa",
+    category: "morality",
+    tags: ["sin", "thought", "temptation", "will"],
+    oneLiner: "The deliberate lingering over sinful pleasure in the imagination, even without intending to carry out the act externally.",
+    body: "Delectatio morosa (morose delectation) is the willful savoring of imagined sinful pleasure without intending to perform the external act. It is sinful because the will deliberately engages with and takes pleasure in a disordered object. Aquinas teaches that it shares the species of the sin imagined (e.g., dwelling on imagined revenge is a sin of anger). It is distinguished from first movements by the presence of willful consent to the pleasure.",
+    whyItMatters: "This concept reveals that the moral life extends to interior acts of the will and imagination. Jesus affirmed this when He taught that lust in the heart is already adultery (Matthew 5:28).",
+    relatedTerms: ["sins-of-thought", "stages-of-temptation", "temptation-and-consent", "custody-of-the-eyes"]
+  },
+  {
+    id: "sins-of-thought",
+    term: "Sins of Thought",
+    category: "morality",
+    tags: ["sin", "interior-life", "will", "imagination"],
+    oneLiner: "Deliberate interior acts of the will — such as wishing evil, entertaining impure fantasies, or harboring hatred — that constitute real sin even without external action.",
+    body: "Sins of thought are voluntary interior acts that violate the moral law. They include deliberate desires for sinful objects, willful hatred, envious wishes, and impure fantasies entertained with consent. Christ's teaching in the Sermon on the Mount makes clear that God judges the heart, not only external behavior. These sins are confessed according to their kind and, if grave matter is involved with full knowledge and consent, they can constitute mortal sin.",
+    whyItMatters: "Recognizing sins of thought prevents a merely external morality that appears righteous while the heart remains disordered. Interior purity is essential for authentic holiness.",
+    relatedTerms: ["delectatio-morosa", "temptation-and-consent", "examination-of-conscience", "first-movements-moral"]
+  },
+  {
+    id: "sins-of-omission-deeper",
+    term: "Sins of Omission (In Depth)",
+    category: "morality",
+    tags: ["omission", "duty", "negligence", "charity"],
+    oneLiner: "Failures to do the good that one ought to do, which can be equally or more grave than sins of commission.",
+    body: "Sins of omission, examined in depth, are failures to perform the good that duty, charity, or justice requires. The parable of the Good Samaritan condemns the priest and Levite not for what they did but for what they failed to do. Sins of omission can involve neglect of prayer, failure to correct error, silence in the face of injustice, or failure to help those in need. Their gravity depends on the seriousness of the duty neglected and the circumstances.",
+    whyItMatters: "At the Last Judgment, Christ condemns not only evil actions but failures to act: 'I was hungry and you gave me no food' (Matthew 25:42). Omission is a major but often overlooked category of sin.",
+    relatedTerms: ["sins-of-omission", "negligence-moral", "charity", "justice"]
+  },
+  {
+    id: "sins-against-holy-spirit-deeper",
+    term: "Sins Against the Holy Spirit (In Depth)",
+    category: "morality",
+    tags: ["holy-spirit", "unforgivable-sin", "impenitence", "presumption"],
+    oneLiner: "Sins that by their nature resist the very means by which God offers forgiveness, making repentance humanly very difficult.",
+    body: "The sins against the Holy Spirit are traditionally listed as: despair, presumption, envy of another's spiritual good, obstinacy in sin, final impenitence, and impugning the known truth. They are called 'unforgivable' not because God's mercy is limited but because these sins, by their nature, reject the very channels through which forgiveness flows. The sinner who refuses to acknowledge sin or accept mercy places himself outside the reach of grace insofar as it depends on human cooperation.",
+    whyItMatters: "These sins represent the most dangerous spiritual states because they close the soul to conversion. Understanding them helps identify and resist the subtle movements toward spiritual self-destruction.",
+    relatedTerms: ["presumption-sin-moral", "despair-sin-moral", "obstinacy-in-sin", "final-impenitence"]
+  },
+  {
+    id: "presumption-sin-moral",
+    term: "Presumption (As Sin)",
+    category: "morality",
+    tags: ["sin", "hope", "holy-spirit", "mercy"],
+    oneLiner: "The sin of expecting salvation from God without conversion, or from oneself without grace.",
+    body: "Presumption as a sin against hope takes two forms: presuming on God's mercy while refusing to repent, or presuming on one's own powers to achieve salvation without grace. The first form treats God's mercy as a license to sin; the second denies the need for God altogether. Both distort the virtue of hope and are listed among the sins against the Holy Spirit because they reject the conditions under which God offers forgiveness.",
+    whyItMatters: "Presumption is a particularly deceptive sin because it mimics confidence in God while actually refusing to take sin seriously or to cooperate with grace.",
+    relatedTerms: ["despair-sin-moral", "hope", "sins-against-holy-spirit-deeper", "confidence-in-god"]
+  },
+  {
+    id: "despair-sin-moral",
+    term: "Despair (As Sin)",
+    category: "morality",
+    tags: ["sin", "hope", "holy-spirit", "mercy"],
+    oneLiner: "The sin of abandoning hope in God's mercy, judging one's sins to be beyond forgiveness.",
+    body: "Despair is the sin by which a person gives up hope in God's willingness or ability to forgive. It may arise from an overwhelming sense of sinfulness, from pride (refusing to accept dependence on mercy), or from a distorted image of God as harsh and unforgiving. Despair is gravely sinful because it directly contradicts the infinite mercy of God and renders the soul incapable of seeking the forgiveness that is always available.",
+    whyItMatters: "Despair is spiritually lethal because it cuts off the soul from the very remedy it needs. Recognizing it as a temptation rather than a reality is the first step toward recovery of hope.",
+    relatedTerms: ["presumption-sin-moral", "hope", "sins-against-holy-spirit-deeper", "mercy-as-virtue"]
+  },
+  {
+    id: "envy-of-spiritual-goods",
+    term: "Envy of Spiritual Goods",
+    category: "morality",
+    tags: ["envy", "holy-spirit", "charity", "sin"],
+    oneLiner: "Sorrow at another's spiritual progress or gifts, as though their graces diminish one's own.",
+    body: "Envy of spiritual goods is a particularly insidious sin in which one resents another's holiness, spiritual gifts, or growth in grace. It is listed among the sins against the Holy Spirit because it opposes the very work of grace in others. This sin can manifest as resentment of another's vocation, jealousy of another's prayer life, or displeasure at another's spiritual consolations.",
+    example: "A religious who feels resentment when a fellow community member receives spiritual gifts or praise for their holiness, rather than rejoicing, suffers from envy of spiritual goods.",
+    whyItMatters: "This sin poisons community life and spiritual friendship. It reflects a competitive rather than communal understanding of grace, as though God's gifts to one person deplete the supply for others.",
+    relatedTerms: ["sins-against-holy-spirit-deeper", "envy-deeper-moral", "charity", "fraternal-charity"]
+  },
+  {
+    id: "obstinacy-in-sin",
+    term: "Obstinacy in Sin",
+    category: "morality",
+    tags: ["impenitence", "sin", "holy-spirit", "will"],
+    oneLiner: "The deliberate hardening of the will against repentance, persisting in known sin despite awareness of its gravity.",
+    body: "Obstinacy in sin is the fixed determination to continue sinning despite clear knowledge of the evil involved. It goes beyond weakness or habit; it is a deliberate choice to reject the call to conversion. Each act of obstinacy further hardens the heart and makes future repentance more difficult, creating a downward spiral that can lead to final impenitence. It is a sin against the Holy Spirit because it resists His prompting toward conversion.",
+    whyItMatters: "Obstinacy represents the progressive hardening of the heart that makes conversion increasingly unlikely. Recognizing this pattern early is crucial for pastoral care and self-examination.",
+    relatedTerms: ["final-impenitence", "sins-against-holy-spirit-deeper", "habitual-sin-moral", "vice-formation"]
+  },
+  {
+    id: "final-impenitence",
+    term: "Final Impenitence",
+    category: "morality",
+    tags: ["death", "sin", "holy-spirit", "salvation"],
+    oneLiner: "The refusal to repent at the moment of death, which seals the soul's rejection of God's mercy for eternity.",
+    body: "Final impenitence is the state of dying in unrepented mortal sin, which results in eternal separation from God. It is the ultimate sin against the Holy Spirit because it is the definitive rejection of mercy. The Church prays urgently for the grace of final perseverance and a happy death, recognizing that this grace cannot be strictly merited but only implored. The moment of death fixes the soul's orientation for eternity.",
+    whyItMatters: "Final impenitence underscores the urgency of ongoing conversion and the necessity of praying for the grace of a good death, which is why the Church prays 'now and at the hour of our death' in the Hail Mary.",
+    relatedTerms: ["obstinacy-in-sin", "sins-against-holy-spirit-deeper", "mortal-sin", "perseverance"]
+  },
+  {
+    id: "gravity-of-sin-analysis",
+    term: "Gravity of Sin Analysis",
+    category: "morality",
+    tags: ["sin", "gravity", "moral-evaluation", "confession"],
+    oneLiner: "The systematic assessment of how serious a sin is, based on its object, the sinner's knowledge and freedom, and aggravating circumstances.",
+    body: "The gravity of sin is determined by the moral object (the nature of the act), the degree of knowledge and freedom of the sinner, and the circumstances that may increase or diminish culpability. Grave matter, full knowledge, and deliberate consent together constitute mortal sin. Factors like fear, habit, psychological pressure, and immaturity can diminish subjective culpability even when the matter is objectively grave.",
+    whyItMatters: "Accurate assessment of the gravity of sin prevents both laxity (trivializing serious sins) and scrupulosity (treating minor faults as mortal). It is essential for proper examination of conscience and confession.",
+    relatedTerms: ["mortal-sin-conditions-deeper", "venial-sin-effects", "full-knowledge-deliberate-consent", "circumstances-and-morality"]
+  },
+  {
+    id: "venial-sin-effects",
+    term: "Effects of Venial Sin",
+    category: "morality",
+    tags: ["venial-sin", "spiritual-life", "grace", "lukewarmness"],
+    oneLiner: "The cumulative spiritual damage caused by venial sins, which weaken charity and dispose the soul toward mortal sin.",
+    body: "Venial sin does not destroy the life of grace but weakens it. Its effects include diminished fervor in charity, increased attachment to created goods, weakened resistance to temptation, and a gradual dulling of conscience. Habitual venial sin creates a spiritual lukewarmness that Christ warns against (Revelation 3:16). While each venial sin is individually minor, their cumulative effect can be spiritually devastating.",
+    whyItMatters: "Dismissing venial sins as unimportant ignores their erosive power. Most spiritual decline begins not with dramatic falls but with the slow accumulation of small infidelities.",
+    relatedTerms: ["venial-sin", "habitual-sin-moral", "gravity-of-sin-analysis", "lukewarmness"]
+  },
+  {
+    id: "mortal-sin-conditions-deeper",
+    term: "Conditions for Mortal Sin (In Depth)",
+    category: "morality",
+    tags: ["mortal-sin", "conditions", "culpability", "freedom"],
+    oneLiner: "The three conditions (grave matter, full knowledge, deliberate consent) examined with pastoral nuance regarding factors that may diminish culpability.",
+    body: "Mortal sin requires three simultaneous conditions: grave matter, full knowledge, and deliberate consent. In depth, each condition involves complexity. Knowledge can be diminished by ignorance, confusion, or deception. Consent can be reduced by fear, force, habit, psychological disorders, or intense passion. The Church affirms objective moral norms while recognizing that subjective culpability varies significantly. Only God fully knows the state of a person's soul.",
+    whyItMatters: "Understanding these conditions prevents both presumption (assuming no sin is mortal) and despair (assuming every serious fault is mortal). It enables honest, nuanced self-examination.",
+    relatedTerms: ["mortal-sin", "full-knowledge-deliberate-consent", "gravity-of-sin-analysis", "vincible-vs-invincible-ignorance"]
+  },
+  {
+    id: "fundamental-option-critique-deeper",
+    term: "Fundamental Option Critique (In Depth)",
+    category: "morality",
+    tags: ["moral-theology", "fundamental-option", "veritatis-splendor"],
+    oneLiner: "The Church's detailed rejection of the theory that individual acts cannot reverse one's basic orientation toward or away from God.",
+    body: "Fundamental option theory claims that mortal sin can only consist in a radical reorientation of one's entire life away from God, not in individual acts. Veritatis Splendor (1993) rejected this theory, insisting that specific, freely chosen acts with grave matter can indeed rupture one's relationship with God. While affirming that an underlying life-direction matters, the Church teaches that this direction is built, expressed, and potentially destroyed through concrete moral choices.",
+    whyItMatters: "This critique protects the seriousness of individual moral choices against a theory that would effectively eliminate the category of mortal sin and undermine moral responsibility for specific acts.",
+    relatedTerms: ["fundamental-option-theory-critique", "mortal-sin-conditions-deeper", "veritatis-splendor", "moral-object-analysis"]
+  },
+  {
+    id: "habitual-sin-moral",
+    term: "Habitual Sin",
+    category: "morality",
+    tags: ["habit", "vice", "addiction", "moral-theology"],
+    oneLiner: "Sin that has become deeply ingrained through repetition, diminishing freedom but not eliminating responsibility.",
+    body: "Habitual sin is sin that has become so frequent and automatic that it functions almost like a reflex. While habit diminishes the full freedom of each individual act, the person bears responsibility for having cultivated the habit and for failing to take reasonable steps to overcome it. Habitual sin may diminish subjective culpability for individual acts while increasing overall moral danger, as it progressively erodes the capacity for virtue.",
+    example: "A person who has developed a habit of lying in social situations may not fully deliberate before each lie, but remains responsible for the habit and obligated to work toward overcoming it.",
+    whyItMatters: "Understanding habitual sin provides realistic pastoral guidance for those struggling with entrenched patterns of behavior, affirming both the possibility of change and the need for sustained effort.",
+    relatedTerms: ["vice-formation", "breaking-bad-habits", "venial-sin-effects", "concupiscence"]
+  },
+  {
+    id: "vice-formation",
+    term: "Vice Formation",
+    category: "morality",
+    tags: ["vice", "habit", "aquinas", "moral-psychology"],
+    oneLiner: "The process by which repeated sinful choices create stable dispositions toward evil, mirroring virtue formation in reverse.",
+    body: "Vice is formed through the same mechanism as virtue but in the opposite direction: repeated sinful choices create a disposition that inclines the person toward further sin with increasing ease. Aquinas teaches that just as virtue becomes second nature through practice, so does vice. The seven capital vices (pride, avarice, lust, anger, gluttony, envy, sloth) are called 'capital' because they are the heads from which other sins flow.",
+    whyItMatters: "Understanding vice formation reveals why moral conversion is difficult and why the Church emphasizes habitual virtue rather than merely avoiding individual sins.",
+    relatedTerms: ["habitual-sin-moral", "breaking-bad-habits", "capital-sins", "moral-rehabilitation"]
+  },
+  {
+    id: "breaking-bad-habits",
+    term: "Breaking Bad Habits",
+    category: "morality",
+    tags: ["vice", "conversion", "discipline", "grace"],
+    oneLiner: "The process of uprooting ingrained sinful patterns through grace, self-knowledge, and sustained contrary practice.",
+    body: "Breaking bad habits requires a combination of supernatural grace and natural effort. The strategy includes identifying triggers, avoiding occasions of sin, replacing vicious habits with virtuous ones, frequent recourse to the sacraments (especially Confession and the Eucharist), and enlisting the help of a spiritual director or accountability partner. Aquinas teaches that a contrary habit must be deliberately cultivated to displace the vicious one.",
+    whyItMatters: "Many Christians know what is wrong but feel powerless to change. Understanding the mechanics of habit-breaking provides practical hope grounded in both grace and nature.",
+    relatedTerms: ["vice-formation", "habitual-sin-moral", "moral-rehabilitation", "occasions-of-sin-deeper"]
+  },
+  {
+    id: "moral-rehabilitation",
+    term: "Moral Rehabilitation",
+    category: "morality",
+    tags: ["conversion", "healing", "virtue", "restoration"],
+    oneLiner: "The gradual restoration of virtue in a person whose moral character has been damaged by prolonged sin or vice.",
+    body: "Moral rehabilitation is the process of rebuilding a virtuous character after serious or habitual sin. It involves sincere repentance, sacramental reconciliation, restitution where possible, and the patient rebuilding of virtuous habits. The Church teaches that grace can restore what sin has damaged, though acquired virtues must be rebuilt through practice. This process often requires humility to accept help, patience with slow progress, and persevering trust in God's mercy.",
+    whyItMatters: "The possibility of moral rehabilitation is a corollary of God's mercy. No one is beyond redemption, and the Church's pastoral ministry aims not only at forgiveness but at genuine transformation of character.",
+    relatedTerms: ["breaking-bad-habits", "restitution-deeper", "reparation-for-harm", "confession"]
+  },
+  {
+    id: "restitution-deeper",
+    term: "Restitution (In Depth)",
+    category: "morality",
+    tags: ["justice", "reparation", "confession", "theft"],
+    oneLiner: "The obligation to restore what has been unjustly taken or to repair damage caused by one's sin, as far as possible.",
+    body: "Restitution in depth is the moral obligation arising from commutative justice to restore stolen goods, repair damaged reputation, or compensate for harm caused. It is a condition for valid absolution in cases of theft or injustice: one cannot be forgiven while refusing to make right what one has wronged. The obligation extends to the full extent of one's ability and includes intangible harms like damaged reputation (requiring retraction of calumny).",
+    example: "A person who has defrauded a business partner must not only confess the sin but also make financial restitution to the extent they are able, even if it causes personal hardship.",
+    whyItMatters: "Restitution demonstrates that repentance is genuine and not merely verbal. It restores the order of justice that sin has disrupted and provides concrete evidence of conversion.",
+    relatedTerms: ["justice", "reparation-for-harm", "restitution", "calumny-deeper"]
+  },
+  {
+    id: "reparation-for-harm",
+    term: "Reparation for Harm",
+    category: "morality",
+    tags: ["justice", "charity", "healing", "responsibility"],
+    oneLiner: "The broader obligation to repair all forms of damage caused by one's sin, including emotional and spiritual harm.",
+    body: "Reparation extends beyond strict restitution of stolen goods to include all forms of harm caused by sin: emotional damage, spiritual scandal, broken trust, and wounded relationships. While not always quantifiable in the way material restitution is, reparation involves sincere apology, changed behavior, patient rebuilding of trust, and prayer for those one has harmed. The Church also teaches a broader doctrine of reparation for sin through prayer and sacrifice.",
+    whyItMatters: "Sin has consequences beyond the individual sinner. Reparation acknowledges these wider effects and demonstrates that genuine conversion involves taking responsibility for the full impact of one's actions.",
+    relatedTerms: ["restitution-deeper", "scandal-deeper", "justice", "moral-rehabilitation"]
+  },
+  {
+    id: "just-anger-moral",
+    term: "Just Anger",
+    category: "morality",
+    tags: ["anger", "justice", "virtue", "fortitude"],
+    oneLiner: "Anger that is morally justified because it responds proportionately to genuine injustice.",
+    body: "Just anger is the morally appropriate response to genuine evil or injustice. It becomes sinful only when it is disproportionate, directed at the wrong object, or nursed into hatred and desire for revenge. The prophets of Israel expressed just anger at oppression and idolatry, and Jesus displayed it in cleansing the Temple. Catholic moral theology affirms that the total absence of anger in the face of evil is itself a moral deficiency.",
+    whyItMatters: "Just anger energizes the pursuit of justice and the defense of the vulnerable. Without it, charity becomes passive in the face of evil.",
+    relatedTerms: ["righteous-indignation", "wrath-deeper-moral", "justice", "fortitude"]
+  },
+  {
+    id: "calumny-deeper",
+    term: "Calumny (In Depth)",
+    category: "morality",
+    tags: ["sin", "speech", "justice", "reputation"],
+    oneLiner: "The grave sin of harming another's reputation by making false statements about them.",
+    body: "Calumny is the sin of attributing to another person faults or failings they do not actually have, thereby unjustly damaging their reputation. It combines the malice of lying with the injustice of destroying another's good name. Aquinas teaches that calumny is a sin against justice that requires restitution: the calumniator must retract the false statements and repair the damage to the extent possible. The gravity varies with the seriousness of the false accusation.",
+    whyItMatters: "A person's reputation is a precious good that, once destroyed by calumny, is extremely difficult to restore. This sin causes lasting harm to individuals, families, and communities.",
+    relatedTerms: ["detraction-deeper", "rash-judgment-deeper", "restitution-deeper", "justice"]
+  },
+  {
+    id: "detraction-deeper",
+    term: "Detraction (In Depth)",
+    category: "morality",
+    tags: ["sin", "speech", "justice", "reputation"],
+    oneLiner: "The sin of revealing another's real faults or failings to persons who have no need or right to know them.",
+    body: "Detraction differs from calumny in that what is said is true, but it is revealed without just cause to those who have no right to know. It violates the neighbor's right to their good name and the virtue of charity. Detraction is only justified when there is a proportionate reason to disclose the information, such as protecting the innocent or correcting a serious wrong. Casual revelation of others' faults constitutes gossip, a form of detraction.",
+    whyItMatters: "The truth of a statement does not automatically justify sharing it. Detraction teaches that charity governs communication, requiring us to protect others' reputations unless a serious reason demands disclosure.",
+    relatedTerms: ["calumny-deeper", "gossip-moral-analysis", "charity", "rash-judgment-deeper"]
+  },
+  {
+    id: "gossip-moral-analysis",
+    term: "Gossip (Moral Analysis)",
+    category: "morality",
+    tags: ["speech", "sin", "charity", "community"],
+    oneLiner: "The casual sharing of information about others that damages their reputation or violates their privacy, typically for entertainment.",
+    body: "Gossip is a form of detraction characterized by its casual, often recreational nature. It involves sharing private or embarrassing information about others without just cause, typically to entertain, bond with listeners, or elevate oneself at another's expense. Pope Francis has repeatedly condemned gossip as a destructive force that kills relationships and communities. Its gravity depends on the harm caused and the malice intended.",
+    example: "Coworkers who regularly discuss a colleague's personal struggles during breaks, not out of concern but for entertainment, engage in gossip that violates charity and justice.",
+    whyItMatters: "Gossip is perhaps the most common sin of speech, often excused as harmless conversation. Its cumulative effect can destroy reputations, fracture communities, and erode trust.",
+    relatedTerms: ["detraction-deeper", "calumny-deeper", "custody-of-the-tongue", "charity"]
+  },
+  {
+    id: "rash-judgment-deeper",
+    term: "Rash Judgment (In Depth)",
+    category: "morality",
+    tags: ["sin", "judgment", "charity", "justice"],
+    oneLiner: "The sin of assuming, without adequate evidence, that another person has committed a fault or acts from bad motives.",
+    body: "Rash judgment, examined in depth, involves three degrees of increasing gravity: suspicion (entertaining doubt about another's goodness without cause), rash judgment proper (mentally concluding another is guilty on insufficient evidence), and rash condemnation (definitively judging another guilty). Aquinas teaches that charity requires interpreting ambiguous actions favorably whenever possible. Rash judgment often reveals more about the judge's own interior disorder than about the person judged.",
+    whyItMatters: "Rash judgment undermines community life by fostering distrust and conflict. It also hardens the heart of the one who judges, making them less receptive to grace and less capable of genuine charity.",
+    relatedTerms: ["calumny-deeper", "detraction-deeper", "charity", "justice"]
+  },
+  {
+    id: "lies-types-and-gravity",
+    term: "Types and Gravity of Lies",
+    category: "morality",
+    tags: ["lying", "truth", "speech", "moral-theology"],
+    oneLiner: "The classification of lies by their nature and seriousness, from jocose lies to pernicious lies that cause grave harm.",
+    body: "Catholic moral theology classifies lies by purpose and effect. Jocose lies (told in jest, not intended to deceive) are venially sinful. Officious lies (told to help someone or avoid harm) are also sinful but less grave. Pernicious lies (told to harm another or gain unjust advantage) are the most serious and can constitute grave sin. All lies are intrinsically disordered because they violate the natural purpose of speech, which is to communicate truth.",
+    whyItMatters: "Understanding the types and gravity of lies enables more accurate examination of conscience and helps Christians appreciate why all forms of dishonesty, even 'white lies,' damage the moral order.",
+    relatedTerms: ["truthfulness-virtue", "mental-reservation-deeper", "calumny-deeper", "justice"]
+  },
+  {
+    id: "mental-reservation-deeper",
+    term: "Mental Reservation (In Depth)",
+    category: "morality",
+    tags: ["lying", "truth", "moral-theology", "speech"],
+    oneLiner: "The practice of using ambiguous speech to conceal truth without technically lying, permitted only in narrow circumstances.",
+    body: "Mental reservation is the use of words that have a true meaning understood by the speaker but are likely to be interpreted differently by the hearer. Strict mental reservation (where no listener could discern the true meaning) is morally equivalent to lying and is condemned. Broad mental reservation (where a perceptive listener could grasp the true meaning from context) may be permissible when there is a grave reason to conceal information that the questioner has no right to know.",
+    example: "When Nazi officers asked if anyone was hiding Jews, those who used ambiguous replies to protect the hidden were employing broad mental reservation to protect innocent lives.",
+    whyItMatters: "This nuanced teaching balances the obligation to truth with the obligation to protect confidential information and innocent lives, demonstrating the complexity of real moral situations.",
+    relatedTerms: ["lies-types-and-gravity", "lying-mental-reservation", "truthfulness-virtue", "prudence"]
+  },
+  {
+    id: "secrets-and-confidentiality",
+    term: "Secrets and Confidentiality",
+    category: "morality",
+    tags: ["truth", "justice", "trust", "professional-ethics"],
+    oneLiner: "The moral obligation to keep entrusted information private, varying in strictness according to the type of secret.",
+    body: "Catholic moral theology distinguishes natural secrets (known by discovery, bound by charity), promised secrets (bound by fidelity), and entrusted secrets (bound by justice). The seal of confession is the strictest obligation of secrecy in the Church, admitting of no exceptions whatsoever. Professional secrets (medical, legal, pastoral) also bind strictly. A secret may sometimes be revealed to prevent serious harm, but this judgment requires careful prudential reasoning.",
+    whyItMatters: "The obligation of confidentiality upholds trust, which is the foundation of pastoral care, professional relationships, and community life. Its violation can cause irreparable harm.",
+    relatedTerms: ["justice", "promise-keeping-moral", "lies-types-and-gravity", "detraction-deeper"]
+  },
+  {
+    id: "promise-keeping-moral",
+    term: "Promise Keeping",
+    category: "morality",
+    tags: ["fidelity", "justice", "truth", "commitment"],
+    oneLiner: "The moral obligation to fulfill commitments freely made, grounded in justice and truthfulness.",
+    body: "Keeping promises is a requirement of both justice and truthfulness. A promise creates a moral bond that obligates the promisor to fulfill what was pledged. Breaking a promise without just cause is sinful, its gravity depending on the importance of the promise and the harm caused by its violation. Promises may become non-binding if circumstances change so radically that fulfillment becomes impossible or would cause disproportionate harm.",
+    whyItMatters: "Promise-keeping is the practical foundation of trust in human relationships. Without it, contracts, vows, covenants, and all social cooperation become unreliable.",
+    relatedTerms: ["oath-morality", "vow-morality", "justice", "fidelity-virtue"]
+  },
+  {
+    id: "oath-morality",
+    term: "Morality of Oaths",
+    category: "morality",
+    tags: ["oath", "truth", "reverence", "justice"],
+    oneLiner: "The moral principles governing the solemn invocation of God as witness to the truth of a statement or the sincerity of a promise.",
+    body: "An oath calls upon God as witness to the truth of what one affirms or the sincerity of what one promises. Catholic teaching holds that oaths are legitimate when taken for serious reasons, with truth, judgment, and justice (the three conditions from Jeremiah 4:2). Swearing falsely (perjury) is a grave sin because it involves God in a lie. Rash or trivial oaths dishonor God's name. Christ's command to 'not swear at all' (Matthew 5:34) is understood as prohibiting casual oaths, not solemn juridical ones.",
+    whyItMatters: "Oaths invoke the sacred to guarantee truth. Their misuse profanes God's name and undermines the trust that legal and social institutions depend upon.",
+    relatedTerms: ["perjury-moral", "promise-keeping-moral", "vow-morality", "truthfulness-virtue"]
+  },
+  {
+    id: "vow-morality",
+    term: "Morality of Vows",
+    category: "morality",
+    tags: ["vow", "promise", "religion", "commitment"],
+    oneLiner: "The moral principles governing solemn promises made to God, which bind under the virtue of religion.",
+    body: "A vow is a deliberate, free promise made to God concerning a possible and better good. It binds under the virtue of religion, making its violation not merely a broken promise but an offense against God. Religious vows (poverty, chastity, obedience) and marriage vows are the most significant examples. Dispensation from vows may be granted by competent Church authority for proportionate reasons, but vows should not be undertaken lightly.",
+    whyItMatters: "Vows consecrate human freedom by directing it definitively toward God. They represent the highest expression of commitment and are a privileged path to holiness when faithfully lived.",
+    relatedTerms: ["oath-morality", "promise-keeping-moral", "evangelical-counsels", "religion"]
+  },
+  {
+    id: "perjury-moral",
+    term: "Perjury",
+    category: "morality",
+    tags: ["lying", "oath", "grave-sin", "justice"],
+    oneLiner: "The grave sin of swearing falsely under oath, involving God as witness to a lie.",
+    body: "Perjury is the act of making a false statement while under oath, or breaking a sworn promise. It is a grave sin against both the second commandment (taking God's name in vain) and justice (deceiving those who rely on sworn testimony). In legal contexts, perjury can lead to wrongful conviction of the innocent or acquittal of the guilty, compounding the injustice. The gravity of perjury reflects the sacred character of the oath it violates.",
+    whyItMatters: "Perjury strikes at the foundations of both religious reverence and civil justice. It treats God's name as an instrument of deception and undermines the entire system of sworn testimony.",
+    relatedTerms: ["oath-morality", "lies-types-and-gravity", "justice", "blasphemy-moral"]
+  },
+  {
+    id: "blasphemy-moral",
+    term: "Blasphemy",
+    category: "morality",
+    tags: ["sin", "speech", "reverence", "commandment"],
+    oneLiner: "The grave sin of speaking contemptuously or irreverently about God, the saints, or sacred things.",
+    body: "Blasphemy is speech, thought, or action that expresses contempt, hatred, or defiance toward God. It includes cursing God, speaking irreverently about sacred things, and claiming divine prerogatives for oneself. The gravity of blasphemy lies in its direct attack on God's honor. Aquinas considers it a sin against the virtue of religion and potentially against faith. Internal blasphemy (in thought) is also sinful when deliberate.",
+    whyItMatters: "Blasphemy violates the first and most fundamental duty of creatures: reverence toward their Creator. It coarsens culture and erodes the sense of the sacred.",
+    relatedTerms: ["profanity-vs-vulgarity", "sacrilege-types", "reverence", "second-commandment"]
+  },
+  {
+    id: "sacrilege-types",
+    term: "Types of Sacrilege",
+    category: "morality",
+    tags: ["sacrilege", "sacred", "sin", "reverence"],
+    oneLiner: "The violation of sacred persons, places, or things, classified according to what is profaned.",
+    body: "Sacrilege is the profanation of what is sacred. Catholic moral theology distinguishes personal sacrilege (violating a consecrated person), local sacrilege (desecrating a sacred place), and real sacrilege (profaning sacred objects, especially the sacraments). Receiving Holy Communion in a state of mortal sin is a grave sacrilege against the Eucharist (1 Corinthians 11:27). The gravity varies with the dignity of what is profaned.",
+    whyItMatters: "Sacrilege offends against the virtue of religion by treating what God has set apart as though it were common. It strikes at the heart of worship and the sacred order.",
+    relatedTerms: ["blasphemy-moral", "simony-moral", "eucharist", "reverence"]
+  },
+  {
+    id: "simony-moral",
+    term: "Simony",
+    category: "morality",
+    tags: ["sin", "commerce", "sacred", "church-law"],
+    oneLiner: "The sin of buying or selling spiritual things, named after Simon Magus who tried to purchase the power of the Holy Spirit.",
+    body: "Simony is the deliberate buying or selling of spiritual goods (sacraments, ecclesiastical offices, prayers, indulgences) for temporal gain. Named after Simon Magus (Acts 8:18-24), it treats what is gratuitous — God's grace — as a commodity. Church law imposes severe penalties for simony, including excommunication. It applies not only to direct monetary transactions but to any exchange where spiritual goods are treated as items of commerce.",
+    whyItMatters: "Simony corrupts the Church's mission by commercializing what Christ gave freely. It is a grave injustice against the faithful and a scandal that undermines trust in ecclesial authority.",
+    relatedTerms: ["sacrilege-types", "justice", "grace", "church-law"]
+  },
+  {
+    id: "superstition-moral",
+    term: "Superstition",
+    category: "morality",
+    tags: ["sin", "religion", "first-commandment", "idolatry"],
+    oneLiner: "The deviation of religious sentiment by attributing magical efficacy to practices, objects, or rituals beyond what God has ordained.",
+    body: "Superstition is excess in religion: giving religious significance to what does not merit it, or attributing to religious practices an efficacy they do not possess apart from God's will. It includes believing that the mere mechanical performance of a prayer guarantees results, wearing religious objects as magical talismans, or mixing Christian practice with pagan rituals. Aquinas treats it as a sin against the virtue of religion by excess.",
+    whyItMatters: "Superstition corrupts authentic faith by replacing trust in God with trust in practices or objects. It reduces the living God to a force that can be manipulated by human technique.",
+    relatedTerms: ["divination-moral", "magic-and-occult", "religion", "first-commandment"]
+  },
+  {
+    id: "divination-moral",
+    term: "Divination",
+    category: "morality",
+    tags: ["occult", "first-commandment", "sin", "fortune-telling"],
+    oneLiner: "The attempt to gain hidden knowledge through means other than God's providence, such as astrology, fortune-telling, or consulting spirits.",
+    body: "Divination is the practice of seeking knowledge of the future or hidden things through means not ordained by God. It includes astrology, fortune-telling, palmistry, tarot cards, consulting mediums, and similar practices. The Catechism condemns all forms of divination as contrary to the first commandment, noting that they either invoke demonic powers or claim a knowledge that belongs to God alone. Even when practiced 'for fun,' they habituate the mind to seeking guidance outside God's providence.",
+    whyItMatters: "Divination represents a fundamental distrust of God's providence and a dangerous openness to spiritual deception. It is far more common in contemporary culture than many Christians realize.",
+    relatedTerms: ["superstition-moral", "magic-and-occult", "trust-in-providence", "first-commandment"]
+  },
+  {
+    id: "magic-and-occult",
+    term: "Magic and the Occult",
+    category: "morality",
+    tags: ["occult", "sin", "first-commandment", "spiritual-danger"],
+    oneLiner: "Any attempt to harness supernatural power apart from God, which is gravely sinful and spiritually dangerous.",
+    body: "Magic and occult practices include sorcery, witchcraft, spiritism, necromancy, and any attempt to exercise preternatural power independently of God. The Church condemns these absolutely, whether they 'work' or not, because they either invoke demonic assistance or claim a power that belongs to God alone. Involvement in the occult, even out of curiosity, can open doors to spiritual oppression and is incompatible with the Christian faith.",
+    whyItMatters: "The resurgence of occult interest in contemporary culture makes this teaching urgently relevant. Even casual involvement can have serious spiritual consequences that require pastoral intervention.",
+    relatedTerms: ["divination-moral", "superstition-moral", "first-commandment", "spiritual-combat"]
+  },
+  {
+    id: "acedia-as-sin",
+    term: "Acedia as Sin",
+    category: "morality",
+    tags: ["capital-sin", "sloth", "spiritual-life", "negligence"],
+    oneLiner: "The capital sin of spiritual apathy that rejects the divine good with sorrow and leads to neglect of one's duties toward God.",
+    body: "Acedia as a moral category is the capital sin that produces spiritual torpor, avoidance of prayer, neglect of duties, and restless distraction-seeking. Its daughters, according to Aquinas, include malice, spite, faintheartedness, despair, sluggishness regarding the commandments, and wandering of the mind toward forbidden things. It is opposed primarily to the joy of charity and the diligence that love for God naturally produces.",
+    whyItMatters: "Acedia is often unrecognized because it manifests as busyness with worldly things rather than obvious laziness. Identifying it correctly is essential for spiritual diagnosis and growth.",
+    relatedTerms: ["sloth-deeper-moral", "diligence", "spiritual-joy", "capital-sins"]
+  },
+  {
+    id: "gluttony-deeper-moral",
+    term: "Gluttony (In Depth)",
+    category: "morality",
+    tags: ["capital-sin", "temperance", "excess", "body"],
+    oneLiner: "The capital vice of disordered desire for the pleasure of eating and drinking, extending beyond mere quantity to include fastidiousness and excess.",
+    body: "Gluttony in depth encompasses not only eating too much but also Aquinas's five species: eating too soon (praepropere), too expensively (laute), too much (nimis), too eagerly (ardenter), and too daintily (studiose). It is a sin against temperance that disorders the appetites and makes the body's demands master rather than servant. Its daughters include dullness of mind, excessive joviality, impurity, and talkativeness.",
+    whyItMatters: "Gluttony is often trivialized in modern culture, yet it represents a fundamental disorder in the soul's governance of bodily appetites. Fasting and abstinence are the Church's prescribed remedies.",
+    relatedTerms: ["temperance", "abstinence-virtue", "sobriety", "capital-sins"]
+  },
+  {
+    id: "lust-capital-sin",
+    term: "Lust as Capital Sin",
+    category: "morality",
+    tags: ["capital-sin", "chastity", "purity", "temperance"],
+    oneLiner: "The disordered desire for sexual pleasure outside the order established by God for human sexuality.",
+    body: "Lust is the capital sin of seeking sexual pleasure as an end in itself, divorced from its proper context in conjugal love open to life. Aquinas lists its daughters as blindness of mind, thoughtlessness, inconstancy, rashness, self-love, hatred of God, attachment to the present world, and despair of the future. Lust does not merely concern external acts but includes deliberate thoughts, desires, and fantasies.",
+    whyItMatters: "Lust disorders the most powerful of human appetites and, when habitual, can dominate the entire personality, undermining relationships, vocations, and the capacity for genuine love.",
+    relatedTerms: ["chastity", "temperance", "capital-sins", "custody-of-the-eyes"]
+  },
+  {
+    id: "avarice-deeper-moral",
+    term: "Avarice (In Depth)",
+    category: "morality",
+    tags: ["capital-sin", "greed", "material-goods", "detachment"],
+    oneLiner: "The disordered love of wealth and material possessions that leads to injustice and spiritual blindness.",
+    body: "Avarice (greed) is the capital sin of excessive attachment to material goods and money. St. Paul calls it a 'root of all evils' (1 Timothy 6:10). Its daughters include treachery, fraud, deceit, perjury, restlessness, violence, and hardness of heart toward the poor. Avarice blinds the soul to spiritual goods by fixating its desire on material security, making it increasingly difficult to trust in God's providence.",
+    whyItMatters: "In a consumer culture, avarice is perhaps the most culturally reinforced capital sin. Its power to enslave is evident in the anxiety, workaholism, and indifference to the poor that characterize affluent societies.",
+    relatedTerms: ["liberality", "poverty-of-spirit", "detachment", "capital-sins"]
+  },
+  {
+    id: "wrath-deeper-moral",
+    term: "Wrath (In Depth)",
+    category: "morality",
+    tags: ["capital-sin", "anger", "temperance", "revenge"],
+    oneLiner: "The capital sin of disordered anger that seeks disproportionate revenge or takes pleasure in another's suffering.",
+    body: "Wrath as a capital sin is anger that exceeds right reason in its object, intensity, or duration. Its daughters include quarreling, swelling of the mind, contumely (insulting speech), clamor, indignation, and blasphemy. Sinful wrath differs from righteous anger in that it seeks revenge rather than justice, takes pleasure in another's pain, or persists beyond what the situation warrants. It is moderated by meekness and patience.",
+    whyItMatters: "Disordered wrath destroys relationships, communities, and the wrathful person's own peace of soul. Its effects ripple outward to harm many beyond the immediate target.",
+    relatedTerms: ["just-anger-moral", "meekness", "patience", "capital-sins"]
+  },
+  {
+    id: "pride-deeper-moral",
+    term: "Pride (In Depth)",
+    category: "morality",
+    tags: ["capital-sin", "humility", "self-love", "root-sin"],
+    oneLiner: "The queen of all vices: the disordered self-love that places oneself at the center of reality in place of God.",
+    body: "Pride is the fundamental sin from which all others flow. Aquinas distinguishes it from vainglory: pride is the inordinate desire for one's own excellence, while vainglory is the desire for its recognition. At its deepest, pride is the refusal to acknowledge one's creaturely dependence on God. It was the sin of Lucifer and the root of the original sin. Its subtlety lies in its ability to corrupt even good works and spiritual practices.",
+    whyItMatters: "Pride is the root sin that makes all other sins possible and all virtues unstable. Without humility to counteract it, even genuine spiritual gifts become occasions for deeper self-deception.",
+    relatedTerms: ["humility", "vainglory-deeper-moral", "capital-sins", "original-sin"]
+  },
+  {
+    id: "envy-deeper-moral",
+    term: "Envy (In Depth)",
+    category: "morality",
+    tags: ["capital-sin", "charity", "sadness", "neighbor"],
+    oneLiner: "The capital sin of sorrow at another's good fortune or gifts, perceiving them as diminishing one's own worth.",
+    body: "Envy is the sadness or resentment one feels at another's good, whether material, social, or spiritual. Aquinas lists its daughters as hatred, detraction, rejoicing at misfortune, and whispering. Envy directly opposes charity, which rejoices in another's good (1 Corinthians 13:6). Unlike jealousy (which fears losing what one has), envy resents what another possesses. It is particularly corrosive because it can never be satisfied: there will always be someone with more.",
+    whyItMatters: "Envy makes happiness impossible because it defines one's well-being in comparison to others rather than in relation to God. It is the sin that most directly attacks fraternal communion.",
+    relatedTerms: ["charity", "envy-of-spiritual-goods", "capital-sins", "gratitude"]
+  },
+  {
+    id: "sloth-deeper-moral",
+    term: "Sloth (In Depth)",
+    category: "morality",
+    tags: ["capital-sin", "acedia", "laziness", "negligence"],
+    oneLiner: "The capital sin of laziness and aversion to effort, especially in spiritual matters, that leads to neglect of duty.",
+    body: "Sloth, while often identified with physical laziness, is more fundamentally a spiritual vice: the aversion to the effort required by the good. It manifests as procrastination in prayer, half-hearted participation in worship, neglect of moral duties, and a general resistance to the demands of growth. Aquinas connects sloth to sadness in the face of the divine good, making it closely related to acedia.",
+    whyItMatters: "Sloth allows the spiritual life to atrophy through neglect. It is particularly dangerous because it does not actively resist God but simply drifts away through inaction.",
+    relatedTerms: ["acedia-as-sin", "diligence", "perseverance", "capital-sins"]
+  },
+  {
+    id: "vainglory-deeper-moral",
+    term: "Vainglory (In Depth)",
+    category: "morality",
+    tags: ["capital-sin", "pride", "praise", "honor"],
+    oneLiner: "The excessive and disordered pursuit of recognition, praise, and human glory for its own sake.",
+    body: "Vainglory, examined in depth, is distinguished from legitimate honor (which accompanies genuine excellence) by its disordered character: the vainglorious person seeks praise as an end in itself rather than as a natural consequence of genuine achievement. Aquinas lists its daughters as boasting, love of novelties, hypocrisy, contention, obstinacy, discord, and presumption of originality. It corrupts good works by redirecting their purpose from God to self.",
+    whyItMatters: "Vainglory is especially dangerous for those in ministry, leadership, or public life, where the temptation to perform for applause rather than for God is constant and insidious.",
+    relatedTerms: ["pride-deeper-moral", "humility", "boasting-moral", "capital-sins"]
+  },
+  {
+    id: "curiosity-vice",
+    term: "Curiosity as Vice",
+    category: "morality",
+    tags: ["vice", "studiousness", "knowledge", "temperance"],
+    oneLiner: "The disordered desire for knowledge that is harmful, unnecessary, or pursued for sinful purposes.",
+    body: "Curiosity as a vice (curiositas) is distinguished from the virtue of studiousness (studiositas). While studiousness directs the desire to know toward genuine goods in proper measure, curiosity seeks knowledge that is harmful (occult knowledge), unnecessary (morbid fascination with evil), or distracting from more important duties. Aquinas places it under the sins opposed to temperance, as it involves an intemperate appetite for knowing.",
+    example: "A person who spends hours reading about crimes, scandals, and disasters out of morbid fascination, neglecting prayer and duties, suffers from the vice of curiosity.",
+    whyItMatters: "In the information age, the vice of curiosity is epidemic. The unlimited availability of content makes the disciplined direction of attention a critical moral task.",
+    relatedTerms: ["studiousness", "temperance", "custody-of-the-eyes", "prudence"]
+  },
+  {
+    id: "negligence-moral",
+    term: "Negligence",
+    category: "morality",
+    tags: ["sin", "omission", "prudence", "duty"],
+    oneLiner: "The culpable failure to give proper attention and care to one's moral duties.",
+    body: "Negligence is the failure to exercise the care and attention that duty requires. Aquinas treats it as a sin against prudence, specifically against the act of solicitude (taking proper care about what needs to be done). It differs from simple forgetfulness in that the negligent person could and should have been more attentive. Negligence in serious matters — the care of children, the duties of one's state in life, the formation of conscience — can constitute grave sin.",
+    whyItMatters: "Negligence is the most common form of the sin of omission. Much moral evil results not from malicious intent but from the failure to attend properly to one's responsibilities.",
+    relatedTerms: ["sins-of-omission-deeper", "prudence", "diligence", "responsibility"]
+  },
+  {
+    id: "human-trafficking-moral",
+    term: "Human Trafficking (Moral Analysis)",
+    category: "morality",
+    tags: ["social-sin", "justice", "dignity", "grave-evil"],
+    oneLiner: "The grave moral evil of exploiting human beings as commodities through forced labor, sexual exploitation, or other forms of servitude.",
+    body: "Human trafficking is the modern form of slavery: the recruitment, transportation, or harboring of persons through force, fraud, or coercion for the purpose of exploitation. The Church condemns it as a crime against human dignity and an intrinsic evil. Pope Francis has called it 'an open wound on the body of contemporary society.' Moral responsibility extends to all who knowingly participate in, benefit from, or fail to oppose trafficking when they can.",
+    whyItMatters: "Human trafficking affects millions worldwide and represents one of the gravest moral crises of our time. Catholics are called to combat it through awareness, advocacy, and support for victims.",
+    relatedTerms: ["sanctity-of-life", "justice", "social-sin", "human-dignity"]
+  },
+  {
+    id: "usury-deeper-moral",
+    term: "Usury (In Depth)",
+    category: "morality",
+    tags: ["economic-justice", "lending", "aquinas", "exploitation"],
+    oneLiner: "The moral prohibition against charging excessive interest that exploits the borrower's need.",
+    body: "Usury, examined in depth, is the charging of interest that is exploitative or disproportionate to the lender's actual risk and costs. While the medieval absolute prohibition on all interest has been developed in light of modern economics, the underlying moral principle remains: profiting from another's desperation or necessity is a sin against justice. Predatory lending, payday loans at exorbitant rates, and debt structures designed to trap borrowers represent modern forms of usury.",
+    whyItMatters: "Usury remains a live moral issue despite changes in economic structures. The exploitation of the poor through predatory financial practices is a grave injustice that demands Christian attention.",
+    relatedTerms: ["just-price-deeper-moral", "economic-justice", "justice", "usury"]
+  },
+  {
+    id: "just-price-deeper-moral",
+    term: "Just Price (In Depth)",
+    category: "morality",
+    tags: ["economic-justice", "aquinas", "commerce", "fairness"],
+    oneLiner: "The moral principle that goods and services should be exchanged at prices reflecting their genuine value, without exploitation.",
+    body: "The just price doctrine, developed by Aquinas and the Scholastics, holds that commerce must respect the inherent value of goods and the dignity of both buyer and seller. While recognizing that prices fluctuate with supply and demand, Catholic teaching insists that deliberately exploiting scarcity, ignorance, or necessity to extract inflated prices is sinful. The just price principle calls for transparency, fairness, and concern for the common good in all economic exchanges.",
+    whyItMatters: "The just price principle provides a moral framework for evaluating economic practices in light of human dignity rather than mere market efficiency, challenging both price gouging and worker exploitation.",
+    relatedTerms: ["usury-deeper-moral", "economic-justice", "justice", "just-price"]
   }
 ];

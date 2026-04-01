@@ -862,4 +862,724 @@ export const doctrineConcepts: Concept[] = [
     whyItMatters: "Apostolic succession is the structural backbone of Catholic sacramental life: without it, there is no valid Eucharist, and without the Eucharist, the Church cannot be what Christ founded her to be.",
     relatedTerms: ["apostolicity", "marks-of-the-church", "magisterium", "ecclesiology"]
   },
+{
+    id: "divine-simplicity-aquinas",
+    term: "Divine Simplicity (Aquinas)",
+    category: "doctrine",
+    tags: ["God", "Aquinas", "Metaphysics"],
+    oneLiner: "God has no parts, potentiality, or composition of any kind — He is identical with His own existence and essence.",
+    body: "Aquinas argues in the Summa Theologiae (I, q.3) that God cannot be composed of matter and form, substance and accidents, or essence and existence. In God, to be and to be good are the same act. This is because any composition would require a prior cause to unite the parts, but God as First Cause has no prior cause.",
+    whyItMatters: "Divine simplicity grounds all other divine attributes: because God is not composite, His goodness, truth, and being are one, preventing any rivalry among His perfections.",
+    relatedTerms: ["divine-perfection-ext", "divine-eternity-ext", "analogy-of-being"]
+  },
+  {
+    id: "divine-eternity-ext",
+    term: "Divine Eternity",
+    category: "doctrine",
+    tags: ["God", "Time", "Boethius"],
+    oneLiner: "God exists outside of time in an eternal 'now,' possessing the fullness of life all at once.",
+    body: "Following Boethius and Aquinas, Catholic theology teaches that eternity is not merely endless duration but the total, simultaneous, and perfect possession of interminable life. God does not experience succession of moments. Past, present, and future are all equally present to Him, which is why He can know future free acts without determining them.",
+    whyItMatters: "Divine eternity explains how God's foreknowledge and human free will are compatible: God sees all moments in a single eternal present rather than predicting a future He has not yet witnessed.",
+    relatedTerms: ["divine-simplicity-aquinas", "divine-knowledge-ext", "divine-immutability"]
+  },
+  {
+    id: "divine-knowledge-ext",
+    term: "Divine Knowledge",
+    category: "doctrine",
+    tags: ["God", "Omniscience", "Aquinas"],
+    oneLiner: "God knows all things — actual, possible, and future — through a single act of self-knowledge.",
+    body: "Aquinas teaches that God does not learn or reason discursively. He knows all things by knowing His own essence, which contains the exemplar ideas of every possible creature. His knowledge of actual events is called 'knowledge of vision,' while His knowledge of pure possibilities is called 'knowledge of simple intelligence.' This infinite knowledge includes future contingents and free human choices.",
+    whyItMatters: "Divine knowledge assures believers that nothing escapes God's awareness; every prayer is heard, every injustice seen, and every act of love noted by a God who knows all.",
+    relatedTerms: ["divine-eternity-ext", "divine-will-ext", "divine-providence"]
+  },
+  {
+    id: "divine-will-ext",
+    term: "Divine Will",
+    category: "doctrine",
+    tags: ["God", "Providence", "Freedom"],
+    oneLiner: "God wills His own goodness necessarily and all other things freely, without any external compulsion.",
+    body: "Aquinas distinguishes between God's antecedent will (what He desires in principle, such as the salvation of all) and His consequent will (what He actually permits or ordains considering all circumstances). God's will is the cause of all things that exist, yet He freely wills creatures — He did not need to create. His will cannot be frustrated in its ultimate purposes, though He permits creaturely freedom and even sin.",
+    whyItMatters: "Understanding divine will helps the believer trust that God's plan is neither arbitrary nor coerced but flows from infinite wisdom and love, even when events seem chaotic.",
+    relatedTerms: ["divine-knowledge-ext", "divine-omnipotence-ext", "divine-goodness-ext"]
+  },
+  {
+    id: "divine-omnipotence-ext",
+    term: "Divine Omnipotence",
+    category: "doctrine",
+    tags: ["God", "Power", "Aquinas"],
+    oneLiner: "God can do all things that are intrinsically possible, though He cannot do what involves a logical contradiction.",
+    body: "Aquinas clarifies that omnipotence does not mean God can do the logically impossible, such as making a square circle or a rock too heavy for Himself to lift. These are not genuine powers but pseudo-concepts. God's power extends to everything that has the nature of being, and He exercises it freely. His omnipotence is active and creative, bringing and sustaining all reality in existence.",
+    whyItMatters: "Properly understanding omnipotence defends the faith against superficial objections while revealing that God's power is ordered by wisdom, not raw force.",
+    relatedTerms: ["divine-will-ext", "divine-simplicity-aquinas", "creatio-ex-nihilo"]
+  },
+  {
+    id: "divine-goodness-ext",
+    term: "Divine Goodness",
+    category: "doctrine",
+    tags: ["God", "Goodness", "Metaphysics"],
+    oneLiner: "God is goodness itself — not merely good by participation but the subsistent source from which all created goodness derives.",
+    body: "In Aquinas's metaphysics, goodness and being are convertible: whatever exists is good insofar as it exists. Since God is pure act of being with no potentiality or deficiency, He is supreme goodness. All creatures participate in His goodness to varying degrees. God's goodness is also diffusive of itself, which is why He freely creates — not from need but from the overflow of His perfection.",
+    whyItMatters: "The doctrine of divine goodness assures the faithful that the ultimate ground of reality is not indifferent but beneficent, giving creation its fundamental orientation toward hope.",
+    relatedTerms: ["divine-perfection-ext", "divine-simplicity-aquinas", "divine-will-ext"]
+  },
+  {
+    id: "divine-perfection-ext",
+    term: "Divine Perfection",
+    category: "doctrine",
+    tags: ["God", "Aquinas", "Perfection"],
+    oneLiner: "God possesses all perfections in an unlimited degree, lacking nothing that could add to His being.",
+    body: "Aquinas argues that since God is pure act with no potentiality, He lacks nothing and therefore is absolutely perfect. Every perfection found in creatures pre-exists in God in a higher mode. The perfections of creatures are finite participations in the infinite perfection of the Creator. God is not perfect in the way a finished product is perfect; He is perfection itself, the standard by which all else is measured.",
+    whyItMatters: "Knowing that God is infinitely perfect gives grounding to worship and to the conviction that no created good can ultimately satisfy the human heart — only God can.",
+    relatedTerms: ["divine-goodness-ext", "divine-simplicity-aquinas", "beatific-vision-deeper"]
+  },
+  {
+    id: "first-cause-argument-ext",
+    term: "The First Cause Argument",
+    category: "doctrine",
+    tags: ["Aquinas", "Natural Theology", "Causality"],
+    oneLiner: "Nothing in the observable world is the sufficient cause of its own existence, so there must be an uncaused First Cause — which is God.",
+    body: "The second of Aquinas's Five Ways argues from efficient causality: every effect requires a cause, and no thing can be its own efficient cause. An infinite regress of essentially ordered causes is impossible because without a first member, no subsequent causes would exist. Therefore, a First Efficient Cause must exist, and this all people understand to be God.",
+    whyItMatters: "The First Cause argument demonstrates that belief in God is not mere sentiment but a conclusion demanded by reason reflecting on the existence of things.",
+    relatedTerms: ["argument-from-motion-ext", "argument-from-necessity-ext", "apol-cosmological-argument"]
+  },
+  {
+    id: "argument-from-motion-ext",
+    term: "The Argument from Motion (First Way)",
+    category: "doctrine",
+    tags: ["Aquinas", "Five Ways", "Metaphysics"],
+    oneLiner: "Whatever is moved is moved by another; tracing this chain leads to an Unmoved Mover — God.",
+    body: "Aquinas's First Way begins with the evident fact that things in the world are in motion, meaning they pass from potency to act. Nothing can move itself from potency to act, because it would need to be both in potency and in act in the same respect simultaneously, which is impossible. An infinite regress of movers is ruled out for essentially ordered series, so a first Unmoved Mover must exist.",
+    whyItMatters: "The First Way shows that the very dynamism of the natural world points beyond itself to a transcendent source of all change and activity.",
+    relatedTerms: ["first-cause-argument-ext", "argument-from-necessity-ext", "divine-simplicity-aquinas"]
+  },
+  {
+    id: "argument-from-necessity-ext",
+    term: "The Argument from Necessity (Third Way)",
+    category: "doctrine",
+    tags: ["Aquinas", "Five Ways", "Contingency"],
+    oneLiner: "Contingent beings that can either exist or not exist require an absolutely necessary being to ground their existence.",
+    body: "Aquinas observes that many things in nature are generated and corrupted — they are possible, not necessary. If everything were merely possible, then at some point nothing would have existed, and nothing could have come into being. Therefore, there must be at least one being whose existence is necessary in itself and not received from another. This necessary being is what we call God.",
+    whyItMatters: "The Third Way addresses the deepest metaphysical question — why is there something rather than nothing? — and points to God as the only satisfying answer.",
+    relatedTerms: ["first-cause-argument-ext", "argument-from-motion-ext", "argument-from-gradation-ext"]
+  },
+  {
+    id: "argument-from-gradation-ext",
+    term: "The Argument from Gradation (Fourth Way)",
+    category: "doctrine",
+    tags: ["Aquinas", "Five Ways", "Perfection"],
+    oneLiner: "Degrees of goodness, truth, and nobility in things require a maximum that is the cause of all lesser degrees — and this is God.",
+    body: "Aquinas notes that we predicate 'more' and 'less' of things only in relation to a maximum. Things are more or less good, true, or noble insofar as they approximate something that is these qualities in the highest degree. Following Aristotle, Aquinas holds that the maximum in any genus is the cause of all in that genus. Therefore, there exists something that is the cause of all being, goodness, and perfection.",
+    whyItMatters: "The Fourth Way reveals that our everyday experience of degrees of value is not subjective preference but points to an objective standard grounded in God Himself.",
+    relatedTerms: ["argument-from-necessity-ext", "argument-from-design-ext", "divine-perfection-ext"]
+  },
+  {
+    id: "argument-from-design-ext",
+    term: "The Argument from Design (Fifth Way)",
+    category: "doctrine",
+    tags: ["Aquinas", "Five Ways", "Teleology"],
+    oneLiner: "Non-intelligent natural bodies act for an end, which requires a directing intelligence — God.",
+    body: "Aquinas's Fifth Way observes that natural things that lack knowledge nevertheless act for an end and achieve their best result regularly, not by chance. An arrow reaches its target because an archer directs it. Likewise, natural things are directed to their ends by an intelligent being. This argument is not about human artifacts but about the intrinsic finality found in nature itself.",
+    whyItMatters: "The Fifth Way invites us to see the order and regularity of nature not as brute fact but as evidence of a divine intelligence governing all things toward their proper ends.",
+    relatedTerms: ["argument-from-gradation-ext", "first-cause-argument-ext", "apol-teleological-argument"]
+  },
+  {
+    id: "creation-from-nothing-deeper",
+    term: "Creation from Nothing (Deeper)",
+    category: "doctrine",
+    tags: ["Creation", "Aquinas", "Metaphysics"],
+    oneLiner: "God creates not from pre-existing material but brings the totality of being into existence by His will alone.",
+    body: "Catholic doctrine insists that creation ex nihilo means there was no pre-existing matter, space, or time prior to God's creative act. Aquinas clarifies that creation is not a change (since change presupposes a subject) but the total production of being. The 'nothing' is not a substance from which things are made but simply the negation of any prior being. Creation is an ongoing relationship of total dependence on God, not merely a past event.",
+    whyItMatters: "Creation from nothing establishes the radical distinction between Creator and creature, the absolute sovereignty of God, and the gratuitous character of all existence.",
+    relatedTerms: ["divine-conservation-ext", "divine-concurrence-ext", "divine-omnipotence-ext"]
+  },
+  {
+    id: "divine-conservation-ext",
+    term: "Divine Conservation",
+    category: "doctrine",
+    tags: ["Providence", "Aquinas", "Creation"],
+    oneLiner: "God continually keeps all creatures in existence; if He withdrew His sustaining power, they would instantly cease to be.",
+    body: "Conservation is the continuation of the creative act. Aquinas teaches that creatures do not possess existence in their own right but receive it moment by moment from God. Just as light depends on the sun and ceases the instant the sun is removed, so all beings depend on God's sustaining will. This is not occasional intervention but the constant, silent ground of all reality.",
+    whyItMatters: "Divine conservation reminds believers that every breath and every moment of existence is a gift, fostering profound gratitude and humility before God.",
+    relatedTerms: ["creation-from-nothing-deeper", "divine-concurrence-ext", "divine-providence"]
+  },
+  {
+    id: "divine-concurrence-ext",
+    term: "Divine Concurrence",
+    category: "doctrine",
+    tags: ["Providence", "Causality", "Aquinas"],
+    oneLiner: "God cooperates with every action of His creatures, enabling them to act while respecting their own causal power.",
+    body: "Divine concurrence (concursus) means that God is not a distant spectator but actively cooperates with every created cause in producing its effect. Aquinas insists this does not override secondary causes but empowers them. The same action is wholly from God as first cause and wholly from the creature as secondary cause, each in its own order. This preserves both God's sovereignty and the genuine agency of creatures.",
+    whyItMatters: "Understanding divine concurrence prevents both deism (God as absent clockmaker) and occasionalism (creatures have no real causal power), honoring the dignity God gives to His creation.",
+    relatedTerms: ["primary-secondary-causality-ext", "divine-conservation-ext", "divine-providence"]
+  },
+  {
+    id: "primary-secondary-causality-ext",
+    term: "Primary and Secondary Causality",
+    category: "doctrine",
+    tags: ["Aquinas", "Causality", "Providence"],
+    oneLiner: "God is the primary cause of all being and action, while creatures operate as genuine but subordinate secondary causes.",
+    body: "Aquinas distinguishes the levels of causality to avoid confusing God's action with creaturely action. God as primary cause gives being and the power to act; creatures as secondary causes exercise that power in their own manner. A pen writes because the hand moves it, yet the pen truly writes. Similarly, God's causality does not compete with or replace creaturely causality but operates on a different metaphysical level entirely.",
+    whyItMatters: "This distinction resolves apparent conflicts between science and faith: natural explanations (secondary causes) and divine causality (primary cause) operate on different planes and cannot contradict each other.",
+    relatedTerms: ["divine-concurrence-ext", "divine-conservation-ext", "creation-from-nothing-deeper"]
+  },
+  {
+    id: "analogy-of-being-deeper",
+    term: "Analogy of Being (Deeper)",
+    category: "doctrine",
+    tags: ["Metaphysics", "Aquinas", "Language"],
+    oneLiner: "We speak of God and creatures using the same terms analogically — neither univocally (same meaning) nor equivocally (unrelated meaning).",
+    body: "Aquinas holds that when we say God is 'good' and a person is 'good,' the term is used analogically: there is a real but proportional similarity. Univocal predication would make God just another being; equivocal predication would make all theology meaningless. Analogy preserves the truth that God genuinely possesses perfections like goodness and wisdom while infinitely transcending our finite experience of them.",
+    whyItMatters: "The analogy of being safeguards authentic theological language: we can speak truly about God without pretending to comprehend Him fully, balancing reverence with real knowledge.",
+    relatedTerms: ["via-negativa-ext", "via-eminentiae-ext", "via-causalitatis-ext"]
+  },
+  {
+    id: "via-negativa-ext",
+    term: "Via Negativa (Way of Negation)",
+    category: "doctrine",
+    tags: ["Aquinas", "Theological Method", "Apophatic"],
+    oneLiner: "We come to know God partly by denying of Him all creaturely imperfections — He is not finite, not changeable, not composite.",
+    body: "The via negativa is one of three classical ways of speaking about God. Since God infinitely transcends created reality, we can say what God is not more easily than what He is. To say God is 'immutable' is to deny change of Him; to say He is 'infinite' is to deny limitation. Aquinas uses negation extensively in the early questions of the Summa to remove false conceptions before affirming positive attributes analogically.",
+    whyItMatters: "The via negativa keeps theology honest by reminding us that God is always greater than our concepts, preventing idolatrous reduction of God to human categories.",
+    relatedTerms: ["via-eminentiae-ext", "via-causalitatis-ext", "analogy-of-being-deeper"]
+  },
+  {
+    id: "via-eminentiae-ext",
+    term: "Via Eminentiae (Way of Eminence)",
+    category: "doctrine",
+    tags: ["Aquinas", "Theological Method", "Cataphatic"],
+    oneLiner: "Perfections found in creatures exist in God in a supereminent, unlimited mode that surpasses all finite realization.",
+    body: "After affirming that God possesses perfections like wisdom and goodness (via causalitatis) and denying creaturely limitations (via negativa), the via eminentiae asserts that these perfections exist in God in an infinitely higher way. God's wisdom is not just greater than ours in degree; it transcends the entire category of finite knowing. This third way completes the theological method of Aquinas.",
+    whyItMatters: "The via eminentiae ensures that positive statements about God are not reduced to mere metaphor, affirming that divine perfections are more real, not less, than their creaturely reflections.",
+    relatedTerms: ["via-negativa-ext", "via-causalitatis-ext", "analogy-of-being-deeper"]
+  },
+  {
+    id: "via-causalitatis-ext",
+    term: "Via Causalitatis (Way of Causality)",
+    category: "doctrine",
+    tags: ["Aquinas", "Theological Method", "Causality"],
+    oneLiner: "We attribute perfections to God because He is the cause of those perfections in creatures — an effect must in some way resemble its cause.",
+    body: "The via causalitatis reasons that since God is the efficient cause of all creaturely perfections, those perfections must pre-exist in Him as their source. A cause cannot give what it does not have. Since creatures have being, goodness, intelligence, and life, God must possess these in a prior and more excellent way. This method gives initial content to our knowledge of God before negation and eminence refine it.",
+    whyItMatters: "The way of causality anchors theology in the observable world: by studying creation, we can reason back to truths about the Creator, grounding natural theology in experience.",
+    relatedTerms: ["via-negativa-ext", "via-eminentiae-ext", "first-cause-argument-ext"]
+  },
+  {
+    id: "trinitarian-appropriations-ext",
+    term: "Trinitarian Appropriations",
+    category: "doctrine",
+    tags: ["Trinity", "Theology", "Attribution"],
+    oneLiner: "Certain divine attributes are specially attributed to one Person of the Trinity to help us understand the distinct Persons, even though all three share the same divine nature.",
+    body: "Since all three Persons share one divine essence, every act of God ad extra is common to all three. Yet theology 'appropriates' power to the Father, wisdom to the Son, and love to the Holy Spirit, because these attributes bear a special affinity to the personal properties of each. The Father is the unbegotten source, the Son is the Word (wisdom), and the Spirit is the mutual love of Father and Son. Appropriation is a pedagogical tool, not a division of the divine essence.",
+    whyItMatters: "Trinitarian appropriations help the faithful relate to each divine Person distinctly in prayer and devotion without falling into tritheism or modalism.",
+    relatedTerms: ["perichoresis-ext", "eternal-processions-ext", "the-trinity"]
+  },
+  {
+    id: "perichoresis-ext",
+    term: "Perichoresis (Circumincession)",
+    category: "doctrine",
+    tags: ["Trinity", "Divine Persons", "Indwelling"],
+    oneLiner: "The three divine Persons mutually indwell one another in a perfect communion of life, so that each Person is wholly in the others.",
+    body: "Perichoresis (Greek) or circumincession (Latin) describes the dynamic mutual interpenetration of the three Persons of the Trinity. Because they share one divine essence, the Father is in the Son, the Son is in the Father, and the Spirit is in both, as Jesus says in John 14:11. This concept safeguards both the real distinction of the Persons and their inseparable unity.",
+    whyItMatters: "Perichoresis reveals that the inner life of God is a communion of total self-giving love, which becomes the model for all human relationships and community.",
+    relatedTerms: ["trinitarian-appropriations-ext", "divine-relations-ext", "the-trinity"]
+  },
+  {
+    id: "filioque-doctrinal-ext",
+    term: "Filioque (Doctrinal)",
+    category: "doctrine",
+    tags: ["Trinity", "Holy Spirit", "Creed"],
+    oneLiner: "The Catholic teaching that the Holy Spirit proceeds from the Father and the Son (Filioque) as from a single principle.",
+    body: "The Western Church added 'and the Son' (Filioque) to the Nicene-Constantinopolitan Creed to affirm that the Holy Spirit proceeds eternally from both Father and Son. This is rooted in Scripture (John 15:26; 16:14-15) and the theology of Augustine. The Council of Florence (1439) defined that the Spirit proceeds from both as from one principle and one spiration. The East acknowledges the Spirit proceeds from the Father through the Son, and dialogue continues on whether the difference is substantive or terminological.",
+    whyItMatters: "The Filioque clarifies the distinct identity of the Holy Spirit in relation to both Father and Son and has been a major point of ecumenical dialogue between Catholics and Orthodox.",
+    relatedTerms: ["eternal-processions-ext", "perichoresis-ext", "apol-filioque-defense"]
+  },
+  {
+    id: "eternal-processions-ext",
+    term: "Eternal Processions",
+    category: "doctrine",
+    tags: ["Trinity", "Aquinas", "Generation"],
+    oneLiner: "Within the Trinity, the Son is eternally begotten of the Father by intellectual generation, and the Holy Spirit eternally proceeds from Father and Son by spiration.",
+    body: "Aquinas identifies two and only two processions in God: the generation of the Son (analogous to the mind's production of a concept) and the spiration of the Holy Spirit (analogous to the will's movement of love). These are not temporal events but eternal relations. The Son is the Word begotten by the Father's self-knowledge; the Spirit is the Love breathed forth by Father and Son together.",
+    whyItMatters: "The eternal processions ground the real distinction of the three Persons: without processions, there would be no basis for personal plurality within the one divine essence.",
+    relatedTerms: ["missions-divine-persons-ext", "divine-relations-ext", "filioque-doctrinal-ext"]
+  },
+  {
+    id: "missions-divine-persons-ext",
+    term: "Missions of the Divine Persons",
+    category: "doctrine",
+    tags: ["Trinity", "Salvation History", "Aquinas"],
+    oneLiner: "A divine mission occurs when a Person who eternally proceeds is also sent into the world in a new way — the Son's incarnation and the Spirit's indwelling.",
+    body: "Aquinas teaches that a divine mission adds a temporal effect to the eternal procession. The Son is sent by the Father in the Incarnation; the Spirit is sent by Father and Son at Pentecost and in the sanctification of souls. Missions make the inner Trinitarian life present in the economy of salvation. The Son's visible mission is the Incarnation; the Spirit's invisible mission is His dwelling in the hearts of the justified.",
+    whyItMatters: "The missions reveal that the inner life of the Trinity is not remote but reaches into human history, making our sanctification a genuine participation in the Trinitarian communion.",
+    relatedTerms: ["eternal-processions-ext", "economic-immanent-trinity-ext", "incarnation"]
+  },
+  {
+    id: "divine-relations-ext",
+    term: "Divine Relations",
+    category: "doctrine",
+    tags: ["Trinity", "Aquinas", "Persons"],
+    oneLiner: "The three Persons of the Trinity are constituted by their subsistent relations to one another: paternity, filiation, and spiration.",
+    body: "In God there are four real relations: paternity (Father to Son), filiation (Son to Father), active spiration (Father and Son to Spirit), and passive spiration or procession (Spirit from Father and Son). Three of these are mutually opposed and thus constitute three distinct Persons. Active spiration is not a distinct Person because it is shared by Father and Son. These relations are not accidents in God but are identical with the divine essence, yet really distinct from each other.",
+    whyItMatters: "Divine relations explain how one God can be three Persons without contradiction: the Persons are distinguished solely by their opposed relations of origin.",
+    relatedTerms: ["eternal-processions-ext", "perichoresis-ext", "the-trinity"]
+  },
+  {
+    id: "economic-immanent-trinity-ext",
+    term: "Economic vs. Immanent Trinity",
+    category: "doctrine",
+    tags: ["Trinity", "Salvation History", "Rahner"],
+    oneLiner: "The immanent Trinity is God as He is in Himself; the economic Trinity is God as He acts and reveals Himself in salvation history.",
+    body: "Karl Rahner's axiom states that 'the economic Trinity is the immanent Trinity and vice versa.' This means God truly reveals His inner nature through His saving actions. The Father who sends the Son in the economy really is the Father who begets the Son eternally. Catholic theology affirms this basic identity while also maintaining that God's inner life infinitely exceeds what is manifested in history.",
+    whyItMatters: "This distinction assures believers that the God revealed in Scripture and the sacraments is not a mask but the true God, while preserving the divine mystery that exceeds all human comprehension.",
+    relatedTerms: ["missions-divine-persons-ext", "eternal-processions-ext", "the-trinity"]
+  },
+  {
+    id: "communicatio-idiomatum-ext",
+    term: "Communicatio Idiomatum",
+    category: "doctrine",
+    tags: ["Christology", "Chalcedon", "Predication"],
+    oneLiner: "Because Christ is one Person with two natures, attributes of either nature can be truly predicated of that single Person.",
+    body: "The communication of idioms (properties) means we can truly say 'God suffered' and 'this man created the universe' because the one Person of the Son possesses both divine and human natures. We do not say that the divine nature suffered or the human nature created, but the Person who is both God and man did both. This principle was central to the Council of Ephesus (431), which affirmed Mary as Theotokos.",
+    whyItMatters: "The communicatio idiomatum protects the unity of Christ's Person and grounds the title Theotokos for Mary, linking Christology directly to Marian devotion.",
+    relatedTerms: ["nestorian-error-ext", "hypostatic-union", "impeccability-christ-ext"]
+  },
+  {
+    id: "impeccability-christ-ext",
+    term: "Impeccability of Christ",
+    category: "doctrine",
+    tags: ["Christology", "Sin", "Aquinas"],
+    oneLiner: "Christ, though truly tempted, was absolutely incapable of sinning because His human nature is united to a divine Person.",
+    body: "Aquinas teaches that since sin is a defect of the person, and Christ's Person is the divine Son of God, it is metaphysically impossible for Christ to sin. His human will was always perfectly ordered to the divine will. The temptations He experienced were real in that they involved genuine human struggle, but they could never have resulted in actual sin. This impeccability follows necessarily from the hypostatic union.",
+    whyItMatters: "Christ's impeccability assures believers that their Redeemer is utterly trustworthy and that His sacrificial offering was perfectly pure, capable of atoning for all sin.",
+    relatedTerms: ["christ-human-will-ext", "christ-human-knowledge-ext", "communicatio-idiomatum-ext"]
+  },
+  {
+    id: "christ-human-knowledge-ext",
+    term: "Christ's Human Knowledge",
+    category: "doctrine",
+    tags: ["Christology", "Aquinas", "Beatific Vision"],
+    oneLiner: "Christ in His human intellect possessed the beatific vision, infused knowledge, and acquired experiential knowledge.",
+    body: "Aquinas holds that Christ's human mind had three kinds of knowledge: beatific knowledge (direct vision of God from the first moment of conception), infused knowledge (knowledge poured into His mind by God, similar to the angels), and acquired or experiential knowledge (knowledge gained through ordinary human experience). These three co-existed without contradiction because they operate on different levels of the intellect.",
+    whyItMatters: "Christ's human knowledge shows that He was not merely play-acting as a human but genuinely learned and grew, while also possessing the fullness of truth needed for His saving mission.",
+    relatedTerms: ["impeccability-christ-ext", "christ-human-will-ext", "hypostatic-union"]
+  },
+  {
+    id: "christ-human-will-ext",
+    term: "Christ's Human Will",
+    category: "doctrine",
+    tags: ["Christology", "Two Wills", "Constantinople III"],
+    oneLiner: "Christ possesses both a divine will and a genuine human will, and His human will freely conforms to the divine will.",
+    body: "The Third Council of Constantinople (681) defined that Christ has two natural wills corresponding to His two natures, against the heresy of Monothelitism. His human will is not absorbed or overridden by His divine will but freely and lovingly submits to it. The Agony in the Garden reveals this most clearly: 'Not my will, but yours be done' (Lk 22:42) presupposes a real human will that chooses obedience.",
+    whyItMatters: "Christ's two wills mean that His obedience to the Father was genuinely free and meritorious in His humanity, making Him the perfect model for our own conformity to God's will.",
+    relatedTerms: ["monothelitism-ext", "impeccability-christ-ext", "christ-human-knowledge-ext"]
+  },
+  {
+    id: "monothelitism-ext",
+    term: "Monothelitism",
+    category: "doctrine",
+    tags: ["Heresy", "Christology", "Will"],
+    oneLiner: "The condemned heresy that Christ had only one will — the divine — effectively denying His complete human nature.",
+    body: "Monothelitism arose in the seventh century as a compromise to reconcile Chalcedonian and Monophysite factions. It held that Christ had two natures but only one will (the divine). The Third Council of Constantinople (681) condemned this view, defining that a complete human nature necessarily includes a human will. Without a human will, Christ's human obedience would be meaningless, and His humanity would be incomplete.",
+    whyItMatters: "Monothelitism's rejection preserves the integrity of Christ's humanity and the theological significance of His free human obedience, which is the basis of our redemption.",
+    relatedTerms: ["christ-human-will-ext", "monophysite-error-ext", "nestorian-error-ext"]
+  },
+  {
+    id: "nestorian-error-ext",
+    term: "The Nestorian Error",
+    category: "doctrine",
+    tags: ["Heresy", "Christology", "Ephesus"],
+    oneLiner: "The heresy that effectively divided Christ into two persons — one divine, one human — denying the true unity of the Incarnation.",
+    body: "Attributed to Nestorius, Patriarch of Constantinople, this error held that the divine Word merely dwelled in the human Jesus as in a temple, creating a moral union rather than a personal one. The Council of Ephesus (431) condemned this view, affirming that Mary is Theotokos (God-bearer), precisely because the one she bore is one Person who is God. The union of natures in Christ is personal (hypostatic), not merely a conjunction of two subjects.",
+    whyItMatters: "Rejecting Nestorianism preserves the reality that God Himself truly became human, suffered, and died for us — otherwise our salvation rests on a mere man, not the God-man.",
+    relatedTerms: ["monophysite-error-ext", "communicatio-idiomatum-ext", "hypostatic-union"]
+  },
+  {
+    id: "monophysite-error-ext",
+    term: "The Monophysite Error",
+    category: "doctrine",
+    tags: ["Heresy", "Christology", "Chalcedon"],
+    oneLiner: "The heresy that Christ has only one nature — the divine absorbing or replacing the human — denying His full humanity.",
+    body: "Monophysitism (from monos 'one' and physis 'nature') arose from an overcorrection of Nestorianism. Eutyches taught that after the Incarnation, Christ's human nature was absorbed into the divine 'like a drop of honey in the sea.' The Council of Chalcedon (451) condemned this, defining that Christ exists in two natures 'without confusion, without change,' each nature retaining its own properties after the union.",
+    whyItMatters: "If Christ's humanity were absorbed into divinity, He could not truly represent us, suffer for us, or serve as mediator — our salvation depends on His being fully human as well as fully divine.",
+    relatedTerms: ["nestorian-error-ext", "communicatio-idiomatum-ext", "hypostatic-union"]
+  },
+  {
+    id: "adoptionism-ext",
+    term: "Adoptionism",
+    category: "doctrine",
+    tags: ["Heresy", "Christology", "Sonship"],
+    oneLiner: "The condemned view that Jesus was born as an ordinary man and was 'adopted' as God's Son at His baptism or resurrection.",
+    body: "Adoptionism reduces Christ's divine sonship to a title or status granted by God at a particular moment rather than recognizing Him as eternally begotten of the Father. Various forms appeared in the early Church (the Ebionites, Paul of Samosata) and again in eighth-century Spain. The Church consistently rejected adoptionism because it denies the Incarnation: the Son did not become divine but was always divine and assumed a human nature.",
+    whyItMatters: "Adoptionism undermines the entire economy of salvation by reducing Jesus to a graced human being rather than the eternal Son, making His sacrifice insufficient for the redemption of humanity.",
+    relatedTerms: ["subordinationism-ext", "arianism-deeper-ext", "docetism-ext"]
+  },
+  {
+    id: "subordinationism-ext",
+    term: "Subordinationism",
+    category: "doctrine",
+    tags: ["Heresy", "Trinity", "Hierarchy"],
+    oneLiner: "The error that the Son or the Holy Spirit is ontologically inferior to the Father, rather than co-equal in divinity.",
+    body: "Subordinationism takes many forms but always involves making the Son or Spirit a lesser deity. Some early theologians like Origen held a mild subordinationism of the Son's origin. Arianism represents its extreme form. The Councils of Nicaea and Constantinople definitively rejected all forms, affirming that the three Persons are co-equal, co-eternal, and consubstantial. Any subordination in the Trinity is only of origin (the Son is from the Father), not of nature or dignity.",
+    whyItMatters: "Subordinationism, if true, would mean Christians worship a created being in Christ — which is idolatry. Its rejection secures the full divinity of the Son and Spirit and the authenticity of Christian worship.",
+    relatedTerms: ["arianism-deeper-ext", "homoousios-ext", "the-trinity"]
+  },
+  {
+    id: "arianism-deeper-ext",
+    term: "Arianism (Deeper)",
+    category: "doctrine",
+    tags: ["Heresy", "Nicaea", "Christology"],
+    oneLiner: "The major fourth-century heresy that the Son of God is a created being — the highest of creatures but not truly God.",
+    body: "Arius of Alexandria taught that 'there was a time when the Son was not,' making the Logos a creature brought into existence before all other creatures. This struck at the heart of Christian faith: if the Son is not God, then God has not truly entered human history, and salvation is impossible. The Council of Nicaea (325) responded with the term homoousios — the Son is 'of one substance' with the Father. The post-Nicene struggle lasted decades, with figures like Athanasius, Hilary, and the Cappadocian Fathers defending the Nicene faith.",
+    whyItMatters: "The Arian crisis forced the Church to articulate the full divinity of Christ with philosophical precision, producing the Nicene Creed that remains the benchmark of Christian orthodoxy.",
+    relatedTerms: ["homoousios-ext", "subordinationism-ext", "nicene-creed"]
+  },
+  {
+    id: "homoousios-ext",
+    term: "Homoousios (Consubstantial)",
+    category: "doctrine",
+    tags: ["Nicaea", "Trinity", "Creed"],
+    oneLiner: "The Greek term meaning 'of one substance,' affirming that the Son shares the identical divine nature as the Father.",
+    body: "Adopted at the Council of Nicaea (325), homoousios became the decisive word against Arianism. It asserts that the Son is not merely similar to the Father (homoiousios) or of a different substance, but of the very same substance. This single word carries enormous theological weight: it means the Son is fully God in the same way the Father is God. The Latin equivalent is consubstantialis, reflected in the English translation 'consubstantial with the Father' in the Nicene Creed.",
+    whyItMatters: "Homoousios is the foundation of Trinitarian orthodoxy, encapsulating in one word the Church's definitive answer to every attempt to diminish the full divinity of the Son.",
+    relatedTerms: ["arianism-deeper-ext", "nicene-creed", "the-trinity"]
+  },
+  {
+    id: "apollinarianism-ext",
+    term: "Apollinarianism",
+    category: "doctrine",
+    tags: ["Heresy", "Christology", "Soul"],
+    oneLiner: "The heresy that the divine Logos replaced Christ's human rational soul, leaving Him without a complete human nature.",
+    body: "Apollinaris of Laodicea, trying to safeguard Christ's sinlessness and unity, proposed that the Logos took the place of the human mind or rational soul in Christ. The First Council of Constantinople (381) condemned this view. Gregory of Nazianzus formulated the decisive principle: 'What has not been assumed has not been healed.' If Christ lacked a human mind, then the human mind — precisely the faculty most wounded by sin — would not be redeemed.",
+    whyItMatters: "Apollinarianism's rejection ensures that Christ assumed every dimension of human nature, including the rational soul, so that every part of our humanity could be healed and sanctified.",
+    relatedTerms: ["docetism-ext", "christ-human-knowledge-ext", "hypostatic-union"]
+  },
+  {
+    id: "docetism-ext",
+    term: "Docetism",
+    category: "doctrine",
+    tags: ["Heresy", "Christology", "Gnosticism"],
+    oneLiner: "The early heresy that Christ only appeared to have a real human body and to suffer — His humanity was an illusion.",
+    body: "From the Greek dokein ('to seem'), Docetism denied the reality of the Incarnation by claiming Christ's body was a phantom or mere appearance. It was influenced by a dualistic disdain for matter common in Gnostic circles. The New Testament itself combats this error: 1 John 4:2 insists that every spirit that confesses Jesus Christ 'come in the flesh' is from God. Ignatius of Antioch strongly opposed the Docetists, arguing that if Christ did not truly suffer, then our salvation is an illusion.",
+    whyItMatters: "Docetism threatens the entire sacramental and incarnational logic of Christianity: if God did not truly enter matter, then neither bread nor wine, water nor oil can become vehicles of grace.",
+    relatedTerms: ["apollinarianism-ext", "monophysite-error-ext", "incarnation"]
+  },
+  {
+    id: "eschatological-hope-ext",
+    term: "Eschatological Hope",
+    category: "doctrine",
+    tags: ["Eschatology", "Hope", "Kingdom"],
+    oneLiner: "The Christian virtue by which believers confidently await the final fulfillment of God's promises: the resurrection of the body and life everlasting.",
+    body: "Catholic eschatological hope is not wishful thinking but a theological virtue grounded in Christ's resurrection and the promises of Scripture. It looks forward to the parousia, the general resurrection, and the new creation. This hope does not lead to passivity but energizes works of justice and charity, since what we do now has eternal significance. Gaudium et Spes teaches that eschatological hope purifies earthly progress without dismissing it.",
+    whyItMatters: "Eschatological hope gives meaning to suffering and temporal setbacks by situating all of human history within God's plan to bring all things to their fulfillment in Christ.",
+    relatedTerms: ["general-resurrection-ext", "new-heavens-new-earth-ext", "parousia-ext"]
+  },
+  {
+    id: "general-resurrection-ext",
+    term: "General Resurrection",
+    category: "doctrine",
+    tags: ["Eschatology", "Body", "Last Day"],
+    oneLiner: "At the end of time, all the dead — both just and unjust — will rise bodily to face the final judgment.",
+    body: "Catholic doctrine, rooted in 1 Corinthians 15 and the Nicene Creed, teaches that the soul's separation from the body at death is temporary. At the parousia, God will reunite every soul with its own body, now transformed. The risen bodies of the blessed will share in Christ's glorified state, being immortal, incorruptible, and radiant. The resurrection of the body affirms the goodness of material creation and God's intention to redeem the whole human person, not just the soul.",
+    whyItMatters: "The general resurrection means that the body matters eternally — Christian hope is not escape from the body but the transformation and glorification of the entire person.",
+    relatedTerms: ["eschatological-hope-ext", "new-heavens-new-earth-ext", "particular-judgment-deeper"]
+  },
+  {
+    id: "new-heavens-new-earth-ext",
+    term: "New Heavens and New Earth",
+    category: "doctrine",
+    tags: ["Eschatology", "Creation", "Revelation"],
+    oneLiner: "God's promise to renew all of creation at the end of time, establishing a transformed cosmos free from sin, death, and corruption.",
+    body: "Drawing on Isaiah 65:17, Romans 8:19-21, and Revelation 21:1, Catholic teaching holds that the material world will not be annihilated but purified and transformed. The new creation will be the fitting home for risen, glorified humanity. Vatican II's Gaudium et Spes affirms that the fruits of human labor and culture, purified of stain, will somehow be found again in the renewed universe.",
+    whyItMatters: "The promise of new heavens and a new earth prevents both worldly utopianism and otherworldly escapism, affirming that creation itself has a glorious future in God's plan.",
+    relatedTerms: ["general-resurrection-ext", "eschatological-hope-ext", "parousia-ext"]
+  },
+  {
+    id: "particular-judgment-deeper",
+    term: "Particular Judgment (Deeper)",
+    category: "doctrine",
+    tags: ["Eschatology", "Death", "Judgment"],
+    oneLiner: "At the moment of death, each soul is immediately judged by Christ and assigned to heaven, purgatory, or hell.",
+    body: "Unlike the general judgment at the end of time, the particular judgment is personal and immediate. The soul stands before Christ and its entire life is evaluated in the light of divine truth. Aquinas teaches that the soul, separated from the body, achieves a clarity of self-knowledge that makes the judgment self-evident: the soul sees where it stands before God. Those in grace but not yet fully purified enter purgatory; those in perfect charity enter heaven directly; those who die in mortal sin descend to hell.",
+    whyItMatters: "The particular judgment underscores the urgency of the moral and spiritual life: death is not a vague transition but a decisive encounter with the just and merciful Christ.",
+    relatedTerms: ["purgatory-deeper-ext", "heaven-deeper-ext", "hell-deeper-ext"]
+  },
+  {
+    id: "purgatory-deeper-ext",
+    term: "Purgatory (Deeper)",
+    category: "doctrine",
+    tags: ["Eschatology", "Purification", "Prayer"],
+    oneLiner: "A state of final purification after death where souls destined for heaven are cleansed of remaining attachment to sin.",
+    body: "Catholic teaching, defined at the Councils of Florence and Trent, holds that those who die in God's friendship but are not yet perfectly purified undergo a process of cleansing. Purgatory is not a second chance but the completion of a sanctification already begun on earth. The pains of purgatory are understood as the soul's burning desire for God combined with the sorrow of remaining impurities. The faithful on earth can aid these souls through prayers, Masses, almsgiving, and indulgences.",
+    whyItMatters: "Purgatory reveals God's mercy in providing a way for imperfect but redeemed souls to reach the perfection required for the beatific vision, and it motivates the living to pray for the dead.",
+    relatedTerms: ["particular-judgment-deeper", "heaven-deeper-ext", "intermediate-state-ext"]
+  },
+  {
+    id: "limbo-deeper-ext",
+    term: "Limbo (Deeper)",
+    category: "doctrine",
+    tags: ["Eschatology", "Unbaptized", "Theological Opinion"],
+    oneLiner: "A theological hypothesis about the state of unbaptized infants who die without personal sin, enjoying natural happiness but not the beatific vision.",
+    body: "Limbo (limbus infantium) was a common theological opinion, especially after Augustine and Aquinas, but it has never been defined as dogma. The idea was that infants who die without baptism, bearing only original sin and no personal guilt, cannot enter heaven (which requires grace) but do not deserve the punishment of hell. The International Theological Commission (2007) concluded there are 'serious theological and liturgical grounds for hope that unbaptized infants who die will be saved,' entrusting them to God's mercy.",
+    whyItMatters: "The limbo discussion illustrates how Catholic theology carefully distinguishes between defined dogma and theological opinion, and it highlights the Church's trust in God's universal salvific will.",
+    relatedTerms: ["particular-judgment-deeper", "purgatory-deeper-ext", "original-sin"]
+  },
+  {
+    id: "heaven-deeper-ext",
+    term: "Heaven (Deeper)",
+    category: "doctrine",
+    tags: ["Eschatology", "Beatific Vision", "Glory"],
+    oneLiner: "The state of perfect and eternal communion with the Holy Trinity, the Blessed Virgin, the angels, and all the saints.",
+    body: "Heaven is not merely a place but a state of being in which the human person, body and soul, is perfectly fulfilled in the vision and love of God. Aquinas teaches that heaven's essential joy is the beatific vision — seeing God face to face — which satisfies every desire of the intellect and will. The secondary joys include the communion of saints, the beauty of the new creation, and the reuniting of body and soul after the general resurrection. Heaven is eternal because it participates in God's own eternal life.",
+    whyItMatters: "Heaven is the ultimate purpose of human existence and the goal of all Christian striving, giving final meaning to every sacrifice, suffering, and act of love undertaken on earth.",
+    relatedTerms: ["beatific-vision-deeper", "general-resurrection-ext", "light-of-glory-ext"]
+  },
+  {
+    id: "hell-deeper-ext",
+    term: "Hell (Deeper)",
+    category: "doctrine",
+    tags: ["Eschatology", "Damnation", "Justice"],
+    oneLiner: "The state of definitive self-exclusion from communion with God, chosen by those who die in unrepented mortal sin.",
+    body: "Catholic doctrine affirms hell as a real and eternal possibility, not merely a metaphor. Its essential pain is the 'pain of loss' — permanent separation from God, the only source of true happiness. The 'pain of sense,' traditionally described through the image of fire, signifies the suffering that follows from total alienation from the Good. The Catechism emphasizes that God does not predestine anyone to hell; it is the consequence of a free and definitive turning away from God that persists through death.",
+    whyItMatters: "The doctrine of hell takes human freedom with ultimate seriousness: our choices have eternal consequences, and God respects our freedom even to reject Him permanently.",
+    relatedTerms: ["particular-judgment-deeper", "heaven-deeper-ext", "general-judgment"]
+  },
+  {
+    id: "intermediate-state-ext",
+    term: "The Intermediate State",
+    category: "doctrine",
+    tags: ["Eschatology", "Soul", "Death"],
+    oneLiner: "The condition of the soul between individual death and the general resurrection, when it exists separated from the body.",
+    body: "Catholic theology teaches that at death the soul separates from the body and enters its particular judgment. Between death and the final resurrection, the soul exists in a disembodied state — in heaven, purgatory, or hell. This intermediate state is real but incomplete because the human person is naturally a composite of soul and body. The soul in heaven truly enjoys God but awaits the resurrection of the body for the fullness of human beatitude.",
+    whyItMatters: "The intermediate state explains why Catholics pray for the dead and venerate the saints: the souls of the departed are alive, conscious, and either in need of our prayers or capable of interceding for us.",
+    relatedTerms: ["particular-judgment-deeper", "general-resurrection-ext", "soul-body-unity"]
+  },
+  {
+    id: "parousia-ext",
+    term: "The Parousia",
+    category: "doctrine",
+    tags: ["Eschatology", "Second Coming", "Christ"],
+    oneLiner: "The glorious second coming of Christ at the end of history, when He will judge the living and the dead and bring creation to its fulfillment.",
+    body: "The Nicene Creed confesses that Christ 'will come again in glory to judge the living and the dead.' The parousia is not a return to the conditions of Christ's first coming but a definitive manifestation of His kingship over all creation. Catholic teaching holds that the time of the parousia is unknown and unknowable (Mt 24:36). It will be preceded by the final trial of the Church, the general resurrection, and the Last Judgment, leading to the new heavens and new earth.",
+    whyItMatters: "The parousia orients all Christian life toward a horizon of hope: history is not cyclical or meaningless but moves toward Christ's definitive triumph over evil and death.",
+    relatedTerms: ["eschatological-hope-ext", "general-resurrection-ext", "antichrist-ext"]
+  },
+  {
+    id: "antichrist-ext",
+    term: "The Antichrist",
+    category: "doctrine",
+    tags: ["Eschatology", "Evil", "End Times"],
+    oneLiner: "A figure of supreme deception who will appear before the parousia, embodying opposition to Christ and leading many astray.",
+    body: "Catholic teaching, drawn from 2 Thessalonians 2, 1 John 2:18, and Revelation, describes a final adversary who will deceive through false signs and a counterfeit religion. The Catechism (675-677) identifies this with a supreme apostasy and pseudo-messianic imposture. The Antichrist is not merely a symbol but represents a real eschatological event. The Church has always resisted identifying the Antichrist with specific contemporary figures, maintaining an attitude of watchfulness rather than speculation.",
+    whyItMatters: "The doctrine of the Antichrist warns believers that evil will intensify before the end and calls them to vigilance, discernment, and faithfulness rather than fear or idle speculation.",
+    relatedTerms: ["parousia-ext", "eschatological-hope-ext", "millennialism-critique-ext"]
+  },
+  {
+    id: "rapture-critique-ext",
+    term: "Critique of the Rapture",
+    category: "doctrine",
+    tags: ["Eschatology", "Protestantism", "Critique"],
+    oneLiner: "The Catholic rejection of the popular Protestant idea of a secret 'rapture' of believers before a period of tribulation.",
+    body: "The rapture theory, developed in the 19th century by John Nelson Darby and popularized by dispensationalism, claims believers will be secretly snatched from the earth before a seven-year tribulation. Catholic theology finds no basis for this in Scripture or Tradition. The key proof text, 1 Thessalonians 4:17 ('caught up to meet the Lord in the air'), describes the Church going out to meet the returning Christ — like a city going out to greet an arriving king — not a secret extraction. The Church has always taught one public second coming, not a two-stage return.",
+    whyItMatters: "Rejecting the rapture preserves the Catholic understanding that the Church will endure through tribulation by God's grace and that there is one glorious parousia, not a secret preliminary event.",
+    relatedTerms: ["parousia-ext", "millennialism-critique-ext", "eschatological-hope-ext"]
+  },
+  {
+    id: "millennialism-critique-ext",
+    term: "Critique of Millennialism",
+    category: "doctrine",
+    tags: ["Eschatology", "Chiliasm", "Critique"],
+    oneLiner: "The Catholic rejection of the belief in a literal thousand-year earthly reign of Christ before the final judgment.",
+    body: "Millennialism (or chiliasm) interprets Revelation 20:1-6 as predicting a literal thousand-year kingdom of Christ on earth. The Catholic Church, following Augustine, reads this passage symbolically as referring to the present age of the Church, during which Christ reigns spiritually through His saints. The Catechism (676) rejects the millenarian hope as a distortion of the kingdom of God, which cannot be achieved through earthly political triumph but only through God's definitive eschatological act.",
+    whyItMatters: "Rejecting millennialism prevents utopian political theology and keeps the Church's hope fixed on the transcendent kingdom that only God can establish at the parousia.",
+    relatedTerms: ["rapture-critique-ext", "parousia-ext", "eschatological-hope-ext"]
+  },
+  {
+    id: "beatific-vision-deeper",
+    term: "Beatific Vision (Deeper)",
+    category: "doctrine",
+    tags: ["Eschatology", "Heaven", "Aquinas"],
+    oneLiner: "The direct, unmediated vision of God's essence that constitutes the supreme happiness of the blessed in heaven.",
+    body: "Aquinas teaches that the beatific vision is not a sensory experience but an intellectual act in which the human mind, elevated by the light of glory, sees God's very essence without any created intermediary. This vision satisfies every longing of the intellect for truth and the will for goodness. It is not static contemplation but a dynamic, ever-deepening communion with the infinite God. Each soul sees God according to its own capacity, yet all are perfectly fulfilled.",
+    whyItMatters: "The beatific vision is the ultimate end of human existence according to Catholic theology — every sacrament, virtue, and grace on earth is ordered toward this final face-to-face encounter with God.",
+    relatedTerms: ["light-of-glory-ext", "heaven-deeper-ext", "divine-perfection-ext"]
+  },
+  {
+    id: "light-of-glory-ext",
+    term: "Lumen Gloriae (Light of Glory)",
+    category: "doctrine",
+    tags: ["Heaven", "Aquinas", "Grace"],
+    oneLiner: "A supernatural gift that strengthens the created intellect, enabling it to see God's essence in the beatific vision.",
+    body: "Aquinas argues that no created intellect can see God's essence by its own natural power, since God infinitely exceeds the capacity of any finite mind. The lumen gloriae is a special divine gift that elevates and strengthens the intellect to participate in God's own self-knowledge. It is not a medium between the soul and God but a disposition of the intellect that makes direct vision possible. The degree of this light varies according to each soul's degree of charity.",
+    whyItMatters: "The light of glory demonstrates that even heaven is pure gift: the blessed see God not by their own power but by God's gracious self-communication, preserving the primacy of grace from first to last.",
+    relatedTerms: ["beatific-vision-deeper", "heaven-deeper-ext", "sanctifying-grace"]
+  },
+  {
+    id: "infused-theological-virtues-ext",
+    term: "Infused Theological Virtues",
+    category: "doctrine",
+    tags: ["Virtues", "Grace", "Aquinas"],
+    oneLiner: "Faith, hope, and charity are supernatural virtues infused directly by God into the soul at baptism, orienting it toward union with Him.",
+    body: "Unlike the acquired moral virtues that develop through repeated practice, the theological virtues are given by God as part of sanctifying grace. Aquinas teaches that they have God Himself as their object: faith knows God, hope trusts in God's promises, and charity loves God above all. They are called 'infused' because no amount of human effort can produce them — they are pure gifts. They remain in the soul as long as it remains in grace, though they grow through exercise and can be lost through mortal sin.",
+    whyItMatters: "The infused theological virtues show that the Christian life is not mere moral self-improvement but a supernatural transformation enabled by God's own life dwelling in the soul.",
+    relatedTerms: ["faith-as-virtue-ext", "hope-as-virtue-ext", "charity-queen-virtues-ext"]
+  },
+  {
+    id: "faith-as-virtue-ext",
+    term: "Faith as a Theological Virtue",
+    category: "doctrine",
+    tags: ["Faith", "Aquinas", "Virtue"],
+    oneLiner: "The supernatural virtue by which the intellect, moved by the will under grace, assents to divinely revealed truths on the authority of God Himself.",
+    body: "Aquinas distinguishes faith from mere opinion or natural belief. Theological faith is a firm assent of the intellect to truths that exceed natural reason, motivated not by evidence but by the authority of God who can neither deceive nor be deceived. The will, moved by grace, commands the intellect to assent. Faith is thus both a gift and a free act. It does not destroy reason but elevates it, enabling knowledge of truths (like the Trinity) that reason alone could never discover.",
+    whyItMatters: "Understanding faith as a virtue corrects the modern misconception that faith is irrational; it is a reasonable trust in God's testimony, which opens the mind to truths beyond its natural horizon.",
+    relatedTerms: ["theological-faith-vs-belief-ext", "assent-of-faith-ext", "obedience-of-faith-ext"]
+  },
+  {
+    id: "hope-as-virtue-ext",
+    term: "Hope as a Theological Virtue",
+    category: "doctrine",
+    tags: ["Hope", "Aquinas", "Virtue"],
+    oneLiner: "The supernatural virtue by which the soul confidently expects eternal life and the graces needed to attain it, trusting in God's power and promises.",
+    body: "Hope stands between the sins of presumption (expecting salvation without effort or repentance) and despair (believing salvation is impossible). Aquinas teaches that hope's formal object is God as the source of help: we hope not in our own strength but in God's omnipotence and fidelity. Hope sustains the pilgrim journey, providing resilience in suffering and patience in trial. Jacques Philippe emphasizes that hope and interior peace are inseparable — anxiety arises when we rely on ourselves rather than on God's promise.",
+    whyItMatters: "Hope is the antidote to the despair and anxiety that plague modern life, anchoring the soul in God's faithfulness rather than in uncertain human circumstances.",
+    relatedTerms: ["faith-as-virtue-ext", "charity-queen-virtues-ext", "eschatological-hope-ext"]
+  },
+  {
+    id: "charity-queen-virtues-ext",
+    term: "Charity as Queen of the Virtues",
+    category: "doctrine",
+    tags: ["Charity", "Aquinas", "Love"],
+    oneLiner: "Charity is the form and mother of all virtues, giving them their supernatural merit and ordering them toward God as their final end.",
+    body: "Aquinas calls charity the 'form of the virtues' because without it, no other virtue can merit eternal life. A naturally courageous or just person who lacks charity performs good acts, but those acts are not ordered to the supernatural end. Charity unites the soul to God in friendship, and from this union all other virtues receive their orientation and supernatural efficacy. It is the greatest of the theological virtues (1 Cor 13:13) because it alone endures in heaven — faith gives way to vision, hope to possession, but love never ends.",
+    whyItMatters: "Charity prevents a merely ethical Christianity by insisting that every virtuous act must ultimately flow from and be animated by love of God, the source and summit of all holiness.",
+    relatedTerms: ["faith-as-virtue-ext", "hope-as-virtue-ext", "infused-theological-virtues-ext"]
+  },
+  {
+    id: "theological-faith-vs-belief-ext",
+    term: "Theological Faith vs. Natural Belief",
+    category: "doctrine",
+    tags: ["Faith", "Epistemology", "Aquinas"],
+    oneLiner: "Theological faith is a supernatural act grounded in God's authority, distinct from natural beliefs based on evidence or human testimony.",
+    body: "Aquinas distinguishes sharply between fides (theological faith) and natural credulity. Natural belief accepts truths on human authority or empirical evidence. Theological faith assents to revealed truths on the authority of God who reveals, aided by the interior grace of the Holy Spirit. The believer does not see the truth (as in knowledge) but freely adheres to it with a certainty that surpasses natural conviction because its ground — God's own truthfulness — is more reliable than any human source.",
+    whyItMatters: "This distinction prevents reducing faith to subjective feeling or blind credulity, showing it to be a rational and supernatural act with the most certain of all possible foundations.",
+    relatedTerms: ["faith-as-virtue-ext", "assent-of-faith-ext", "apol-faith-and-reason"]
+  },
+  {
+    id: "assent-of-faith-ext",
+    term: "The Assent of Faith",
+    category: "doctrine",
+    tags: ["Faith", "Dei Verbum", "Obedience"],
+    oneLiner: "The full submission of intellect and will to God who reveals, described by Vatican I as the 'obedience of faith.'",
+    body: "Dei Verbum (5) teaches that 'the obedience of faith must be given to God who reveals, an obedience by which man commits his whole self freely to God.' The assent of faith is not partial or tentative but total: the intellect accepts revealed truth and the will entrusts itself to the revealer. Vatican I emphasizes that this assent is reasonable, supported by external signs (miracles, prophecy) and the interior help of the Holy Spirit. Faith is thus free, certain, and supernatural.",
+    whyItMatters: "The assent of faith defines what it means to be a believer: not merely acknowledging facts about God but surrendering one's entire being to the God who speaks in revelation.",
+    relatedTerms: ["obedience-of-faith-ext", "faith-as-virtue-ext", "dei-verbum"]
+  },
+  {
+    id: "obedience-of-faith-ext",
+    term: "The Obedience of Faith",
+    category: "doctrine",
+    tags: ["Faith", "Romans", "Submission"],
+    oneLiner: "The response by which human beings freely submit their intellect and will to God's self-revelation, as described by St. Paul in Romans 1:5.",
+    body: "Paul brackets his letter to the Romans with the phrase 'the obedience of faith' (Rom 1:5; 16:26), indicating that faith is not mere intellectual agreement but an act of loving obedience. Vatican II's Dei Verbum takes up this language to describe faith as the whole person's free self-surrender to God. This obedience is not slavish but filial — it is the response of a child trusting a loving Father. Jacques Philippe emphasizes that such obedience brings interior peace, as the soul rests in God's trustworthy word rather than its own anxious calculations.",
+    whyItMatters: "The obedience of faith transforms the relationship between creature and Creator from distant acknowledgment to intimate trust, forming the basis of interior peace and spiritual growth.",
+    relatedTerms: ["assent-of-faith-ext", "faith-as-virtue-ext", "analogy-of-faith-deeper-ext"]
+  },
+  {
+    id: "analogy-of-faith-deeper-ext",
+    term: "Analogy of Faith (Deeper)",
+    category: "doctrine",
+    tags: ["Hermeneutics", "Scripture", "Doctrine"],
+    oneLiner: "The principle that individual truths of faith must be interpreted in light of the whole of revelation, since all doctrines form a coherent unity.",
+    body: "The analogia fidei, taken from Romans 12:6, means that no single dogma can be properly understood in isolation. Each doctrine illuminates and is illuminated by the others. For example, the doctrine of the Eucharist presupposes the doctrines of the Incarnation, the sacrificial nature of the Cross, and the real presence. The Catechism (114) lists the analogy of faith as one of the criteria for interpreting Scripture. It prevents proof-texting and ensures that theological reasoning respects the organic unity of divine revelation.",
+    whyItMatters: "The analogy of faith protects against selective or distorted readings of Scripture and doctrine, ensuring that the faith is received and taught as an integral whole rather than a collection of isolated propositions.",
+    relatedTerms: ["development-of-doctrine-deeper-ext", "hierarchy-of-truths-deeper-ext", "deposit-of-faith-deeper-ext"]
+  },
+  {
+    id: "development-of-doctrine-deeper-ext",
+    term: "Development of Doctrine (Deeper)",
+    category: "doctrine",
+    tags: ["Newman", "Tradition", "Magisterium"],
+    oneLiner: "The process by which the Church's understanding of revealed truth grows more explicit and precise over time without changing in substance.",
+    body: "John Henry Newman's Essay on the Development of Christian Doctrine (1845) identified seven notes that distinguish authentic development from corruption: preservation of type, continuity of principles, power of assimilation, logical sequence, anticipation of its future, conservative action upon its past, and chronic vigor. Vatican II affirmed that the Church's understanding of doctrine grows through contemplation, study, experience, and the preaching of bishops. Development is not adding new revelation but penetrating more deeply into the deposit once delivered.",
+    whyItMatters: "The development of doctrine explains how the Church can define 'new' dogmas (like the Assumption) without contradicting the principle that public revelation closed with the death of the last Apostle.",
+    relatedTerms: ["analogy-of-faith-deeper-ext", "deposit-of-faith-deeper-ext", "hierarchy-of-truths-deeper-ext"]
+  },
+  {
+    id: "hierarchy-of-truths-deeper-ext",
+    term: "Hierarchy of Truths (Deeper)",
+    category: "doctrine",
+    tags: ["Ecumenism", "Vatican II", "Doctrine"],
+    oneLiner: "Not all Catholic doctrines carry the same weight; they are organized around the central mysteries of the Trinity, the Incarnation, and salvation.",
+    body: "Unitatis Redintegratio (11) teaches that there exists an order or hierarchy among Catholic doctrines, since they vary in their relationship to the foundation of the Christian faith. The Trinity and the Incarnation are foundational; doctrines about the sacraments, Mary, or the saints derive their significance from these central mysteries. The hierarchy of truths does not mean some doctrines are optional but that they differ in their proximity to the core mystery. This principle is crucial for ecumenical dialogue and catechetical prioritization.",
+    whyItMatters: "The hierarchy of truths helps Catholics communicate their faith more effectively by showing which doctrines are most foundational and how secondary doctrines flow organically from the central mysteries.",
+    relatedTerms: ["analogy-of-faith-deeper-ext", "deposit-of-faith-deeper-ext", "sensus-fidei-deeper-ext"]
+  },
+  {
+    id: "sensus-fidei-deeper-ext",
+    term: "Sensus Fidei (Deeper)",
+    category: "doctrine",
+    tags: ["Ecclesiology", "Holy Spirit", "Belief"],
+    oneLiner: "The supernatural instinct of faith by which the whole body of believers, anointed by the Holy Spirit, cannot err in matters of belief.",
+    body: "Lumen Gentium (12) teaches that the People of God, through the anointing of the Holy Spirit, possess a supernatural sense of the faith (sensus fidei) that enables them to recognize and adhere to authentic doctrine. This is not a democratic poll but a Spirit-guided consensus in faith. The International Theological Commission (2014) clarified criteria for discerning authentic sensus fidei from mere popular opinion: it requires active participation in the Church's life, listening to the Magisterium, holiness, and seeking the edification of the Church rather than conformity with the world.",
+    whyItMatters: "The sensus fidei affirms that the Holy Spirit guides not only the hierarchy but the whole Church, giving every baptized person a role in preserving and transmitting the faith.",
+    relatedTerms: ["hierarchy-of-truths-deeper-ext", "magisterial-authority-levels-ext", "deposit-of-faith-deeper-ext"]
+  },
+  {
+    id: "magisterial-authority-levels-ext",
+    term: "Levels of Magisterial Authority",
+    category: "doctrine",
+    tags: ["Magisterium", "Authority", "Doctrine"],
+    oneLiner: "The Church's teaching authority operates at different levels — from infallible definitions to authoritative but non-definitive teachings — each requiring a different degree of assent.",
+    body: "Catholic theology distinguishes several levels: (1) dogmas solemnly defined by pope or council (requiring the assent of faith); (2) doctrines definitively proposed by the ordinary universal Magisterium (also requiring firm assent); (3) authoritative but non-definitive teachings (requiring religious submission of intellect and will, or obsequium religiosum); and (4) prudential applications and disciplinary decisions. Ad Tuendam Fidem (1998) formalized these levels in canon law. Each level carries corresponding obligations for the faithful.",
+    whyItMatters: "Understanding levels of authority prevents both dissent from defined doctrine and the error of treating every magisterial statement as equally binding, allowing for appropriate theological discussion.",
+    relatedTerms: ["infallibility-conditions-ext", "definitive-doctrine-ext", "nota-theologica-ext"]
+  },
+  {
+    id: "infallibility-conditions-ext",
+    term: "Conditions for Infallibility",
+    category: "doctrine",
+    tags: ["Infallibility", "Vatican I", "Pope"],
+    oneLiner: "Papal infallibility operates only under strict conditions: the pope must speak ex cathedra, on faith or morals, with the intention of binding the universal Church.",
+    body: "Vatican I (Pastor Aeternus, 1870) defined that the pope is infallible when: (1) he speaks in his capacity as supreme pastor of the Church (ex cathedra); (2) he defines a doctrine concerning faith or morals; (3) he intends to bind the entire Church with a definitive act. Infallibility is not impeccability (freedom from sin) nor does it extend to the pope's personal opinions, scientific views, or political judgments. The charism protects the Church from error in its definitive teaching, not the pope from personal failings.",
+    whyItMatters: "Precisely defining the conditions for infallibility prevents both the exaggeration of papal authority (as if everything the pope says is infallible) and its unjust rejection.",
+    relatedTerms: ["magisterial-authority-levels-ext", "definitive-doctrine-ext", "ex-cathedra"]
+  },
+  {
+    id: "definitive-doctrine-ext",
+    term: "Definitive Doctrine",
+    category: "doctrine",
+    tags: ["Magisterium", "Authority", "Canon Law"],
+    oneLiner: "Teachings definitively proposed by the Church as necessarily connected to revelation, requiring firm and irrevocable assent even if not formally revealed.",
+    body: "Definitive doctrines occupy a middle ground between solemnly defined dogma and ordinary authoritative teaching. They are truths that the Magisterium teaches definitively as required to safeguard or expound revelation, such as the invalidity of Anglican orders (Apostolicae Curae) or the reservation of ordination to men. Canon 750 §2 and Ad Tuendam Fidem specify that those who reject such teachings are no longer in full communion with the Catholic Church, though the penalty differs from that for heresy against defined dogma.",
+    whyItMatters: "Definitive doctrine shows that the Church's infallible teaching extends beyond the narrow scope of solemn definitions to include truths necessarily connected with revelation.",
+    relatedTerms: ["magisterial-authority-levels-ext", "infallibility-conditions-ext", "nota-theologica-ext"]
+  },
+  {
+    id: "nota-theologica-ext",
+    term: "Nota Theologica (Theological Notes)",
+    category: "doctrine",
+    tags: ["Theology", "Classification", "Authority"],
+    oneLiner: "A system of classifying doctrines according to their degree of certainty and their relationship to divine revelation.",
+    body: "The system of theological notes (notae theologicae) classifies propositions from 'de fide definita' (solemnly defined dogma) through 'sententia fidei proxima' (very close to faith), 'sententia certa' (theologically certain), 'sententia communis' (common teaching), down to 'sententia probabilis' (probable opinion). Corresponding to each note is a theological censure for its denial, ranging from 'haeretica' to 'temeraria.' This system, developed by post-Tridentine theologians, brings precision to theological discussion and helps distinguish essential from peripheral matters.",
+    whyItMatters: "Theological notes prevent both fundamentalism (treating all teachings as equally certain) and theological minimalism (dismissing everything not solemnly defined), enabling nuanced and responsible Catholic thought.",
+    relatedTerms: ["theological-censures-ext", "magisterial-authority-levels-ext", "definitive-doctrine-ext"]
+  },
+  {
+    id: "theological-censures-ext",
+    term: "Theological Censures",
+    category: "doctrine",
+    tags: ["Theology", "Error", "Classification"],
+    oneLiner: "Official qualifications applied to erroneous propositions, grading their severity from 'heretical' to merely 'offensive to pious ears.'",
+    body: "Theological censures are the negative counterpart of theological notes. When the Church evaluates a proposition as false, it assigns a censure indicating the degree of error: haeretica (contradicts defined dogma), erronea (contradicts a truth connected to revelation), temeraria (rash, lacking theological foundation), scandalosa (likely to cause spiritual harm), and offensiva piarum aurium (offensive to devout sensibilities). These censures were extensively used by the Holy Office and in conciliar condemnations to guide the faithful with precision.",
+    whyItMatters: "Theological censures enable the Church to address errors with proportionate severity, distinguishing outright heresy from lesser degrees of theological imprudence.",
+    relatedTerms: ["nota-theologica-ext", "magisterial-authority-levels-ext", "deposit-of-faith-deeper-ext"]
+  },
+  {
+    id: "deposit-of-faith-deeper-ext",
+    term: "Deposit of Faith (Deeper)",
+    category: "doctrine",
+    tags: ["Revelation", "Tradition", "Scripture"],
+    oneLiner: "The totality of divine revelation entrusted to the Church through Scripture and Tradition, complete with the death of the last Apostle.",
+    body: "The depositum fidei, referenced in 1 Timothy 6:20 and 2 Timothy 1:14, comprises everything God has revealed for the sake of human salvation. It is transmitted in two modes: Sacred Scripture and Sacred Tradition, both flowing from the same divine wellspring and tending toward the same end. The Magisterium serves this deposit, not standing above it. No new public revelation will be given; the Church's task until the parousia is to guard, expound, and apply what has already been entrusted to her under the guidance of the Holy Spirit.",
+    whyItMatters: "The deposit of faith establishes both the richness and the limit of Catholic doctrine: the Church teaches authoritatively but always in service to a revelation she received, not invented.",
+    relatedTerms: ["development-of-doctrine-deeper-ext", "analogy-of-faith-deeper-ext", "sensus-fidei-deeper-ext"]
+  }
 ];

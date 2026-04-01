@@ -74,6 +74,15 @@ export function HomeClient({
   }, []);
 
   const handleSelectRelated = useCallback((term: string) => {
+    // First try direct ID lookup
+    const byId = getConceptById(term);
+    if (byId) {
+      setSelectedConcept(byId);
+      progress.markSeen(byId.id, byId.term, byId.category);
+      window.history.pushState(null, "", `?post=${encodeURIComponent(byId.id)}`);
+      return;
+    }
+    // Fallback to search
     const items = searchConcepts(term);
     if (items.length > 0) {
       const match = items.find(

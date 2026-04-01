@@ -771,4 +771,724 @@ export const traditionConcepts: Concept[] = [
     whyItMatters: "Sacramentals extend the sanctifying power of the liturgy into the daily life of the faithful, expressing the Catholic conviction that grace permeates every aspect of human existence.",
     relatedTerms: ["Relics", "Pilgrimage", "Liturgical Tradition"],
   },
+{
+    id: "oral-tradition-deeper",
+    term: "Oral Tradition and Apostolic Memory",
+    category: "tradition",
+    tags: ["oral", "memory", "kerygma"],
+    oneLiner: "The earliest Christian communities preserved the faith through living memory and oral proclamation before any New Testament text was written.",
+    body: "For at least two decades after Pentecost, the Christian faith existed entirely as an oral tradition. The apostles preached, catechized, and celebrated the liturgy without a written New Testament. This oral phase was not a deficiency but the normal means by which ancient communities transmitted their most sacred truths. Paul's letters reference traditions he 'received and handed on' (1 Cor 15:3), showing that oral transmission had a formal, careful structure.",
+    whyItMatters: "Understanding the oral phase of Christian tradition corrects the assumption that authentic Christianity depends exclusively on written texts and validates the Church's living memory as a genuine vehicle of revelation.",
+    relatedTerms: ["apostolic-tradition", "apostolic-preaching", "deposit-of-faith-tradition"]
+  },
+  {
+    id: "apostolic-preaching",
+    term: "Apostolic Preaching (Kerygma)",
+    category: "tradition",
+    tags: ["kerygma", "proclamation", "Acts"],
+    oneLiner: "The apostles' initial proclamation of the death, resurrection, and lordship of Jesus formed the core of all later Christian tradition.",
+    body: "The kerygma, or apostolic preaching, is the foundational proclamation summarized in passages like Acts 2:14-36 and 1 Corinthians 15:3-8. It announces that Jesus died for our sins, was buried, rose on the third day, and appeared to witnesses. This core message preceded all theological elaboration and remains the heartbeat of Catholic tradition. Every creed, dogma, and doctrinal development is ultimately an unfolding of this original proclamation.",
+    whyItMatters: "The kerygma reminds the Church that all theology and tradition must serve the simple, life-changing announcement that Jesus Christ is risen and is Lord.",
+    relatedTerms: ["oral-tradition-deeper", "apostolic-tradition", "rule-of-faith"]
+  },
+  {
+    id: "rule-of-faith",
+    term: "Rule of Faith (Regula Fidei)",
+    category: "tradition",
+    tags: ["regula fidei", "creed", "Irenaeus"],
+    oneLiner: "The Rule of Faith was the early Church's summary of essential beliefs used to test true teaching against heresy.",
+    body: "Before formal creeds were composed, the early Church possessed a Rule of Faith (regula fidei), a flexible but recognizable summary of core Christian beliefs about the Father, Son, and Holy Spirit. St. Irenaeus, Tertullian, and Origen each articulated versions of this rule, which functioned as the Church's interpretive key for reading Scripture and identifying authentic tradition. It was the ancestor of the Apostles' Creed and the Nicene Creed.",
+    whyItMatters: "The Rule of Faith demonstrates that the Church always possessed an authoritative interpretive framework prior to and independent of the written biblical canon.",
+    relatedTerms: ["apostolic-preaching", "vincentian-canon-deeper", "apostolic-tradition"]
+  },
+  {
+    id: "vincentian-canon-deeper",
+    term: "Vincentian Canon",
+    category: "tradition",
+    tags: ["Vincent of Lerins", "universality", "antiquity"],
+    oneLiner: "St. Vincent of Lerins proposed that authentic Catholic teaching is what has been believed everywhere, always, and by all.",
+    body: "In his Commonitorium (434 AD), St. Vincent of Lerins articulated the famous canon: quod ubique, quod semper, quod ab omnibus creditum est (what has been believed everywhere, always, and by all). This triple test of universality, antiquity, and consent provides a criterion for distinguishing authentic tradition from innovation. However, Vincent also taught that doctrine develops organically, growing in understanding while remaining the same in substance, anticipating Newman's theory by fourteen centuries.",
+    whyItMatters: "The Vincentian Canon offers a practical tool for discerning authentic Catholic teaching and balances the need for doctrinal stability with the reality of legitimate development.",
+    relatedTerms: ["rule-of-faith", "development-of-dogma", "development-of-doctrine-newman"]
+  },
+  {
+    id: "development-of-dogma",
+    term: "Development of Dogma",
+    category: "tradition",
+    tags: ["dogma", "development", "definition"],
+    oneLiner: "Dogmatic development is the process by which the Church formally defines truths already implicitly contained in the deposit of faith.",
+    body: "The development of dogma describes how truths present in seed form in Scripture and Tradition are gradually brought to explicit, irreformable definition. This process is guided by the Holy Spirit and typically involves centuries of theological reflection, liturgical practice, and the sensus fidei of the faithful. The Immaculate Conception (1854) and the Assumption (1950) are classic examples of truths long believed but only formally defined after extended development.",
+    whyItMatters: "Understanding dogmatic development prevents the false conclusion that later definitions are inventions, showing instead that the Church's understanding of revelation deepens over time without altering its substance.",
+    relatedTerms: ["vincentian-canon-deeper", "dogmatic-definitions", "development-of-doctrine-newman"]
+  },
+  {
+    id: "dogmatic-definitions",
+    term: "Dogmatic Definitions",
+    category: "tradition",
+    tags: ["dogma", "infallibility", "irreformable"],
+    oneLiner: "A dogmatic definition is a solemn, irreformable declaration by the Church's supreme authority that a particular truth belongs to divine revelation.",
+    body: "Dogmatic definitions can be issued by an ecumenical council or by the Pope speaking ex cathedra. Once defined, a dogma is considered infallibly taught and irreformable, meaning it cannot be reversed or substantially altered by any future authority. The number of formally defined dogmas is relatively small compared to the vast body of Catholic teaching, reflecting the Church's caution in exercising this highest level of doctrinal authority.",
+    whyItMatters: "Dogmatic definitions provide certainty on essential matters of faith and protect the faithful from doctrinal confusion, while their rarity shows the Church's prudent restraint.",
+    relatedTerms: ["development-of-dogma", "conciliar-decrees", "papal-infallibility-tradition"]
+  },
+  {
+    id: "conciliar-decrees",
+    term: "Conciliar Decrees",
+    category: "tradition",
+    tags: ["councils", "decrees", "authority"],
+    oneLiner: "Ecumenical councils issue decrees that carry the highest teaching authority in the Church when confirmed by the Pope.",
+    body: "From Nicaea I (325) to Vatican II (1962-1965), the Church has held twenty-one ecumenical councils. Their decrees include dogmatic definitions, disciplinary canons, and pastoral directives. Dogmatic decrees of ecumenical councils are considered infallible when they define matters of faith and morals. Disciplinary canons, while authoritative, can be modified by subsequent legislation. The authority of conciliar decrees rests on the collegial action of the bishops in union with the Pope.",
+    whyItMatters: "Conciliar decrees represent the Church's most solemn collective exercise of teaching authority, providing definitive guidance on controverted questions of faith and practice.",
+    relatedTerms: ["dogmatic-definitions", "conciliar-documents", "papal-infallibility-tradition"]
+  },
+  {
+    id: "papal-bulls",
+    term: "Papal Bulls",
+    category: "tradition",
+    tags: ["papacy", "documents", "bulla"],
+    oneLiner: "A papal bull is the most solemn form of papal document, sealed with a lead seal and used for major doctrinal or juridical pronouncements.",
+    body: "Named for the lead seal (bulla) attached to the document, papal bulls have been used since the sixth century for the most important papal acts. They have proclaimed dogmas (Ineffabilis Deus, 1854), convoked councils, established dioceses, and issued major legislative acts. The format and solemnity of a bull signal that its contents carry the highest papal authority. Notable bulls include Unam Sanctam (1302) and Munificentissimus Deus (1950).",
+    whyItMatters: "Papal bulls represent the apex of papal documentary authority and have shaped Catholic doctrine, discipline, and governance for over a millennium.",
+    relatedTerms: ["papal-briefs", "dogmatic-definitions", "papal-infallibility-tradition"]
+  },
+  {
+    id: "papal-briefs",
+    term: "Papal Briefs",
+    category: "tradition",
+    tags: ["papacy", "documents", "brief"],
+    oneLiner: "A papal brief is a less solemn papal document used for administrative and disciplinary matters, sealed with the Pope's ring.",
+    body: "Papal briefs (brevia) emerged in the fourteenth century as a simpler alternative to bulls for less solemn papal communications. They are sealed with the Ring of the Fisherman rather than a lead bulla and are written on parchment in a more compact format. Briefs have been used for approving religious orders, granting privileges, and issuing disciplinary directives. Though less formal than bulls, they carry genuine papal authority.",
+    whyItMatters: "Understanding the hierarchy of papal documents helps the faithful assess the weight and binding character of different papal pronouncements.",
+    relatedTerms: ["papal-bulls", "motu-proprio-deeper", "papal-encyclicals-deeper"]
+  },
+  {
+    id: "papal-encyclicals-deeper",
+    term: "Papal Encyclicals",
+    category: "tradition",
+    tags: ["encyclical", "teaching", "magisterium"],
+    oneLiner: "Papal encyclicals are authoritative teaching letters addressed to the universal Church on matters of faith, morals, or social doctrine.",
+    body: "The modern tradition of papal encyclicals began with Benedict XIV's Ubi Primum (1740). Encyclicals are exercises of the ordinary papal magisterium and, while not typically infallible definitions, require religious assent from the faithful. They address doctrinal questions (Mystici Corporis), moral issues (Humanae Vitae), social teaching (Rerum Novarum), and spiritual themes (Deus Caritas Est). The encyclical tradition represents one of the most influential channels of Catholic teaching in the modern era.",
+    whyItMatters: "Papal encyclicals shape Catholic thought and practice on a global scale and represent the Pope's most sustained exercise of his universal teaching ministry.",
+    relatedTerms: ["papal-encyclicals-history", "apostolic-exhortations", "magisterium-tradition"]
+  },
+  {
+    id: "apostolic-exhortations",
+    term: "Apostolic Exhortations",
+    category: "tradition",
+    tags: ["exhortation", "synod", "pastoral"],
+    oneLiner: "Apostolic exhortations are papal documents that encourage the faithful to implement particular aspects of Church teaching, often following a synod.",
+    body: "Since the pontificate of Paul VI, apostolic exhortations have frequently been issued as post-synodal documents summarizing and applying the work of a Synod of Bishops. Examples include Evangelii Nuntiandi (1975), Familiaris Consortio (1981), and Evangelii Gaudium (2013). They are pastoral and hortatory in character rather than strictly legislative, but they carry significant magisterial weight as expressions of the Pope's teaching authority informed by the collegial input of the world's bishops.",
+    whyItMatters: "Apostolic exhortations bridge the gap between doctrinal definition and pastoral practice, translating the Church's teaching into actionable guidance for everyday Catholic life.",
+    relatedTerms: ["papal-encyclicals-deeper", "apostolic-constitutions-deeper", "magisterium-tradition"]
+  },
+  {
+    id: "apostolic-constitutions-deeper",
+    term: "Apostolic Constitutions",
+    category: "tradition",
+    tags: ["constitution", "legislation", "solemn"],
+    oneLiner: "Apostolic constitutions are the most solemn form of papal legislative document, used for major acts of governance and doctrinal definition.",
+    body: "Apostolic constitutions are issued by the Pope in his capacity as supreme legislator and teacher. They have been used to promulgate new codes of canon law (Sacrae Disciplinae Leges, 1983), define dogmas (Munificentissimus Deus, 1950), reform the liturgy (Missale Romanum, 1969), and restructure the Roman Curia (Praedicate Evangelium, 2022). They carry the highest level of papal legislative authority and require the full observance of the faithful.",
+    whyItMatters: "Apostolic constitutions shape the fundamental structures of Catholic life, from the law of the Church to the form of its worship and the organization of its governance.",
+    relatedTerms: ["apostolic-constitutions-document", "papal-bulls", "canonical-legislation"]
+  },
+  {
+    id: "motu-proprio-deeper",
+    term: "Motu Proprio",
+    category: "tradition",
+    tags: ["motu proprio", "papal initiative", "legislation"],
+    oneLiner: "A motu proprio is a papal document issued on the Pope's own initiative, typically introducing specific legislative or disciplinary changes.",
+    body: "The Latin phrase motu proprio means 'of his own accord,' indicating that the document originates from the Pope's personal decision rather than in response to a petition. Motu proprio documents have been used to reform Church structures (Summorum Pontificum, 2007; Traditionis Custodes, 2021), modify canonical procedures, and establish new institutions. They are legislative in character and take effect as specified, sometimes immediately upon publication.",
+    whyItMatters: "Motu proprio documents demonstrate the Pope's direct governing authority and can introduce significant changes in Church discipline, making them important for understanding shifts in papal priorities.",
+    relatedTerms: ["papal-briefs", "canonical-legislation", "apostolic-constitutions-deeper"]
+  },
+  {
+    id: "canonical-legislation",
+    term: "Canonical Legislation",
+    category: "tradition",
+    tags: ["canon law", "legislation", "governance"],
+    oneLiner: "Canonical legislation is the body of laws governing the Catholic Church's internal life, rooted in both divine and ecclesiastical law.",
+    body: "Canon law is the Church's legal system, codified most recently in the 1983 Code of Canon Law for the Latin Church and the 1990 Code of Canons of the Eastern Churches. It governs sacraments, Church governance, the rights and obligations of the faithful, penal law, and the administration of temporal goods. Canonical legislation distinguishes between divine law (which cannot be changed) and merely ecclesiastical law (which can be modified by competent authority).",
+    whyItMatters: "Canon law provides the juridical framework that ensures order, justice, and the protection of rights within the Church, serving as the practical application of theological principles.",
+    relatedTerms: ["canon-law-history", "motu-proprio-deeper", "apostolic-constitutions-deeper"]
+  },
+  {
+    id: "curial-documents",
+    term: "Curial Documents",
+    category: "tradition",
+    tags: ["curia", "dicasteries", "instruction"],
+    oneLiner: "Documents issued by the Roman Curia's dicasteries assist the Pope in governing and teaching the universal Church.",
+    body: "The Roman Curia produces various types of documents including instructions, declarations, notifications, and responses to questions (dubia). The Dicastery for the Doctrine of the Faith issues the most doctrinally significant curial documents, such as Dominus Iesus (2000) and Dignitas Infinita (2024). While curial documents do not carry the same weight as papal documents, they participate in the ordinary magisterium when approved by the Pope and published with his authority.",
+    whyItMatters: "Curial documents extend the Pope's teaching and governing reach, providing detailed guidance on matters the Pope cannot address personally in every instance.",
+    relatedTerms: ["magisterium-tradition", "congregational-decrees", "papal-encyclicals-deeper"]
+  },
+  {
+    id: "congregational-decrees",
+    term: "Congregational Decrees",
+    category: "tradition",
+    tags: ["congregation", "decrees", "Holy Office"],
+    oneLiner: "Decrees from Roman congregations (now dicasteries) have historically clarified doctrine and settled theological disputes on the Pope's behalf.",
+    body: "The former Roman Congregations, now called Dicasteries, have issued decrees throughout Church history that have shaped Catholic theology and practice. The Holy Office (now the Dicastery for the Doctrine of the Faith) has been the most influential, issuing condemnations of errors, approving theological opinions, and clarifying doctrinal questions. These decrees require varying levels of assent depending on their form and the Pope's explicit approval.",
+    whyItMatters: "Congregational decrees represent an important channel of the ordinary magisterium and have resolved many theological controversies that could not wait for a full papal or conciliar pronouncement.",
+    relatedTerms: ["curial-documents", "pontifical-biblical-commission", "magisterium-tradition"]
+  },
+  {
+    id: "pontifical-biblical-commission",
+    term: "Pontifical Biblical Commission",
+    category: "tradition",
+    tags: ["Bible", "exegesis", "scholarship"],
+    oneLiner: "The Pontifical Biblical Commission advises the Pope on questions of biblical interpretation and promotes sound Catholic exegesis.",
+    body: "Established by Pope Leo XIII in 1902, the Pontifical Biblical Commission was originally a decision-making body whose decrees were binding. After Vatican II, it was reorganized as an advisory body of scholars who assist the Dicastery for the Doctrine of the Faith. Its influential documents include The Interpretation of the Bible in the Church (1993) and The Jewish People and Their Sacred Scriptures in the Christian Bible (2001). The Commission bridges the gap between academic biblical scholarship and the Church's doctrinal tradition.",
+    whyItMatters: "The Pontifical Biblical Commission ensures that Catholic biblical scholarship remains in fruitful dialogue with the Church's living tradition, preventing both fundamentalism and relativism.",
+    relatedTerms: ["congregational-decrees", "international-theological-commission", "dei-verbum"]
+  },
+  {
+    id: "international-theological-commission",
+    term: "International Theological Commission",
+    category: "tradition",
+    tags: ["theology", "commission", "advisory"],
+    oneLiner: "The International Theological Commission is a body of theologians who advise the Holy See on major doctrinal questions.",
+    body: "Established by Paul VI in 1969, the International Theological Commission consists of up to thirty theologians from around the world who are appointed by the Pope for renewable five-year terms. The Commission studies current theological questions and publishes documents that, while not magisterial in themselves, carry significant theological weight. Notable documents include Theology Today (2012) and Sensus Fidei in the Life of the Church (2014). Members have included figures like Joseph Ratzinger, Hans Urs von Balthasar, and Karl Rahner.",
+    whyItMatters: "The International Theological Commission represents the Church's commitment to rigorous theological inquiry in service of the faith and ensures that diverse theological perspectives inform magisterial deliberation.",
+    relatedTerms: ["pontifical-biblical-commission", "magisterium-tradition", "curial-documents"]
+  },
+  {
+    id: "catechetical-tradition",
+    term: "Catechetical Tradition",
+    category: "tradition",
+    tags: ["catechesis", "education", "formation"],
+    oneLiner: "The Church's catechetical tradition transmits the faith through systematic instruction adapted to every age and culture.",
+    body: "From the earliest catechumenal instructions of Cyril of Jerusalem and Augustine to the Roman Catechism of the Council of Trent and the Catechism of the Catholic Church (1992), the Church has maintained a continuous tradition of systematic faith education. Catechesis involves not only intellectual instruction but formation in prayer, liturgy, and moral life. The catechetical tradition adapts its methods to different cultures and eras while preserving the substance of the deposit of faith.",
+    whyItMatters: "The catechetical tradition ensures that each generation receives the fullness of Catholic teaching in an accessible form, preventing the faith from becoming the preserve of scholars alone.",
+    relatedTerms: ["catechism-of-the-catholic-church", "deposit-of-faith-tradition", "apostolic-preaching"]
+  },
+  {
+    id: "patristic-consensus",
+    term: "Patristic Consensus",
+    category: "tradition",
+    tags: ["Fathers", "consensus", "authority"],
+    oneLiner: "When the Church Fathers unanimously agree on a doctrinal point, their consensus is considered a witness to authentic apostolic tradition.",
+    body: "The unanimous agreement of the Church Fathers (consensus patrum) on a matter of faith or morals is regarded as a sure indicator of apostolic tradition. The Council of Trent declared that Scripture must not be interpreted contrary to the unanimous consent of the Fathers. This principle does not require that every Father address every topic, but that when they do address it, their agreement is morally unanimous. The patristic consensus functions as a theological criterion alongside Scripture and magisterial teaching.",
+    whyItMatters: "The patristic consensus provides a concrete historical anchor for doctrine, preventing novel interpretations from claiming apostolic warrant without the support of the early Church's witness.",
+    relatedTerms: ["patristics", "church-fathers", "rule-of-faith"]
+  },
+  {
+    id: "theological-loci",
+    term: "Theological Loci (Sources of Theology)",
+    category: "tradition",
+    tags: ["loci", "method", "sources"],
+    oneLiner: "The theological loci are the recognized sources from which Catholic theology draws its arguments and conclusions.",
+    body: "The concept of theological loci was systematized by the Dominican Melchior Cano in his De Locis Theologicis (1563). Cano identified ten sources: Scripture, apostolic tradition, the universal Church, councils, the papacy, the Church Fathers, scholastic theologians, natural reason, philosophers, and human history. These loci provide the raw material from which theology constructs its arguments and against which it tests its conclusions. The system remains influential in Catholic theological method.",
+    whyItMatters: "The theological loci system brings order to Catholic theological reasoning, ensuring that arguments are grounded in recognized authorities rather than private speculation.",
+    relatedTerms: ["melchior-cano", "positive-theology", "speculative-theology"]
+  },
+  {
+    id: "melchior-cano",
+    term: "Melchior Cano and Theological Method",
+    category: "tradition",
+    tags: ["Cano", "Dominican", "method"],
+    oneLiner: "Melchior Cano's De Locis Theologicis established the foundational framework for Catholic theological methodology.",
+    body: "Melchior Cano (1509-1560) was a Spanish Dominican theologian and bishop who participated in the Council of Trent. His posthumously published De Locis Theologicis (1563) is considered the founding work of Catholic theological methodology. By identifying and ranking the sources of theological argument, Cano provided a systematic way to evaluate theological claims and resolve disputes. His work influenced centuries of Catholic seminary education and remains a reference point for theological method.",
+    whyItMatters: "Cano's contribution reminds the Church that theology is not mere opinion but a disciplined science with recognized sources and established rules of argumentation.",
+    relatedTerms: ["theological-loci", "scholastic-theology-deeper", "positive-theology"]
+  },
+  {
+    id: "positive-theology",
+    term: "Positive Theology",
+    category: "tradition",
+    tags: ["positive", "historical", "sources"],
+    oneLiner: "Positive theology gathers and organizes the data of revelation from Scripture, Tradition, and the Fathers before systematic reflection begins.",
+    body: "Positive theology is the branch of theology concerned with establishing what God has revealed by examining the historical sources: Scripture, patristic writings, conciliar decrees, liturgical texts, and other witnesses to Tradition. It is called 'positive' because it deals with what has been positively given (posita) by God in revelation. Positive theology provides the raw material that speculative theology then analyzes, organizes, and deepens through philosophical reasoning.",
+    whyItMatters: "Positive theology ensures that Catholic doctrine remains rooted in historical revelation rather than becoming untethered abstract speculation.",
+    relatedTerms: ["theological-loci", "speculative-theology", "patristic-consensus"]
+  },
+  {
+    id: "speculative-theology",
+    term: "Speculative Theology",
+    category: "tradition",
+    tags: ["speculative", "reason", "systematic"],
+    oneLiner: "Speculative theology uses philosophical reasoning to deepen understanding of revealed truths established by positive theology.",
+    body: "Speculative theology takes the data of revelation gathered by positive theology and seeks deeper understanding through philosophical analysis, logical deduction, and systematic organization. It asks not only 'What has God revealed?' but 'Why?' and 'How do these truths relate to one another?' The great Summa Theologiae of St. Thomas Aquinas is the supreme example of speculative theology. This branch of theology produces the systematic doctrinal syntheses that characterize Catholic intellectual life.",
+    whyItMatters: "Speculative theology demonstrates that faith and reason are complementary, enabling believers to move from assent to understanding and to articulate the faith's inner coherence.",
+    relatedTerms: ["positive-theology", "scholastic-theology-deeper", "thomism-deeper"]
+  },
+  {
+    id: "monastic-theology",
+    term: "Monastic Theology",
+    category: "tradition",
+    tags: ["monastic", "lectio divina", "prayer"],
+    oneLiner: "Monastic theology is a contemplative approach to divine truth rooted in prayer, Scripture, and liturgical worship rather than academic disputation.",
+    body: "Before the rise of the universities in the twelfth century, theology was primarily practiced in monasteries. Monastic theology, exemplified by figures like St. Bernard of Clairvaux and William of St. Thierry, emphasizes lectio divina, liturgical prayer, and personal experience of God rather than dialectical reasoning. It seeks sapientia (wisdom) rather than scientia (knowledge), aiming at the transformation of the theologian rather than merely the accumulation of intellectual conclusions.",
+    whyItMatters: "Monastic theology reminds the Church that theology's ultimate purpose is not intellectual mastery but loving knowledge of God, keeping the discipline rooted in prayer and worship.",
+    relatedTerms: ["rule-of-st-benedict", "monasticism", "scholastic-theology-deeper"]
+  },
+  {
+    id: "scholastic-theology-deeper",
+    term: "Scholastic Theology",
+    category: "tradition",
+    tags: ["scholasticism", "universities", "Aquinas"],
+    oneLiner: "Scholastic theology brought rigorous philosophical method to the study of divine revelation, producing the great theological syntheses of the medieval period.",
+    body: "Scholasticism arose in the twelfth-century cathedral schools and universities, applying Aristotelian logic and philosophy to theological questions. Its method of quaestio (posing questions), objections, and respondeo (systematic answers) produced unprecedented clarity and precision. The movement culminated in the work of St. Thomas Aquinas, St. Bonaventure, and Duns Scotus. Though sometimes criticized for excessive abstraction, scholasticism gave the Church a theological vocabulary and method that remain foundational to Catholic doctrine.",
+    whyItMatters: "Scholastic theology demonstrated that faith can withstand the most rigorous intellectual scrutiny and provided the conceptual tools the Church still uses to express its most precise doctrinal formulations.",
+    relatedTerms: ["scholasticism", "thomism-deeper", "dominican-school"]
+  },
+  {
+    id: "dominican-school",
+    term: "Dominican Theological School",
+    category: "tradition",
+    tags: ["Dominican", "Aquinas", "Thomism"],
+    oneLiner: "The Dominican school of theology, led by St. Thomas Aquinas, emphasizes the harmony of faith and reason and the primacy of divine truth.",
+    body: "The Order of Preachers (Dominicans), founded by St. Dominic in 1216, produced a distinctive theological tradition centered on the work of St. Thomas Aquinas. Dominican theology emphasizes the intelligibility of faith, the real distinction between essence and existence, the primacy of the intellect in the beatific vision, and the efficacy of divine grace through physical premotion. Albert the Great, Thomas Aquinas, and later Cajetan and John of St. Thomas shaped this tradition, which Leo XIII endorsed as the preferred Catholic philosophical-theological method.",
+    whyItMatters: "The Dominican school's emphasis on the harmony of faith and reason has profoundly shaped Catholic intellectual culture and remains the preferred framework for seminary education.",
+    relatedTerms: ["thomism-deeper", "scholastic-theology-deeper", "franciscan-school"]
+  },
+  {
+    id: "franciscan-school",
+    term: "Franciscan Theological School",
+    category: "tradition",
+    tags: ["Franciscan", "Scotus", "Bonaventure"],
+    oneLiner: "The Franciscan school emphasizes the primacy of love and the will, offering a complementary alternative to Dominican intellectualism.",
+    body: "The Franciscan theological tradition, shaped by St. Bonaventure, Duns Scotus, and William of Ockham, offers a distinctive approach that emphasizes the primacy of the will over the intellect, the absolute primacy of Christ in creation, and the univocity of being. Bonaventure developed a theology of the journey of the soul to God through creation, while Scotus championed the Immaculate Conception and the formal distinction. The Franciscan school provides a necessary complement to Thomism within Catholic theological pluralism.",
+    whyItMatters: "The Franciscan school ensures that Catholic theology does not become purely rationalist, preserving the affective, aesthetic, and voluntarist dimensions of the faith.",
+    relatedTerms: ["dominican-school", "scotism", "scholastic-theology-deeper"]
+  },
+  {
+    id: "jesuit-theology",
+    term: "Jesuit Theology",
+    category: "tradition",
+    tags: ["Jesuit", "Ignatian", "mission"],
+    oneLiner: "The Society of Jesus developed a theological tradition marked by pastoral flexibility, missionary zeal, and engagement with culture.",
+    body: "Founded by St. Ignatius of Loyola in 1540, the Jesuits developed a theological approach characterized by accommodation to local cultures, engagement with the sciences and humanities, and emphasis on discernment and interior freedom. Jesuit theologians like Francisco Suarez, Luis de Molina, and Karl Rahner made significant contributions to metaphysics, grace theology, and transcendental Thomism. The Ignatian tradition of the Spiritual Exercises shapes Jesuit theology's practical and experiential orientation.",
+    whyItMatters: "Jesuit theology demonstrates the Church's capacity to engage diverse cultures and intellectual traditions while remaining faithful to Catholic doctrine, making it especially relevant in the modern era.",
+    relatedTerms: ["molinism", "dominican-school", "scholastic-theology-deeper"]
+  },
+  {
+    id: "thomism-deeper",
+    term: "Thomism",
+    category: "tradition",
+    tags: ["Thomism", "Aquinas", "philosophy"],
+    oneLiner: "Thomism is the philosophical and theological system of St. Thomas Aquinas, officially recommended by the Church as the preferred framework for Catholic thought.",
+    body: "Thomism integrates Aristotelian philosophy with Christian revelation, producing a comprehensive system that addresses metaphysics, ethics, epistemology, and every area of theology. Key principles include the real distinction of essence and existence, the five ways of proving God's existence, the analogy of being, and the nature of grace as elevating and perfecting nature. Pope Leo XIII's Aeterni Patris (1879) mandated Thomism as the foundation of Catholic seminary education. Various schools of Thomism exist, from strict Thomism to transcendental Thomism.",
+    whyItMatters: "Thomism provides the Church with a coherent philosophical foundation for its theology, enabling precise doctrinal formulation and fruitful dialogue with philosophy and the sciences.",
+    relatedTerms: ["dominican-school", "scholastic-theology-deeper", "scotism"]
+  },
+  {
+    id: "scotism",
+    term: "Scotism",
+    category: "tradition",
+    tags: ["Scotus", "univocity", "will"],
+    oneLiner: "Scotism is the philosophical-theological school of Bl. John Duns Scotus, emphasizing divine freedom, the primacy of the will, and the univocity of being.",
+    body: "Duns Scotus (c. 1266-1308), the 'Subtle Doctor,' developed a system that differs from Thomism on several key points. He taught the univocity of being (being is said in one sense of God and creatures), the primacy of the will over the intellect, the formal distinction as a middle ground between real and logical distinctions, and the absolute primacy of Christ (the Incarnation would have occurred even without sin). Scotus's defense of the Immaculate Conception was eventually vindicated by the 1854 dogmatic definition.",
+    whyItMatters: "Scotism enriches Catholic theology by offering alternative philosophical perspectives that are fully orthodox, demonstrating the legitimate pluralism within Catholic intellectual life.",
+    relatedTerms: ["franciscan-school", "thomism-deeper", "molinism"]
+  },
+  {
+    id: "molinism",
+    term: "Molinism",
+    category: "tradition",
+    tags: ["Molina", "grace", "free will"],
+    oneLiner: "Molinism is the Jesuit theological system that reconciles divine sovereignty with human free will through the concept of middle knowledge.",
+    body: "Developed by Luis de Molina, SJ (1535-1600), Molinism teaches that God possesses 'middle knowledge' (scientia media): knowledge of what every free creature would do in any possible circumstance. This allows God to providentially govern the world while genuinely preserving human freedom. Molinism was hotly debated with the Dominican system of physical premotion in the famous Congregatio de Auxiliis (1597-1607), which ended without a definitive papal judgment, leaving both systems as legitimate Catholic opinions.",
+    whyItMatters: "Molinism addresses one of theology's deepest puzzles—how divine grace and human freedom coexist—and represents the Church's willingness to tolerate legitimate theological diversity on profound questions.",
+    relatedTerms: ["jesuit-theology", "thomism-deeper", "augustinianism"]
+  },
+  {
+    id: "augustinianism",
+    term: "Augustinianism",
+    category: "tradition",
+    tags: ["Augustine", "grace", "predestination"],
+    oneLiner: "Augustinianism is the theological tradition rooted in St. Augustine's emphasis on grace, original sin, and the primacy of God's initiative in salvation.",
+    body: "St. Augustine of Hippo (354-430) shaped Western theology more than any other Church Father. His theology of grace, developed against the Pelagians, insists on humanity's radical dependence on God's initiative for salvation. Augustinianism emphasizes the effects of original sin, the necessity of prevenient grace, and God's sovereign predestination of the elect. While later Jansenism distorted Augustine's thought into a quasi-Calvinist system, authentic Augustinianism remains a vital current in Catholic theology, influencing everyone from Aquinas to de Lubac.",
+    whyItMatters: "Augustinianism keeps the Church anchored in the conviction that salvation is God's gift, not a human achievement, while orthodox interpretations preserve genuine human freedom and responsibility.",
+    relatedTerms: ["molinism", "thomism-deeper", "de-lubac-nature-grace"]
+  },
+  {
+    id: "de-lubac-nature-grace",
+    term: "De Lubac and Nature-Grace",
+    category: "tradition",
+    tags: ["de Lubac", "nature", "grace", "surnaturel"],
+    oneLiner: "Henri de Lubac challenged the neo-scholastic separation of nature and grace, arguing that humanity has a natural desire for the supernatural.",
+    body: "In his groundbreaking Surnaturel (1946), Henri de Lubac, SJ, argued that the neo-scholastic concept of 'pure nature'—a hypothetical state in which humans have no orientation to God—was a distortion of the authentic Thomistic and patristic tradition. De Lubac held that human nature has an innate desire for the beatific vision, which only grace can fulfill. This thesis was initially controversial but profoundly influenced Vatican II and the theology of Hans Urs von Balthasar, Joseph Ratzinger, and the Communio school.",
+    whyItMatters: "De Lubac's recovery of the intrinsic connection between nature and grace overcomes a false dichotomy and affirms that every human heart is made for God, giving evangelization its deepest anthropological foundation.",
+    relatedTerms: ["ressourcement-theology", "nouvelle-theologie", "augustinianism"]
+  },
+  {
+    id: "ressourcement-theology",
+    term: "Ressourcement Theology",
+    category: "tradition",
+    tags: ["ressourcement", "sources", "renewal"],
+    oneLiner: "Ressourcement theology sought to renew Catholic thought by returning to the original sources of Scripture, the Fathers, and the liturgy.",
+    body: "Ressourcement (French for 'return to the sources') was a mid-twentieth-century movement led by theologians like Henri de Lubac, Jean Danielou, Yves Congar, and Hans Urs von Balthasar. They argued that neo-scholastic theology had become arid and disconnected from the living sources of the faith. By returning to Scripture, the Church Fathers, and the liturgical tradition, they sought to recover the richness and vitality of the Catholic intellectual heritage. Their work deeply influenced the documents of Vatican II.",
+    whyItMatters: "Ressourcement demonstrates that authentic renewal in the Church comes not from novelty but from a deeper engagement with the tradition's own sources, a principle with enduring relevance.",
+    relatedTerms: ["nouvelle-theologie", "de-lubac-nature-grace", "aggiornamento"]
+  },
+  {
+    id: "aggiornamento",
+    term: "Aggiornamento",
+    category: "tradition",
+    tags: ["Vatican II", "renewal", "John XXIII"],
+    oneLiner: "Aggiornamento, or 'updating,' was Pope John XXIII's call to bring the Church's presentation of the faith into dialogue with the modern world.",
+    body: "Pope John XXIII used the Italian word aggiornamento to describe the purpose of the Second Vatican Council: not to change Catholic doctrine but to express it in ways intelligible to the modern world. Aggiornamento implies that the substance of the faith remains unchanged while its pastoral and linguistic expression adapts. The concept generated significant debate about how far adaptation should go, with some interpreting it as a mandate for sweeping reform and others insisting on strict continuity with pre-conciliar forms.",
+    whyItMatters: "Aggiornamento poses the perennial question of how the Church can be faithful to its unchanging message while communicating effectively with each new generation.",
+    relatedTerms: ["ressourcement-theology", "nouvelle-theologie", "lumen-gentium-deeper"]
+  },
+  {
+    id: "nouvelle-theologie",
+    term: "Nouvelle Theologie",
+    category: "tradition",
+    tags: ["nouvelle theologie", "reform", "controversy"],
+    oneLiner: "Nouvelle theologie was a mid-twentieth-century theological movement that challenged neo-scholastic dominance and helped prepare the ground for Vatican II.",
+    body: "The term nouvelle theologie (new theology) was initially used pejoratively by critics like Reginald Garrigou-Lagrange to describe the work of de Lubac, Congar, Chenu, and others who questioned certain neo-scholastic assumptions. Pius XII's Humani Generis (1950) warned against some of the movement's tendencies, and several of its leading figures were temporarily silenced. However, many of these same theologians were rehabilitated under John XXIII and served as periti (expert advisors) at Vatican II, where their ideas profoundly shaped the Council's documents.",
+    whyItMatters: "The story of the nouvelle theologie illustrates how the Holy Spirit can work through theological controversy, bringing initially suspect insights into the mainstream of Catholic teaching.",
+    relatedTerms: ["ressourcement-theology", "de-lubac-nature-grace", "aggiornamento"]
+  },
+  {
+    id: "liturgical-movement-history",
+    term: "Liturgical Movement",
+    category: "tradition",
+    tags: ["liturgy", "renewal", "Gueranger"],
+    oneLiner: "The Liturgical Movement sought to renew Catholic worship by restoring active participation and recovering the liturgy's theological depth.",
+    body: "The Liturgical Movement began in the nineteenth century with Dom Prosper Gueranger's revival of Gregorian chant and the Benedictine liturgical tradition at Solesmes. It gained momentum through the work of Lambert Beauduin, Odo Casel, Romano Guardini, and Pius Parsch, who emphasized the liturgy as the primary source of Christian spiritual life. Pope Pius X's encouragement of frequent Communion and Pius XII's encyclical Mediator Dei (1947) gave official support. The movement culminated in Vatican II's Sacrosanctum Concilium, which mandated liturgical reform.",
+    whyItMatters: "The Liturgical Movement demonstrates that authentic reform of worship requires both a return to ancient sources and a pastoral sensitivity to the needs of the faithful.",
+    relatedTerms: ["lex-orandi-lex-credendi", "sacrosanctum-concilium", "ressourcement-theology"]
+  },
+  {
+    id: "biblical-movement",
+    term: "Biblical Movement",
+    category: "tradition",
+    tags: ["Bible", "scholarship", "Divino Afflante"],
+    oneLiner: "The Biblical Movement encouraged Catholics to engage Scripture through modern critical methods while remaining faithful to the Church's interpretive tradition.",
+    body: "For much of the modern period, Catholic biblical scholarship lagged behind Protestant and secular scholarship due to anti-Modernist caution. Pope Pius XII's encyclical Divino Afflante Spiritu (1943) opened the door to modern historical-critical methods, encouraging Catholic scholars to study the original languages and literary forms of Scripture. Vatican II's Dei Verbum further affirmed the importance of scientific exegesis while insisting that Scripture must be read within the living Tradition of the Church. The movement produced world-class Catholic biblical scholars like Raymond Brown and Roland de Vaux.",
+    whyItMatters: "The Biblical Movement renewed Catholic engagement with Scripture and demonstrated that rigorous scholarship and faithful belief are not only compatible but mutually enriching.",
+    relatedTerms: ["dei-verbum-deeper", "pontifical-biblical-commission", "liturgical-movement-history"]
+  },
+  {
+    id: "ecumenical-movement-deeper",
+    term: "Ecumenical Movement",
+    category: "tradition",
+    tags: ["ecumenism", "unity", "dialogue"],
+    oneLiner: "The ecumenical movement seeks to restore visible unity among all Christians in accordance with Christ's prayer that they may be one.",
+    body: "Though the modern ecumenical movement began among Protestants at the Edinburgh Missionary Conference (1910), the Catholic Church formally entered the dialogue at Vatican II with the decree Unitatis Redintegratio (1964). Catholic ecumenism holds that the Church of Christ subsists in the Catholic Church while acknowledging genuine elements of sanctification in other Christian communities. Significant dialogues with Orthodox, Anglican, Lutheran, and Reformed traditions have produced joint declarations on justification, the Eucharist, and ministry.",
+    whyItMatters: "The ecumenical movement expresses the Church's conviction that Christian division is a scandal and that working toward unity is not optional but a mandate from Christ Himself.",
+    relatedTerms: ["unitatis-redintegratio", "nostra-aetate", "dominus-iesus"]
+  },
+  {
+    id: "interfaith-dialogue",
+    term: "Interfaith Dialogue",
+    category: "tradition",
+    tags: ["interfaith", "religions", "Nostra Aetate"],
+    oneLiner: "Interfaith dialogue engages non-Christian religions with respect while maintaining the uniqueness of Christ's salvific role.",
+    body: "Vatican II's Nostra Aetate (1965) inaugurated a new era of Catholic engagement with Judaism, Islam, Hinduism, Buddhism, and other religions. The Church recognizes rays of truth in other religious traditions while affirming that Jesus Christ is the sole universal Savior. Interfaith dialogue operates on multiple levels: the dialogue of life, action, theological exchange, and religious experience. Pope John Paul II's Assisi gatherings (1986, 2002) symbolized this commitment, while Dominus Iesus (2000) clarified its doctrinal boundaries.",
+    whyItMatters: "Interfaith dialogue embodies the Church's mission to be a sign of unity for the whole human family while honestly proclaiming the Gospel to all peoples.",
+    relatedTerms: ["nostra-aetate", "dominus-iesus", "theology-of-religions"]
+  },
+  {
+    id: "inculturation-theology",
+    term: "Inculturation Theology",
+    category: "tradition",
+    tags: ["inculturation", "culture", "mission"],
+    oneLiner: "Inculturation is the process by which the Gospel takes root in diverse cultures, transforming them from within while being enriched by their gifts.",
+    body: "Inculturation describes the dynamic interaction between the Gospel and particular cultures. The faith must be expressed in the thought forms, symbols, and practices of each culture without losing its essential content. The process has ancient roots: the early Church inculturated into Greco-Roman culture, and the medieval period saw inculturation in Germanic and Celtic contexts. Modern inculturation theology, especially in Africa and Asia, seeks to express Catholic faith through indigenous philosophical categories, art forms, and liturgical expressions.",
+    whyItMatters: "Inculturation affirms that the Gospel is not the property of any single culture and that the Church's catholicity is realized only when the faith is genuinely expressed in the diversity of human cultures.",
+    relatedTerms: ["contextual-theology", "ad-gentes", "aggiornamento"]
+  },
+  {
+    id: "contextual-theology",
+    term: "Contextual Theology",
+    category: "tradition",
+    tags: ["context", "local", "method"],
+    oneLiner: "Contextual theology insists that all theological reflection takes place within a particular social, cultural, and historical setting.",
+    body: "Contextual theology emerged in the late twentieth century as theologians in Asia, Africa, and Latin America recognized that Western theological categories do not always adequately express the faith in their contexts. It encompasses various approaches: inculturation models, liberation models, and translation models. While affirming the universal validity of Catholic doctrine, contextual theology acknowledges that the questions people bring to the faith differ based on their lived experience. The Magisterium encourages legitimate contextual expression while guarding against relativism.",
+    whyItMatters: "Contextual theology ensures that Catholic thought remains a living dialogue between the universal tradition and the concrete circumstances of believers around the world.",
+    relatedTerms: ["inculturation-theology", "liberation-theology-deeper", "theology-of-religions"]
+  },
+  {
+    id: "liberation-theology-deeper",
+    term: "Liberation Theology",
+    category: "tradition",
+    tags: ["liberation", "poor", "praxis"],
+    oneLiner: "Liberation theology reads the Gospel through the lens of the poor and oppressed, emphasizing God's preferential option for the marginalized.",
+    body: "Emerging in Latin America in the late 1960s through the work of Gustavo Gutierrez, Leonardo Boff, and Jon Sobrino, liberation theology insists that authentic theology must begin with the experience of the poor. The Congregation for the Doctrine of the Faith issued two instructions (1984, 1986) that affirmed the preferential option for the poor while criticizing the uncritical adoption of Marxist analysis. Pope Francis has drawn on liberation theology's positive insights while maintaining doctrinal boundaries, integrating concern for the poor into mainstream papal teaching.",
+    whyItMatters: "Liberation theology has permanently enriched Catholic social consciousness by insisting that concern for justice is not optional but intrinsic to the Gospel message.",
+    relatedTerms: ["contextual-theology", "gaudium-et-spes-deeper", "theology-of-work"]
+  },
+  {
+    id: "feminist-theology-assessment",
+    term: "Feminist Theology: A Catholic Assessment",
+    category: "tradition",
+    tags: ["feminism", "women", "anthropology"],
+    oneLiner: "Catholic engagement with feminist theology affirms the equal dignity of women while critiquing ideological distortions of sexual difference.",
+    body: "Feminist theology raises legitimate questions about the role of women in the Church, the use of gendered language, and the historical marginalization of women's contributions. John Paul II's Mulieris Dignitatem (1988) and his Letter to Women (1995) affirmed women's equal dignity and unique genius while defending the all-male ordained priesthood as rooted in Christ's own choice. Catholic feminist theology at its best recovers the contributions of women saints, mystics, and theologians, while the Magisterium warns against approaches that deny the significance of sexual complementarity.",
+    whyItMatters: "A balanced Catholic engagement with feminist concerns ensures that the Church honors women's dignity and gifts while remaining faithful to its received anthropology and sacramental order.",
+    relatedTerms: ["theology-of-body-deeper", "contextual-theology", "lumen-gentium-deeper"]
+  },
+  {
+    id: "political-theology",
+    term: "Political Theology",
+    category: "tradition",
+    tags: ["politics", "public", "Metz"],
+    oneLiner: "Political theology examines the relationship between Christian faith and political structures, insisting that theology cannot be privatized.",
+    body: "Political theology, developed notably by Johann Baptist Metz, argues that the Gospel has public, political implications that theology must address. It critiques the privatization of religion and insists that the memory of Christ's suffering demands solidarity with victims of injustice. Catholic political theology differs from theocracy: it does not seek to impose religious rule but to ensure that faith informs the public conscience. The Church's social teaching, from Rerum Novarum to Fratelli Tutti, embodies political theology in practice.",
+    whyItMatters: "Political theology prevents faith from becoming a merely private affair and challenges believers to bring Gospel values into the public square with both courage and prudence.",
+    relatedTerms: ["liberation-theology-deeper", "gaudium-et-spes-deeper", "theology-of-work"]
+  },
+  {
+    id: "theology-of-body-deeper",
+    term: "Theology of the Body",
+    category: "tradition",
+    tags: ["John Paul II", "body", "sexuality"],
+    oneLiner: "John Paul II's Theology of the Body is a comprehensive catechesis on the meaning of human embodiment, sexuality, and love in God's plan.",
+    body: "Delivered in 129 Wednesday audiences between 1979 and 1984, John Paul II's Theology of the Body interprets the human body as a 'theology'—a visible sign that reveals invisible divine realities. Drawing on Genesis, the Song of Songs, and Ephesians 5, the catechesis argues that the body, in its masculinity and femininity, is designed to express self-giving love that mirrors the inner life of the Trinity. It provides the anthropological foundation for Catholic teaching on marriage, celibacy, contraception, and the dignity of the human person.",
+    whyItMatters: "The Theology of the Body offers a positive, compelling vision of human sexuality that addresses the deepest longings of the modern heart while upholding the Church's moral teaching.",
+    relatedTerms: ["feminist-theology-assessment", "gaudium-et-spes-deeper", "theology-of-suffering"]
+  },
+  {
+    id: "theology-of-work",
+    term: "Theology of Work",
+    category: "tradition",
+    tags: ["work", "Laborem Exercens", "vocation"],
+    oneLiner: "Catholic theology of work teaches that human labor participates in God's creative act and has intrinsic dignity beyond its economic value.",
+    body: "John Paul II's encyclical Laborem Exercens (1981) articulated a comprehensive theology of work grounded in Genesis and the Incarnation. Because Christ was a carpenter, all honest work is ennobled. The theology of work distinguishes between the objective dimension (what is produced) and the subjective dimension (the person who works), insisting that the worker's dignity always takes priority over profit. Work is both a participation in God's ongoing creation and a share in Christ's redemptive suffering when it involves hardship.",
+    whyItMatters: "A theology of work gives meaning to the daily labor of billions of people, countering both the exploitation of workers and the reduction of human worth to economic productivity.",
+    relatedTerms: ["gaudium-et-spes-deeper", "liberation-theology-deeper", "theology-of-suffering"]
+  },
+  {
+    id: "theology-of-suffering",
+    term: "Theology of Suffering",
+    category: "tradition",
+    tags: ["suffering", "Salvifici Doloris", "redemption"],
+    oneLiner: "Catholic theology of suffering teaches that human pain, united to Christ's Cross, can become redemptive and fruitful.",
+    body: "John Paul II's apostolic letter Salvifici Doloris (1984) provides the most sustained modern Catholic reflection on suffering. Drawing on Colossians 1:24, it teaches that Christians can 'fill up what is lacking in the afflictions of Christ' by offering their sufferings in union with His sacrifice. Suffering is not meaningless punishment but can become a participation in Christ's redemptive work. The saints who embraced suffering joyfully—from Paul to Therese of Lisieux—witness to this truth.",
+    whyItMatters: "A theology of suffering offers hope and meaning to those in pain, transforming what the world considers worthless into something of infinite spiritual value.",
+    relatedTerms: ["theology-of-body-deeper", "theology-of-work", "theology-of-beauty"]
+  },
+  {
+    id: "theology-of-beauty",
+    term: "Theology of Beauty (Theological Aesthetics)",
+    category: "tradition",
+    tags: ["beauty", "Balthasar", "aesthetics"],
+    oneLiner: "Theological aesthetics explores how divine beauty reveals itself in creation, Scripture, liturgy, and art, drawing souls to God.",
+    body: "Hans Urs von Balthasar's monumental The Glory of the Lord launched a renewed theology of beauty that insists beauty is not peripheral but central to divine revelation. God reveals Himself not only as true and good but as beautiful, and this beauty has a persuasive power that truth and goodness alone may lack. The via pulchritudinis (way of beauty) has been endorsed by recent popes as a path of evangelization, recognizing that sacred art, music, and architecture can open hearts to transcendence when arguments fail.",
+    whyItMatters: "A theology of beauty offers a compelling path to God for a culture that has grown skeptical of rational arguments but remains responsive to the attraction of genuine beauty.",
+    relatedTerms: ["theology-of-suffering", "ressourcement-theology", "sacrosanctum-concilium"]
+  },
+  {
+    id: "theology-of-history",
+    term: "Theology of History",
+    category: "tradition",
+    tags: ["history", "providence", "eschatology"],
+    oneLiner: "Catholic theology of history reads human events as guided by divine providence toward the ultimate fulfillment of God's kingdom.",
+    body: "Beginning with St. Augustine's City of God, Catholic theology has interpreted history not as a random sequence of events but as a drama guided by God's providence toward an eschatological fulfillment. History has a beginning (creation), a center (the Incarnation), and an end (the Parousia). The Church exists in the 'already but not yet,' living between Christ's first and second comings. This theological vision gives meaning to historical events and resists both utopian optimism and cynical despair.",
+    whyItMatters: "A theology of history gives believers confidence that no matter how chaotic the world appears, God remains sovereign and is guiding creation toward its final consummation.",
+    relatedTerms: ["augustinianism", "gaudium-et-spes-deeper", "political-theology"]
+  },
+  {
+    id: "theology-of-religions",
+    term: "Theology of Religions",
+    category: "tradition",
+    tags: ["religions", "salvation", "pluralism"],
+    oneLiner: "The theology of religions examines the salvific status of non-Christian religions while affirming the unique mediation of Christ.",
+    body: "Catholic theology of religions navigates between exclusivism (only explicit Christians are saved), inclusivism (Christ saves through means beyond the visible Church), and pluralism (all religions are equally valid paths). The mainstream Catholic position, articulated by Vatican II and Dominus Iesus, is inclusivist: Christ is the unique and universal Savior, but His grace can reach people outside the visible boundaries of the Church through ways known to God. Karl Rahner's concept of 'anonymous Christians' and Jacques Dupuis's theology of religious pluralism represent influential but debated positions.",
+    whyItMatters: "The theology of religions addresses one of the most pressing questions for modern Catholics: how to affirm Christ's universal salvific will while respecting the sincere religious convictions of billions of non-Christians.",
+    relatedTerms: ["dominus-iesus", "nostra-aetate", "interfaith-dialogue"]
+  },
+  {
+    id: "dominus-iesus",
+    term: "Dominus Iesus (2000)",
+    category: "tradition",
+    tags: ["CDF", "Christ", "uniqueness"],
+    oneLiner: "Dominus Iesus reaffirmed the unicity and salvific universality of Jesus Christ and the Catholic Church against relativistic tendencies.",
+    body: "Issued by the Congregation for the Doctrine of the Faith under Cardinal Ratzinger and ratified by John Paul II, Dominus Iesus addressed theological tendencies that relativized the uniqueness of Christ and the Church. It affirmed that Jesus Christ is the sole mediator of salvation, that the Church of Christ subsists in the Catholic Church, and that non-Christian religions, while containing elements of truth, are not parallel paths of salvation equivalent to Christianity. The document was controversial ecumenically but was deemed necessary to safeguard core Christological and ecclesiological truths.",
+    whyItMatters: "Dominus Iesus set clear doctrinal boundaries for interreligious dialogue, ensuring that openness to other religions does not compromise the Church's foundational claim about Christ's unique salvific role.",
+    relatedTerms: ["theology-of-religions", "nostra-aetate", "ecumenical-movement-deeper"]
+  },
+  {
+    id: "nostra-aetate",
+    term: "Nostra Aetate",
+    category: "tradition",
+    tags: ["Vatican II", "Judaism", "religions"],
+    oneLiner: "Nostra Aetate is Vatican II's declaration on the Church's relationship with non-Christian religions, transforming Catholic-Jewish relations.",
+    body: "Promulgated on October 28, 1965, Nostra Aetate is the shortest but one of the most consequential documents of Vatican II. It repudiated the charge of collective Jewish guilt for Christ's death, affirmed the Church's spiritual bond with Judaism, and expressed esteem for Islam, Hinduism, and Buddhism. The declaration inaugurated a new era of Catholic interreligious engagement and led to the establishment of permanent dialogue commissions. Its impact on Catholic-Jewish relations has been described as revolutionary.",
+    whyItMatters: "Nostra Aetate transformed the Church's relationship with other religions, replacing centuries of suspicion and hostility with a commitment to respectful dialogue rooted in shared values.",
+    relatedTerms: ["interfaith-dialogue", "dominus-iesus", "dignitatis-humanae"]
+  },
+  {
+    id: "dignitatis-humanae",
+    term: "Dignitatis Humanae",
+    category: "tradition",
+    tags: ["Vatican II", "religious freedom", "dignity"],
+    oneLiner: "Dignitatis Humanae declared that every person has a right to religious freedom based on the inherent dignity of the human person.",
+    body: "Vatican II's Declaration on Religious Freedom (December 7, 1965) taught that the human person has a right to religious freedom, meaning that no one should be coerced in matters of religion by individuals, social groups, or any human power. This right is grounded in the dignity of the person, not in the truth or falsity of their beliefs. The declaration was one of the Council's most debated documents, with some arguing it contradicted earlier papal teaching. The Council clarified that the moral duty to seek truth remains, but that this duty must be fulfilled freely, without external compulsion.",
+    whyItMatters: "Dignitatis Humanae aligned the Catholic Church with the modern understanding of human rights while grounding religious freedom in the dignity of the person created in God's image.",
+    relatedTerms: ["nostra-aetate", "gaudium-et-spes-deeper", "lumen-gentium-deeper"]
+  },
+  {
+    id: "unitatis-redintegratio",
+    term: "Unitatis Redintegratio",
+    category: "tradition",
+    tags: ["Vatican II", "ecumenism", "unity"],
+    oneLiner: "Unitatis Redintegratio is Vatican II's decree on ecumenism, committing the Catholic Church to the restoration of Christian unity.",
+    body: "Promulgated on November 21, 1964, Unitatis Redintegratio acknowledged that the divisions among Christians contradict Christ's will and scandalize the world. It recognized genuine elements of sanctification and truth in other Christian communities, called Catholics to ongoing interior conversion, and established principles for ecumenical dialogue. The decree taught that the movement toward unity is guided by the Holy Spirit and that unity does not mean uniformity but a legitimate diversity within communion.",
+    whyItMatters: "Unitatis Redintegratio permanently committed the Catholic Church to ecumenical engagement, making the quest for Christian unity an integral part of the Church's mission.",
+    relatedTerms: ["ecumenical-movement-deeper", "lumen-gentium-deeper", "nostra-aetate"]
+  },
+  {
+    id: "lumen-gentium-deeper",
+    term: "Lumen Gentium",
+    category: "tradition",
+    tags: ["Vatican II", "Church", "ecclesiology"],
+    oneLiner: "Lumen Gentium is Vatican II's Dogmatic Constitution on the Church, presenting a renewed ecclesiology centered on the People of God and communion.",
+    body: "Promulgated on November 21, 1964, Lumen Gentium reshaped Catholic ecclesiology by supplementing the juridical model of the Church as a 'perfect society' with biblical and patristic images: the People of God, the Body of Christ, and the Temple of the Holy Spirit. It taught the universal call to holiness, the role of the laity, the nature of episcopal collegiality, and the place of Mary in the mystery of the Church. Its statement that the Church of Christ 'subsists in' the Catholic Church remains one of the most debated phrases in modern theology.",
+    whyItMatters: "Lumen Gentium provided the theological foundation for the post-conciliar renewal of Catholic life, from lay empowerment to ecumenical openness to the universal call to holiness.",
+    relatedTerms: ["gaudium-et-spes-deeper", "sacrosanctum-concilium", "unitatis-redintegratio"]
+  },
+  {
+    id: "sacrosanctum-concilium",
+    term: "Sacrosanctum Concilium",
+    category: "tradition",
+    tags: ["Vatican II", "liturgy", "reform"],
+    oneLiner: "Sacrosanctum Concilium is Vatican II's Constitution on the Sacred Liturgy, calling for the renewal of Catholic worship through active participation.",
+    body: "The first document approved by Vatican II (December 4, 1963), Sacrosanctum Concilium called the liturgy the 'summit and source' of the Church's life. It mandated the reform of liturgical rites to promote full, conscious, and active participation of the faithful. Key provisions included the use of vernacular languages, simplification of rites, and the restoration of the homily and the Prayer of the Faithful. The document's implementation through the post-conciliar liturgical reform remains both celebrated and contested.",
+    whyItMatters: "Sacrosanctum Concilium reshaped the worship experience of over a billion Catholics, making the liturgy the most tangible effect of Vatican II in the daily life of the faithful.",
+    relatedTerms: ["liturgical-movement-history", "lumen-gentium-deeper", "lex-orandi-lex-credendi"]
+  },
+  {
+    id: "gaudium-et-spes-deeper",
+    term: "Gaudium et Spes",
+    category: "tradition",
+    tags: ["Vatican II", "world", "pastoral"],
+    oneLiner: "Gaudium et Spes is Vatican II's Pastoral Constitution on the Church in the Modern World, engaging culture, economics, politics, and peace.",
+    body: "Promulgated on December 7, 1965, Gaudium et Spes represented a new genre in conciliar documents: a pastoral constitution addressing the Church's relationship with the contemporary world. It affirmed the autonomy of earthly realities, the dignity of the human person, the value of marriage and family, the proper development of culture, and the pursuit of peace. Its opening words—'The joys and hopes, the griefs and anxieties of the people of this age'—signal the Church's solidarity with all of humanity. The document has been foundational for Catholic social teaching ever since.",
+    whyItMatters: "Gaudium et Spes committed the Church to constructive engagement with the modern world, refusing both uncritical accommodation and fearful withdrawal.",
+    relatedTerms: ["lumen-gentium-deeper", "dignitatis-humanae", "liberation-theology-deeper"]
+  },
+  {
+    id: "ad-gentes",
+    term: "Ad Gentes",
+    category: "tradition",
+    tags: ["Vatican II", "mission", "evangelization"],
+    oneLiner: "Ad Gentes is Vatican II's decree on the Church's missionary activity, affirming that the Church is missionary by her very nature.",
+    body: "Promulgated on December 7, 1965, Ad Gentes grounded the Church's missionary mandate in the Trinitarian missions of the Son and the Holy Spirit. It taught that missionary activity is not merely one task among many but belongs to the Church's essential identity. The decree addressed the formation of missionaries, the establishment of local churches, the role of catechists, and the relationship between evangelization and inculturation. It remains the foundational conciliar text for Catholic missiology.",
+    whyItMatters: "Ad Gentes reminds the Church that the mandate to proclaim the Gospel to all nations is not optional but constitutive of her identity as the continuation of Christ's mission.",
+    relatedTerms: ["inculturation-theology", "lumen-gentium-deeper", "gaudium-et-spes-deeper"]
+  },
+  {
+    id: "presbyterorum-ordinis",
+    term: "Presbyterorum Ordinis",
+    category: "tradition",
+    tags: ["Vatican II", "priesthood", "ministry"],
+    oneLiner: "Presbyterorum Ordinis is Vatican II's decree on the ministry and life of priests, presenting a renewed vision of priestly identity.",
+    body: "Promulgated on December 7, 1965, Presbyterorum Ordinis describes priests as co-workers of the episcopal order who share in Christ's threefold office of teaching, sanctifying, and governing. It emphasizes the priest's relationship to the Eucharist as the center of his ministry, the importance of preaching, and the call to holiness through the exercise of pastoral charity. The decree also addresses the spiritual life of priests, their material support, and their fraternal communion with one another and their bishop.",
+    whyItMatters: "Presbyterorum Ordinis provides the theological vision for priestly identity and renewal, essential for addressing the ongoing challenges of priestly formation and ministry.",
+    relatedTerms: ["optatam-totius", "lumen-gentium-deeper", "sacrosanctum-concilium"]
+  },
+  {
+    id: "optatam-totius",
+    term: "Optatam Totius",
+    category: "tradition",
+    tags: ["Vatican II", "seminary", "formation"],
+    oneLiner: "Optatam Totius is Vatican II's decree on priestly training, calling for the renewal of seminary education.",
+    body: "Promulgated on October 28, 1965, Optatam Totius addressed the formation of candidates for the priesthood. It called for seminaries to integrate spiritual formation, intellectual study, and pastoral experience. The decree emphasized the importance of philosophy and theology grounded in St. Thomas Aquinas, engagement with Sacred Scripture, and pastoral training in real-world settings. It also encouraged the adaptation of seminary programs to local needs and cultures while maintaining the universal standards of priestly formation.",
+    whyItMatters: "Optatam Totius shaped the reform of seminary education worldwide, recognizing that the quality of priestly formation directly affects the quality of the Church's ministry to the faithful.",
+    relatedTerms: ["presbyterorum-ordinis", "lumen-gentium-deeper", "scholastic-theology-deeper"]
+  },
+  {
+    id: "perfectae-caritatis",
+    term: "Perfectae Caritatis",
+    category: "tradition",
+    tags: ["Vatican II", "religious life", "renewal"],
+    oneLiner: "Perfectae Caritatis is Vatican II's decree on the adaptation and renewal of religious life.",
+    body: "Promulgated on October 28, 1965, Perfectae Caritatis called religious institutes to renew themselves by returning to the original inspiration of their founders while adapting to the changed conditions of the modern world. It affirmed the evangelical counsels of poverty, chastity, and obedience as the foundation of religious life and encouraged communities to update their constitutions, formation programs, and apostolates. The decree led to both fruitful renewal and significant upheaval in religious communities in the decades following the Council.",
+    whyItMatters: "Perfectae Caritatis addresses the perennial challenge of religious life: remaining faithful to founding charisms while responding creatively to the needs of each new era.",
+    relatedTerms: ["lumen-gentium-deeper", "monasticism", "religious-orders"]
+  },
+  {
+    id: "apostolicam-actuositatem",
+    term: "Apostolicam Actuositatem",
+    category: "tradition",
+    tags: ["Vatican II", "laity", "apostolate"],
+    oneLiner: "Apostolicam Actuositatem is Vatican II's decree on the apostolate of the laity, affirming their mission to transform the world from within.",
+    body: "Promulgated on November 18, 1965, Apostolicam Actuositatem taught that the lay apostolate is not a concession from the hierarchy but flows directly from baptism and confirmation. The laity are called to sanctify the temporal order—family life, work, culture, politics—from within. The decree encouraged various forms of lay apostolate, both individual and organized, and affirmed the legitimacy of lay movements and associations. It also addressed the formation of lay apostles and their relationship with the hierarchy.",
+    whyItMatters: "Apostolicam Actuositatem empowers the laity to see their secular engagement as a genuine vocation, not a second-class alternative to religious life or ordained ministry.",
+    relatedTerms: ["lumen-gentium-deeper", "gaudium-et-spes-deeper", "theology-of-work"]
+  },
+  {
+    id: "gravissimum-educationis",
+    term: "Gravissimum Educationis",
+    category: "tradition",
+    tags: ["Vatican II", "education", "schools"],
+    oneLiner: "Gravissimum Educationis is Vatican II's declaration on Christian education, affirming every person's right to education and the Church's educational mission.",
+    body: "Promulgated on October 28, 1965, Gravissimum Educationis affirmed the universal right to education and the particular importance of Catholic schools, colleges, and universities. It taught that education must develop the whole person—intellectual, moral, and spiritual—and that parents are the primary educators of their children. The declaration encouraged the adaptation of educational methods, the formation of teachers, and cooperation between families, schools, and the Church in the educational mission.",
+    whyItMatters: "Gravissimum Educationis undergirds the Church's vast global educational network and affirms that Catholic education serves not only the Church but the common good of all humanity.",
+    relatedTerms: ["lumen-gentium-deeper", "gaudium-et-spes-deeper", "apostolicam-actuositatem"]
+  },
+  {
+    id: "inter-mirifica",
+    term: "Inter Mirifica",
+    category: "tradition",
+    tags: ["Vatican II", "media", "communication"],
+    oneLiner: "Inter Mirifica is Vatican II's decree on the means of social communication, addressing the Church's engagement with modern media.",
+    body: "Promulgated on December 4, 1963, Inter Mirifica was the first conciliar document to address the press, cinema, radio, and television. It affirmed that the Church has a right and duty to use media for evangelization while calling for responsible and ethical media use. The decree was criticized for being overly brief and insufficiently nuanced, leading to the more developed Communio et Progressio (1971) and subsequent documents. It established World Communications Day as an annual observance.",
+    whyItMatters: "Inter Mirifica recognized that modern media profoundly shape culture and conscience, making the Church's presence in communications essential for effective evangelization.",
+    relatedTerms: ["gaudium-et-spes-deeper", "aggiornamento", "lumen-gentium-deeper"]
+  },
+  {
+    id: "orientalium-ecclesiarum",
+    term: "Orientalium Ecclesiarum",
+    category: "tradition",
+    tags: ["Vatican II", "Eastern Churches", "rites"],
+    oneLiner: "Orientalium Ecclesiarum is Vatican II's decree on the Eastern Catholic Churches, affirming their equal dignity and unique patrimony.",
+    body: "Promulgated on November 21, 1964, Orientalium Ecclesiarum affirmed that the Eastern Catholic Churches, in full communion with Rome, possess equal rights and obligations alongside the Latin Church. It encouraged these churches to preserve and return to their authentic traditions in liturgy, spirituality, and discipline, rather than latinizing. The decree addressed the sacraments, worship, and relations with Orthodox Christians, recognizing that the Eastern heritage is necessary for the full expression of Catholic universality.",
+    whyItMatters: "Orientalium Ecclesiarum corrected centuries of latin-centric tendencies and affirmed that Catholic unity embraces genuine liturgical and theological diversity.",
+    relatedTerms: ["lumen-gentium-deeper", "unitatis-redintegratio", "ecumenical-movement-deeper"]
+  },
+  {
+    id: "christus-dominus",
+    term: "Christus Dominus",
+    category: "tradition",
+    tags: ["Vatican II", "bishops", "governance"],
+    oneLiner: "Christus Dominus is Vatican II's decree on the pastoral office of bishops, emphasizing their role as pastors and teachers in their dioceses.",
+    body: "Promulgated on October 28, 1965, Christus Dominus developed Lumen Gentium's teaching on episcopal collegiality in practical, pastoral terms. It addressed the bishop's relationship to the universal Church and to his own diocese, the organization of diocesan boundaries, the role of auxiliary and coadjutor bishops, and the reform of episcopal conferences. The decree also treated the bishop's threefold office of teaching, sanctifying, and governing, emphasizing his duty to preach the Gospel and care for all the faithful in his territory.",
+    whyItMatters: "Christus Dominus shaped the post-conciliar reform of diocesan governance and strengthened the role of bishops as authentic teachers and pastors rather than mere administrators.",
+    relatedTerms: ["lumen-gentium-deeper", "presbyterorum-ordinis", "apostolic-tradition"]
+  },
+  {
+    id: "dei-verbum-deeper",
+    term: "Dei Verbum",
+    category: "tradition",
+    tags: ["Vatican II", "revelation", "Scripture"],
+    oneLiner: "Dei Verbum is Vatican II's Dogmatic Constitution on Divine Revelation, teaching how God reveals Himself through Scripture and Tradition.",
+    body: "Promulgated on November 18, 1965, Dei Verbum is considered one of the most theologically significant documents of Vatican II. It teaches that divine revelation is not primarily a set of propositions but God's self-communication through deeds and words in salvation history. Scripture and Tradition flow from the same divine wellspring, form a single deposit of the Word of God, and are entrusted to the Magisterium for authentic interpretation. The document encouraged Catholics to read Scripture prayerfully and promoted modern biblical scholarship within the framework of faith.",
+    whyItMatters: "Dei Verbum resolved longstanding debates about the relationship between Scripture and Tradition, renewed Catholic engagement with the Bible, and provided the doctrinal foundation for all post-conciliar theology of revelation.",
+    relatedTerms: ["biblical-movement", "apostolic-tradition", "sacrosanctum-concilium"]
+  },
+  {
+    id: "redemptor-hominis",
+    term: "Redemptor Hominis",
+    category: "tradition",
+    tags: ["John Paul II", "encyclical", "Christ"],
+    oneLiner: "Redemptor Hominis, John Paul II's first encyclical, placed the mystery of Christ at the center of the Church's mission to humanity.",
+    body: "Published on March 4, 1979, Redemptor Hominis set the program for John Paul II's entire pontificate. The encyclical declared that 'the Redeemer of man, Jesus Christ, is the center of the universe and of history' and that the Church cannot understand herself without reference to Christ. It addressed the dignity of the human person, the threats of materialism and totalitarianism, the need for authentic freedom grounded in truth, and the Church's mission to proclaim Christ as the answer to every human question.",
+    whyItMatters: "Redemptor Hominis established the Christocentric humanism that would characterize John Paul II's teaching, demonstrating that the Church's concern for humanity flows from its contemplation of Christ.",
+    relatedTerms: ["dives-in-misericordia", "theology-of-body-deeper", "gaudium-et-spes-deeper"]
+  },
+  {
+    id: "dives-in-misericordia",
+    term: "Dives in Misericordia",
+    category: "tradition",
+    tags: ["John Paul II", "mercy", "encyclical"],
+    oneLiner: "Dives in Misericordia is John Paul II's encyclical on the mercy of God, revealing the Father's compassion as the heart of the Gospel.",
+    body: "Published on November 30, 1980, Dives in Misericordia explored the mystery of God's mercy through the parable of the Prodigal Son and the revelation of the Father's face in Christ. The encyclical argued that mercy is not weakness but the deepest expression of God's justice and love. It called the Church to be a witness and instrument of mercy in a world marked by fear, injustice, and threat of nuclear annihilation. The encyclical anticipated the later emphasis on mercy in St. Faustina's canonization and the establishment of Divine Mercy Sunday.",
+    whyItMatters: "Dives in Misericordia helped restore mercy to the center of Catholic consciousness, preparing the ground for the later 'mercy revolution' that would culminate in Pope Francis's Jubilee of Mercy.",
+    relatedTerms: ["redemptor-hominis", "evangelium-vitae", "theology-of-suffering"]
+  },
+  {
+    id: "evangelium-vitae",
+    term: "Evangelium Vitae",
+    category: "tradition",
+    tags: ["John Paul II", "life", "bioethics"],
+    oneLiner: "Evangelium Vitae is John Paul II's encyclical on the inviolability of human life, confronting the modern 'culture of death.'",
+    body: "Published on March 25, 1995, Evangelium Vitae is the most comprehensive papal statement on the sanctity of human life. It addresses abortion, euthanasia, the death penalty, and threats to life at every stage. The encyclical invokes the near-infallible formula 'by the authority which Christ conferred upon Peter and his Successors' to declare that direct abortion, euthanasia, and the killing of innocent human beings are always gravely wrong. It calls for a 'culture of life' that respects every person from conception to natural death.",
+    whyItMatters: "Evangelium Vitae provides the definitive Catholic framework for the defense of human life and challenges every Catholic to be a witness to the Gospel of life in the public square.",
+    relatedTerms: ["dives-in-misericordia", "gaudium-et-spes-deeper", "theology-of-body-deeper"]
+  }
 ];

@@ -727,4 +727,728 @@ export const socialTeachingConcepts: Concept[] = [
     whyItMatters: "Mondragon demonstrates that Catholic Social Teaching is not utopian theory but a practical framework that can sustain a globally competitive economic enterprise while honoring the dignity of workers, the principle of solidarity, and the common good.",
     relatedTerms: ["Distributism", "Dignity of Work", "Subsidiarity"]
   },
+{
+    id: "cst-personalist-principle",
+    term: "Personalist Principle",
+    category: "social-teaching",
+    tags: ["person", "dignity", "philosophy", "anthropology"],
+    oneLiner: "The personalist principle holds that the person is never a mere means to an end but always a subject with inherent dignity deserving of love and respect.",
+    body: "Rooted in the philosophical personalism of thinkers like Jacques Maritain, Emmanuel Mounier, and Karol Wojtyla, this principle asserts that every social structure, economic system, and political arrangement must be evaluated by how it serves the integral good of the human person. It rejects both individualism, which isolates the person from community, and collectivism, which subordinates the person to the group.",
+    whyItMatters: "The personalist principle provides the philosophical foundation for all Catholic social teaching, ensuring that the human person always remains the origin, subject, and end of every social institution.",
+    relatedTerms: ["cst-dignity-human-person", "cst-social-nature-of-person", "cst-integral-human-development", "cst-consistent-ethic-of-life"]
+  },
+  {
+    id: "cst-social-nature-of-person",
+    term: "Social Nature of the Human Person",
+    category: "social-teaching",
+    tags: ["community", "anthropology", "relationship", "solidarity"],
+    oneLiner: "Catholic teaching holds that the human person is inherently social, created for communion with others and finding fulfillment only in genuine community.",
+    body: "Against radical individualism, the Church teaches that human beings are made in the image of the Trinitarian God and are therefore relational by nature. The person develops and flourishes through relationships—family, friendships, civic associations, and the broader human community. This social nature grounds the obligation to contribute to the common good and to build structures that foster authentic human communion.",
+    whyItMatters: "Recognizing the social nature of the person prevents both the atomistic individualism of liberal capitalism and the forced collectivism of socialist systems, pointing toward an authentic humanism.",
+    relatedTerms: ["cst-personalist-principle", "cst-common-good", "cst-solidarity", "cst-family-domestic-church"]
+  },
+  {
+    id: "cst-common-good-deeper",
+    term: "Common Good – Deeper",
+    category: "social-teaching",
+    tags: ["society", "conditions", "flourishing", "governance"],
+    oneLiner: "The common good is the sum total of social conditions that allow people, both as groups and as individuals, to reach their fulfillment more fully and more easily.",
+    body: "The common good goes beyond the mere aggregate of individual goods; it is a shared good that benefits all members of society and can only be achieved collectively. It requires respect for the person, social well-being and development of the group, and peace and security. Political authority has the primary duty of ensuring the common good, but every citizen shares responsibility for contributing to it through civic participation and solidarity.",
+    example: "A public education system that provides quality schooling to all children, not just the privileged, serves the common good by enabling each person's development.",
+    whyItMatters: "The common good provides the moral criterion for evaluating all public policy, economic systems, and social structures, preventing both statist overreach and individualistic neglect of shared responsibilities.",
+    relatedTerms: ["cst-common-good", "cst-universal-destination-goods-deeper", "cst-civic-virtue", "cst-democratic-participation"]
+  },
+  {
+    id: "cst-universal-destination-goods-deeper",
+    term: "Universal Destination of Goods – Deeper",
+    category: "social-teaching",
+    tags: ["property", "creation", "sharing", "justice"],
+    oneLiner: "God intended the goods of the earth for all humanity, and while private property is legitimate, it always carries a social mortgage that limits its absolute use.",
+    body: "The Church teaches that God gave the earth and its resources for the benefit of all people. Private property is a natural right that serves human freedom and dignity, but it is subordinate to the universal destination of goods. No one may claim exclusive ownership in a way that deprives others of what they need to live with dignity. This principle grounds the Church's teaching on economic justice, wealth redistribution, and the duty of rich nations toward poorer ones.",
+    whyItMatters: "This teaching challenges both unregulated capitalism that treats property as absolute and socialism that eliminates private ownership, pointing toward a moral framework that balances individual rights with collective responsibility.",
+    relatedTerms: ["cst-universal-destination-goods", "cst-private-property-social-mortgage", "cst-economic-justice", "cst-land-reform"]
+  },
+  {
+    id: "cst-private-property-social-mortgage",
+    term: "Private Property and the Social Mortgage",
+    category: "social-teaching",
+    tags: ["property", "obligation", "stewardship", "justice"],
+    oneLiner: "Catholic teaching affirms the right to private property while insisting that all property carries a 'social mortgage'—an obligation to serve the common good.",
+    body: "John Paul II developed the concept of the 'social mortgage' on property in Sollicitudo Rei Socialis, building on Leo XIII's defense of private property and the traditional teaching on the universal destination of goods. Property rights are real but not absolute; they must be exercised in ways that do not deprive others of necessities. The social mortgage implies obligations of stewardship, just taxation, and willingness to share surplus with those in genuine need.",
+    whyItMatters: "The social mortgage concept provides a practical middle way between libertarian absolutism about property rights and socialist elimination of private ownership, guiding Catholics in economic decision-making.",
+    relatedTerms: ["cst-universal-destination-goods-deeper", "cst-economic-justice", "cst-distributism", "cst-land-reform"]
+  },
+  {
+    id: "cst-preferential-option-deeper",
+    term: "Preferential Option for the Poor – Deeper",
+    category: "social-teaching",
+    tags: ["poor", "solidarity", "liberation", "justice"],
+    oneLiner: "The preferential option for the poor calls Christians and societies to prioritize the needs and perspectives of the most vulnerable when making moral and political decisions.",
+    body: "Rooted in the Hebrew prophets and Jesus' identification with the poor, this principle was formally articulated at the Latin American bishops' conferences of Medellin (1968) and Puebla (1979). It does not mean exclusive concern for the poor at the expense of others, but rather that the impact on the poorest members of society should be the first consideration in evaluating any policy or structure. John Paul II and Benedict XVI affirmed it as an integral part of Catholic social teaching while distinguishing it from Marxist class analysis.",
+    whyItMatters: "The preferential option challenges the powerful to see society from the perspective of its most vulnerable members, providing a moral compass that can transform public policy and personal conscience alike.",
+    relatedTerms: ["cst-preferential-option-poor", "cst-poverty-structural-sin", "cst-structural-sin-deeper", "cst-liberation-theology-assessment"]
+  },
+  {
+    id: "cst-structural-sin-deeper",
+    term: "Structural Sin – Deeper",
+    category: "social-teaching",
+    tags: ["sin", "structures", "injustice", "systemic"],
+    oneLiner: "Structural sin refers to social institutions, laws, and systems that perpetuate injustice, rooted in the accumulated personal sins of many individuals over time.",
+    body: "John Paul II developed the concept of 'structures of sin' in Sollicitudo Rei Socialis, describing social mechanisms that entrench exploitation, poverty, and oppression. These structures originate in personal sin—greed, pride, indifference—but take on a life of their own, shaping behavior and limiting freedom. Combating structural sin requires both personal conversion and systemic reform, as neither alone is sufficient to establish justice.",
+    example: "A financial system that traps developing nations in unpayable debt is a structure of sin, even though no single individual may intend the harm it causes.",
+    whyItMatters: "The concept of structural sin prevents Catholics from reducing injustice to individual moral failings alone, demanding attention to the systemic dimensions of evil that require collective action to dismantle.",
+    relatedTerms: ["cst-poverty-structural-sin", "cst-preferential-option-deeper", "cst-social-charity", "cst-economic-justice"]
+  },
+  {
+    id: "cst-social-charity",
+    term: "Social Charity",
+    category: "social-teaching",
+    tags: ["love", "structures", "institutions", "justice"],
+    oneLiner: "Social charity extends the virtue of love beyond interpersonal relationships to the transformation of social structures and institutions for the common good.",
+    body: "Benedict XVI in Caritas in Veritate argued that charity is not only a personal virtue but must inform the design and reform of social, economic, and political institutions. Social charity goes beyond direct aid to individuals—it requires working to change unjust structures so that they serve human dignity. It is the animating force behind all authentic social engagement, preventing justice from becoming cold legalism.",
+    whyItMatters: "Social charity bridges the gap between personal virtue and public policy, insisting that love must become the driving force behind institutional reform, not merely private benevolence.",
+    relatedTerms: ["cst-political-charity", "cst-solidarity", "cst-structural-sin-deeper", "cst-caritas-in-veritate"]
+  },
+  {
+    id: "cst-political-charity",
+    term: "Political Charity",
+    category: "social-teaching",
+    tags: ["politics", "love", "service", "vocation"],
+    oneLiner: "Political charity is the highest form of charity according to Pius XI, because it serves the common good of all by shaping the laws and institutions of society.",
+    body: "Catholic teaching views political engagement not as a necessary evil but as a noble vocation when exercised in service of the common good. Political charity means bringing the light of the Gospel and the principles of Catholic social teaching into the public square through legislation, governance, and civic participation. It requires prudence, courage, and a willingness to seek the possible good rather than insisting on the perfect.",
+    whyItMatters: "Political charity calls Catholics out of political apathy and partisan tribalism, reminding them that building a just society through political engagement is itself an act of love for neighbor.",
+    relatedTerms: ["cst-social-charity", "cst-civic-virtue", "cst-democratic-participation", "cst-role-of-laity"]
+  },
+  {
+    id: "cst-civic-virtue",
+    term: "Civic Virtue",
+    category: "social-teaching",
+    tags: ["citizenship", "responsibility", "participation", "democracy"],
+    oneLiner: "Civic virtue is the habit of actively contributing to the common good through responsible citizenship, informed participation, and concern for the welfare of all.",
+    body: "Catholic teaching holds that citizens have not only rights but obligations to the political community. Civic virtue includes staying informed about public issues, voting conscientiously, paying just taxes, serving on juries, and engaging in public discourse with charity and truthfulness. The Compendium of the Social Doctrine teaches that democratic societies depend on the civic virtue of their citizens and cannot function through institutions alone.",
+    whyItMatters: "Without civic virtue, democratic institutions hollow out and become vulnerable to demagoguery, corruption, and the tyranny of special interests over the common good.",
+    relatedTerms: ["cst-political-charity", "cst-democratic-participation", "cst-common-good-deeper", "cst-social-charity"]
+  },
+  {
+    id: "cst-democratic-participation",
+    term: "Democratic Participation",
+    category: "social-teaching",
+    tags: ["democracy", "voting", "governance", "subsidiarity"],
+    oneLiner: "Catholic social teaching supports democratic participation as a means of exercising co-responsibility for the common good, while insisting that democracy must be grounded in objective moral truth.",
+    body: "The Church does not endorse any single political system but recognizes that democracy, when grounded in the rule of law and respect for human rights, best enables citizen participation. John Paul II in Centesimus Annus warned that democracy without values can degenerate into thinly disguised totalitarianism. Participation extends beyond voting to include advocacy, community organizing, public deliberation, and service in elected office.",
+    whyItMatters: "Catholic teaching challenges both political disengagement and the reduction of democracy to mere proceduralism, insisting that authentic democracy requires a moral foundation and active citizen participation.",
+    relatedTerms: ["cst-civic-virtue", "cst-political-charity", "cst-separation-church-state", "cst-centesimus-annus"]
+  },
+  {
+    id: "cst-separation-church-state",
+    term: "Separation of Church and State",
+    category: "social-teaching",
+    tags: ["politics", "religion", "freedom", "autonomy"],
+    oneLiner: "Catholic teaching affirms the legitimate autonomy of Church and state in their respective spheres while insisting on their cooperation for the integral good of the human person.",
+    body: "The Church distinguishes between a healthy distinction of Church and state—each sovereign in its own domain—and a hostile separation that would exclude religious values from public life. Gaudium et Spes affirmed the political community's legitimate autonomy while maintaining that the Church has the right and duty to pass moral judgments on political matters when fundamental rights or the salvation of souls require it.",
+    whyItMatters: "This nuanced position rejects both theocracy and militant secularism, proposing a constructive dialogue between faith and politics that serves human dignity.",
+    relatedTerms: ["cst-cooperation-church-state", "cst-freedom-of-religion-deeper", "cst-religious-liberty", "cst-democratic-participation"]
+  },
+  {
+    id: "cst-cooperation-church-state",
+    term: "Cooperation between Church and State",
+    category: "social-teaching",
+    tags: ["concordat", "collaboration", "common-good", "governance"],
+    oneLiner: "Catholic teaching calls for constructive cooperation between Church and state in serving the common good, particularly in areas like education, healthcare, and social services.",
+    body: "While respecting each institution's proper autonomy, the Church teaches that cooperation between religious and civil authorities best serves society. This cooperation takes practical forms: concordats and agreements, faith-based social service partnerships, the Church's role in education and healthcare, and moral guidance on public policy. The principle of cooperation does not mean the state controls the Church or the Church directs the state, but that both orient their distinct competencies toward human flourishing.",
+    whyItMatters: "Healthy cooperation between Church and state leverages the strengths of each institution—the state's coercive authority and the Church's moral authority—in service of the common good.",
+    relatedTerms: ["cst-separation-church-state", "cst-freedom-of-religion-deeper", "cst-civic-virtue", "cst-common-good-deeper"]
+  },
+  {
+    id: "cst-freedom-of-religion-deeper",
+    term: "Freedom of Religion – Deeper",
+    category: "social-teaching",
+    tags: ["Dignitatis-Humanae", "conscience", "rights", "Vatican-II"],
+    oneLiner: "Dignitatis Humanae declared that every person has a natural right to religious freedom, grounded not in the truth of their beliefs but in the dignity of the human person.",
+    body: "Vatican II's Declaration on Religious Freedom represented a development of doctrine, affirming that no one should be coerced in matters of faith. The right extends to individuals and communities, including the right to worship publicly, organize, teach, and witness. The declaration reconciled the Church's traditional teaching on the duty to seek truth with the modern understanding that coercion in religion violates human dignity and cannot produce genuine faith.",
+    whyItMatters: "Religious freedom is the foundation of all other human rights, and its defense is among the Church's most urgent concerns in an era of increasing restrictions on religious practice worldwide.",
+    relatedTerms: ["cst-religious-liberty", "cst-freedom-of-conscience", "cst-tolerance-religious-freedom", "cst-separation-church-state"]
+  },
+  {
+    id: "cst-freedom-of-conscience",
+    term: "Freedom of Conscience",
+    category: "social-teaching",
+    tags: ["conscience", "moral-law", "dignity", "freedom"],
+    oneLiner: "Catholic teaching upholds the inviolable dignity of conscience while insisting that conscience must be properly formed according to reason and divine law.",
+    body: "The Church teaches that conscience is the most secret core and sanctuary of a person, where one is alone with God. Every person has the right to act according to conscience and must not be forced to act against it. However, conscience is not infallible; it must be formed through prayer, study of Scripture and Church teaching, and the pursuit of truth. An erroneous conscience, if sincerely followed, retains dignity but does not change the objective moral order.",
+    whyItMatters: "Freedom of conscience protects the innermost sanctuary of human dignity while reminding believers that conscience must be educated, not merely followed, to lead to authentic human flourishing.",
+    relatedTerms: ["cst-freedom-of-religion-deeper", "cst-tolerance-religious-freedom", "cst-dignity-human-person", "cst-personalist-principle"]
+  },
+  {
+    id: "cst-tolerance-religious-freedom",
+    term: "Tolerance and Religious Freedom",
+    category: "social-teaching",
+    tags: ["pluralism", "coexistence", "truth", "dialogue"],
+    oneLiner: "Catholic teaching distinguishes between tolerance—enduring error for the sake of peace—and religious freedom—a positive right rooted in human dignity.",
+    body: "Before Vatican II, the Church primarily spoke of 'tolerance' of non-Catholic religions in Catholic societies. Dignitatis Humanae shifted the framework from tolerance to genuine religious freedom as a human right. This development does not relativize truth claims but recognizes that the dignity of the person requires freedom from coercion in the pursuit of truth. In pluralistic societies, religious freedom enables genuine dialogue rather than mere coexistence.",
+    whyItMatters: "Understanding this development from tolerance to religious freedom helps Catholics engage pluralistic societies authentically, defending truth while respecting the conscience and dignity of those who disagree.",
+    relatedTerms: ["cst-freedom-of-religion-deeper", "cst-freedom-of-conscience", "cst-religious-liberty", "cst-fratelli-tutti"]
+  },
+  {
+    id: "cst-rights-of-unborn",
+    term: "Rights of the Unborn",
+    category: "social-teaching",
+    tags: ["life", "abortion", "dignity", "bioethics"],
+    oneLiner: "Catholic social teaching affirms that human life must be protected from the moment of conception, making the right to life of the unborn the foundational human right.",
+    body: "The Church teaches that from the first moment of conception a human being exists with an inviolable right to life. This right is not granted by the state but is inherent in human nature. The defense of unborn life is inseparable from the broader social justice mission: one cannot consistently advocate for the poor, the vulnerable, and the marginalized while excluding the most vulnerable of all. The Church calls for legal protection of the unborn, support for pregnant women, and a culture of life.",
+    whyItMatters: "The right to life of the unborn is the foundation upon which all other rights rest, because if the right to exist can be denied, no other rights have any secure basis.",
+    relatedTerms: ["cst-right-to-life-foundational", "cst-consistent-ethic-of-life", "cst-rights-of-elderly", "cst-bioethics-social-teaching"]
+  },
+  {
+    id: "cst-rights-of-elderly",
+    term: "Rights of the Elderly",
+    category: "social-teaching",
+    tags: ["aging", "dignity", "care", "intergenerational"],
+    oneLiner: "Catholic teaching insists that the elderly retain their full dignity and rights, calling society to honor their wisdom, provide adequate care, and resist the throwaway culture.",
+    body: "Pope Francis has repeatedly denounced the 'throwaway culture' that marginalizes the elderly as economically unproductive. The Church teaches that older persons have a right to dignified care, social inclusion, adequate healthcare, and the companionship of family and community. They also bear irreplaceable gifts of wisdom, memory, and faith that society needs. The fourth commandment's call to honor father and mother extends to societal obligations toward all elderly persons.",
+    whyItMatters: "A society's treatment of its elderly members is a reliable indicator of its moral health, and defending their dignity is essential to building a culture of life from conception to natural death.",
+    relatedTerms: ["cst-rights-of-unborn", "cst-consistent-ethic-of-life", "cst-end-of-life-care", "cst-palliative-care"]
+  },
+  {
+    id: "cst-rights-of-disabled",
+    term: "Rights of Persons with Disabilities",
+    category: "social-teaching",
+    tags: ["disability", "inclusion", "dignity", "accessibility"],
+    oneLiner: "Catholic teaching affirms that persons with disabilities possess equal dignity and rights, and society must ensure their full participation and inclusion.",
+    body: "The Church teaches that disability does not diminish a person's inherent dignity or their vocation to contribute to the community. Persons with disabilities have the right to education, employment, accessibility, and full participation in the sacramental and social life of the Church. The Compendium of the Social Doctrine calls on society to remove barriers—physical, social, and attitudinal—that prevent their flourishing.",
+    whyItMatters: "How a society treats its members with disabilities reveals whether it truly believes in the equal dignity of every person or only values those who are economically productive.",
+    relatedTerms: ["cst-dignity-human-person", "cst-rights-of-elderly", "cst-consistent-ethic-of-life", "cst-right-to-education"]
+  },
+  {
+    id: "cst-rights-of-prisoners",
+    term: "Rights of Prisoners",
+    category: "social-teaching",
+    tags: ["incarceration", "justice", "rehabilitation", "dignity"],
+    oneLiner: "Catholic social teaching holds that even those justly imprisoned retain their fundamental human dignity and rights, and that the criminal justice system must prioritize rehabilitation.",
+    body: "The Church teaches that punishment must serve justice, protect society, and promote the offender's rehabilitation—not merely inflict retribution. Prisoners retain the right to humane treatment, healthcare, contact with family, religious practice, and preparation for reintegration into society. Francis has been particularly vocal about prison conditions, visiting prisoners regularly and denouncing overcrowding, torture, and excessive incarceration.",
+    whyItMatters: "Defending prisoners' rights tests society's commitment to universal dignity, since it requires recognizing the humanity even of those who have violated the social covenant.",
+    relatedTerms: ["cst-death-penalty", "cst-dignity-human-person", "cst-consistent-ethic-of-life", "cst-rights-of-disabled"]
+  },
+  {
+    id: "cst-rights-of-refugees-deeper",
+    term: "Rights of Refugees – Deeper",
+    category: "social-teaching",
+    tags: ["refugees", "asylum", "protection", "displacement"],
+    oneLiner: "Catholic teaching affirms that refugees fleeing war, persecution, or disaster have a right to protection and asylum, and nations have a corresponding duty to welcome them.",
+    body: "Building on the scriptural mandate to welcome the stranger, the Church teaches that the right to emigrate in search of safety is a natural right that cannot be denied. Refugees deserve legal protection, access to asylum procedures, and the opportunity to rebuild their lives with dignity. While the Church acknowledges nations' right to regulate borders, it insists this right can never override the fundamental duty to protect those fleeing for their lives.",
+    example: "Pope Francis's first trip outside Rome was to Lampedusa, where he mourned migrants who drowned in the Mediterranean and condemned the 'globalization of indifference.'",
+    whyItMatters: "The refugee crisis is one of the defining moral tests of the twenty-first century, and the Church's teaching challenges nations to see refugees as persons with rights, not problems to be managed.",
+    relatedTerms: ["cst-immigration-welcoming-stranger", "cst-duty-to-welcome-stranger", "cst-integration-vs-assimilation", "cst-fratelli-tutti"]
+  },
+  {
+    id: "cst-duty-to-welcome-stranger",
+    term: "Duty to Welcome the Stranger",
+    category: "social-teaching",
+    tags: ["hospitality", "migration", "Scripture", "solidarity"],
+    oneLiner: "The duty to welcome the stranger is rooted in Scripture and natural law, requiring Christians and nations to offer hospitality to migrants, refugees, and displaced persons.",
+    body: "The biblical mandate to welcome strangers runs from Abraham's hospitality to angels through Jesus' identification with the stranger in Matthew 25. The Church teaches that this duty flows from the universal destination of goods and the unity of the human family. Pope Francis has articulated four verbs—welcome, protect, promote, integrate—as a framework for responding to migration with both compassion and practical wisdom.",
+    whyItMatters: "Welcoming the stranger is not optional charity but a moral obligation rooted in the Gospel, challenging every Christian and every nation to overcome fear and selfishness in favor of solidarity.",
+    relatedTerms: ["cst-rights-of-refugees-deeper", "cst-immigration-welcoming-stranger", "cst-integration-vs-assimilation", "cst-solidarity"]
+  },
+  {
+    id: "cst-integration-vs-assimilation",
+    term: "Integration vs. Assimilation",
+    category: "social-teaching",
+    tags: ["migration", "culture", "identity", "belonging"],
+    oneLiner: "Catholic teaching favors integration—mutual enrichment between migrants and host communities—over forced assimilation that erases cultural identity.",
+    body: "The Church distinguishes between integration, which respects migrants' cultural heritage while fostering participation in the new society, and assimilation, which demands the abandonment of one's own culture. Integration requires effort from both sides: migrants must learn the language and respect the laws and culture of their new home, while the host society must be open to the gifts migrants bring. This approach reflects Catholic respect for both cultural diversity and social cohesion.",
+    whyItMatters: "The integration-assimilation distinction helps navigate the cultural tensions surrounding immigration, offering a path that honors both the newcomer's identity and the host community's legitimate concerns.",
+    relatedTerms: ["cst-duty-to-welcome-stranger", "cst-cultural-rights", "cst-cultural-imperialism", "cst-fratelli-tutti"]
+  },
+  {
+    id: "cst-cultural-imperialism",
+    term: "Cultural Imperialism",
+    category: "social-teaching",
+    tags: ["colonialism", "globalization", "identity", "domination"],
+    oneLiner: "Catholic social teaching condemns cultural imperialism—the imposition of one culture's values, practices, and worldview on another—as a violation of peoples' right to their own cultural identity.",
+    body: "The Church recognizes that cultural imperialism can take many forms: colonial imposition of Western norms, global media dominance that erodes local cultures, economic conditionalism that demands cultural conformity, and ideological pressure on developing nations to adopt liberal Western values on sexuality and family. Populorum Progressio and subsequent documents insist that development must respect each people's cultural integrity and right to determine their own path.",
+    whyItMatters: "Cultural imperialism violates the principle of subsidiarity applied to cultures, and resisting it is essential for genuine integral development that respects the diversity of the human family.",
+    relatedTerms: ["cst-economic-colonialism", "cst-neocolonialism", "cst-cultural-rights", "cst-integration-vs-assimilation"]
+  },
+  {
+    id: "cst-economic-colonialism",
+    term: "Economic Colonialism",
+    category: "social-teaching",
+    tags: ["exploitation", "globalization", "debt", "dependency"],
+    oneLiner: "Economic colonialism refers to the continuation of exploitative economic relationships between wealthy and poor nations long after formal political colonialism has ended.",
+    body: "Catholic teaching warns that the end of political colonialism has not ended economic domination. Through unfair trade agreements, debt burdens, resource extraction, and conditionalities imposed by international financial institutions, wealthy nations continue to exploit poorer ones. John Paul II and Francis have both denounced this 'new colonialism' that keeps developing nations in dependency while extracting their resources and labor for the benefit of the global North.",
+    whyItMatters: "Economic colonialism perpetuates global inequality and prevents genuine development, making it a structure of sin that demands systemic reform of international economic relationships.",
+    relatedTerms: ["cst-neocolonialism", "cst-cultural-imperialism", "cst-debt-forgiveness", "cst-globalization-solidarity"]
+  },
+  {
+    id: "cst-neocolonialism",
+    term: "Neocolonialism",
+    category: "social-teaching",
+    tags: ["domination", "conditionality", "sovereignty", "ideology"],
+    oneLiner: "Neocolonialism describes new forms of domination—economic, cultural, and ideological—that wealthy nations and international bodies exercise over developing countries under the guise of aid and development.",
+    body: "Pope Francis has repeatedly criticized neocolonial dynamics in which international aid is conditioned on acceptance of Western ideological positions on family, sexuality, and population control. This extends to intellectual property regimes that prevent access to essential medicines, agricultural patents that undermine food sovereignty, and financial conditionalities that impose austerity on the poorest. The Church insists that authentic development cooperation must respect national sovereignty and cultural values.",
+    whyItMatters: "Naming neocolonialism enables the Church to defend the sovereignty and dignity of developing nations against subtle forms of domination that masquerade as progress and development.",
+    relatedTerms: ["cst-economic-colonialism", "cst-cultural-imperialism", "cst-foreign-aid-ethics", "cst-debt-forgiveness"]
+  },
+  {
+    id: "cst-debt-forgiveness",
+    term: "Debt Forgiveness",
+    category: "social-teaching",
+    tags: ["jubilee", "developing-nations", "finance", "justice"],
+    oneLiner: "Catholic teaching calls for the forgiveness or restructuring of crushing international debt that prevents developing nations from meeting the basic needs of their people.",
+    body: "Drawing on the biblical concept of Jubilee, John Paul II made debt relief a central theme of the Great Jubilee of 2000. The Church argues that when debt service prevents a nation from providing healthcare, education, and food for its citizens, the debt has become unjust. The Heavily Indebted Poor Countries Initiative, which the Vatican actively supported, resulted in significant debt relief for dozens of nations. The Church continues to advocate for responsible lending and borrowing.",
+    whyItMatters: "International debt is a justice issue, not merely an economic one, and its cancellation can free resources that allow millions of people to escape poverty and access basic necessities.",
+    relatedTerms: ["cst-economic-colonialism", "cst-foreign-aid-ethics", "cst-globalization-solidarity", "cst-economic-justice"]
+  },
+  {
+    id: "cst-foreign-aid-ethics",
+    term: "Foreign Aid Ethics",
+    category: "social-teaching",
+    tags: ["development", "aid", "conditionality", "solidarity"],
+    oneLiner: "Catholic teaching supports foreign aid as an expression of solidarity but insists it must respect recipients' dignity, sovereignty, and genuine development needs.",
+    body: "The Church affirms wealthy nations' obligation to assist poorer ones but warns against aid that creates dependency, serves donors' geopolitical interests, or comes with ideological strings attached. Authentic development aid should build local capacity, respect cultural values, prioritize the poorest, and work toward the day when aid is no longer needed. Populorum Progressio called for a world fund financed by reducing military spending to support integral development.",
+    whyItMatters: "Foreign aid ethics ensure that assistance to developing nations genuinely serves human flourishing rather than perpetuating new forms of dependency and domination.",
+    relatedTerms: ["cst-debt-forgiveness", "cst-neocolonialism", "cst-microfinance-deeper", "cst-integral-human-development"]
+  },
+  {
+    id: "cst-microfinance-deeper",
+    term: "Microfinance – Deeper",
+    category: "social-teaching",
+    tags: ["credit", "poverty", "entrepreneurship", "empowerment"],
+    oneLiner: "Catholic social thought supports microfinance as a tool for empowering the poor through access to credit, while warning against predatory lending practices that exploit the vulnerable.",
+    body: "Microfinance provides small loans, savings, and financial services to people excluded from traditional banking. The Church values its potential to foster entrepreneurship, dignity, and self-sufficiency among the poorest. However, Catholic teaching also warns that microfinance can become exploitative when interest rates are excessive, debt collection is coercive, or the model prioritizes investor returns over borrower welfare. Ethical microfinance must serve integral human development, not just financial inclusion.",
+    whyItMatters: "Microfinance illustrates the Catholic principle that the poor are agents of their own development, not passive recipients, while reminding us that financial tools require moral guardrails.",
+    relatedTerms: ["cst-microfinance-development", "cst-cooperative-economics-deeper", "cst-foreign-aid-ethics", "cst-economic-justice"]
+  },
+  {
+    id: "cst-cooperative-economics-deeper",
+    term: "Cooperative Economics – Deeper",
+    category: "social-teaching",
+    tags: ["cooperatives", "solidarity", "ownership", "democratic"],
+    oneLiner: "Catholic social teaching supports cooperative economic models that distribute ownership and decision-making among workers and members, reflecting principles of solidarity and subsidiarity.",
+    body: "Cooperatives—whether worker-owned, consumer-owned, or credit unions—embody key CST principles: subsidiarity (decision-making at the lowest effective level), solidarity (shared ownership and risk), and participation (democratic governance). The Mondragon cooperative in Spain demonstrates that cooperatives can operate at scale while maintaining human-centered values. The Church sees cooperatives as a practical alternative to both unregulated capitalism and state socialism.",
+    whyItMatters: "Cooperative economics demonstrates that viable alternatives to shareholder-dominated capitalism exist, offering concrete models of an economy ordered toward the common good rather than maximum profit.",
+    relatedTerms: ["cst-mondragon-cooperative", "cst-employee-ownership", "cst-distributism", "cst-economic-justice"]
+  },
+  {
+    id: "cst-employee-ownership",
+    term: "Employee Ownership",
+    category: "social-teaching",
+    tags: ["labor", "ownership", "participation", "dignity"],
+    oneLiner: "Catholic social teaching encourages forms of employee ownership that give workers a stake in the enterprises they help build, promoting dignity, participation, and just distribution of wealth.",
+    body: "Laborem Exercens argued that workers should be co-owners of the workbench at which they labor, and Centesimus Annus endorsed broadening ownership through worker share programs, profit-sharing, and cooperative structures. Employee ownership gives workers voice in decisions that affect their lives, aligns the interests of labor and capital, and distributes wealth more broadly. Such arrangements reflect the principle that labor has priority over capital.",
+    whyItMatters: "Employee ownership gives practical expression to the Church's teaching that workers are not merely instruments of production but subjects who deserve to share in the fruits of their labor.",
+    relatedTerms: ["cst-cooperative-economics-deeper", "cst-dignity-of-work", "cst-rights-of-workers", "cst-distributism"]
+  },
+  {
+    id: "cst-labor-unions-deeper",
+    term: "Labor Unions – Deeper",
+    category: "social-teaching",
+    tags: ["unions", "workers", "collective-action", "rights"],
+    oneLiner: "Catholic social teaching has consistently affirmed workers' right to form unions as an essential means of defending their dignity, securing just wages, and participating in economic decisions.",
+    body: "From Rerum Novarum through Laborem Exercens, the Church has defended unions as indispensable instruments of social justice. Unions enable workers to negotiate collectively for fair wages, safe conditions, reasonable hours, and a voice in workplace decisions. The Church also teaches that unions have responsibilities: to serve the common good, avoid purely political agendas, and remain open to collaboration with employers. The decline of unions in many countries has been accompanied by growing inequality.",
+    whyItMatters: "Strong unions are a concrete application of subsidiarity and solidarity in the economic sphere, and their decline raises serious concerns about the protection of workers' rights and dignity.",
+    relatedTerms: ["cst-rights-of-workers", "cst-right-to-strike", "cst-collective-bargaining", "cst-just-wage"]
+  },
+  {
+    id: "cst-right-to-strike",
+    term: "Right to Strike",
+    category: "social-teaching",
+    tags: ["labor", "protest", "last-resort", "negotiation"],
+    oneLiner: "Catholic teaching recognizes the right to strike as a legitimate last resort when workers' rights have been violated and all other avenues of negotiation have been exhausted.",
+    body: "Laborem Exercens explicitly affirmed the right to strike as a legitimate means of defending workers' interests, while stipulating conditions: strikes should be a last resort after genuine negotiation has failed, should not involve violence, and must not cause disproportionate harm to the common good. Essential services require special consideration. The Church warns against using strikes for purely political purposes unrelated to working conditions.",
+    whyItMatters: "The right to strike protects workers from exploitation when normal channels of redress fail, but its careful limitation shows the Church's commitment to balancing justice with social peace.",
+    relatedTerms: ["cst-labor-unions-deeper", "cst-collective-bargaining", "cst-rights-of-workers", "cst-just-wage"]
+  },
+  {
+    id: "cst-collective-bargaining",
+    term: "Collective Bargaining",
+    category: "social-teaching",
+    tags: ["negotiation", "unions", "wages", "dialogue"],
+    oneLiner: "Collective bargaining is the process by which workers, through their unions, negotiate with employers over wages, conditions, and other terms of employment—a right affirmed by Catholic social teaching.",
+    body: "The Church views collective bargaining as an essential mechanism for achieving just wages and working conditions, and as a practical expression of the principle that labor takes precedence over capital. Effective collective bargaining requires good-faith negotiation, transparency, willingness to compromise, and respect for the rights of all parties. The Church encourages institutional frameworks that facilitate regular and orderly negotiations between workers and employers.",
+    whyItMatters: "Collective bargaining gives workers a genuine voice in the economic decisions that shape their lives, translating abstract principles of dignity and participation into concrete workplace realities.",
+    relatedTerms: ["cst-labor-unions-deeper", "cst-right-to-strike", "cst-living-wage", "cst-just-wage"]
+  },
+  {
+    id: "cst-living-wage",
+    term: "Living Wage",
+    category: "social-teaching",
+    tags: ["wages", "family", "justice", "sufficiency"],
+    oneLiner: "Catholic teaching demands that every worker receive a living wage sufficient to support a family in dignity, not merely a market-determined minimum.",
+    body: "Leo XIII in Rerum Novarum declared that wages must be sufficient for a worker to support himself and his family. This teaching has been consistently reaffirmed: a just wage enables a family to meet basic needs—food, housing, healthcare, education—and to save for the future. The living wage goes beyond the legal minimum wage by incorporating the actual cost of dignified living in a given place and time. When the market fails to provide living wages, the state has a duty to intervene.",
+    whyItMatters: "The living wage demand translates the abstract principle of human dignity into concrete economic terms, challenging businesses and governments to ensure no full-time worker lives in poverty.",
+    relatedTerms: ["cst-just-wage", "cst-minimum-wage-debate", "cst-rights-of-workers", "cst-rerum-novarum"]
+  },
+  {
+    id: "cst-minimum-wage-debate",
+    term: "Minimum Wage Debate",
+    category: "social-teaching",
+    tags: ["wages", "policy", "economics", "justice"],
+    oneLiner: "Catholic social teaching supports minimum wage laws as a floor of justice while acknowledging debate about optimal levels and their economic effects.",
+    body: "The Church affirms that governments have a duty to protect workers from exploitation through minimum wage legislation. While not prescribing specific dollar amounts, Catholic teaching insists the minimum must approach a living wage. The debate involves balancing workers' need for adequate income against concerns about employment effects, small business viability, and regional cost differences. Catholic social principles favor erring on the side of worker protection.",
+    whyItMatters: "Minimum wage policy is a practical test of whether a society prioritizes profit maximization or the dignity of work, and Catholic teaching provides moral criteria for navigating economic trade-offs.",
+    relatedTerms: ["cst-living-wage", "cst-just-wage", "cst-universal-basic-income", "cst-economic-justice"]
+  },
+  {
+    id: "cst-universal-basic-income",
+    term: "Universal Basic Income",
+    category: "social-teaching",
+    tags: ["poverty", "automation", "policy", "dignity"],
+    oneLiner: "Pope Francis has expressed support for exploring a universal basic income as a means of ensuring every person's basic needs are met in an era of increasing automation and precarious employment.",
+    body: "In his 2020 Easter letter and in Fratelli Tutti, Francis suggested that a universal basic income or similar mechanism could help ensure that no person lacks the means to live with dignity. Catholic teaching evaluates UBI by its potential to uphold human dignity, promote participation in society, and ensure access to basic goods. Concerns include the risk of replacing the dignity of work with dependency, and the need to maintain incentives for meaningful contribution to the common good.",
+    whyItMatters: "As automation transforms labor markets, UBI represents a potential application of the universal destination of goods and the right to subsistence in a rapidly changing economic landscape.",
+    relatedTerms: ["cst-minimum-wage-debate", "cst-living-wage", "cst-automation-and-work", "cst-unemployment-moral"]
+  },
+  {
+    id: "cst-unemployment-moral",
+    term: "Unemployment as a Moral Issue",
+    category: "social-teaching",
+    tags: ["work", "dignity", "exclusion", "policy"],
+    oneLiner: "Catholic teaching views unemployment not merely as an economic problem but as a moral crisis that robs persons of dignity, purpose, and participation in community life.",
+    body: "Laborem Exercens described work as a fundamental dimension of human existence, making unemployment an assault on human dignity. The Church calls on governments and businesses to prioritize full employment through just economic policies, job training, support for entrepreneurship, and investment in communities. Youth unemployment is particularly concerning because it robs an entire generation of hope and can lead to social marginalization and radicalization.",
+    whyItMatters: "Treating unemployment as a moral issue rather than a mere market fluctuation demands active intervention by governments, businesses, and civil society to ensure everyone who can work has the opportunity to do so.",
+    relatedTerms: ["cst-dignity-of-work", "cst-automation-and-work", "cst-universal-basic-income", "cst-living-wage"]
+  },
+  {
+    id: "cst-automation-and-work",
+    term: "Automation and Work",
+    category: "social-teaching",
+    tags: ["technology", "labor", "displacement", "dignity"],
+    oneLiner: "Catholic teaching holds that automation and technological progress must serve human dignity, not replace workers without ensuring alternative means of livelihood and participation.",
+    body: "The Church welcomes technology that reduces drudgery and enhances human capabilities but warns against automation that treats workers as disposable. Laborem Exercens insisted that technology must serve the worker, not the reverse. When automation eliminates jobs, Catholic teaching demands that society provide retraining, social safety nets, and new forms of meaningful work. The transition must be managed justly, with workers' voices included in decisions about technological change.",
+    whyItMatters: "As artificial intelligence and robotics transform the global economy, Catholic teaching provides moral guardrails ensuring that technological progress serves the whole human family, not just shareholders and engineers.",
+    relatedTerms: ["cst-artificial-intelligence-labor", "cst-unemployment-moral", "cst-dignity-of-work", "cst-technology-human-dignity"]
+  },
+  {
+    id: "cst-artificial-intelligence-labor",
+    term: "Artificial Intelligence and Labor",
+    category: "social-teaching",
+    tags: ["AI", "employment", "ethics", "transition"],
+    oneLiner: "Catholic teaching calls for ethical governance of artificial intelligence to ensure it enhances rather than eliminates human work, and that its benefits are shared equitably.",
+    body: "The Vatican's engagement with AI—through the Rome Call for AI Ethics (2020) and Francis's addresses to tech leaders—has emphasized that AI must be transparent, inclusive, and accountable. In the labor sphere, AI raises questions about job displacement, algorithmic management, surveillance of workers, and the concentration of economic power. Catholic teaching insists that human oversight must be maintained and that AI's benefits must reach the poorest, not only the technological elite.",
+    whyItMatters: "AI is reshaping work faster than any previous technology, and Catholic ethical principles are urgently needed to ensure this transformation serves human dignity rather than undermining it.",
+    relatedTerms: ["cst-automation-and-work", "cst-artificial-intelligence-ethics", "cst-digital-divide", "cst-surveillance-ethics"]
+  },
+  {
+    id: "cst-digital-divide",
+    term: "Digital Divide",
+    category: "social-teaching",
+    tags: ["technology", "access", "inequality", "inclusion"],
+    oneLiner: "The digital divide—the gap between those with and without access to digital technology—is a justice issue that Catholic teaching addresses as a barrier to participation and development.",
+    body: "Access to digital technology and the internet has become essential for education, employment, healthcare, and civic participation. The Church recognizes that the digital divide mirrors and reinforces existing inequalities between and within nations. Catholic teaching calls for policies that extend digital access to rural areas, developing countries, and marginalized communities, treating internet access as a dimension of integral human development rather than a luxury.",
+    whyItMatters: "As society becomes increasingly digital, those excluded from technology are excluded from economic, educational, and civic opportunities, making the digital divide a pressing justice concern.",
+    relatedTerms: ["cst-artificial-intelligence-labor", "cst-media-literacy", "cst-technology-human-dignity", "cst-right-to-education"]
+  },
+  {
+    id: "cst-media-literacy",
+    term: "Media Literacy",
+    category: "social-teaching",
+    tags: ["education", "discernment", "truth", "communication"],
+    oneLiner: "Catholic teaching promotes media literacy as essential for discerning truth in an age of information overload, enabling persons to engage critically with media rather than being manipulated by it.",
+    body: "The Church has long engaged with communications media, from Inter Mirifica at Vatican II to recent documents on digital culture. Media literacy involves the ability to access, analyze, evaluate, and create media content critically. In an era of fake news, algorithm-driven content, and media concentration, the Church calls for education that equips people—especially the young—to distinguish truth from falsehood and to use media responsibly.",
+    whyItMatters: "Media literacy is a prerequisite for informed democratic participation and for protecting human dignity in a media environment designed to manipulate attention and emotion for profit.",
+    relatedTerms: ["cst-information-ethics", "cst-disinformation-moral", "cst-media-responsibility", "cst-social-media-ethics"]
+  },
+  {
+    id: "cst-information-ethics",
+    term: "Information Ethics",
+    category: "social-teaching",
+    tags: ["truth", "communication", "journalism", "transparency"],
+    oneLiner: "Catholic teaching applies principles of truth, justice, and charity to the creation, distribution, and consumption of information in the public sphere.",
+    body: "The Church teaches that access to truthful information is a human right essential for personal development and democratic governance. Information ethics encompasses the responsibilities of journalists to report accurately, the duty of governments to be transparent, the right of citizens to access information, and the moral obligation not to distort facts for commercial or political gain. In the digital age, these principles extend to algorithms, data curation, and platform governance.",
+    whyItMatters: "In a post-truth culture, Catholic information ethics provides a moral compass for journalists, tech companies, governments, and citizens navigating an increasingly complex information landscape.",
+    relatedTerms: ["cst-media-literacy", "cst-disinformation-moral", "cst-social-media-ethics", "cst-media-responsibility"]
+  },
+  {
+    id: "cst-disinformation-moral",
+    term: "Disinformation as a Moral Issue",
+    category: "social-teaching",
+    tags: ["lies", "propaganda", "truth", "democracy"],
+    oneLiner: "Catholic teaching condemns the deliberate spread of disinformation as a sin against truth, justice, and charity that undermines trust and corrupts public discourse.",
+    body: "The eighth commandment's prohibition of bearing false witness extends to the systematic creation and spread of disinformation. The Church teaches that disinformation campaigns—whether by governments, political actors, or commercial entities—violate human dignity by treating people as objects to be manipulated. They corrode the trust essential for social life and can incite hatred, violence, and injustice. Catholics have a moral duty to verify information before sharing it and to speak truth in charity.",
+    whyItMatters: "Disinformation poses an existential threat to democracy, social cohesion, and rational public discourse, making its moral dimensions a matter of urgent concern for the Church.",
+    relatedTerms: ["cst-information-ethics", "cst-media-literacy", "cst-social-media-ethics", "cst-media-responsibility"]
+  },
+  {
+    id: "cst-social-media-ethics",
+    term: "Social Media Ethics",
+    category: "social-teaching",
+    tags: ["technology", "community", "addiction", "dignity"],
+    oneLiner: "Catholic teaching calls for the ethical use of social media that promotes genuine human connection and truth while resisting manipulation, addiction, and the degradation of discourse.",
+    body: "Social media platforms offer unprecedented opportunities for connection, evangelization, and solidarity, but also present serious moral challenges: addictive design, cyberbullying, polarization, privacy violations, and the spread of harmful content. The Church calls users to exercise temperance and charity online, platforms to design for human well-being rather than engagement metrics, and governments to regulate in defense of the common good, especially the protection of children.",
+    whyItMatters: "Social media's pervasive influence on mental health, social relationships, and public discourse makes its ethical governance one of the most pressing social justice issues of the digital age.",
+    relatedTerms: ["cst-disinformation-moral", "cst-surveillance-ethics", "cst-data-privacy", "cst-media-responsibility"]
+  },
+  {
+    id: "cst-surveillance-ethics",
+    term: "Surveillance Ethics",
+    category: "social-teaching",
+    tags: ["privacy", "state", "technology", "freedom"],
+    oneLiner: "Catholic teaching warns that mass surveillance by governments and corporations threatens human dignity, freedom of conscience, and the right to privacy.",
+    body: "The Church teaches that while legitimate security concerns may justify limited surveillance with proper oversight, mass and indiscriminate surveillance violates the right to privacy and creates conditions for authoritarianism. Surveillance chills freedom of expression, association, and religious practice. Catholic teaching insists on proportionality, judicial oversight, transparency, and respect for the person's inner life as essential safeguards against surveillance overreach.",
+    whyItMatters: "In an era of ubiquitous digital surveillance, Catholic teaching's defense of privacy and interior freedom provides essential moral criteria for limiting state and corporate power over persons.",
+    relatedTerms: ["cst-data-privacy", "cst-social-media-ethics", "cst-technology-human-dignity", "cst-freedom-of-conscience"]
+  },
+  {
+    id: "cst-data-privacy",
+    term: "Data Privacy",
+    category: "social-teaching",
+    tags: ["privacy", "digital", "rights", "consent"],
+    oneLiner: "Catholic teaching defends data privacy as an extension of the right to privacy, insisting that personal data must be collected and used only with informed consent and for legitimate purposes.",
+    body: "Personal data—health records, financial information, browsing history, location data—constitutes an extension of the person and deserves protection. The Church applies the principle of human dignity to digital data, arguing that persons have the right to know what data is collected about them, how it is used, and to consent to its collection. The commodification of personal data without meaningful consent treats persons as products rather than subjects.",
+    whyItMatters: "Data privacy is the digital age's expression of the fundamental right to an inviolable inner life, and its protection is essential for preserving human dignity in an increasingly datafied world.",
+    relatedTerms: ["cst-surveillance-ethics", "cst-social-media-ethics", "cst-technology-human-dignity", "cst-digital-divide"]
+  },
+  {
+    id: "cst-biotechnology-ethics",
+    term: "Biotechnology Ethics",
+    category: "social-teaching",
+    tags: ["bioethics", "technology", "human-nature", "limits"],
+    oneLiner: "Catholic teaching evaluates biotechnology by whether it serves the integral good of the human person, respecting the created order while rejecting the commodification of human life.",
+    body: "The Church welcomes biotechnological advances that heal disease, alleviate suffering, and improve quality of life, but draws firm lines against technologies that instrumentalize human life or treat the human person as a product. The principle of respect for human nature as created by God sets limits on the manipulation of human biology. Each biotechnology must be evaluated individually according to its effects on human dignity, the integrity of the body, and the common good.",
+    whyItMatters: "Biotechnology's accelerating power to alter human nature itself demands robust ethical frameworks, and Catholic teaching provides a coherent moral vision grounded in the sacredness of the human person.",
+    relatedTerms: ["cst-genetic-modification-ethics", "cst-reproductive-technology-ethics", "cst-bioethics-social-teaching", "cst-stem-cell-research"]
+  },
+  {
+    id: "cst-genetic-modification-ethics",
+    term: "Genetic Modification Ethics",
+    category: "social-teaching",
+    tags: ["genetics", "CRISPR", "enhancement", "nature"],
+    oneLiner: "Catholic teaching distinguishes between genetic therapies that heal genuine diseases and genetic enhancements that alter human nature, accepting the former while raising serious concerns about the latter.",
+    body: "The Church supports somatic gene therapy aimed at curing genetic diseases as a legitimate extension of medical healing. However, it raises grave concerns about germline editing that would alter the human genome for future generations, genetic enhancement that goes beyond healing to create 'designer' humans, and the eugenic implications of selecting embryos based on genetic traits. The precautionary principle and respect for the integrity of human nature guide Catholic moral evaluation.",
+    whyItMatters: "Genetic modification technologies like CRISPR give humanity unprecedented power over its own biology, making Catholic moral discernment about the difference between healing and hubris more urgent than ever.",
+    relatedTerms: ["cst-biotechnology-ethics", "cst-genetic-engineering", "cst-reproductive-technology-ethics", "cst-cloning-moral"]
+  },
+  {
+    id: "cst-reproductive-technology-ethics",
+    term: "Reproductive Technology Ethics",
+    category: "social-teaching",
+    tags: ["IVF", "procreation", "marriage", "dignity"],
+    oneLiner: "Catholic teaching evaluates reproductive technologies by whether they assist the conjugal act in achieving procreation or replace it, accepting the former and rejecting the latter.",
+    body: "The Church distinguishes between technologies that help the marital act achieve its procreative purpose (morally acceptable) and those that substitute for it entirely, such as IVF (morally problematic). Key concerns with IVF include the separation of procreation from the conjugal act, the creation and destruction of surplus embryos, and the commodification of human life. The Church supports research into overcoming infertility through means that respect the dignity of the conjugal act and the embryo.",
+    whyItMatters: "Reproductive technology touches the most intimate dimensions of human life—marriage, parenthood, and the origin of new persons—requiring careful moral discernment to protect the dignity of all involved.",
+    relatedTerms: ["cst-biotechnology-ethics", "cst-cloning-moral", "cst-rights-of-unborn", "cst-bioethics-social-teaching"]
+  },
+  {
+    id: "cst-cloning-moral",
+    term: "Human Cloning – Moral Assessment",
+    category: "social-teaching",
+    tags: ["cloning", "dignity", "reproduction", "ethics"],
+    oneLiner: "Catholic teaching condemns human cloning—both reproductive and therapeutic—as a grave violation of human dignity that reduces the person to a manufactured product.",
+    body: "The Church opposes reproductive cloning because it bypasses sexual procreation, instrumentalizes the resulting person, and represents an attempt to exercise total dominion over human origins. Therapeutic cloning, which creates embryos to harvest stem cells, is condemned because it creates human life solely to destroy it for research purposes. Both forms treat the human person as a means to an end rather than as a subject with inherent dignity and unrepeatable uniqueness.",
+    whyItMatters: "Cloning represents perhaps the most radical reduction of the human person to an object of manufacture, and its prohibition upholds the principle that every person deserves to be received as a gift, not produced as a product.",
+    relatedTerms: ["cst-reproductive-technology-ethics", "cst-stem-cell-research", "cst-biotechnology-ethics", "cst-genetic-modification-ethics"]
+  },
+  {
+    id: "cst-stem-cell-research",
+    term: "Stem Cell Research",
+    category: "social-teaching",
+    tags: ["embryo", "research", "ethics", "alternatives"],
+    oneLiner: "Catholic teaching supports adult stem cell research and opposes embryonic stem cell research because the latter requires the destruction of human embryos.",
+    body: "The Church enthusiastically supports stem cell research using adult stem cells, umbilical cord blood, and induced pluripotent stem cells, which do not involve the destruction of embryos. It opposes embryonic stem cell research because extracting stem cells destroys the embryo—a living human being. The Church has funded adult stem cell research through the Vatican's Stem for Life Foundation and notes that the most successful clinical therapies to date have used adult stem cells.",
+    whyItMatters: "The stem cell debate illustrates that the Church is not anti-science but insists that scientific progress must respect the inviolability of human life at every stage, including its earliest beginnings.",
+    relatedTerms: ["cst-cloning-moral", "cst-biotechnology-ethics", "cst-rights-of-unborn", "cst-bioethics-social-teaching"]
+  },
+  {
+    id: "cst-organ-donation-ethics",
+    term: "Organ Donation Ethics",
+    category: "social-teaching",
+    tags: ["donation", "solidarity", "death", "consent"],
+    oneLiner: "Catholic teaching encourages organ donation as an act of charity and solidarity while insisting on genuine informed consent and the certain determination of death before organ retrieval.",
+    body: "The Church supports organ donation as a noble expression of solidarity and love for neighbor. John Paul II called it a 'genuine act of love.' However, Catholic teaching sets clear conditions: the donor must be truly dead before vital organs are removed (the dead donor rule), consent must be freely given, and organ trafficking and commercialization are condemned. Living donation is praiseworthy when it does not expose the donor to disproportionate risk.",
+    whyItMatters: "Organ donation ethics demonstrate how Catholic teaching can affirm the generous impulse to save lives while providing moral guardrails that protect the dignity of both donors and recipients.",
+    relatedTerms: ["cst-palliative-care", "cst-end-of-life-care", "cst-consistent-ethic-of-life", "cst-biotechnology-ethics"]
+  },
+  {
+    id: "cst-palliative-care",
+    term: "Palliative Care",
+    category: "social-teaching",
+    tags: ["end-of-life", "suffering", "dignity", "medicine"],
+    oneLiner: "Catholic teaching strongly supports palliative care as the morally appropriate response to terminal illness, affirming the duty to relieve suffering without hastening death.",
+    body: "The Church teaches that every person deserves care that addresses physical, emotional, and spiritual suffering at the end of life. Palliative care—including pain management, even when it may incidentally shorten life (the principle of double effect)—is not only permissible but a duty of compassion. The Church opposes euthanasia and assisted suicide while insisting that genuine palliative care makes them unnecessary by ensuring no one need suffer unbearably.",
+    whyItMatters: "Palliative care embodies the Catholic conviction that every life has dignity until its natural end, offering a compassionate alternative to the false mercy of euthanasia.",
+    relatedTerms: ["cst-end-of-life-care", "cst-organ-donation-ethics", "cst-consistent-ethic-of-life", "cst-rights-of-elderly"]
+  },
+  {
+    id: "cst-end-of-life-care",
+    term: "End of Life Care",
+    category: "social-teaching",
+    tags: ["death", "dignity", "extraordinary-means", "euthanasia"],
+    oneLiner: "Catholic teaching affirms the duty to provide ordinary care at the end of life while permitting the refusal of extraordinary or disproportionate treatments.",
+    body: "The Church distinguishes between ordinary means of preserving life (food, water, basic medical care) that are generally obligatory and extraordinary or disproportionate means that may be refused. No one is required to undergo treatments that are excessively burdensome, painful, or futile. However, the direct intention to cause death—whether by action (euthanasia) or omission of ordinary care—is always morally wrong. The goal is neither to hasten death nor to prolong dying, but to accompany the person with love and dignity.",
+    whyItMatters: "End-of-life teaching provides moral clarity in increasingly complex medical situations, protecting the vulnerable from both abandonment and from unwanted aggressive treatment.",
+    relatedTerms: ["cst-palliative-care", "cst-organ-donation-ethics", "cst-rights-of-elderly", "cst-consistent-ethic-of-life"]
+  },
+  {
+    id: "cst-food-sovereignty",
+    term: "Food Sovereignty",
+    category: "social-teaching",
+    tags: ["food", "agriculture", "self-determination", "justice"],
+    oneLiner: "Catholic teaching supports the right of peoples to define their own food systems, prioritizing local production, smallholder farmers, and nutritional self-sufficiency over corporate-controlled global food chains.",
+    body: "Food sovereignty goes beyond food security (mere access to calories) to affirm peoples' right to healthy and culturally appropriate food produced through ecologically sound and sustainable methods. The Church supports smallholder farmers, local food systems, seed sovereignty, and protection of agricultural biodiversity against corporate monopolization. Laudato Si' connected food sovereignty to integral ecology, warning that industrial agriculture often serves profit while degrading land and displacing communities.",
+    whyItMatters: "Food sovereignty connects the right to food with the right to self-determination, challenging a global food system that often leaves the people who grow food hungry while enriching distant corporations.",
+    relatedTerms: ["cst-agricultural-ethics", "cst-right-to-food", "cst-land-reform", "cst-laudato-si"]
+  },
+  {
+    id: "cst-agricultural-ethics",
+    term: "Agricultural Ethics",
+    category: "social-teaching",
+    tags: ["farming", "land", "stewardship", "sustainability"],
+    oneLiner: "Catholic teaching views agriculture as a vocation of stewardship, calling for farming practices that respect the earth, support rural communities, and provide just livelihoods for farmers.",
+    body: "The Church teaches that agriculture has a special dignity as the means by which humanity fulfills the mandate to till and keep the earth. Catholic agricultural ethics support sustainable farming methods, fair prices for agricultural products, protection of farmland from speculative development, and the rights of farmworkers. The growing concentration of land and agribusiness power raises concerns about justice for small farmers and the integrity of rural communities.",
+    whyItMatters: "Agriculture feeds humanity and shapes the landscape, making its ethical practice essential for both human flourishing and ecological stewardship.",
+    relatedTerms: ["cst-food-sovereignty", "cst-animal-welfare", "cst-land-reform", "cst-care-for-creation"]
+  },
+  {
+    id: "cst-animal-welfare",
+    term: "Animal Welfare",
+    category: "social-teaching",
+    tags: ["animals", "creation", "stewardship", "Catechism"],
+    oneLiner: "Catholic teaching affirms that animals are part of God's good creation and deserve humane treatment, while maintaining a clear distinction between animal welfare and human rights.",
+    body: "The Catechism teaches that animals are God's creatures and that humans owe them kindness, since the integrity of creation includes concern for all living beings. It is contrary to human dignity to cause animals to suffer or die needlessly. However, the Church maintains that animals do not have rights in the same sense as humans and that the use of animals for food, clothing, work, and medical research is morally legitimate when done humanely. Factory farming practices that cause unnecessary suffering are morally questionable.",
+    whyItMatters: "Animal welfare reflects the virtue of stewardship and the recognition that cruelty to animals coarsens the human soul, while the distinction from human rights preserves the unique dignity of the person.",
+    relatedTerms: ["cst-agricultural-ethics", "cst-care-for-creation", "cst-biodiversity", "cst-food-sovereignty"]
+  },
+  {
+    id: "cst-climate-change-response",
+    term: "Climate Change Response",
+    category: "social-teaching",
+    tags: ["ecology", "Laudato-Si", "justice", "creation"],
+    oneLiner: "Laudato Si' declared climate change a major moral issue affecting the poorest most severely, calling for urgent action grounded in integral ecology and intergenerational justice.",
+    body: "Pope Francis devoted significant attention in Laudato Si' to climate change as a consequence of unsustainable consumption and production patterns. The Church teaches that climate change disproportionately harms the poor—who contributed least to the problem—making it a justice issue, not merely an environmental one. Catholic teaching calls for reducing emissions, transitioning to renewable energy, supporting climate-vulnerable nations, and adopting simpler lifestyles. The 2023 Laudate Deum further intensified the urgency.",
+    whyItMatters: "Climate change is the premier environmental justice issue of our time, and Catholic teaching connects it to every dimension of social doctrine: dignity, solidarity, the common good, and care for creation.",
+    relatedTerms: ["cst-laudato-si", "cst-energy-ethics", "cst-ecological-conversion", "cst-intergenerational-justice"]
+  },
+  {
+    id: "cst-energy-ethics",
+    term: "Energy Ethics",
+    category: "social-teaching",
+    tags: ["energy", "transition", "access", "sustainability"],
+    oneLiner: "Catholic teaching calls for an energy transition that moves away from fossil fuels while ensuring universal access to affordable energy, especially for the poorest.",
+    body: "The Church recognizes that energy is essential for human development and that the current fossil-fuel-based system contributes to climate change and environmental degradation. Catholic energy ethics demand a just transition: moving toward clean, renewable energy while ensuring that the costs of transition do not fall on workers and communities dependent on fossil fuel industries. Universal energy access is a development priority, as over a billion people still lack electricity.",
+    whyItMatters: "Energy policy sits at the intersection of environmental stewardship, economic justice, and human development, making its ethical dimensions critical for building a sustainable and just future.",
+    relatedTerms: ["cst-climate-change-response", "cst-just-transition", "cst-nuclear-energy-debate", "cst-sustainable-development"]
+  },
+  {
+    id: "cst-sustainable-development",
+    term: "Sustainable Development",
+    category: "social-teaching",
+    tags: ["development", "ecology", "future-generations", "integral"],
+    oneLiner: "Catholic teaching supports development that meets present needs without compromising future generations' ability to meet their own, integrating social justice with environmental stewardship.",
+    body: "Laudato Si' embraced the concept of sustainable development while deepening it through the lens of integral ecology. True sustainable development cannot be reduced to economic growth; it must encompass cultural, spiritual, and ecological dimensions. The Church critiques a 'technocratic paradigm' that treats nature as a mere resource to be exploited and calls for an ecological conversion that transforms both personal lifestyles and economic systems.",
+    whyItMatters: "Sustainable development aligned with integral ecology provides a comprehensive vision for human progress that serves both present and future generations without destroying the natural systems on which all life depends.",
+    relatedTerms: ["cst-climate-change-response", "cst-pollution-moral", "cst-intergenerational-justice", "cst-laudato-si"]
+  },
+  {
+    id: "cst-just-transition",
+    term: "Just Transition",
+    category: "social-teaching",
+    tags: ["workers", "environment", "equity", "change"],
+    oneLiner: "Catholic teaching insists that the transition to a sustainable economy must be just, protecting workers and communities dependent on industries that must change or close.",
+    body: "A just transition ensures that the costs of environmental action do not fall disproportionately on workers and communities whose livelihoods depend on carbon-intensive industries. Catholic teaching demands retraining programs, investment in alternative employment, social safety nets, and meaningful participation of affected communities in planning the transition. Laudato Si' connected ecological responsibility with workers' rights, insisting that care for creation cannot come at the expense of care for the vulnerable.",
+    whyItMatters: "Without just transition policies, environmental action risks creating new injustices, turning potential allies among workers into opponents and undermining the social consensus needed for ecological transformation.",
+    relatedTerms: ["cst-energy-ethics", "cst-climate-change-response", "cst-dignity-of-work", "cst-rights-of-workers"]
+  },
+  {
+    id: "cst-ocean-stewardship",
+    term: "Ocean Stewardship",
+    category: "social-teaching",
+    tags: ["oceans", "fisheries", "pollution", "commons"],
+    oneLiner: "Catholic teaching extends care for creation to the world's oceans, calling for protection of marine ecosystems, sustainable fisheries, and action against ocean pollution.",
+    body: "Laudato Si' specifically addressed ocean degradation, noting the acidification, pollution, and overfishing that threaten marine ecosystems on which billions of people depend. The oceans are a global commons whose stewardship requires international cooperation. Catholic teaching supports marine protected areas, sustainable fishing practices that protect small-scale fishers, action against plastic pollution, and equitable sharing of ocean resources.",
+    whyItMatters: "Oceans cover seventy percent of the earth and sustain billions of people, making their protection a crucial dimension of integral ecology and global solidarity.",
+    relatedTerms: ["cst-forest-protection", "cst-biodiversity", "cst-pollution-moral", "cst-laudato-si"]
+  },
+  {
+    id: "cst-forest-protection",
+    term: "Forest Protection",
+    category: "social-teaching",
+    tags: ["forests", "deforestation", "Amazon", "biodiversity"],
+    oneLiner: "Catholic teaching calls for the protection of the world's forests as essential ecosystems, carbon sinks, and homelands for indigenous peoples.",
+    body: "Forests regulate climate, shelter biodiversity, purify water, and sustain the livelihoods of indigenous and rural communities. Laudato Si' and Querida Amazonia highlighted deforestation as a critical ecological and social crisis. The Church opposes deforestation driven by short-term profit, advocates for indigenous land rights, and supports reforestation and sustainable forest management. The Amazon Synod brought particular attention to the Amazon rainforest's irreplaceable ecological and cultural significance.",
+    whyItMatters: "Forest protection connects care for creation, indigenous rights, climate justice, and biodiversity preservation, making it a comprehensive test of humanity's commitment to integral ecology.",
+    relatedTerms: ["cst-ocean-stewardship", "cst-biodiversity", "cst-climate-change-response", "cst-indigenous-peoples-rights"]
+  },
+  {
+    id: "cst-biodiversity",
+    term: "Biodiversity",
+    category: "social-teaching",
+    tags: ["species", "creation", "ecology", "stewardship"],
+    oneLiner: "Catholic teaching values biodiversity as a reflection of God's creative wisdom and insists that humanity has no right to cause the extinction of other species.",
+    body: "Laudato Si' devoted significant attention to biodiversity loss, calling it 'the loss of a message that the Creator inscribed in nature.' Each species, no matter how small, has intrinsic value and plays a role in its ecosystem. The accelerating rate of extinction—driven by habitat destruction, pollution, climate change, and overexploitation—represents a moral crisis. The Church calls for robust conservation efforts, protected areas, and economic models that value ecosystem services.",
+    whyItMatters: "Biodiversity loss is irreversible and impoverishes creation itself, making its preservation a moral imperative rooted in the Catholic understanding of creation as a divine gift entrusted to human stewardship.",
+    relatedTerms: ["cst-forest-protection", "cst-ocean-stewardship", "cst-animal-welfare", "cst-care-for-creation"]
+  },
+  {
+    id: "cst-pollution-moral",
+    term: "Pollution as a Moral Issue",
+    category: "social-teaching",
+    tags: ["environment", "health", "justice", "responsibility"],
+    oneLiner: "Catholic teaching treats pollution as a moral issue rooted in the failure of stewardship, disproportionately harming the poor and violating the universal destination of clean air, water, and soil.",
+    body: "Laudato Si' identified pollution as one of the most serious threats to human health and creation. The Church teaches that polluters bear moral responsibility for the harm their activities cause, and that the externalization of environmental costs onto the poor and onto future generations is a form of injustice. Catholic teaching supports the polluter-pays principle, strict environmental regulation, and the development of clean technologies.",
+    whyItMatters: "Pollution is not merely an environmental issue but a social justice issue, since the poorest communities invariably bear the heaviest burden of contaminated air, water, and soil.",
+    relatedTerms: ["cst-climate-change-response", "cst-circular-economy", "cst-ocean-stewardship", "cst-care-for-creation"]
+  },
+  {
+    id: "cst-nuclear-energy-debate",
+    term: "Nuclear Energy Debate",
+    category: "social-teaching",
+    tags: ["energy", "risk", "climate", "prudence"],
+    oneLiner: "Catholic teaching does not categorically endorse or reject nuclear energy but applies principles of prudence, safety, and the common good to evaluate its use.",
+    body: "Nuclear energy presents a moral dilemma: it produces low-carbon electricity that could help address climate change, but also generates radioactive waste, poses catastrophic accident risks, and is linked to nuclear weapons proliferation. Catholic teaching applies the precautionary principle, demanding rigorous safety standards, secure waste disposal, and the prevention of weapons proliferation. The moral evaluation depends on whether safer and more sustainable alternatives are available and affordable.",
+    whyItMatters: "Nuclear energy exemplifies the complex technological choices confronting modern society, where Catholic moral principles of prudence, the common good, and intergenerational justice must guide decision-making.",
+    relatedTerms: ["cst-energy-ethics", "cst-nuclear-weapons", "cst-climate-change-response", "cst-sustainable-development"]
+  },
+  {
+    id: "cst-space-ethics",
+    term: "Space Ethics",
+    category: "social-teaching",
+    tags: ["space", "exploration", "commons", "militarization"],
+    oneLiner: "Catholic teaching applies principles of the universal destination of goods and the common good to space, opposing its militarization and insisting that space exploration benefit all humanity.",
+    body: "As space becomes increasingly commercialized and militarized, Catholic teaching applies established social principles to this new frontier. Space and its resources belong to all humanity, not just to the nations and corporations with the technology to exploit them. The Church opposes the weaponization of space, supports international cooperation in space exploration, and insists that the benefits of space technology—communications, Earth observation, scientific knowledge—be shared equitably.",
+    whyItMatters: "Space represents the ultimate global commons, and Catholic teaching's insistence on the universal destination of goods ensures that this frontier serves the whole human family, not just the powerful.",
+    relatedTerms: ["cst-nuclear-energy-debate", "cst-military-ethics-deeper", "cst-cyber-warfare", "cst-technology-human-dignity"]
+  },
+  {
+    id: "cst-military-ethics-deeper",
+    term: "Military Ethics – Deeper",
+    category: "social-teaching",
+    tags: ["warfare", "just-war", "conscience", "service"],
+    oneLiner: "Catholic military ethics addresses not only when and how to wage war but also the moral formation of soldiers, the rights of conscientious objectors, and the duty to disobey unjust orders.",
+    body: "Beyond the traditional just war criteria, Catholic teaching addresses the moral dimensions of military service: soldiers must be formed in conscience and have the right—and sometimes the duty—to refuse manifestly unjust orders. The Church also recognizes the right of conscientious objection to military service and calls for alternative forms of national service. Military culture must be shaped by respect for human dignity, proportionality in the use of force, and protection of civilians.",
+    whyItMatters: "Military ethics ensures that even in the tragic necessity of armed conflict, the dignity of every human person—combatant and civilian alike—remains the inviolable moral baseline.",
+    relatedTerms: ["cst-just-war-criteria", "cst-cyber-warfare", "cst-terrorism-response", "cst-peacebuilding"]
+  },
+  {
+    id: "cst-cyber-warfare",
+    term: "Cyber Warfare",
+    category: "social-teaching",
+    tags: ["technology", "conflict", "infrastructure", "ethics"],
+    oneLiner: "Catholic teaching applies just war principles to cyber warfare, insisting on proportionality, discrimination between combatants and civilians, and protection of essential infrastructure.",
+    body: "Cyber attacks on critical infrastructure—power grids, hospitals, financial systems, water treatment—can cause enormous harm to civilian populations. Catholic teaching applies traditional just war criteria to this new domain: attacks must be proportionate, must discriminate between military and civilian targets, and must be authorized by legitimate authority. The Church warns that the anonymity and speed of cyber operations create new risks of escalation and calls for international norms governing cyber conflict.",
+    whyItMatters: "Cyber warfare blurs traditional boundaries between war and peace, combatants and civilians, requiring urgent moral reflection to prevent a digital arms race that could devastate whole societies.",
+    relatedTerms: ["cst-military-ethics-deeper", "cst-terrorism-response", "cst-surveillance-ethics", "cst-just-war-criteria"]
+  },
+  {
+    id: "cst-terrorism-response",
+    term: "Terrorism Response",
+    category: "social-teaching",
+    tags: ["terrorism", "security", "rights", "justice"],
+    oneLiner: "Catholic teaching condemns terrorism absolutely while insisting that the response to terrorism must respect human rights, the rule of law, and the dignity of all persons.",
+    body: "The Church unequivocally condemns terrorism as a grave sin against human dignity that can never be justified, regardless of the cause invoked. However, Catholic teaching also insists that counter-terrorism measures must respect fundamental human rights, due process, and the prohibition against torture. The root causes of terrorism—injustice, marginalization, despair—must be addressed through social and political means, not only through military and security responses.",
+    whyItMatters: "Catholic teaching on terrorism navigates between the imperative of security and the imperative of justice, refusing to sacrifice human rights in the name of fighting those who themselves violate human rights.",
+    relatedTerms: ["cst-military-ethics-deeper", "cst-peacebuilding", "cst-cyber-warfare", "cst-peace-nonviolence"]
+  },
+  {
+    id: "cst-peacebuilding",
+    term: "Peacebuilding",
+    category: "social-teaching",
+    tags: ["peace", "reconciliation", "justice", "dialogue"],
+    oneLiner: "Catholic peacebuilding goes beyond the mere absence of war to encompass the active construction of just social conditions, reconciliation, and a culture of encounter.",
+    body: "Drawing on Pacem in Terris, Gaudium et Spes, and Fratelli Tutti, Catholic peacebuilding involves truth-telling, justice for victims, forgiveness and reconciliation, institutional reform, and the creation of conditions for lasting peace. The Church has played active peacebuilding roles in conflicts from Mozambique to Colombia to the Philippines. Catholic peacebuilding insists that lasting peace requires addressing root causes of conflict—poverty, inequality, exclusion, historical grievances—not merely ending hostilities.",
+    example: "The Community of Sant'Egidio brokered the 1992 peace agreement in Mozambique, demonstrating the Church's capacity for effective peace mediation.",
+    whyItMatters: "Peacebuilding represents the constructive dimension of Catholic social teaching on conflict, offering a comprehensive vision of peace rooted in justice, forgiveness, and the recognition of our common humanity.",
+    relatedTerms: ["cst-terrorism-response", "cst-peace-nonviolence", "cst-fratelli-tutti", "cst-military-ethics-deeper"]
+  }
 ];

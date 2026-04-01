@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Concept, CATEGORY_META } from "@/lib/types";
 import { CategoryIcon } from "./CategoryIcon";
+import { getConceptById } from "@/lib/concepts";
 
 function VerifiedBadge({ color }: { color: string }) {
   return (
@@ -214,18 +215,56 @@ export function ConceptDetail({ concept, onBack, onSelectRelated }: ConceptDetai
 
         {/* Related terms */}
         {concept.relatedTerms.length > 0 && (
-          <div className="px-4 py-3 border-b border-[var(--border)]">
-            <p className="text-[13px] text-[var(--muted)] mb-2">Related concepts</p>
-            <div className="flex flex-wrap gap-2">
-              {concept.relatedTerms.map((term) => (
-                <button
-                  key={term}
-                  onClick={() => onSelectRelated?.(term)}
-                  className="text-[13px] text-[var(--accent)] hover:underline cursor-pointer bg-transparent border-none p-0 font-inherit"
-                >
-                  {term}
-                </button>
-              ))}
+          <div className="px-4 pt-3 pb-1 border-b border-[var(--border)]">
+            <p className="text-[13px] text-[var(--muted)] mb-3 font-semibold uppercase tracking-wider">Related concepts</p>
+            <div className="flex flex-col gap-2 mb-3">
+              {concept.relatedTerms.map((termId) => {
+                const related = getConceptById(termId);
+                if (!related) {
+                  return (
+                    <button
+                      key={termId}
+                      onClick={() => onSelectRelated?.(termId)}
+                      className="flex items-center gap-3 w-full text-left px-3 py-2.5 rounded-xl border border-[var(--border)] hover:bg-[var(--hover)] transition-colors cursor-pointer bg-transparent"
+                    >
+                      <div className="w-8 h-8 rounded-full bg-[var(--border)] flex items-center justify-center shrink-0">
+                        <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-[var(--muted)]">
+                          <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+                        </svg>
+                      </div>
+                      <span className="text-[14px] text-[var(--accent)] font-medium truncate">{termId.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase())}</span>
+                    </button>
+                  );
+                }
+                const relMeta = CATEGORY_META[related.category];
+                return (
+                  <button
+                    key={termId}
+                    onClick={() => onSelectRelated?.(termId)}
+                    className="flex items-center gap-3 w-full text-left px-3 py-2.5 rounded-xl border border-[var(--border)] hover:border-[color:var(--rel-color)] hover:bg-[var(--hover)] transition-all cursor-pointer bg-transparent group"
+                    style={{ "--rel-color": relMeta.color + "66" } as React.CSSProperties}
+                  >
+                    <div
+                      className="w-9 h-9 rounded-full flex items-center justify-center shrink-0 transition-transform group-hover:scale-110"
+                      style={{ backgroundColor: relMeta.color + "22", color: relMeta.color }}
+                    >
+                      <CategoryIcon category={related.category} />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-[14px] text-[var(--foreground)] font-semibold truncate">{related.term}</span>
+                        <span className="text-[12px] px-1.5 py-0.5 rounded-full shrink-0" style={{ backgroundColor: relMeta.color + "18", color: relMeta.color }}>
+                          {relMeta.label}
+                        </span>
+                      </div>
+                      <p className="text-[12px] text-[var(--muted)] truncate mt-0.5 leading-snug">{related.oneLiner}</p>
+                    </div>
+                    <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-[var(--muted)] shrink-0 group-hover:text-[var(--foreground)] transition-colors">
+                      <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+                    </svg>
+                  </button>
+                );
+              })}
             </div>
           </div>
         )}

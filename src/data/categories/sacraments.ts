@@ -782,4 +782,724 @@ export const sacramentsConcepts: Concept[] = [
     whyItMatters: "The General Intercessions express the outward-looking nature of Catholic worship. The Mass is not a private devotion but the prayer of the whole Church for the whole world, and these intercessions make that universal concern explicit.",
     relatedTerms: ["sacrament-of-eucharist", "liturgy", "baptismal-priesthood", "Liturgy of the Word"]
   },
+{
+    id: "sacraments-theology-overview",
+    term: "Sacramental Theology Overview",
+    category: "sacraments",
+    tags: ["theology", "sacraments", "grace"],
+    oneLiner: "The systematic study of how God communicates grace through visible signs instituted by Christ and entrusted to the Church.",
+    body: "Sacramental theology examines the seven sacraments as efficacious signs of grace, instituted by Christ and entrusted to the Church. It explores how material elements (water, oil, bread, wine) become vehicles of divine life, how the minister's action and the recipient's disposition interact, and how the sacraments relate to the Paschal Mystery. Major theologians from Augustine to Aquinas to Rahner have shaped this discipline, always affirming that the sacraments truly cause the grace they signify.",
+    whyItMatters: "Sacramental theology gives intellectual depth to what Catholics experience at the font, altar, and confessional, ensuring that sacramental practice is rooted in truth rather than sentiment.",
+    relatedTerms: ["sacraments-matter-form-deeper", "sacraments-efficacy", "sacraments-opus-operatum-deeper"]
+  },
+  {
+    id: "sacraments-matter-form-deeper",
+    term: "Matter and Form (Deeper)",
+    category: "sacraments",
+    tags: ["theology", "validity", "hylomorphism"],
+    oneLiner: "The Aristotelian-Thomistic framework identifying each sacrament's physical element (matter) and essential words (form) as constitutive of its validity.",
+    body: "Drawing on Aristotle's hylomorphic philosophy, Catholic theology distinguishes the matter (the sensible sign or action, such as water in baptism or bread and wine in the Eucharist) and the form (the essential words spoken, such as the Trinitarian formula or the words of institution) of each sacrament. Both must be present and properly united for a valid sacrament. St. Thomas Aquinas systematized this analysis, showing how matter and form together constitute the sacramental sign that causes grace.",
+    whyItMatters: "The matter-form framework protects the sacraments from arbitrary alteration, ensuring that what Christ instituted remains recognizable and effective across centuries and cultures.",
+    relatedTerms: ["sacraments-theology-overview", "sacraments-validity-liceity-deeper", "sacraments-intention-deeper"]
+  },
+  {
+    id: "sacraments-validity-liceity-deeper",
+    term: "Validity vs. Liceity (Deeper)",
+    category: "sacraments",
+    tags: ["canon law", "validity", "liceity"],
+    oneLiner: "The crucial distinction between a sacrament that truly takes effect (validity) and one that is celebrated according to all Church laws (liceity).",
+    body: "A sacrament is valid when the essential elements (proper matter, form, minister, and intention) are present, regardless of whether all canonical regulations were followed. A sacrament is licit when it also conforms to all the Church's disciplinary laws. For example, a priest who celebrates Mass without the bishop's permission may confect a valid but illicit Eucharist. This distinction has enormous practical consequences for marriage cases, ordinations, and ecumenical recognition of sacraments.",
+    whyItMatters: "Understanding validity versus liceity prevents both rigorism (denying grace where Christ truly acts) and laxity (ignoring the Church's legitimate authority to regulate her sacred rites).",
+    relatedTerms: ["sacraments-matter-form-deeper", "sacraments-intention-deeper", "sacraments-minister"]
+  },
+  {
+    id: "sacraments-intention-deeper",
+    term: "Sacramental Intention (Deeper)",
+    category: "sacraments",
+    tags: ["intention", "validity", "minister"],
+    oneLiner: "The requirement that the minister of a sacrament intend to do what the Church does, even if the minister lacks personal faith.",
+    body: "For a sacrament to be valid, the minister must have at least the intention of doing what the Church does (intentio faciendi quod facit Ecclesia). This does not require the minister to believe in the sacrament's efficacy or even to be in a state of grace; it requires only that the minister genuinely intends to perform the sacred rite as the Church understands it. This teaching, defined at the Council of Trent, protects the faithful from uncertainty about whether their sacraments were valid based on the minister's interior holiness.",
+    whyItMatters: "The doctrine of sacramental intention assures the faithful that the validity of their sacraments does not depend on the minister's personal sanctity but on Christ who acts through the rite.",
+    relatedTerms: ["sacraments-validity-liceity-deeper", "sacraments-minister", "sacraments-opus-operatum-deeper"]
+  },
+  {
+    id: "sacraments-minister",
+    term: "Minister of the Sacraments",
+    category: "sacraments",
+    tags: ["minister", "ordination", "authority"],
+    oneLiner: "The person authorized to celebrate a sacrament, whose identity varies according to the sacrament and the circumstances.",
+    body: "Each sacrament has a designated ordinary minister: the bishop or priest for the Eucharist, Reconciliation, and Anointing; the bishop for Confirmation and Ordination; a deacon, priest, or bishop for Baptism; and the spouses themselves for Matrimony. In emergencies, any person with the right intention can baptize. The minister acts in persona Christi (in the person of Christ) or in persona Ecclesiae (in the person of the Church), depending on the sacrament. The minister's role is instrumental: Christ is the principal agent of every sacrament.",
+    whyItMatters: "Knowing who can validly minister each sacrament protects the faithful's right to receive authentic sacraments and clarifies the Church's sacramental order.",
+    relatedTerms: ["sacraments-ordinary-extraordinary-minister", "sacraments-intention-deeper", "sacraments-validity-liceity-deeper"]
+  },
+  {
+    id: "sacraments-ordinary-extraordinary-minister",
+    term: "Ordinary vs. Extraordinary Minister",
+    category: "sacraments",
+    tags: ["minister", "delegation", "canon law"],
+    oneLiner: "The distinction between those who minister sacraments by virtue of their office and those who do so by special delegation in exceptional circumstances.",
+    body: "An ordinary minister administers a sacrament by right of ordination or office (e.g., a bishop for Confirmation). An extraordinary minister is delegated to administer a sacrament in special circumstances (e.g., a layperson distributing Communion when insufficient ordained ministers are available, or a priest confirming by delegation). The distinction safeguards the proper ordering of the Church's ministry while allowing pastoral flexibility when the ordinary minister is unavailable.",
+    whyItMatters: "The ordinary/extraordinary distinction preserves the theology of ordained ministry while ensuring that the faithful are not deprived of the sacraments due to practical limitations.",
+    relatedTerms: ["sacraments-minister", "sacraments-validity-liceity-deeper", "sacraments-priestly-faculties"]
+  },
+  {
+    id: "sacraments-sacramental-economy",
+    term: "Sacramental Economy",
+    category: "sacraments",
+    tags: ["economy", "salvation", "grace"],
+    oneLiner: "God's plan to communicate divine life to humanity through the sacramental signs entrusted to the Church.",
+    body: "The sacramental economy refers to God's saving plan as it unfolds through the Church's sacramental life. The Catechism teaches that the Father's work of creation and salvation is communicated through the Son and the Spirit in the sacraments, which make the Paschal Mystery present and effective in every age (CCC 1076). The sacramental economy encompasses not only the seven sacraments but the entire liturgical life of the Church as the means by which God sanctifies time, matter, and persons.",
+    whyItMatters: "The concept of sacramental economy reveals that the sacraments are not isolated rituals but interconnected expressions of God's single plan to save the world through Christ and his Church.",
+    relatedTerms: ["sacraments-theology-overview", "sacraments-efficacy", "sacraments-opus-operatum-deeper"]
+  },
+  {
+    id: "sacraments-efficacy",
+    term: "Efficacy of the Sacraments",
+    category: "sacraments",
+    tags: ["grace", "causality", "theology"],
+    oneLiner: "The teaching that the sacraments truly cause the grace they signify, not merely symbolize it.",
+    body: "Catholic theology insists that sacraments are efficacious signs: they do not merely point to grace but actually confer it. The Council of Trent defined that the sacraments contain and confer grace on those who do not place an obstacle (ex opere operato). Theologians have debated the precise mode of sacramental causality—whether it is physical, moral, or intentional—but all agree that the sacraments are genuine instruments through which God acts. They are not empty symbols awaiting the recipient's faith to become effective.",
+    whyItMatters: "The efficacy of the sacraments assures Catholics that divine grace is objectively communicated in the sacred rites, not contingent on the subjective feelings or holiness of minister or recipient.",
+    relatedTerms: ["sacraments-opus-operatum-deeper", "sacraments-opus-operantis", "sacraments-theology-overview"]
+  },
+  {
+    id: "sacraments-opus-operatum-deeper",
+    term: "Ex Opere Operato (Deeper)",
+    category: "sacraments",
+    tags: ["grace", "efficacy", "Trent"],
+    oneLiner: "The principle that sacraments confer grace by the very performance of the rite itself, provided no obstacle is placed by the recipient.",
+    body: "Ex opere operato ('by the work worked') means that the sacramental grace flows from the validly performed rite itself, not from the holiness of the minister or the devotion of the recipient. This was defined at the Council of Trent against the Protestant claim that sacramental efficacy depends on the faith of the recipient alone. The principle does not deny the importance of the recipient's disposition; rather, it affirms that Christ himself acts in the sacrament and that his action is not limited by human weakness.",
+    whyItMatters: "Ex opere operato grounds Catholic sacramental confidence: believers can trust that a valid sacrament truly communicates grace regardless of the priest's personal holiness.",
+    relatedTerms: ["sacraments-opus-operantis", "sacraments-efficacy", "sacraments-intention-deeper"]
+  },
+  {
+    id: "sacraments-opus-operantis",
+    term: "Ex Opere Operantis",
+    category: "sacraments",
+    tags: ["disposition", "grace", "recipient"],
+    oneLiner: "The principle that the fruitfulness of a sacrament in the recipient depends partly on the dispositions of the one who receives it.",
+    body: "While ex opere operato affirms that sacraments confer grace by the rite itself, ex opere operantis ('by the work of the worker') recognizes that the degree of fruit received depends on the recipient's faith, repentance, and openness to grace. A person who receives Communion in a state of mortal sin, for example, receives the sacrament validly but sinfully and without spiritual benefit. The two principles are complementary: God's grace is objectively offered, but its subjective fruitfulness requires human cooperation.",
+    whyItMatters: "Ex opere operantis reminds Catholics that the sacraments are not magic; they require the recipient's active faith and moral preparation to bear their full fruit.",
+    relatedTerms: ["sacraments-opus-operatum-deeper", "sacraments-eucharistic-disposition", "sacraments-efficacy"]
+  },
+  {
+    id: "sacraments-reviviscence",
+    term: "Reviviscence of Sacraments",
+    category: "sacraments",
+    tags: ["grace", "obstacle", "theology"],
+    oneLiner: "The theological teaching that sacramental grace, blocked by an obstacle at reception, can 'revive' and take effect once the obstacle is removed.",
+    body: "Reviviscence (from the Latin reviviscere, 'to come alive again') addresses what happens when a sacrament is validly received but its grace is blocked by an obstacle such as unrepented mortal sin. Theologians teach that for sacraments that imprint a character (Baptism, Confirmation, Holy Orders), the grace 'revives' when the obstacle is removed through repentance. For example, an infant baptized validly but by an unwilling adult who had no intention to raise the child in faith receives the character; the full grace of baptism becomes operative as the person grows in faith.",
+    whyItMatters: "Reviviscence reveals God's persistent generosity: even when human sin blocks sacramental grace, God does not withdraw the gift but waits for the heart to open.",
+    relatedTerms: ["sacraments-opus-operatum-deeper", "sacraments-indelible-character-deeper", "sacraments-efficacy"]
+  },
+  {
+    id: "sacraments-sacramental-seal-deeper",
+    term: "Sacramental Seal (Deeper)",
+    category: "sacraments",
+    tags: ["seal", "character", "theology"],
+    oneLiner: "The permanent spiritual mark imprinted by Baptism, Confirmation, and Holy Orders that configures the recipient to Christ and cannot be erased.",
+    body: "The sacramental seal or character (from the Greek sphragis, 'seal') is a permanent ontological change in the soul imprinted by the three sacraments that cannot be repeated: Baptism, Confirmation, and Holy Orders. St. Thomas Aquinas explained it as a participation in Christ's priesthood that deputizes the recipient for worship. The character remains even if the person apostatizes or is excommunicated, which is why re-baptism is never valid and laicized priests retain their ontological priesthood.",
+    whyItMatters: "The sacramental seal teaches that God's claim on a person through the sacraments is irrevocable, giving permanent identity and vocation that no human act can undo.",
+    relatedTerms: ["sacraments-indelible-character-deeper", "sacraments-reviviscence", "sacraments-theology-overview"]
+  },
+  {
+    id: "sacraments-indelible-character-deeper",
+    term: "Indelible Character (Deeper)",
+    category: "sacraments",
+    tags: ["character", "ontology", "permanent"],
+    oneLiner: "The permanent ontological modification of the soul effected by Baptism, Confirmation, and Holy Orders, making these sacraments unrepeatable.",
+    body: "The indelible character is not merely a juridical status but a real modification of the soul's being. It configures the baptized to Christ as members of his Body, the confirmed to Christ as witnesses, and the ordained to Christ as ministers acting in his person. Because this character is permanent and ontological, these three sacraments can never be repeated. Even if a baptized person renounces Christianity, the baptismal character remains, which is why returning Christians are not re-baptized.",
+    whyItMatters: "The indelible character assures Christians that their identity in Christ is not a matter of feeling or performance but an objective, God-given reality rooted in the sacrament itself.",
+    relatedTerms: ["sacraments-sacramental-seal-deeper", "sacraments-reviviscence", "sacraments-theology-overview"]
+  },
+  {
+    id: "sacraments-baptismal-promises",
+    term: "Baptismal Promises",
+    category: "sacraments",
+    tags: ["baptism", "faith", "renunciation"],
+    oneLiner: "The solemn renunciation of Satan and profession of faith made at baptism and renewed at Easter and other liturgical occasions.",
+    body: "Before baptism, the candidate (or parents and godparents for infants) renounces Satan, all his works, and all his empty promises, then professes faith in God the Father, Son, and Holy Spirit according to the Apostles' Creed in interrogatory form. These promises constitute the candidate's personal entry into the covenant. They are renewed by the entire assembly at the Easter Vigil, at Confirmation, and on other occasions, serving as a continual recommitment to the baptismal covenant.",
+    whyItMatters: "Baptismal promises make explicit the choice that underlies all Christian life: the decisive rejection of evil and the embrace of the Triune God as the foundation of one's existence.",
+    relatedTerms: ["sacraments-baptismal-garment", "sacraments-baptismal-candle", "sacraments-baptismal-name"]
+  },
+  {
+    id: "sacraments-baptismal-name",
+    term: "Baptismal Name",
+    category: "sacraments",
+    tags: ["baptism", "name", "patron saint"],
+    oneLiner: "The Christian name given at baptism, traditionally the name of a saint who serves as patron and intercessor for the newly baptized.",
+    body: "The Code of Canon Law directs that parents, sponsors, and pastors see to it that a name foreign to Christian sensibility is not given (Canon 855). Traditionally, the baptismal name is that of a canonized saint whose example and intercession accompany the baptized through life. The naming establishes a personal relationship with a heavenly patron and places the child within the communion of saints from the moment of baptism.",
+    whyItMatters: "The baptismal name connects each Christian to a specific saint, providing a model of holiness and a heavenly intercessor from the very beginning of the spiritual life.",
+    relatedTerms: ["sacraments-baptismal-promises", "sacraments-confirmation-name", "sacraments-baptismal-garment"]
+  },
+  {
+    id: "sacraments-baptismal-garment",
+    term: "Baptismal Garment",
+    category: "sacraments",
+    tags: ["baptism", "white garment", "symbolism"],
+    oneLiner: "The white garment placed on the newly baptized, symbolizing that they have 'put on Christ' and been clothed in grace.",
+    body: "After the baptismal washing, a white garment is placed on the newly baptized while the minister says, 'You have become a new creation and have clothed yourself in Christ. See in this white garment the outward sign of your Christian dignity.' The white garment symbolizes the purity and new life received in baptism, echoing St. Paul's teaching that all who are baptized have 'put on Christ' (Galatians 3:27). In the early Church, the newly baptized wore their white garments for an entire week.",
+    whyItMatters: "The baptismal garment makes visible the invisible transformation of baptism, reminding the Christian that they now bear Christ's dignity and are called to live accordingly.",
+    relatedTerms: ["sacraments-baptismal-candle", "sacraments-baptismal-promises", "sacraments-baptismal-name"]
+  },
+  {
+    id: "sacraments-baptismal-candle",
+    term: "Baptismal Candle",
+    category: "sacraments",
+    tags: ["baptism", "light", "Paschal candle"],
+    oneLiner: "The candle lit from the Paschal candle and presented to the newly baptized, symbolizing Christ the Light entrusted to them.",
+    body: "After baptism, a candle is lit from the Paschal candle and presented to the newly baptized (or to the parents and godparents for an infant). The minister says, 'Receive the light of Christ,' charging them to keep the flame of faith burning brightly. The connection to the Paschal candle links each individual baptism to Christ's Resurrection and the great Easter celebration. Many families preserve the baptismal candle and light it on the anniversary of their child's baptism.",
+    whyItMatters: "The baptismal candle connects each Christian's personal faith to the Risen Christ, reminding them that they are called to be bearers of his light in the world.",
+    relatedTerms: ["sacraments-baptismal-garment", "sacraments-baptismal-promises", "sacraments-baptism-immersion-pouring"]
+  },
+  {
+    id: "sacraments-baptism-immersion-pouring",
+    term: "Baptism by Immersion vs. Pouring",
+    category: "sacraments",
+    tags: ["baptism", "immersion", "infusion"],
+    oneLiner: "The two valid methods of baptizing: full immersion in water or pouring water over the head, both signifying death and new life in Christ.",
+    body: "The Church recognizes both immersion (submerging the candidate in water) and infusion (pouring water over the head) as valid forms of baptism. Immersion more vividly symbolizes burial with Christ and rising to new life (Romans 6:3-4) and was the preferred method in the early Church. Infusion became more common for practical reasons and remains the most widespread practice in the Latin rite today. The RCIA and the revised baptismal rites express a preference for immersion where feasible, as it more fully expresses the sign.",
+    whyItMatters: "Both methods validly confer baptism, but the Church's preference for immersion reminds us that richer sacramental signs more powerfully communicate the mysteries they contain.",
+    relatedTerms: ["sacraments-baptismal-garment", "sacraments-emergency-baptism", "sacraments-conditional-baptism"]
+  },
+  {
+    id: "sacraments-emergency-baptism",
+    term: "Emergency Baptism",
+    category: "sacraments",
+    tags: ["baptism", "emergency", "necessity"],
+    oneLiner: "A valid baptism administered by any person in danger of death, using water and the Trinitarian formula with the intention of doing what the Church does.",
+    body: "When a person is in danger of death and no ordained minister is available, any person—Catholic or not, baptized or not—can validly baptize by pouring water on the person's head while saying 'I baptize you in the name of the Father, and of the Son, and of the Holy Spirit.' The only requirements are the use of water, the Trinitarian formula, and the intention to do what the Church does. All supplementary ceremonies are omitted but may be supplied later if the person survives.",
+    whyItMatters: "Emergency baptism demonstrates the Church's conviction that the sacrament of baptism is absolutely necessary for salvation and that God's grace cannot be restricted by the absence of a priest.",
+    relatedTerms: ["sacraments-conditional-baptism", "sacraments-baptism-of-blood", "sacraments-minister"]
+  },
+  {
+    id: "sacraments-conditional-baptism",
+    term: "Conditional Baptism",
+    category: "sacraments",
+    tags: ["baptism", "validity", "conditional"],
+    oneLiner: "A baptism administered with the condition 'If you are not already baptized' when there is genuine doubt about whether a prior baptism was valid.",
+    body: "Conditional baptism is administered when there is prudent doubt about whether a person has been validly baptized—perhaps because records are lost, the formula used was uncertain, or the community's baptismal practice is suspect. The minister uses the formula 'If you are not already baptized, I baptize you in the name of the Father, and of the Son, and of the Holy Spirit.' This avoids the sin of re-baptizing (since baptism imprints an indelible character) while ensuring the person is not deprived of the sacrament.",
+    whyItMatters: "Conditional baptism balances the Church's reverence for the unrepeatable sacramental character with pastoral concern that no person be left without the grace of baptism.",
+    relatedTerms: ["sacraments-emergency-baptism", "sacraments-indelible-character-deeper", "sacraments-validity-liceity-deeper"]
+  },
+  {
+    id: "sacraments-baptism-of-blood",
+    term: "Baptism of Blood",
+    category: "sacraments",
+    tags: ["baptism", "martyrdom", "salvation"],
+    oneLiner: "The Church's teaching that an unbaptized person who suffers death for the faith receives the fruits of baptism through their martyrdom.",
+    body: "Baptism of blood applies to catechumens or others who die for the faith before receiving sacramental baptism. The Church has always venerated such martyrs as true Christians, recognizing that their voluntary death for Christ supplies what the sacrament of water would have given. This teaching rests on Christ's words, 'Whoever loses his life for my sake will find it' (Matthew 10:39). The Roman Martyrology includes numerous saints who received baptism of blood, such as the Holy Innocents.",
+    whyItMatters: "Baptism of blood reveals that God's saving will is not bound by the sacramental system, even as it affirms the necessity of baptism by showing that martyrdom itself is a form of it.",
+    relatedTerms: ["sacraments-emergency-baptism", "sacraments-baptismal-promises", "sacraments-sacramental-economy"]
+  },
+  {
+    id: "sacraments-confirmation-gifts",
+    term: "Gifts of the Holy Spirit in Confirmation",
+    category: "sacraments",
+    tags: ["confirmation", "Holy Spirit", "gifts"],
+    oneLiner: "The seven gifts of the Holy Spirit—wisdom, understanding, counsel, fortitude, knowledge, piety, and fear of the Lord—strengthened through the sacrament of Confirmation.",
+    body: "Confirmation brings a special outpouring of the Holy Spirit that strengthens the seven gifts first received at baptism. These gifts, drawn from Isaiah 11:2-3, are permanent dispositions that make the confirmed more docile to the promptings of the Spirit. Wisdom orders all things to God; understanding penetrates revealed truth; counsel guides practical judgment; fortitude strengthens against temptation and adversity; knowledge discerns created things in relation to God; piety fosters filial devotion; and fear of the Lord inspires reverent awe.",
+    whyItMatters: "The gifts of the Spirit equip the confirmed for the spiritual combat and apostolic witness that mature Christian life demands.",
+    relatedTerms: ["sacraments-confirmation-name", "sacraments-confirmation-sponsor", "sacraments-confirmation-age-debate"]
+  },
+  {
+    id: "sacraments-confirmation-name",
+    term: "Confirmation Name",
+    category: "sacraments",
+    tags: ["confirmation", "name", "patron saint"],
+    oneLiner: "The name of a saint chosen by the confirmation candidate as a model and patron for the mature Christian life.",
+    body: "In many dioceses, confirmation candidates select a saint's name to be used at the conferral of the sacrament. The chosen saint becomes an additional patron whose virtues the confirmed person seeks to emulate and whose intercession is invoked. Some candidates retain their baptismal name to emphasize the continuity between baptism and confirmation. The practice varies by diocesan custom; some bishops require a new name, others leave it optional.",
+    whyItMatters: "Choosing a confirmation name invites the candidate into a deliberate, personal relationship with a saint, fostering a mature and intentional embrace of the faith.",
+    relatedTerms: ["sacraments-confirmation-gifts", "sacraments-baptismal-name", "sacraments-confirmation-sponsor"]
+  },
+  {
+    id: "sacraments-confirmation-sponsor",
+    term: "Confirmation Sponsor",
+    category: "sacraments",
+    tags: ["confirmation", "sponsor", "witness"],
+    oneLiner: "The practicing Catholic who presents the confirmation candidate and commits to supporting their ongoing growth in faith.",
+    body: "The confirmation sponsor stands with the candidate during the sacrament, presenting them to the bishop. Canon law requires that the sponsor be a confirmed Catholic in good standing, at least sixteen years old, who leads a life of faith consistent with the role. Ideally, one of the baptismal godparents serves as confirmation sponsor, signifying the unity of Christian initiation. The sponsor takes on a lasting responsibility to help the confirmed person live out the faith.",
+    whyItMatters: "The confirmation sponsor provides the newly confirmed with a tangible sign of the Church's communal support, ensuring that the strengthening of the Spirit is accompanied by human mentorship.",
+    relatedTerms: ["sacraments-confirmation-name", "sacraments-confirmation-gifts", "sacraments-confirmation-age-debate"]
+  },
+  {
+    id: "sacraments-confirmation-age-debate",
+    term: "Confirmation Age Debate",
+    category: "sacraments",
+    tags: ["confirmation", "age", "initiation"],
+    oneLiner: "The ongoing pastoral and theological debate about the appropriate age for receiving Confirmation in the Latin rite.",
+    body: "In the Eastern Churches, Confirmation (Chrismation) is administered immediately after baptism, even to infants. In the Latin rite, the age has varied widely: some dioceses confirm at age 7 (restoring the original order of initiation), while others delay until 16 or later, treating Confirmation as a rite of mature commitment. Arguments for earlier confirmation emphasize sacramental theology and the unity of initiation; arguments for later confirmation emphasize catechetical readiness and personal choice. The Code of Canon Law suggests the age of discretion (about 7) unless the bishops' conference determines otherwise.",
+    whyItMatters: "The age debate touches the fundamental question of whether the sacraments are primarily gifts from God (favoring earlier reception) or expressions of personal faith (favoring later reception).",
+    relatedTerms: ["sacraments-confirmation-sponsor", "sacraments-chrismation-eastern", "sacraments-confirmation-gifts"]
+  },
+  {
+    id: "sacraments-chrismation-eastern",
+    term: "Chrismation (Eastern Practice)",
+    category: "sacraments",
+    tags: ["Eastern Churches", "confirmation", "initiation"],
+    oneLiner: "The Eastern Church practice of administering Confirmation immediately after baptism through anointing with Holy Myron, preserving the unity of Christian initiation.",
+    body: "In the Eastern Catholic and Orthodox Churches, Chrismation is conferred immediately after baptism by the priest (not the bishop), using Holy Myron (chrism consecrated by the patriarch or metropolitan). The newly baptized infant or adult is anointed on the forehead, eyes, ears, nostrils, lips, chest, hands, and feet with the words 'The seal of the gift of the Holy Spirit.' This practice preserves the ancient unity of the three sacraments of initiation and ensures that the newly baptized receives the fullness of the Spirit from the start.",
+    whyItMatters: "Chrismation challenges the Latin rite to reflect on whether the separation of Confirmation from Baptism serves or obscures the theology of Christian initiation.",
+    relatedTerms: ["sacraments-confirmation-age-debate", "sacraments-confirmation-gifts", "sacraments-sacramental-economy"]
+  },
+  {
+    id: "sacraments-eucharistic-species",
+    term: "Eucharistic Species",
+    category: "sacraments",
+    tags: ["Eucharist", "species", "appearances"],
+    oneLiner: "The outward appearances of bread and wine that remain after the consecration, under which the Body and Blood of Christ are truly present.",
+    body: "After the consecration at Mass, the substance of bread and wine is wholly converted into the substance of Christ's Body and Blood, while the accidents (appearances, taste, texture, chemical properties) of bread and wine remain. These remaining appearances are called the Eucharistic species. Christ is fully present—Body, Blood, Soul, and Divinity—under each species individually. This is why Communion under one kind alone is sufficient for receiving the whole Christ.",
+    whyItMatters: "Understanding the Eucharistic species clarifies how the Real Presence is consistent with sense experience and why the Church can offer Communion under one or both kinds.",
+    relatedTerms: ["sacraments-accidents-substance-eucharist", "sacraments-communion-both-kinds", "sacraments-eucharistic-disposition"]
+  },
+  {
+    id: "sacraments-accidents-substance-eucharist",
+    term: "Accidents vs. Substance (Eucharist)",
+    category: "sacraments",
+    tags: ["Eucharist", "philosophy", "transubstantiation"],
+    oneLiner: "The philosophical distinction between what a thing truly is (substance) and its outward properties (accidents), applied to explain how bread and wine become Christ's Body and Blood.",
+    body: "In Aristotelian-Thomistic philosophy, 'substance' is what a thing fundamentally is, while 'accidents' are its perceptible properties (color, taste, shape, weight). In the Eucharist, the substance of bread and wine is converted into the substance of Christ's Body and Blood (transubstantiation), while the accidents of bread and wine remain unchanged. This philosophical framework, adopted by the Council of Trent, provides the most precise expression of what the Church believes happens at the consecration.",
+    whyItMatters: "The accidents-substance distinction gives intellectual rigor to Eucharistic faith, showing that the Real Presence is a genuine metaphysical claim, not a pious metaphor.",
+    relatedTerms: ["sacraments-eucharistic-species", "sacraments-matter-form-deeper", "sacraments-theology-overview"]
+  },
+  {
+    id: "sacraments-eucharistic-fast-deeper",
+    term: "Eucharistic Fast (Deeper)",
+    category: "sacraments",
+    tags: ["Eucharist", "fast", "discipline"],
+    oneLiner: "The discipline requiring Catholics to abstain from food and drink (except water and medicine) for one hour before receiving Holy Communion.",
+    body: "The Eucharistic fast has ancient roots: until 1957, Catholics fasted from midnight before receiving Communion. Pope Pius XII reduced the fast to three hours, and Pope Paul VI further reduced it to one hour before reception. Water and medicine do not break the fast. The elderly and infirm are exempt. Despite its brevity, the fast retains its spiritual purpose: to create a conscious awareness that one is about to receive the Lord and to express bodily reverence for the sacred encounter.",
+    whyItMatters: "The Eucharistic fast, even in its current minimal form, disciplines the body and mind to approach the Eucharist with intentionality rather than casual routine.",
+    relatedTerms: ["sacraments-eucharistic-disposition", "sacraments-spiritual-communion-deeper", "sacraments-eucharistic-species"]
+  },
+  {
+    id: "sacraments-eucharistic-disposition",
+    term: "Eucharistic Disposition",
+    category: "sacraments",
+    tags: ["Eucharist", "disposition", "state of grace"],
+    oneLiner: "The interior readiness required to receive Holy Communion fruitfully, including being in a state of grace and having the right intention.",
+    body: "Proper Eucharistic disposition requires that the communicant be in a state of grace (free from mortal sin), have observed the Eucharistic fast, and approach with faith and devotion. Those conscious of grave sin must first receive sacramental absolution before presenting themselves for Communion (CCC 1385). Beyond these minimum requirements, the Church encourages communicants to prepare through prayer, recollection, and a spirit of thanksgiving, so that they may receive the maximum spiritual fruit.",
+    whyItMatters: "Eucharistic disposition reminds Catholics that receiving the Body of Christ is the most intimate spiritual act possible on earth and deserves the most careful interior preparation.",
+    relatedTerms: ["sacraments-eucharistic-fast-deeper", "sacraments-spiritual-communion-deeper", "sacraments-opus-operantis"]
+  },
+  {
+    id: "sacraments-spiritual-communion-deeper",
+    term: "Spiritual Communion (Deeper)",
+    category: "sacraments",
+    tags: ["Eucharist", "desire", "communion"],
+    oneLiner: "An act of devotion in which a person unable to receive sacramental Communion unites themselves to Christ through desire and prayer.",
+    body: "Spiritual Communion is the practice of making an act of faith in Christ's Real Presence, expressing desire to receive him, and inviting him spiritually into one's heart when sacramental reception is impossible—whether due to distance, illness, or lack of proper disposition. St. Thomas Aquinas and the Council of Trent affirmed its value, teaching that the desire for the sacrament can confer grace, though not the fullness conferred by actual reception. The practice sustains the faithful during times of deprivation from the sacraments.",
+    whyItMatters: "Spiritual Communion assures Catholics that God's grace reaches beyond the altar, meeting the faithful wherever they are and honoring the sincere desire of hearts that long for him.",
+    relatedTerms: ["sacraments-eucharistic-disposition", "sacraments-eucharistic-fast-deeper", "sacraments-communion-both-kinds"]
+  },
+  {
+    id: "sacraments-communion-both-kinds",
+    term: "Communion Under Both Kinds",
+    category: "sacraments",
+    tags: ["Eucharist", "chalice", "communion"],
+    oneLiner: "The reception of Holy Communion under both the species of bread and wine, restoring the fuller sign of the Eucharistic banquet.",
+    body: "While Christ is fully present under each species alone, Communion under both kinds more fully signifies the Eucharistic banquet and the shedding of Christ's Blood for the forgiveness of sins. The practice was restored for the laity in the Latin rite after Vatican II (it had been restricted to the priest since the medieval period). The GIRM permits it on specified occasions at the bishop's discretion. Practical considerations include the use of individual chalices, intinction, or distribution through a purified chalice.",
+    whyItMatters: "Communion under both kinds more fully expresses the sign of the Eucharistic meal and makes visible the separate consecration of Christ's Body and Blood offered in sacrifice.",
+    relatedTerms: ["sacraments-intinction", "sacraments-eucharistic-species", "sacraments-eucharistic-disposition"]
+  },
+  {
+    id: "sacraments-intinction",
+    term: "Intinction",
+    category: "sacraments",
+    tags: ["Eucharist", "communion", "method"],
+    oneLiner: "The practice of dipping the consecrated Host into the Precious Blood before placing it on the communicant's tongue.",
+    body: "Intinction is one of the approved methods for distributing Communion under both kinds. The minister dips the edge of the consecrated Host into the Precious Blood and places it directly on the communicant's tongue (it may not be received in the hand when administered by intinction). This method reduces the risk of spilling the Precious Blood and is more practical for large congregations than individual chalice distribution. It is the norm for Communion under both kinds in many Eastern Catholic Churches.",
+    whyItMatters: "Intinction provides a practical and reverent means of offering Communion under both kinds while safeguarding the Precious Blood from accidental profanation.",
+    relatedTerms: ["sacraments-communion-both-kinds", "sacraments-eucharistic-species", "sacraments-eucharistic-reservation-deeper"]
+  },
+  {
+    id: "sacraments-eucharistic-reservation-deeper",
+    term: "Eucharistic Reservation (Deeper)",
+    category: "sacraments",
+    tags: ["Eucharist", "tabernacle", "reservation"],
+    oneLiner: "The practice of keeping consecrated Hosts in the tabernacle for the communion of the sick, for viaticum, and for adoration outside Mass.",
+    body: "The reservation of the Blessed Sacrament in the tabernacle originated from the practical need to bring Communion to the sick and dying. Over time, it became the basis for Eucharistic devotion outside Mass, including adoration, Benediction, and Forty Hours. The Code of Canon Law requires that the tabernacle be solid, opaque, immovable, and locked, and that a sanctuary lamp burn nearby to indicate Christ's presence. The place of reservation should be truly noble and prominent in the church.",
+    whyItMatters: "Eucharistic reservation extends the grace of the Mass beyond the celebration, enabling the sick to receive viaticum and the faithful to adore Christ present in their parish at any time.",
+    relatedTerms: ["sacraments-tabernacle-deeper", "sacraments-ciborium-deeper", "sacraments-eucharistic-disposition"]
+  },
+  {
+    id: "sacraments-tabernacle-deeper",
+    term: "Tabernacle (Deeper)",
+    category: "sacraments",
+    tags: ["Eucharist", "reservation", "furnishing"],
+    oneLiner: "The secure, ornate receptacle in which the consecrated Hosts are reserved, serving as the dwelling place of Christ's sacramental presence in the church.",
+    body: "The tabernacle (from the Latin tabernaculum, 'tent') echoes the Old Testament tent of meeting where God dwelt among Israel. It must be fixed, made of solid and worthy material, and locked. Its placement in the church has been debated since Vatican II: some argue for a central position behind or above the altar, others for a separate chapel. Regardless of location, the tabernacle should be genuinely prominent, dignified, and adorned, befitting the presence of the Lord. A continuously burning sanctuary lamp indicates the Sacrament's presence.",
+    whyItMatters: "The tabernacle is the permanent dwelling of Christ in the parish church, making each Catholic church a place of living encounter with God, not merely a meeting hall.",
+    relatedTerms: ["sacraments-eucharistic-reservation-deeper", "sacraments-ciborium-deeper", "sacraments-monstrance-deeper"]
+  },
+  {
+    id: "sacraments-ciborium-deeper",
+    term: "Ciborium (Deeper)",
+    category: "sacraments",
+    tags: ["Eucharist", "vessel", "communion"],
+    oneLiner: "The covered, chalice-like vessel used to hold the consecrated Hosts for distribution at Communion and for reservation in the tabernacle.",
+    body: "The ciborium resembles a chalice with a lid and is used to contain the consecrated Hosts both during the distribution of Communion and for reservation in the tabernacle. It is typically made of gold, silver, or other worthy metal, with the interior surface gold-plated to prevent the sacred species from adhering. When containing the Blessed Sacrament in the tabernacle, it is covered with a white veil. Multiple ciboria may be used at large celebrations to ensure an adequate supply of hosts.",
+    whyItMatters: "The ciborium's dignified craftsmanship and careful handling reflect the Church's conviction that the consecrated Hosts are truly the Body of Christ, deserving of the finest vessels.",
+    relatedTerms: ["sacraments-tabernacle-deeper", "sacraments-monstrance-deeper", "sacraments-pyx"]
+  },
+  {
+    id: "sacraments-monstrance-deeper",
+    term: "Monstrance (Deeper)",
+    category: "sacraments",
+    tags: ["Eucharist", "adoration", "vessel"],
+    oneLiner: "The ornate vessel, often sunburst-shaped, that displays the consecrated Host for Eucharistic adoration and Benediction.",
+    body: "The monstrance (from the Latin monstrare, 'to show') is designed to display the Blessed Sacrament for the veneration and adoration of the faithful. Its most common form is a sunburst of gold rays surrounding a central glass window (the luna or lunette) that holds the large consecrated Host. Monstrances are used for Eucharistic exposition, Benediction, and processions such as Corpus Christi. The sunburst design symbolizes Christ as the Sun of Righteousness radiating grace upon the world.",
+    whyItMatters: "The monstrance makes visible what faith affirms: that the small white Host is the Lord of the universe, deserving of the most splendid setting human craft can provide.",
+    relatedTerms: ["sacraments-lunette", "sacraments-ciborium-deeper", "sacraments-tabernacle-deeper"]
+  },
+  {
+    id: "sacraments-lunette",
+    term: "Lunette (Luna)",
+    category: "sacraments",
+    tags: ["Eucharist", "vessel", "monstrance"],
+    oneLiner: "The crescent-shaped clip inside the monstrance that holds the large consecrated Host securely in place for exposition.",
+    body: "The lunette (also called a luna) is a small, usually gold-plated crescent or circular clip that fits inside the monstrance and holds the consecrated Host firmly upright for adoration. It is stored in a special container called a lunette case or teca when not in use. The lunette must be treated with the same reverence as other vessels that come into direct contact with the Eucharistic species, as particles of the Host may adhere to its surface.",
+    whyItMatters: "The lunette ensures the secure and dignified display of the Eucharist in the monstrance, reflecting the Church's care that Christ's sacramental Body is handled with utmost reverence in every detail.",
+    relatedTerms: ["sacraments-monstrance-deeper", "sacraments-pyx", "sacraments-ciborium-deeper"]
+  },
+  {
+    id: "sacraments-pyx",
+    term: "Pyx",
+    category: "sacraments",
+    tags: ["Eucharist", "vessel", "sick"],
+    oneLiner: "A small, round container used to carry the consecrated Host to the sick and homebound who cannot attend Mass.",
+    body: "The pyx is a small, typically gold-plated metal container used by priests, deacons, and extraordinary ministers of Communion to transport the Blessed Sacrament to those who are ill, homebound, or in hospital. It is carried in a special pouch called a burse, often worn around the neck. The pyx ensures the Eucharist is protected during transport and that the sick and dying are not deprived of sacramental Communion, fulfilling Christ's command to care for the least of his brethren.",
+    whyItMatters: "The pyx extends the Eucharistic table beyond the church building to the bedside of the sick, ensuring that no member of the Body of Christ is forgotten.",
+    relatedTerms: ["sacraments-lunette", "sacraments-ciborium-deeper", "sacraments-eucharistic-reservation-deeper"]
+  },
+  {
+    id: "sacraments-eucharistic-miracle-deeper",
+    term: "Eucharistic Miracles (Deeper)",
+    category: "sacraments",
+    tags: ["Eucharist", "miracles", "Real Presence"],
+    oneLiner: "Extraordinary events in which the Eucharistic species have visibly manifested the presence of Christ's flesh and blood, confirmed by scientific investigation.",
+    body: "Throughout Catholic history, there have been reported instances in which consecrated Hosts have visibly turned to flesh or bled, often confirmed by subsequent scientific analysis. The miracle of Lanciano (8th century), in which the Host became cardiac tissue and the wine became blood of type AB, has been subjected to modern analysis. The miracle of Buenos Aires (1996) was independently examined by scientists unaware of the sample's origin. While the Church does not require belief in any particular miracle, these events serve as signs that strengthen faith in the Real Presence.",
+    whyItMatters: "Eucharistic miracles provide tangible, scientifically examined evidence supporting the Church's teaching on the Real Presence, offering material confirmation of what faith already affirms.",
+    relatedTerms: ["sacraments-eucharistic-species", "sacraments-accidents-substance-eucharist", "sacraments-theology-overview"]
+  },
+  {
+    id: "sacraments-epiclesis-deeper",
+    term: "Epiclesis (Deeper)",
+    category: "sacraments",
+    tags: ["Eucharist", "Holy Spirit", "prayer"],
+    oneLiner: "The prayer invoking the Holy Spirit upon the bread and wine to transform them into the Body and Blood of Christ.",
+    body: "The epiclesis (Greek for 'invocation upon') is the moment in the Eucharistic Prayer when the priest extends his hands over the offerings and calls upon the Holy Spirit to sanctify them. In the Roman rite, there are typically two epicleses: one before the institution narrative (consecrating the gifts) and one after (asking the Spirit to unify those who receive Communion). Eastern liturgies place the epiclesis after the words of institution and regard it as the primary moment of consecration. The epiclesis underscores that the transformation is the work of the Trinity, not the priest alone.",
+    whyItMatters: "The epiclesis reveals the Eucharist as a Trinitarian event: the Father sends the Spirit at the priest's invocation to accomplish the Son's command at the Last Supper.",
+    relatedTerms: ["sacraments-anamnesis-deeper", "sacraments-words-of-institution", "sacraments-theology-overview"]
+  },
+  {
+    id: "sacraments-anamnesis-deeper",
+    term: "Anamnesis (Deeper)",
+    category: "sacraments",
+    tags: ["Eucharist", "memorial", "prayer"],
+    oneLiner: "The prayer of remembrance after the institution narrative that makes Christ's Paschal Mystery truly present, not merely recalled.",
+    body: "The anamnesis (Greek for 'remembrance') follows the institution narrative in every Eucharistic Prayer. It is the Church's response to Christ's command 'Do this in remembrance of me,' but it is no mere mental recollection. In the biblical and liturgical sense, anamnesis makes the past event objectively present. The prayer explicitly recalls Christ's passion, death, resurrection, and ascension, and offers them to the Father. This understanding distinguishes Catholic Eucharistic theology from merely symbolic memorialist views.",
+    whyItMatters: "The anamnesis assures Catholics that the Mass is not a new sacrifice but the one sacrifice of Calvary made truly present across time, bridging history and eternity at every altar.",
+    relatedTerms: ["sacraments-epiclesis-deeper", "sacraments-words-of-institution", "sacraments-eucharistic-species"]
+  },
+  {
+    id: "sacraments-words-of-institution",
+    term: "Words of Institution",
+    category: "sacraments",
+    tags: ["Eucharist", "consecration", "form"],
+    oneLiner: "The words of Christ spoken by the priest at the consecration—'This is my Body... This is the chalice of my Blood'—which effect the transubstantiation of bread and wine.",
+    body: "The words of institution are the essential form of the Eucharistic sacrament in Western theology. Drawn from the Last Supper accounts in the Gospels and 1 Corinthians 11, they are recited by the priest acting in persona Christi during the Eucharistic Prayer. At the moment these words are spoken over valid matter (wheat bread and grape wine), the substance of bread and wine becomes the Body and Blood of Christ. The priest recites them in a narrative mode but with sacramental efficacy, making Christ's words his own.",
+    whyItMatters: "The words of institution are the hinge of the Mass, the precise moment when heaven touches earth and bread becomes God—making them the most consequential words spoken on the planet each day.",
+    relatedTerms: ["sacraments-epiclesis-deeper", "sacraments-anamnesis-deeper", "sacraments-matter-form-deeper"]
+  },
+  {
+    id: "sacraments-fraction-rite-sacramental",
+    term: "Fraction Rite (Sacramental)",
+    category: "sacraments",
+    tags: ["Eucharist", "breaking of bread", "communion"],
+    oneLiner: "The breaking of the consecrated Host before Communion, signifying the unity of the faithful who share in the one Bread of Life.",
+    body: "The Fraction (breaking of the bread) is one of the oldest Eucharistic gestures, dating to Christ's own action at the Last Supper and Emmaus. The priest breaks the consecrated Host during the Agnus Dei, placing a small fragment into the chalice (the commingling rite). The breaking signifies that the many who share one bread are made one body (1 Corinthians 10:17). Despite the breaking, Christ is fully present in each fragment. In the early Church, this rite was so central that the Eucharist itself was called 'the Breaking of the Bread.'",
+    whyItMatters: "The Fraction visibly expresses the communion of the faithful in Christ's Body, making the theological truth of ecclesial unity tangible at the altar.",
+    relatedTerms: ["sacraments-commingling-rite", "sacraments-eucharistic-species", "sacraments-communion-both-kinds"]
+  },
+  {
+    id: "sacraments-commingling-rite",
+    term: "Commingling Rite",
+    category: "sacraments",
+    tags: ["Eucharist", "fraction", "symbolism"],
+    oneLiner: "The placing of a small fragment of the consecrated Host into the chalice, symbolizing the unity of Christ's Body and Blood in the Resurrection.",
+    body: "During the Fraction, the priest breaks off a small piece of the consecrated Host and drops it into the chalice of the Precious Blood, quietly praying, 'May this mingling of the Body and Blood of our Lord Jesus Christ bring eternal life to us who receive it.' This commingling symbolizes the reunion of Christ's Body and Blood in the Resurrection. Historically, the fragment (called the fermentum) was sometimes sent from the pope's Mass to other Roman churches as a sign of ecclesial communion.",
+    whyItMatters: "The commingling rite points beyond the separation of death to the wholeness of resurrection, expressing the hope that those who receive Communion will share in Christ's risen life.",
+    relatedTerms: ["sacraments-fraction-rite-sacramental", "sacraments-eucharistic-species", "sacraments-words-of-institution"]
+  },
+  {
+    id: "sacraments-sign-of-peace-sacramental",
+    term: "Sign of Peace (Sacramental Context)",
+    category: "sacraments",
+    tags: ["Eucharist", "peace", "communion"],
+    oneLiner: "The exchange of a gesture of peace before Communion, expressing the unity and charity required for worthy reception of the Eucharist.",
+    body: "The Sign of Peace is exchanged before the breaking of bread as a sign that the community is reconciled and united in charity before approaching the Lord's table. Its placement in the Roman rite follows Christ's teaching that one should be reconciled with one's brother before bringing a gift to the altar (Matthew 5:23-24). The gesture (handshake, bow, or embrace depending on culture) is optional for the faithful; the deacon or priest invites the exchange but does not command it. Its character should be sober and reverent, befitting the sacred moment.",
+    whyItMatters: "The Sign of Peace challenges communicants to examine whether they approach the Eucharist in genuine charity, not merely in ritual compliance.",
+    relatedTerms: ["sacraments-fraction-rite-sacramental", "sacraments-eucharistic-disposition", "sacraments-communion-both-kinds"]
+  },
+  {
+    id: "sacraments-confession-examination",
+    term: "Examination of Conscience (Confession)",
+    category: "sacraments",
+    tags: ["reconciliation", "conscience", "preparation"],
+    oneLiner: "The prayerful review of one's thoughts, words, and deeds before confession, typically guided by the Ten Commandments or the Beatitudes.",
+    body: "The examination of conscience is the essential preparation for a good confession. The penitent prayerfully reviews their actions, omissions, thoughts, and desires since their last confession, identifying sins by their kind and, for mortal sins, their number and circumstances. Common guides include the Ten Commandments, the precepts of the Church, the Beatitudes, or the seven capital sins. The examination should be thorough but not scrupulous, conducted with trust in God's mercy rather than anxious self-condemnation.",
+    whyItMatters: "A thorough examination of conscience ensures that confession addresses real sins rather than vague feelings of guilt, making the sacrament a precise encounter with God's forgiveness.",
+    relatedTerms: ["sacraments-confession-format", "sacraments-act-of-contrition-variations", "sacraments-confession-frequency"]
+  },
+  {
+    id: "sacraments-confession-format",
+    term: "Confession Format",
+    category: "sacraments",
+    tags: ["reconciliation", "rite", "procedure"],
+    oneLiner: "The structured order of the sacrament of Reconciliation: greeting, confession of sins, counsel, penance, act of contrition, and absolution.",
+    body: "The Rite of Penance provides a standard format: the priest greets the penitent and together they make the Sign of the Cross. The penitent states how long since their last confession and then confesses their sins. The priest may offer counsel and assigns a penance. The penitent prays an Act of Contrition while the priest pronounces the formula of absolution. The penitent then leaves to perform the assigned penance. Three forms of the rite exist: individual confession (Form I), communal celebration with individual confession (Form II), and communal celebration with general absolution (Form III, for extraordinary circumstances).",
+    whyItMatters: "The structured format ensures that every element essential to the sacrament is present, preventing omissions that could affect validity or pastoral fruitfulness.",
+    relatedTerms: ["sacraments-confession-examination", "sacraments-act-of-contrition-variations", "sacraments-general-absolution-deeper"]
+  },
+  {
+    id: "sacraments-act-of-contrition-variations",
+    term: "Act of Contrition (Variations)",
+    category: "sacraments",
+    tags: ["reconciliation", "prayer", "contrition"],
+    oneLiner: "The prayer expressing sorrow for sin and resolve to amend one's life, of which several approved versions exist for use during confession.",
+    body: "The Act of Contrition is prayed by the penitent during the sacrament of Reconciliation to express sorrow and purpose of amendment. Multiple approved versions exist, from the traditional 'O my God, I am heartily sorry for having offended Thee' to simpler modern forms. The Rite of Penance also allows the penitent to express contrition in their own words. What matters is that the prayer expresses genuine sorrow, acknowledges God's mercy, and includes a firm resolve to avoid sin and its near occasions.",
+    whyItMatters: "The Act of Contrition gives voice to the interior conversion that is the heart of the sacrament, ensuring that absolution meets genuine repentance.",
+    relatedTerms: ["sacraments-confession-format", "sacraments-penance-types", "sacraments-satisfaction-sacramental"]
+  },
+  {
+    id: "sacraments-penance-types",
+    term: "Types of Penance",
+    category: "sacraments",
+    tags: ["reconciliation", "penance", "satisfaction"],
+    oneLiner: "The various forms of penitential acts assigned by the confessor, including prayer, works of mercy, sacrifice, and service.",
+    body: "The confessor assigns a penance proportionate to the gravity of the sins confessed. Penances may include prayers (such as a Rosary or psalms), acts of charity (such as visiting the sick or giving alms), sacrifices (such as fasting or abstaining from a pleasure), or acts of reparation to those harmed. The penance is not a 'payment' for sin but a medicinal remedy to heal the wound sin causes and to begin restoring the order justice requires. The penitent should fulfill the penance as soon as reasonably possible.",
+    whyItMatters: "Penances address not only the guilt of sin (removed by absolution) but the damage sin causes in the soul and in relationships, promoting genuine healing and restoration.",
+    relatedTerms: ["sacraments-satisfaction-sacramental", "sacraments-temporal-punishment", "sacraments-confession-format"]
+  },
+  {
+    id: "sacraments-satisfaction-sacramental",
+    term: "Satisfaction (Sacramental)",
+    category: "sacraments",
+    tags: ["reconciliation", "penance", "justice"],
+    oneLiner: "The penitential act assigned by the confessor that partially repairs the damage caused by sin and satisfies the demands of divine justice.",
+    body: "Satisfaction is the third act of the penitent (after contrition and confession) and consists of fulfilling the penance assigned by the confessor. The Council of Trent taught that sacramental satisfaction is not a denial of Christ's all-sufficient atonement but a participation in it: the penitent is configured to the suffering Christ who made satisfaction for all sin. By uniting their small penances to Christ's Passion, penitents repair the damage sin has caused in themselves and in the Body of Christ.",
+    whyItMatters: "Satisfaction teaches that forgiveness and healing are distinct: God forgives freely, but the damage of sin requires active repair, uniting the penitent to Christ's redemptive suffering.",
+    relatedTerms: ["sacraments-penance-types", "sacraments-temporal-punishment", "sacraments-indulgence-and-sacrament"]
+  },
+  {
+    id: "sacraments-temporal-punishment",
+    term: "Temporal Punishment",
+    category: "sacraments",
+    tags: ["purgatory", "punishment", "satisfaction"],
+    oneLiner: "The purifying consequences of sin that remain even after guilt is forgiven, to be expiated in this life or in purgatory.",
+    body: "Catholic teaching distinguishes between the eternal punishment due to mortal sin (removed by absolution) and the temporal punishment that remains even after forgiveness. Temporal punishment is not divine revenge but the natural consequence and residual disorder that sin leaves in the soul and in the world. It is expiated through penitential acts, patient suffering, indulgences, and, after death, through purgatory. The doctrine explains why forgiven sinners still experience consequences and why the Church encourages ongoing penance.",
+    whyItMatters: "Temporal punishment clarifies that God's forgiveness restores relationship but does not eliminate the need for purification—motivating the faithful to pursue holiness actively rather than presume on mercy.",
+    relatedTerms: ["sacraments-satisfaction-sacramental", "sacraments-indulgence-and-sacrament", "sacraments-penance-types"]
+  },
+  {
+    id: "sacraments-indulgence-and-sacrament",
+    term: "Indulgences and the Sacraments",
+    category: "sacraments",
+    tags: ["indulgence", "penance", "merit"],
+    oneLiner: "The Church's grant of remission of temporal punishment through application of the Treasury of Merit, closely linked to the sacramental life.",
+    body: "An indulgence remits temporal punishment due to sin by applying the superabundant merits of Christ, the Blessed Virgin Mary, and the saints from the Church's spiritual treasury. Indulgences are closely tied to the sacraments: a plenary indulgence requires sacramental confession and Communion. They are not a substitute for the sacrament of Reconciliation (which removes guilt) but address the residual temporal punishment that remains after forgiveness. The Enchiridion Indulgentiarum lists the specific acts and conditions for gaining indulgences.",
+    whyItMatters: "Indulgences demonstrate the Church's power to apply the infinite merits of Christ to her members, linking personal devotion to the communion of saints and the sacramental economy.",
+    relatedTerms: ["sacraments-temporal-punishment", "sacraments-satisfaction-sacramental", "sacraments-sacramental-economy"]
+  },
+  {
+    id: "sacraments-general-absolution-deeper",
+    term: "General Absolution (Deeper)",
+    category: "sacraments",
+    tags: ["reconciliation", "absolution", "emergency"],
+    oneLiner: "The extraordinary form of sacramental absolution given to a group without prior individual confession, reserved for grave necessity.",
+    body: "General absolution (Form III of the Rite of Penance) may be given when there is imminent danger of death or when the number of penitents so exceeds available confessors that the faithful would be deprived of sacramental grace for an extended time. The diocesan bishop determines when conditions warrant it. Those who receive general absolution for mortal sins are obliged to confess those sins individually as soon as possible, and certainly within one year. This provision balances pastoral urgency with the ordinary requirement of individual confession.",
+    whyItMatters: "General absolution reveals the Church's pastoral flexibility in ensuring that no soul is denied God's mercy in extreme circumstances, while maintaining the integrity of the sacrament.",
+    relatedTerms: ["sacraments-confession-format", "sacraments-seal-of-confession-deeper", "sacraments-minister"]
+  },
+  {
+    id: "sacraments-seal-of-confession-deeper",
+    term: "Seal of Confession (Deeper)",
+    category: "sacraments",
+    tags: ["reconciliation", "secrecy", "canon law"],
+    oneLiner: "The absolute and inviolable prohibition against a confessor revealing anything learned in the sacrament of Reconciliation, under any circumstances whatsoever.",
+    body: "The seal of confession (sigillum confessionis) forbids the confessor from disclosing any sin confessed to him, directly or indirectly, for any reason. This obligation is absolute: it admits no exception, even to save the confessor's own life, prevent a crime, or comply with civil law. Violation incurs automatic excommunication reserved to the Holy See. The seal also extends to interpreters and anyone who accidentally overhears a confession. This protection is essential to the sacrament's integrity, since penitents must be free to confess without fear.",
+    whyItMatters: "The seal of confession protects the sacred trust between penitent and God, ensuring that fear of exposure never becomes a barrier to seeking divine mercy.",
+    relatedTerms: ["sacraments-general-absolution-deeper", "sacraments-confession-format", "sacraments-confession-frequency"]
+  },
+  {
+    id: "sacraments-confession-frequency",
+    term: "Frequency of Confession",
+    category: "sacraments",
+    tags: ["reconciliation", "devotion", "spiritual life"],
+    oneLiner: "The Church's recommendation for regular confession, with a minimum obligation of once per year for those conscious of mortal sin.",
+    body: "The precept of the Church requires confession at least once a year if one is conscious of mortal sin (Canon 989). However, the Church strongly encourages more frequent confession—monthly or even weekly—as a means of spiritual growth. Regular confession of venial sins sharpens moral awareness, strengthens the will against temptation, and deepens the experience of God's mercy. Saints from Ignatius to Padre Pio practiced and recommended frequent confession as essential to spiritual progress.",
+    whyItMatters: "Frequent confession keeps the soul spiritually healthy, preventing small sins from hardening into serious ones and fostering a continual conversion of heart.",
+    relatedTerms: ["sacraments-confession-of-devotion", "sacraments-confession-examination", "sacraments-seal-of-confession-deeper"]
+  },
+  {
+    id: "sacraments-confession-of-devotion",
+    term: "Confession of Devotion",
+    category: "sacraments",
+    tags: ["reconciliation", "venial sin", "spiritual growth"],
+    oneLiner: "The practice of confessing venial sins regularly as a spiritual discipline, even when not strictly required by Church law.",
+    body: "A confession of devotion is one in which the penitent confesses primarily or exclusively venial sins, motivated not by strict obligation but by a desire for spiritual growth and deeper union with God. Pope Pius XII in Mystici Corporis Christi commended this practice, and spiritual directors consistently recommend it. The penitent may also re-confess a previously absolved mortal sin as matter for absolution if no new mortal sins have been committed, ensuring the sacrament is always valid.",
+    whyItMatters: "Confession of devotion cultivates a delicate conscience and a profound trust in God's mercy, preventing spiritual complacency and promoting continual growth in holiness.",
+    relatedTerms: ["sacraments-confession-frequency", "sacraments-penance-types", "sacraments-opus-operantis"]
+  },
+  {
+    id: "sacraments-anointing-matter-form",
+    term: "Anointing: Matter and Form",
+    category: "sacraments",
+    tags: ["anointing", "oil", "prayer"],
+    oneLiner: "The essential elements of the Anointing of the Sick: the Oil of the Sick (matter) and the prescribed prayer invoking the Lord's mercy (form).",
+    body: "The matter of the Anointing of the Sick is olive oil (or, where necessary, another plant oil) blessed by the bishop at the Chrism Mass. The form is the prayer: 'Through this holy anointing may the Lord in his love and mercy help you with the grace of the Holy Spirit. May the Lord who frees you from sin save you and raise you up.' The priest anoints the forehead and hands of the sick person. In danger of death, a single anointing on the forehead suffices.",
+    whyItMatters: "Identifying the matter and form of Anointing ensures that the sacrament is celebrated validly, guaranteeing that the sick truly receive the grace Christ intended.",
+    relatedTerms: ["sacraments-anointing-effects", "sacraments-anointing-healing", "sacraments-matter-form-deeper"]
+  },
+  {
+    id: "sacraments-anointing-effects",
+    term: "Effects of Anointing",
+    category: "sacraments",
+    tags: ["anointing", "grace", "healing"],
+    oneLiner: "The spiritual and sometimes physical graces conferred by the Anointing of the Sick, including strength, peace, courage, and forgiveness of sins.",
+    body: "The Anointing of the Sick confers several graces: the strengthening of the soul through the Holy Spirit against temptation and discouragement; peace and courage to bear suffering; union of the sick person's suffering with Christ's Passion for the good of the Church; forgiveness of sins if the person is unable to confess; and restoration of health if it is conducive to salvation. The sacrament prepares the seriously ill to face whatever God permits—whether recovery or death—with the resources of grace.",
+    whyItMatters: "The effects of Anointing assure the sick that they are not abandoned by God in their suffering but accompanied by grace tailored to their greatest need.",
+    relatedTerms: ["sacraments-anointing-matter-form", "sacraments-anointing-healing", "sacraments-last-rites-sequence"]
+  },
+  {
+    id: "sacraments-anointing-healing",
+    term: "Anointing and Healing",
+    category: "sacraments",
+    tags: ["anointing", "healing", "faith"],
+    oneLiner: "The relationship between the Anointing of the Sick and physical healing, understood as conditional on God's will for the person's salvation.",
+    body: "While the Anointing of the Sick can restore physical health, this effect is conditional: it occurs 'if it be conducive to the salvation of his soul.' The sacrament is not a guarantee of physical cure but an assurance of spiritual healing. James 5:14-15 promises that 'the prayer of faith will save the sick person,' but this saving encompasses spiritual restoration above all. The Church resists both presumption (demanding physical healing) and despair (denying its possibility), trusting in God's sovereign wisdom.",
+    whyItMatters: "The teaching on Anointing and healing prevents the sacrament from becoming superstition while preserving the Catholic belief that God can and does heal through sacramental grace.",
+    relatedTerms: ["sacraments-anointing-effects", "sacraments-anointing-matter-form", "sacraments-last-rites-sequence"]
+  },
+  {
+    id: "sacraments-last-rites-sequence",
+    term: "Last Rites Sequence",
+    category: "sacraments",
+    tags: ["death", "viaticum", "anointing"],
+    oneLiner: "The ordered series of sacraments administered to a dying person: Reconciliation, Anointing of the Sick, and Viaticum (final Communion).",
+    body: "The last rites refer to the suite of sacramental ministrations given to a dying Catholic. The proper sequence is: first, the sacrament of Reconciliation (if the person is conscious and able to confess); second, the Anointing of the Sick; and third, Viaticum—the reception of Holy Communion as food for the journey into eternal life. Viaticum is the last sacrament of the Christian life and holds a special place; the dying person renews baptismal promises before receiving it. The Apostolic Pardon may also be given.",
+    whyItMatters: "The last rites sequence ensures that the dying person receives the fullness of sacramental grace available at the threshold of eternity, addressing sin, suffering, and the journey ahead.",
+    relatedTerms: ["sacraments-viaticum-deeper", "sacraments-apostolic-pardon", "sacraments-anointing-effects"]
+  },
+  {
+    id: "sacraments-viaticum-deeper",
+    term: "Viaticum (Deeper)",
+    category: "sacraments",
+    tags: ["death", "Eucharist", "journey"],
+    oneLiner: "The reception of Holy Communion by a dying person as spiritual food for the passage from this life to eternal life with God.",
+    body: "Viaticum (Latin for 'provision for the journey') is Holy Communion given to a person in danger of death. It is considered the most important of the last rites, even more so than Anointing. The communicant renews their baptismal faith and receives the Body of Christ as a pledge of the resurrection. Canon law obliges pastors to ensure that the dying are not deprived of viaticum. It may be received even by those who have already received Communion that day, and the Eucharistic fast is dispensed entirely for the dying.",
+    whyItMatters: "Viaticum gives the dying the most intimate possible companion for the final journey: Christ himself, present in the Eucharist, accompanying them through death into eternal life.",
+    relatedTerms: ["sacraments-last-rites-sequence", "sacraments-apostolic-pardon", "sacraments-eucharistic-disposition"]
+  },
+  {
+    id: "sacraments-apostolic-pardon",
+    term: "Apostolic Pardon",
+    category: "sacraments",
+    tags: ["death", "indulgence", "pardon"],
+    oneLiner: "A plenary indulgence granted to the dying by a priest, remitting all temporal punishment due to sin at the moment of death.",
+    body: "The Apostolic Pardon (Apostolic Blessing for the dying) is a plenary indulgence that a priest may grant to a person in danger of death. It is typically given after Reconciliation, Anointing, and Viaticum. The formula reads, 'Through the holy mysteries of our redemption, may almighty God release you from all punishments in this life and in the life to come.' If a priest is unavailable, the Church grants a plenary indulgence to any properly disposed Catholic at the moment of death, provided they were habitually accustomed to prayer during life.",
+    whyItMatters: "The Apostolic Pardon expresses the Church's maternal care for her dying children, offering the fullest possible remission of temporal punishment at the threshold of judgment.",
+    relatedTerms: ["sacraments-viaticum-deeper", "sacraments-last-rites-sequence", "sacraments-temporal-punishment"]
+  },
+  {
+    id: "sacraments-ordination-grades",
+    term: "Grades of Holy Orders",
+    category: "sacraments",
+    tags: ["ordination", "hierarchy", "ministry"],
+    oneLiner: "The three degrees of the sacrament of Holy Orders—diaconate, presbyterate, and episcopate—each conferring distinct powers and responsibilities.",
+    body: "Holy Orders is one sacrament with three degrees. The diaconate confers the ministry of service in word, liturgy, and charity; deacons may baptize, preach, assist at marriages, and distribute Communion. The presbyterate (priesthood) adds the power to celebrate the Eucharist, absolve sins, and anoint the sick. The episcopate (bishopric) confers the fullness of the sacrament, including the power to ordain and to govern a diocese. Each degree imprints a distinct sacramental character and cannot be repeated.",
+    whyItMatters: "The three grades of Holy Orders structure the Church's ministry according to Christ's design, ensuring that the fullness of sacramental power is present in the episcopate while distributing specific functions to priests and deacons.",
+    relatedTerms: ["sacraments-diaconal-ordination", "sacraments-presbyteral-ordination", "sacraments-episcopal-ordination"]
+  },
+  {
+    id: "sacraments-diaconal-ordination",
+    term: "Diaconal Ordination",
+    category: "sacraments",
+    tags: ["ordination", "deacon", "service"],
+    oneLiner: "The sacramental rite by which a man is ordained to the diaconate, the first degree of Holy Orders dedicated to the ministry of service.",
+    body: "Diaconal ordination is conferred by the bishop through the laying on of hands and the consecratory prayer proper to the diaconate. The new deacon is vested in the dalmatic and receives the Book of the Gospels. Deacons may be transitional (preparing for priesthood) or permanent. Permanent deacons may be married men, though they may not marry after ordination if widowed. The deacon's distinctive ministry is service: proclaiming the Gospel, preaching, assisting at the altar, baptizing, witnessing marriages, and conducting funerals.",
+    whyItMatters: "The diaconate makes visible Christ the Servant in the Church's hierarchical ministry, ensuring that the call to serve is not merely a pious ideal but a sacramental reality.",
+    relatedTerms: ["sacraments-ordination-grades", "sacraments-presbyteral-ordination", "sacraments-laying-on-of-hands"]
+  },
+  {
+    id: "sacraments-presbyteral-ordination",
+    term: "Presbyteral Ordination",
+    category: "sacraments",
+    tags: ["ordination", "priest", "Eucharist"],
+    oneLiner: "The sacramental rite by which a man is ordained to the priesthood, receiving the power to celebrate the Eucharist and forgive sins in persona Christi.",
+    body: "Presbyteral ordination is conferred by the bishop through the laying on of hands and the consecratory prayer. The newly ordained priest's hands are anointed with chrism, and he receives the paten and chalice. He concelebrates the Eucharist with the bishop for the first time. The ordination confers the power to act in persona Christi Capitis (in the person of Christ the Head), specifically to celebrate the Eucharist, absolve sins in Reconciliation, and administer the Anointing of the Sick. Priests in the Latin rite are celibate.",
+    whyItMatters: "Presbyteral ordination ensures that Christ's saving ministry in the Eucharist and Reconciliation continues in every generation, making his priestly action present through human instruments.",
+    relatedTerms: ["sacraments-ordination-grades", "sacraments-diaconal-ordination", "sacraments-episcopal-ordination"]
+  },
+  {
+    id: "sacraments-episcopal-ordination",
+    term: "Episcopal Ordination",
+    category: "sacraments",
+    tags: ["ordination", "bishop", "fullness"],
+    oneLiner: "The sacramental rite conferring the fullness of Holy Orders upon a man, making him a successor of the apostles with the power to ordain, teach, and govern.",
+    body: "Episcopal ordination (consecration) is the highest degree of Holy Orders. The principal consecrator is a bishop, and traditionally two co-consecrating bishops participate. The essential rite includes the laying on of hands by all bishops present and the consecratory prayer. The new bishop receives the Book of the Gospels, the episcopal ring, miter, and crosier. He possesses the fullness of the priesthood: only a bishop can ordain priests and deacons, consecrate chrism, and is the ordinary minister of Confirmation. Vatican II affirmed that episcopal ordination is truly sacramental, not merely jurisdictional.",
+    whyItMatters: "Episcopal ordination ensures apostolic succession—the unbroken chain of sacramental authority from the apostles—upon which the validity of all other ordinations and sacraments depends.",
+    relatedTerms: ["sacraments-ordination-grades", "sacraments-presbyteral-ordination", "sacraments-laying-on-of-hands"]
+  },
+  {
+    id: "sacraments-laying-on-of-hands",
+    term: "Laying On of Hands",
+    category: "sacraments",
+    tags: ["ordination", "gesture", "apostolic"],
+    oneLiner: "The essential sacramental gesture of ordination in which the bishop places his hands on the candidate's head in silence, conferring the Holy Spirit.",
+    body: "The laying on of hands (impositio manuum) is the matter of the sacrament of Holy Orders, attested in Scripture from the earliest Church (Acts 6:6, 1 Timothy 4:14, 2 Timothy 1:6). The bishop lays both hands on the head of the ordinand in silence; at presbyteral and episcopal ordinations, all priests or bishops present also lay on hands. This gesture, combined with the consecratory prayer (the form), effects the sacramental grace of ordination. Its simplicity and antiquity connect every ordination to the apostolic Church.",
+    whyItMatters: "The laying on of hands is the physical link in the chain of apostolic succession, connecting every priest and bishop to the apostles and through them to Christ himself.",
+    relatedTerms: ["sacraments-episcopal-ordination", "sacraments-ordination-grades", "sacraments-indelible-character-deeper"]
+  },
+  {
+    id: "sacraments-priestly-faculties",
+    term: "Priestly Faculties",
+    category: "sacraments",
+    tags: ["priesthood", "jurisdiction", "canon law"],
+    oneLiner: "The canonical permissions granted to a priest by his bishop or religious superior, authorizing him to exercise his ordained powers within a specific territory or community.",
+    body: "While ordination confers sacramental power, the licit exercise of that power requires faculties—canonical authorization from the competent authority. A priest receives faculties to hear confessions, witness marriages, and preach from the diocesan bishop or his religious superior. Faculties may be general or restricted and can be revoked. A priest without faculties in a particular diocese cannot licitly hear confessions there, though in danger of death any priest with valid ordination can absolve. This system ensures accountability and proper pastoral oversight.",
+    whyItMatters: "Priestly faculties balance the permanence of ordained power with the Church's need for order, ensuring that sacramental ministry is exercised under proper authority.",
+    relatedTerms: ["sacraments-canonical-mission", "sacraments-ordination-grades", "sacraments-validity-liceity-deeper"]
+  },
+  {
+    id: "sacraments-canonical-mission",
+    term: "Canonical Mission",
+    category: "sacraments",
+    tags: ["mission", "authority", "canon law"],
+    oneLiner: "The official commissioning by competent Church authority that authorizes a person to exercise a specific ministry or office in the Church.",
+    body: "A canonical mission is the mandate from the competent ecclesiastical authority (typically the bishop) that authorizes the exercise of a particular ministry. While ordination provides sacramental power, the canonical mission directs its exercise to a specific community, office, or task. Pastors, chaplains, and professors of theology in Catholic institutions all require a canonical mission. It expresses the principle that no one takes ministry upon himself but must be sent by the Church, mirroring Christ who was sent by the Father.",
+    whyItMatters: "The canonical mission ensures that all ministry in the Church flows from legitimate authority, preventing self-appointed ministry and preserving ecclesial communion.",
+    relatedTerms: ["sacraments-priestly-faculties", "sacraments-ordination-grades", "sacraments-minister"]
+  },
+  {
+    id: "sacraments-marriage-consent",
+    term: "Matrimonial Consent",
+    category: "sacraments",
+    tags: ["marriage", "consent", "covenant"],
+    oneLiner: "The free, knowing, and deliberate exchange of vows between a man and a woman that constitutes the essential act creating the marital bond.",
+    body: "In Catholic theology, the spouses are the ministers of the sacrament of Matrimony, and their mutual consent is the indispensable element that makes the marriage. Canon 1057 states that marriage is brought about by the consent of the parties, legitimately manifested, and no human power can substitute for this consent. Consent must be free (no coercion), informed (understanding of marriage's essential properties), and mutual. Defective consent—due to force, fear, fraud, or ignorance of a partner's essential qualities—can render a marriage null.",
+    whyItMatters: "Matrimonial consent is the very act that creates the marriage bond, making the freedom and integrity of that consent the foundation upon which the entire sacramental marriage rests.",
+    relatedTerms: ["sacraments-marriage-impediments-deeper", "sacraments-natural-sacramental-marriage", "sacraments-ratum-non-consummatum"]
+  },
+  {
+    id: "sacraments-marriage-impediments-deeper",
+    term: "Marriage Impediments (Deeper)",
+    category: "sacraments",
+    tags: ["marriage", "impediments", "canon law"],
+    oneLiner: "Specific conditions defined by canon law that make a person incapable of contracting a valid marriage unless a dispensation is obtained.",
+    body: "Canon law identifies diriment impediments that invalidate a marriage if present: insufficient age, impotence, existing marriage bond, disparity of cult (marriage between a Catholic and an unbaptized person without dispensation), sacred orders, public perpetual vows, abduction, consanguinity, and affinity, among others. Some impediments are of divine law (e.g., the existing bond) and cannot be dispensed; others are of ecclesiastical law and may be dispensed by the bishop or the Holy See. Impediments protect both the dignity of the sacrament and the rights of the spouses.",
+    whyItMatters: "Marriage impediments ensure that couples entering the sacrament are truly free and capable of the lifelong, exclusive, and fruitful commitment marriage requires.",
+    relatedTerms: ["sacraments-marriage-consent", "sacraments-natural-sacramental-marriage", "sacraments-ratum-non-consummatum"]
+  }
 ];

@@ -814,5 +814,727 @@ export const liturgyConcepts: Concept[] = [
     example: "In the Basilica of St. Peter in Rome, the papal altar faces the people — but this is because the basilica's apse faces west rather than east, meaning that when the Pope celebrates versus populum, he is actually facing liturgical East.",
     whyItMatters: "The direction the priest faces during the Eucharistic Prayer is not a trivial matter of preference but expresses a theology of worship. Whether the priest is seen as presiding over a gathered community or leading them in a common sacrifice toward God shapes the entire experience of the Mass.",
     relatedTerms: ["liturgy-altar", "liturgy-sacred-architecture", "liturgy-active-participation", "liturgy-girm-overview"]
+  },
+{
+    id: "liturgy-liturgical-theology",
+    term: "Liturgical Theology",
+    category: "liturgy",
+    tags: ["theology", "worship", "lex orandi"],
+    oneLiner: "The discipline that derives theological understanding from the Church's worship, following the principle lex orandi, lex credendi.",
+    body: "Liturgical theology holds that the Church's public prayer is a primary source of doctrine, not merely an application of it. The ancient axiom lex orandi, lex credendi ('the law of prayer is the law of belief') affirms that how the Church worships reveals and shapes what the Church believes. Scholars such as Prosper of Aquitaine, Alexander Schmemann, and Aidan Kavanagh have developed this field, insisting that liturgy is theology's first language rather than a secondary illustration of abstract propositions.",
+    example: "The Church's consistent Eucharistic prayers, which speak of offering sacrifice and transforming bread and wine, served as key evidence for the dogma of transubstantiation and the sacrificial nature of the Mass.",
+    whyItMatters: "Liturgical theology prevents worship from becoming mere rubrical performance and ensures that theological reflection remains grounded in the living prayer of the Church.",
+    relatedTerms: ["liturgy-holy-mass", "liturgy-active-participation", "liturgy-roman-missal"]
+  },
+  {
+    id: "liturgy-mystagogical-catechesis",
+    term: "Mystagogical Catechesis",
+    category: "liturgy",
+    tags: ["catechesis", "initiation", "mystery"],
+    oneLiner: "Post-sacramental instruction that leads the newly initiated deeper into the mysteries they have already experienced in the liturgy.",
+    body: "Mystagogy comes from the Greek for 'leading into the mysteries.' In the early Church, bishops such as Cyril of Jerusalem, Ambrose of Milan, and Theodore of Mopsuestia delivered catechetical talks to the newly baptized during Easter week, explaining the sacramental rites they had just received. Rather than explaining the sacraments before reception, this approach let experience precede explanation, allowing the rites themselves to be the primary teachers.",
+    example: "In his Mystagogical Catecheses, Cyril of Jerusalem explained to the newly baptized why they faced west to renounce Satan and east to profess Christ, drawing out the symbolic meaning of what they had physically done.",
+    whyItMatters: "Mystagogical catechesis reminds the Church that sacramental experience is irreducible to textbook knowledge and that the deepest truths of faith are encountered, not merely studied.",
+    relatedTerms: ["liturgy-easter-vigil", "liturgy-liturgical-theology", "liturgy-active-participation"]
+  },
+  {
+    id: "liturgy-liturgical-symbolism",
+    term: "Liturgical Symbolism",
+    category: "liturgy",
+    tags: ["signs", "symbols", "sacramental"],
+    oneLiner: "The use of visible signs and gestures in Catholic worship to convey invisible spiritual realities.",
+    body: "Catholic liturgy communicates through a rich language of symbols: water, oil, fire, bread, wine, incense, light, color, gesture, and posture. These symbols are not arbitrary decorations but participate in the realities they signify, making the spiritual tangible. The Constitution on the Sacred Liturgy teaches that the liturgy employs signs perceptible to the senses so that the faithful may be led from the visible to the invisible.",
+    whyItMatters: "Liturgical symbolism honors human nature as body-soul unity and ensures that worship engages the whole person rather than the intellect alone.",
+    relatedTerms: ["liturgy-liturgical-gestures", "liturgy-incense", "liturgy-liturgical-colors"]
+  },
+  {
+    id: "liturgy-liturgical-space",
+    term: "Liturgical Space",
+    category: "liturgy",
+    tags: ["architecture", "sacred space", "church building"],
+    oneLiner: "The intentional arrangement of a church's interior to facilitate and express the nature of Catholic worship.",
+    body: "Liturgical space is more than functional architecture; it is a theological statement in stone and glass. The arrangement of altar, ambo, tabernacle, baptismal font, and seating shapes the assembly's experience of worship and communicates the Church's understanding of what happens in the liturgy. The General Instruction of the Roman Missal and the document Built of Living Stones provide norms for how Catholic churches should be designed to serve the sacred action.",
+    whyItMatters: "The design of liturgical space directly shapes how the faithful pray, forming their understanding of the Eucharistic sacrifice, the presence of Christ, and their own role in worship.",
+    relatedTerms: ["liturgy-sacred-architecture", "liturgy-sanctuary-design", "liturgy-nave-significance"]
+  },
+  {
+    id: "liturgy-nave-significance",
+    term: "The Nave",
+    category: "liturgy",
+    tags: ["architecture", "assembly", "church building"],
+    oneLiner: "The central body of the church where the faithful gather for worship, symbolizing the ship of the Church navigating through the world.",
+    body: "The nave derives its name from the Latin navis, meaning 'ship,' evoking the biblical image of the Church as a vessel of salvation. This is the principal space where the baptized assemble for the liturgy, and its design should facilitate active participation in the sacred rites. Historically, the nave was oriented toward the sanctuary, drawing the faithful's attention toward the altar and the liturgical action.",
+    whyItMatters: "The nave reminds the faithful that they are not spectators but active participants in the liturgy, gathered as one Body of Christ aboard the bark of Peter.",
+    relatedTerms: ["liturgy-liturgical-space", "liturgy-sacred-architecture", "liturgy-active-participation"]
+  },
+  {
+    id: "liturgy-sanctuary-design",
+    term: "Sanctuary Design",
+    category: "liturgy",
+    tags: ["architecture", "altar", "sacred space"],
+    oneLiner: "The elevated area around the altar reserved for the ordained ministers and liturgical action, set apart from the nave.",
+    body: "The sanctuary is the sacred precinct of the church where the altar stands and the principal liturgical action takes place. Traditionally elevated by steps and often separated by a communion rail or altar rail, the sanctuary visually and spatially communicates the holiness of what occurs there. Its design should give prominence to the altar as the place of sacrifice, the ambo as the place of God's Word, and the presider's chair as the seat of the one who acts in persona Christi.",
+    whyItMatters: "The distinct design of the sanctuary teaches that the Eucharistic sacrifice is set apart from ordinary human activity and deserves reverent attention from the assembly.",
+    relatedTerms: ["liturgy-altar", "liturgy-liturgical-space", "liturgy-ambo-design"]
+  },
+  {
+    id: "liturgy-apse-symbolism",
+    term: "The Apse",
+    category: "liturgy",
+    tags: ["architecture", "symbolism", "orientation"],
+    oneLiner: "The semicircular or polygonal recess at the east end of a church, typically housing the altar and often adorned with sacred imagery.",
+    body: "The apse has served as the focal point of Christian worship since the earliest basilicas. Its curved or polygonal shape draws the eye forward and upward, often culminating in a mosaic or painting of Christ in Majesty. In traditional church architecture, the apse is oriented eastward, symbolizing the expectation of Christ's return from the east. The apse concentrates the assembly's gaze on the altar and the mystery celebrated there.",
+    whyItMatters: "The apse visually proclaims that all of worship converges on Christ, anchoring the faithful's attention in the transcendent reality of the Eucharistic sacrifice.",
+    relatedTerms: ["liturgy-sanctuary-design", "liturgy-sacred-architecture", "liturgy-ad-orientem"]
+  },
+  {
+    id: "liturgy-narthex-function",
+    term: "The Narthex",
+    category: "liturgy",
+    tags: ["architecture", "entrance", "threshold"],
+    oneLiner: "The vestibule or entrance hall of a church, serving as a transitional space between the secular world and sacred worship.",
+    body: "The narthex is the anteroom at the western end of a church, functioning as a threshold between the profane world outside and the sacred space within. In the early Church, catechumens and penitents were sometimes required to remain in the narthex during portions of the liturgy. Today it provides a gathering space, houses holy water fonts, and helps worshippers make the psychological and spiritual transition from daily life to the presence of God.",
+    whyItMatters: "The narthex embodies the principle that entering the presence of God requires preparation and transition, teaching the faithful that worship is a crossing from the ordinary into the sacred.",
+    relatedTerms: ["liturgy-liturgical-space", "liturgy-holy-water-font", "liturgy-nave-significance"]
+  },
+  {
+    id: "liturgy-baptistery-design",
+    term: "Baptistery Design",
+    category: "liturgy",
+    tags: ["architecture", "baptism", "font"],
+    oneLiner: "The dedicated space or structure housing the baptismal font, designed to express the theology of dying and rising with Christ.",
+    body: "Baptisteries have taken many forms throughout Christian history: separate buildings (as in Florence and Ravenna), dedicated chapels, or prominent locations near the church entrance. Their design often employs octagonal shapes, symbolizing the eighth day of new creation. The placement near the entrance reflects the theology that baptism is the gateway to the Christian life and the other sacraments.",
+    whyItMatters: "The baptistery's design makes visible the Church's teaching that baptism is a true death and resurrection with Christ, not merely a ritual washing.",
+    relatedTerms: ["liturgy-liturgical-space", "liturgy-baptismal-water-blessing", "liturgy-nave-significance"]
+  },
+  {
+    id: "liturgy-confessional-design",
+    term: "Confessional Design",
+    category: "liturgy",
+    tags: ["architecture", "reconciliation", "penance"],
+    oneLiner: "The enclosed structure or room in which the sacrament of Reconciliation is celebrated, providing privacy and anonymity.",
+    body: "The confessional evolved from open confession before the community to the enclosed box introduced after the Council of Trent, featuring a screen to preserve the penitent's anonymity. Modern churches often include reconciliation rooms that offer the choice of face-to-face or anonymous confession behind a screen. The design must balance the need for privacy with accessibility and the sacramental encounter with Christ's mercy.",
+    whyItMatters: "The confessional's design protects the sacred intimacy of the encounter between the penitent and Christ acting through the priest, encouraging the faithful to approach the sacrament without fear.",
+    relatedTerms: ["liturgy-liturgical-space", "liturgy-sacred-architecture", "liturgy-sanctuary-design"]
+  },
+  {
+    id: "liturgy-choir-loft",
+    term: "Choir Loft",
+    category: "liturgy",
+    tags: ["architecture", "music", "sacred space"],
+    oneLiner: "The elevated gallery, typically at the rear of the nave, designed for the choir and organ to support congregational worship through sacred music.",
+    body: "The choir loft positions musicians and singers above and behind the congregation, allowing sacred music to envelop the assembly without making performers the visual focus. This arrangement supports the liturgical principle that music serves the rite rather than becoming a concert. Historically, the choir loft housed the pipe organ, whose sound could fill the entire church from this elevated position.",
+    whyItMatters: "The choir loft preserves the primacy of the liturgical action at the altar by ensuring that music supports worship without competing for the assembly's visual attention.",
+    relatedTerms: ["liturgy-sacred-music", "liturgy-organ-in-liturgy", "liturgy-nave-significance"]
+  },
+  {
+    id: "liturgy-organ-in-liturgy",
+    term: "The Organ in Liturgy",
+    category: "liturgy",
+    tags: ["music", "pipe organ", "sacred music"],
+    oneLiner: "The pipe organ holds pride of place among musical instruments in the Latin rite as the instrument best suited to elevating the faithful's hearts in worship.",
+    body: "The Second Vatican Council affirmed that the pipe organ is to be held in high esteem in the Latin Church as the traditional musical instrument whose sound adds splendor to ceremonies and powerfully lifts the mind to God (Sacrosanctum Concilium 120). Its capacity for sustained tone, vast dynamic range, and ability to support congregational singing make it uniquely suited to liturgical use. Other instruments may be admitted with the judgment of competent authority, provided they are suitable for sacred use.",
+    whyItMatters: "The organ's unique capacity to fill sacred space with sound that transcends individual performers makes it an instrument of prayer rather than entertainment, supporting the liturgy's orientation toward God.",
+    relatedTerms: ["liturgy-sacred-music", "liturgy-choir-loft", "liturgy-active-participation"]
+  },
+  {
+    id: "liturgy-bell-tower",
+    term: "Bell Tower",
+    category: "liturgy",
+    tags: ["architecture", "bells", "call to worship"],
+    oneLiner: "The tower housing church bells that summon the faithful to worship and mark the hours of prayer.",
+    body: "The bell tower or campanile has been a defining feature of Catholic churches since at least the sixth century. Rising above the surrounding landscape, it serves both a practical and symbolic function: practically, it houses bells that call the faithful to Mass, the Angelus, and the Divine Office; symbolically, it points heavenward, marking the church as a place set apart for God. Bell towers vary from simple structures to elaborate architectural statements like the campanile of Giotto in Florence.",
+    whyItMatters: "The bell tower extends the church's liturgical voice beyond its walls, calling even those outside to remember God and orient their daily activities toward prayer.",
+    relatedTerms: ["liturgy-church-bells", "liturgy-angelus-bell", "liturgy-sacred-architecture"]
+  },
+  {
+    id: "liturgy-church-bells",
+    term: "Church Bells",
+    category: "liturgy",
+    tags: ["bells", "call to worship", "tradition"],
+    oneLiner: "Consecrated bells that summon the faithful to worship, mark liturgical moments, and sanctify the passage of time.",
+    body: "Church bells are blessed (and in solemn form, 'baptized') with holy water, chrism, and incense before being placed in service. They ring to announce Mass, funerals, weddings, and the hours of the Divine Office. Bells also toll during the consecration at Mass (in some traditions), at the death of a parishioner, and to warn of danger. Each peal carries a specific meaning known to the community, creating an audible liturgical language.",
+    whyItMatters: "Church bells sanctify time itself, breaking into the rhythm of daily life with reminders of eternity and calling the scattered faithful into one worshipping assembly.",
+    relatedTerms: ["liturgy-bell-tower", "liturgy-angelus-bell", "liturgy-sacring-bell"]
+  },
+  {
+    id: "liturgy-angelus-bell",
+    term: "Angelus Bell",
+    category: "liturgy",
+    tags: ["bells", "Angelus", "Marian devotion"],
+    oneLiner: "The bell rung three times daily at morning, noon, and evening to call the faithful to pray the Angelus in honor of the Incarnation.",
+    body: "The Angelus bell is rung at 6:00 AM, noon, and 6:00 PM, marking the three daily moments when the faithful pause to pray the Angelus, meditating on the mystery of the Incarnation. The custom developed in the Middle Ages and was firmly established by the fifteenth century. The bell pattern is distinctive: three sets of three rings followed by a longer peal, corresponding to the three versicles and the closing prayer of the Angelus.",
+    whyItMatters: "The Angelus bell weaves the mystery of the Incarnation into the fabric of everyday life, punctuating work, meals, and rest with a call to contemplate God becoming man.",
+    relatedTerms: ["liturgy-church-bells", "liturgy-bell-tower", "liturgy-liturgical-space"]
+  },
+  {
+    id: "liturgy-sacring-bell",
+    term: "Sacring Bell",
+    category: "liturgy",
+    tags: ["bells", "consecration", "Eucharist"],
+    oneLiner: "A bell rung during the elevation of the Host and Chalice at the consecration to alert the faithful to the moment of transubstantiation.",
+    body: "The sacring bell (also called the sanctus bell or altar bell) is traditionally rung at the epiclesis and again at the elevations of the Host and Chalice to draw the faithful's attention to the most sacred moment of the Mass. The practice arose in the medieval period when large churches and the priest's quiet recitation of the Canon made it difficult for the congregation to follow the liturgical action. The GIRM permits its continued use where customary.",
+    whyItMatters: "The sacring bell focuses the assembly's attention on the moment when Christ becomes sacramentally present, ensuring that the heart of the Mass is not passed over unnoticed.",
+    relatedTerms: ["liturgy-altar-bells", "liturgy-church-bells", "liturgy-holy-mass"]
+  },
+  {
+    id: "liturgy-altar-bells",
+    term: "Altar Bells",
+    category: "liturgy",
+    tags: ["bells", "Mass", "server"],
+    oneLiner: "Small handheld bells rung by an altar server at designated moments during Mass, particularly at the consecration.",
+    body: "Altar bells, typically a set of small bells mounted on a handle or frame, are rung by the altar server at the Sanctus, at the showing of the Host and Chalice, and sometimes at the priest's Communion. Their use is optional in the Ordinary Form but deeply customary in many parishes and required in the Extraordinary Form. The bright, clear sound pierces the silence of the Canon, creating an audible exclamation point at the holiest moments of the liturgy.",
+    whyItMatters: "Altar bells engage the sense of hearing at the most sacred moments of the Mass, helping the faithful to worship with full attention even when they cannot see the altar clearly.",
+    relatedTerms: ["liturgy-sacring-bell", "liturgy-church-bells", "liturgy-holy-mass"]
+  },
+  {
+    id: "liturgy-thurible-use",
+    term: "Thurible",
+    category: "liturgy",
+    tags: ["incense", "censer", "worship"],
+    oneLiner: "The metal vessel suspended on chains in which incense is burned during liturgical celebrations to honor sacred persons and objects.",
+    body: "The thurible (or censer) is a covered metal container with a perforated lid, suspended on chains, used to burn incense during the liturgy. Charcoal is placed inside, and incense grains are spooned onto the coals, producing fragrant smoke. The thurible is swung toward the altar, the Gospel book, the Eucharistic species, the cross, the ministers, and the congregation at prescribed moments. Its use evokes Psalm 141: 'Let my prayer rise like incense before you.'",
+    whyItMatters: "The thurible makes prayer visible and aromatic, engaging the senses to express the rising of the Church's prayer to God and the sanctification of all that the incense touches.",
+    relatedTerms: ["liturgy-incense", "liturgy-boat-and-spoon", "liturgy-liturgical-gestures"]
+  },
+  {
+    id: "liturgy-boat-and-spoon",
+    term: "Incense Boat and Spoon",
+    category: "liturgy",
+    tags: ["incense", "vessel", "liturgical object"],
+    oneLiner: "The boat-shaped container and small spoon used to hold and transfer incense grains to the thurible during liturgical rites.",
+    body: "The incense boat is a small vessel, traditionally shaped like a ship, that holds the grains of incense used during the liturgy. The accompanying spoon is used by the priest or deacon to scoop incense from the boat and place it on the burning coals in the thurible. The boat is carried by the thurifer or a server and presented to the celebrant at the appointed moments for the imposition of incense.",
+    whyItMatters: "The boat and spoon are humble instruments that serve the larger purpose of enabling incensation, reminding the faithful that even the smallest liturgical objects participate in the Church's act of worship.",
+    relatedTerms: ["liturgy-thurible-use", "liturgy-incense", "liturgy-liturgical-gestures"]
+  },
+  {
+    id: "liturgy-aspergillum",
+    term: "Aspergillum",
+    category: "liturgy",
+    tags: ["holy water", "sprinkling", "liturgical object"],
+    oneLiner: "The liturgical instrument used to sprinkle holy water on persons and objects as a sign of blessing and purification.",
+    body: "The aspergillum is a brush, perforated ball, or branch used to sprinkle holy water during the Asperges (or Vidi Aquam during Easter), at blessings, funerals, and other rites. It is paired with the aspersorium, the bucket that holds the holy water. The sprinkling rite at the beginning of Mass on Sundays recalls the faithful's baptism, replacing the Penitential Act as a reminder of baptismal cleansing.",
+    whyItMatters: "The aspergillum's sprinkling action makes baptismal grace tangible to the assembly, renewing the community's identity as the baptized people of God at the start of worship.",
+    relatedTerms: ["liturgy-holy-water", "liturgy-holy-water-font", "liturgy-liturgical-gestures"]
+  },
+  {
+    id: "liturgy-holy-water-font",
+    term: "Holy Water Font",
+    category: "liturgy",
+    tags: ["holy water", "baptism", "entrance"],
+    oneLiner: "The small basin near the church entrance containing blessed water, used by the faithful to bless themselves upon entering and leaving.",
+    body: "Holy water fonts (also called stoups) are placed near the doors of Catholic churches so that the faithful can dip their fingers and make the Sign of the Cross upon entering and leaving. This gesture is a sacramental that recalls baptism, invoking God's protection and purification. Fonts range from simple stone basins to elaborate sculptural works. They are emptied during the Triduum as a sign of the Church's mourning and refilled with newly blessed Easter water.",
+    whyItMatters: "The holy water font makes every entrance into the church a mini-renewal of baptismal promises, connecting the mundane act of walking through a door to the saving waters of the sacrament.",
+    relatedTerms: ["liturgy-aspergillum", "liturgy-holy-water", "liturgy-narthex-function"]
+  },
+  {
+    id: "liturgy-ambo-design",
+    term: "The Ambo",
+    category: "liturgy",
+    tags: ["architecture", "Word of God", "readings"],
+    oneLiner: "The dignified reading stand from which Scripture is proclaimed in the liturgy, symbolizing the importance of God's Word.",
+    body: "The ambo (from the Greek anabainein, 'to ascend') is the fixed reading stand in the sanctuary from which the readings, responsorial psalm, and homily are delivered. The GIRM specifies that the ambo should be a stationary, dignified structure befitting the Word of God, not a portable lectern. Its placement and design should reflect the Catholic conviction that Christ is truly present when Sacred Scripture is proclaimed in the liturgy.",
+    whyItMatters: "A worthy ambo teaches the faithful that the Liturgy of the Word is not a preliminary to the 'real' liturgy but a genuine encounter with Christ present in his Word.",
+    relatedTerms: ["liturgy-liturgical-space", "liturgy-sanctuary-design", "liturgy-lectionary"]
+  },
+  {
+    id: "liturgy-cathedra",
+    term: "The Cathedra",
+    category: "liturgy",
+    tags: ["architecture", "bishop", "cathedral"],
+    oneLiner: "The bishop's official chair in his cathedral church, from which the cathedral takes its name and which symbolizes his teaching authority.",
+    body: "The cathedra (from the Greek for 'seat') is the throne of the diocesan bishop, placed prominently in the cathedral. It symbolizes the bishop's role as teacher, shepherd, and liturgical leader of the local church. The phrase ex cathedra ('from the chair') refers to the pope's exercise of his supreme teaching authority. The cathedra's presence distinguishes a cathedral from all other churches in the diocese.",
+    whyItMatters: "The cathedra is a visible sign that the bishop is the chief liturgist and teacher of his diocese, connecting every cathedral liturgy to apostolic authority.",
+    relatedTerms: ["liturgy-presider-chair", "liturgy-sanctuary-design", "liturgy-liturgical-space"]
+  },
+  {
+    id: "liturgy-presider-chair",
+    term: "Presider's Chair",
+    category: "liturgy",
+    tags: ["architecture", "priest", "sanctuary"],
+    oneLiner: "The chair from which the priest celebrant leads the liturgical assembly, positioned to express his role as presider acting in the person of Christ.",
+    body: "The presider's chair is placed in the sanctuary in a position that allows the priest to be seen by the assembly as he leads the prayers and directs the liturgical action. The GIRM directs that it should avoid any resemblance to a throne (reserved for the bishop's cathedra) while still conveying the dignity of the one who presides in persona Christi. The chair is used for the Introductory Rites, the Liturgy of the Word (except the readings), and the Concluding Rites.",
+    whyItMatters: "The placement and design of the presider's chair express the theology of ordained ministry: the priest leads the assembly not by personal authority but as one configured to Christ the Head.",
+    relatedTerms: ["liturgy-cathedra", "liturgy-sanctuary-design", "liturgy-liturgical-space"]
+  },
+  {
+    id: "liturgy-credence-table",
+    term: "Credence Table",
+    category: "liturgy",
+    tags: ["furnishing", "vessels", "sanctuary"],
+    oneLiner: "The small side table in the sanctuary that holds the liturgical vessels and items needed for the celebration of Mass.",
+    body: "The credence table is positioned near the altar in the sanctuary and holds the chalice, paten, cruets of water and wine, the lavabo dish and towel, and other items used during the Liturgy of the Eucharist. Its name derives from the Italian credenza, a sideboard. Although humble in function, the credence table is essential to the orderly celebration of the liturgy, ensuring that sacred vessels are within reach without cluttering the altar.",
+    whyItMatters: "The credence table supports the reverent and orderly celebration of the Eucharist, ensuring that the altar remains reserved for the sacrifice rather than becoming a utility surface.",
+    relatedTerms: ["liturgy-altar", "liturgy-sanctuary-design", "liturgy-cruets"]
+  },
+  {
+    id: "liturgy-altar-cloth",
+    term: "Altar Cloth",
+    category: "liturgy",
+    tags: ["altar", "linen", "vestment"],
+    oneLiner: "The white linen covering placed on the altar for the celebration of Mass, signifying the dignity of the Eucharistic table.",
+    body: "The GIRM requires that at least one white cloth cover the altar for the celebration of Mass. Historically, three cloths were used: the cere cloth to protect the linen from moisture, a middle cloth, and the topmost fair linen. The white color symbolizes purity and the festive nature of the Eucharistic banquet. The altar cloth also evokes the burial linens of Christ, connecting the altar to both the table of the Last Supper and the tomb.",
+    whyItMatters: "The altar cloth expresses reverence for the altar as the place where Christ's sacrifice becomes present, clothing the most sacred surface in the church with fitting dignity.",
+    relatedTerms: ["liturgy-altar", "liturgy-corporal", "liturgy-purificator"]
+  },
+  {
+    id: "liturgy-corporal",
+    term: "Corporal",
+    category: "liturgy",
+    tags: ["linen", "Eucharist", "altar"],
+    oneLiner: "The square white linen cloth placed on the altar upon which the chalice and paten rest during the Eucharistic liturgy.",
+    body: "The corporal (from the Latin corpus, 'body') is a square piece of white linen unfolded on the altar at the Offertory to receive the vessels containing the Body and Blood of Christ. It catches any particles or drops that may fall, reflecting the Church's reverence for every fragment of the consecrated species. After Mass, the corporal is carefully folded inward to retain any particles and is purified before laundering.",
+    whyItMatters: "The corporal witnesses to the Church's belief in the Real Presence by treating even the smallest particle of the Eucharist as the Body of Christ worthy of utmost care.",
+    relatedTerms: ["liturgy-altar-cloth", "liturgy-purificator", "liturgy-pall-liturgical"]
+  },
+  {
+    id: "liturgy-purificator",
+    term: "Purificator",
+    category: "liturgy",
+    tags: ["linen", "chalice", "Eucharist"],
+    oneLiner: "The small white linen cloth used to wipe the chalice and the celebrant's fingers after Communion.",
+    body: "The purificator is a rectangular white linen cloth, often marked with a small cross, used to cleanse the chalice, paten, and the priest's fingers during and after the distribution of Holy Communion. Like the corporal, it must be properly purified by rinsing in water before being sent to the laundry, to ensure that no fragment or drop of the Eucharistic species is treated carelessly.",
+    whyItMatters: "The purificator expresses the same Eucharistic faith as the corporal: that Christ is fully present in every drop of the Precious Blood and every fragment of the Sacred Host.",
+    relatedTerms: ["liturgy-corporal", "liturgy-finger-towel", "liturgy-altar-cloth"]
+  },
+  {
+    id: "liturgy-pall-liturgical",
+    term: "Pall (Liturgical)",
+    category: "liturgy",
+    tags: ["linen", "chalice", "Eucharist"],
+    oneLiner: "The stiffened square cover placed over the chalice to protect the Precious Blood from foreign matter during Mass.",
+    body: "The liturgical pall is a small, stiffened square of white linen (or linen-covered card) placed over the chalice when it is not being used during Mass. It prevents dust, insects, or other contaminants from falling into the Precious Blood. Though a small and easily overlooked item, its use reflects the Church's meticulous reverence for the Eucharistic species. The pall is distinct from the funeral pall draped over a casket.",
+    whyItMatters: "The pall demonstrates that no detail is too small when protecting the sacramental presence of Christ in the Eucharist.",
+    relatedTerms: ["liturgy-corporal", "liturgy-purificator", "liturgy-chalice"]
+  },
+  {
+    id: "liturgy-finger-towel",
+    term: "Finger Towel",
+    category: "liturgy",
+    tags: ["linen", "lavabo", "purification"],
+    oneLiner: "The small towel used by the priest to dry his fingers after the lavabo washing during the Offertory of the Mass.",
+    body: "The finger towel (also called the manuterge) is a small white linen cloth presented to the priest after he washes his fingertips at the lavabo during the Preparation of the Gifts. While the washing has a practical origin in the early Church when the faithful brought forward gifts of food, it now carries a symbolic meaning: the priest prays 'Wash me, O Lord, from my iniquity and cleanse me from my sin,' expressing his desire for interior purity before approaching the Eucharistic Prayer.",
+    whyItMatters: "The finger towel participates in the priest's act of spiritual preparation, symbolizing the purification needed to approach the altar of God worthily.",
+    relatedTerms: ["liturgy-lavabo", "liturgy-purificator", "liturgy-corporal"]
+  },
+  {
+    id: "liturgy-cruets",
+    term: "Cruets",
+    category: "liturgy",
+    tags: ["vessels", "water", "wine"],
+    oneLiner: "The small pitchers containing wine and water brought to the altar at the Offertory for the celebration of the Eucharist.",
+    body: "Cruets are small vessels, traditionally of glass or precious metal, that hold the wine and water used in the Mass. At the Preparation of the Gifts, the server presents the cruets to the priest, who pours wine and a small amount of water into the chalice. The mixing of water with wine symbolizes the union of Christ's divinity with our humanity, as the prayer accompanying the action expresses. The water cruet is also used for the lavabo.",
+    whyItMatters: "The cruets contain the elements that will become the Precious Blood, and the ritual of mixing water with wine expresses the profound mystery of the Incarnation at every Mass.",
+    relatedTerms: ["liturgy-credence-table", "liturgy-lavabo", "liturgy-altar"]
+  },
+  {
+    id: "liturgy-lavabo",
+    term: "Lavabo",
+    category: "liturgy",
+    tags: ["washing", "purification", "Offertory"],
+    oneLiner: "The ritual washing of the priest's hands during the Preparation of the Gifts, accompanied by a prayer for interior purification.",
+    body: "The lavabo (Latin for 'I will wash,' from Psalm 26:6) is the rite in which the priest washes his fingertips over a small basin during the Offertory. A server pours water from a cruet over the priest's fingers while he quietly prays for cleansing from sin. Originally a practical necessity when priests received gifts in kind from the faithful, it became a symbolic act of spiritual preparation for the great Eucharistic Prayer that follows.",
+    whyItMatters: "The lavabo reminds both priest and assembly that approaching the mystery of the Eucharist requires interior purity, not merely external ritual correctness.",
+    relatedTerms: ["liturgy-finger-towel", "liturgy-cruets", "liturgy-offertory"]
+  },
+  {
+    id: "liturgy-missal-stand",
+    term: "Missal Stand",
+    category: "liturgy",
+    tags: ["furnishing", "missal", "altar"],
+    oneLiner: "The stand or cushion placed on the altar to support the Roman Missal during the celebration of Mass.",
+    body: "The missal stand holds the Roman Missal at a readable angle for the priest during the prayers of the Mass. It may be a simple bookstand, an ornate metal holder, or a cushion. The stand is placed on the altar at the left side (the Epistle side in the Extraordinary Form) and moved as needed. Its use ensures that the priest can read the prayers clearly while keeping his hands free for liturgical gestures.",
+    whyItMatters: "The missal stand is a practical aid that supports the dignified celebration of the Mass by allowing the priest to proclaim the Church's prayers with clarity and reverence.",
+    relatedTerms: ["liturgy-roman-missal", "liturgy-altar", "liturgy-credence-table"]
+  },
+  {
+    id: "liturgy-lectionary-book",
+    term: "Lectionary",
+    category: "liturgy",
+    tags: ["Scripture", "readings", "book"],
+    oneLiner: "The liturgical book containing the Scripture readings arranged according to the liturgical calendar for proclamation at Mass.",
+    body: "The Lectionary is the book from which the Scripture readings are proclaimed during the Liturgy of the Word. It organizes biblical passages according to a three-year Sunday cycle and a two-year weekday cycle, along with readings for saints' feasts, ritual Masses, and votive Masses. The current Lectionary, revised after Vatican II, vastly expanded the selection of Scripture read at Mass, fulfilling the Council's desire that the treasures of the Bible be opened more lavishly to the faithful.",
+    whyItMatters: "The Lectionary ensures that the faithful encounter a broad and systematic selection of Sacred Scripture rather than leaving the choice of readings to individual preference.",
+    relatedTerms: ["liturgy-ambo-design", "liturgy-book-of-gospels", "liturgy-lectionary"]
+  },
+  {
+    id: "liturgy-book-of-gospels",
+    term: "Book of the Gospels",
+    category: "liturgy",
+    tags: ["Scripture", "Gospel", "procession"],
+    oneLiner: "The ornate liturgical book containing the Gospel readings, carried in procession and reverenced with incense and kisses during Mass.",
+    body: "The Book of the Gospels (Evangeliarium) contains only the Gospel texts proclaimed at Mass and is distinct from the Lectionary. It is carried in the entrance procession, placed on the altar, and then solemnly carried to the ambo for the Gospel proclamation. It may be incensed, and the deacon or priest kisses it after reading. Its elaborate binding and special treatment express the Church's belief that Christ himself speaks when the Gospel is proclaimed.",
+    whyItMatters: "The special reverence given to the Book of the Gospels teaches the faithful that the Gospel holds a unique place among the Scriptures as the direct account of Christ's words and deeds.",
+    relatedTerms: ["liturgy-lectionary-book", "liturgy-ambo-design", "liturgy-thurible-use"]
+  },
+  {
+    id: "liturgy-sacramentary",
+    term: "Sacramentary",
+    category: "liturgy",
+    tags: ["book", "prayers", "historical"],
+    oneLiner: "The historical liturgical book containing the prayers spoken by the presiding priest at Mass and other sacramental rites.",
+    body: "The Sacramentary was the principal liturgical book used by the celebrant from the early medieval period, containing the orations, prefaces, and Eucharistic Prayers for Mass and other rites. Major historical examples include the Leonine, Gelasian, and Gregorian Sacramentaries. After Vatican II, the term was used for the English translation of the Roman Missal in the United States until 2011, when the corrected translation restored the title 'Roman Missal.'",
+    whyItMatters: "The Sacramentary tradition preserves centuries of the Church's prayer language and demonstrates how liturgical texts developed organically from the earliest Christian centuries.",
+    relatedTerms: ["liturgy-roman-missal", "liturgy-ritual-book", "liturgy-pontifical-book"]
+  },
+  {
+    id: "liturgy-ritual-book",
+    term: "Ritual Book",
+    category: "liturgy",
+    tags: ["book", "sacraments", "rites"],
+    oneLiner: "A liturgical book containing the prayers and rubrics for the celebration of specific sacraments and rites outside of Mass.",
+    body: "The Ritual (Rituale Romanum) contains the texts and instructions for administering the sacraments (other than Mass and ordination), blessings, funerals, exorcisms, and other rites. Originally compiled in 1614 under Pope Paul V, it has been revised multiple times, most extensively after Vatican II when individual rites were published as separate books. The ritual books provide both the words and the detailed rubrical directions for each celebration.",
+    whyItMatters: "The Ritual ensures that the sacraments and rites are celebrated according to the mind of the Church, preserving their theological integrity across time and place.",
+    relatedTerms: ["liturgy-sacramentary", "liturgy-pontifical-book", "liturgy-ceremonial-of-bishops"]
+  },
+  {
+    id: "liturgy-pontifical-book",
+    term: "Pontifical",
+    category: "liturgy",
+    tags: ["book", "bishop", "ordination"],
+    oneLiner: "The liturgical book containing rites reserved to the bishop, including ordinations, dedications of churches, and confirmations.",
+    body: "The Roman Pontifical (Pontificale Romanum) contains the texts and rubrics for liturgical ceremonies proper to a bishop: ordinations, the consecration of churches and altars, the blessing of abbots and abbesses, the consecration of virgins, and other episcopal rites. Its contents reflect the fullness of the bishop's liturgical ministry as the chief celebrant in his diocese. After Vatican II, the pontifical rites were revised and published as separate ritual books.",
+    whyItMatters: "The Pontifical preserves and communicates the unique liturgical role of the bishop as the successor of the apostles and the fullness of the priesthood in the local church.",
+    relatedTerms: ["liturgy-ceremonial-of-bishops", "liturgy-sacramentary", "liturgy-ritual-book"]
+  },
+  {
+    id: "liturgy-ceremonial-of-bishops",
+    term: "Ceremonial of Bishops",
+    category: "liturgy",
+    tags: ["book", "bishop", "rubrics"],
+    oneLiner: "The liturgical guide detailing the ceremonies and protocols for liturgies presided over by a bishop.",
+    body: "The Caeremoniale Episcoporum provides detailed directions for how bishops celebrate Mass, the Liturgy of the Hours, and other rites. It covers the arrangement of the sanctuary, the roles of ministers, the use of pontifical insignia (miter, crosier, ring), and the protocols for solemn celebrations. Revised in 1984 after Vatican II, it serves as the comprehensive rubrical guide for episcopal liturgies in the Latin rite.",
+    whyItMatters: "The Ceremonial of Bishops ensures that liturgies presided over by the bishop reflect the full solemnity befitting his role as chief shepherd and liturgist of the diocese.",
+    relatedTerms: ["liturgy-pontifical-book", "liturgy-rubrics", "liturgy-cathedra"]
+  },
+  {
+    id: "liturgy-roman-martyrology",
+    term: "Roman Martyrology",
+    category: "liturgy",
+    tags: ["saints", "calendar", "martyrs"],
+    oneLiner: "The official liturgical book listing all saints and blessed honored in the Roman Rite, with brief accounts of their lives and deaths.",
+    body: "The Roman Martyrology (Martyrologium Romanum) is a catalogue of saints and blessed arranged by their feast days throughout the year. Each entry provides the saint's name, place and date of death, and a brief description. It is read aloud in some religious communities during the Office of Prime or at the start of the day, announcing the saints commemorated on the following day. The most recent edition was published in 2001 and expanded significantly.",
+    whyItMatters: "The Martyrology connects the worshipping Church to its heroic past, placing each day's liturgy within the communion of saints spanning two millennia.",
+    relatedTerms: ["liturgy-sanctoral-cycle", "liturgy-liturgical-calendar-deeper", "liturgy-solemnities"]
+  },
+  {
+    id: "liturgy-liturgical-calendar-deeper",
+    term: "Liturgical Calendar (Structure)",
+    category: "liturgy",
+    tags: ["calendar", "ranking", "feasts"],
+    oneLiner: "The hierarchical system that ranks liturgical celebrations as solemnities, feasts, memorials, and optional memorials to order the Church's worship.",
+    body: "The liturgical calendar organizes celebrations into a strict hierarchy: solemnities (the highest rank, such as Easter and Christmas), feasts (such as the Apostles), obligatory memorials, and optional memorials. When two celebrations conflict, the higher-ranking one takes precedence. Sundays in Advent, Lent, and Easter always take precedence over any feast or memorial. This system ensures that the temporal cycle of Christ's mysteries and the sanctoral cycle of saints' commemorations are woven together in an ordered pattern.",
+    whyItMatters: "The hierarchical calendar ensures that the core mysteries of Christ remain central to worship, preventing the sanctoral cycle from eclipsing the temporal celebration of salvation history.",
+    relatedTerms: ["liturgy-solemnities", "liturgy-feast-days", "liturgy-memorials"]
+  },
+  {
+    id: "liturgy-sanctoral-cycle",
+    term: "Sanctoral Cycle",
+    category: "liturgy",
+    tags: ["saints", "calendar", "feasts"],
+    oneLiner: "The annual cycle of saints' feasts and memorials layered over the temporal cycle in the liturgical calendar.",
+    body: "The sanctoral cycle commemorates the saints throughout the year, typically on the anniversary of their death (their 'birthday' into heaven). It includes solemnities of major saints (such as the Blessed Virgin Mary and the apostles), obligatory memorials, and optional memorials. The sanctoral cycle was significantly reformed after Vatican II to ensure universal saints were historically verified and to reduce the number of celebrations that displaced the temporal cycle.",
+    whyItMatters: "The sanctoral cycle teaches the faithful by example, presenting the saints as models of holiness who lived the Gospel in every age and culture.",
+    relatedTerms: ["liturgy-temporal-cycle", "liturgy-liturgical-calendar-deeper", "liturgy-roman-martyrology"]
+  },
+  {
+    id: "liturgy-temporal-cycle",
+    term: "Temporal Cycle",
+    category: "liturgy",
+    tags: ["calendar", "seasons", "mysteries"],
+    oneLiner: "The annual cycle of liturgical seasons and Sundays that celebrates the mysteries of Christ's life from Advent to the end of Ordinary Time.",
+    body: "The temporal cycle (also called the Proper of Time) forms the backbone of the liturgical year, moving through Advent, Christmas, Ordinary Time, Lent, the Easter Triduum, Easter Season, and back to Ordinary Time. Each season unfolds a particular aspect of the one Paschal Mystery. The temporal cycle takes precedence over the sanctoral cycle, ensuring that the celebration of Christ's mysteries remains the primary content of the Church's worship throughout the year.",
+    whyItMatters: "The temporal cycle ensures that every year the faithful relive the entire arc of salvation history, from expectation to Incarnation to Passion to Resurrection to the sending of the Spirit.",
+    relatedTerms: ["liturgy-sanctoral-cycle", "liturgy-liturgical-year", "liturgy-liturgical-calendar-deeper"]
+  },
+  {
+    id: "liturgy-advent-wreath-liturgical",
+    term: "Advent Wreath (Liturgical Use)",
+    category: "liturgy",
+    tags: ["Advent", "candles", "symbolism"],
+    oneLiner: "The circular wreath with four candles used in the liturgy during Advent to mark the progressive approach of Christ the Light.",
+    body: "The Advent wreath in its liturgical use is placed in the sanctuary or near the ambo, and one additional candle is lit each Sunday of Advent. The three violet candles and one rose candle (for Gaudete Sunday) mark the passage of the season. The circular wreath of evergreen signifies eternity and unending life, while the increasing light symbolizes Christ the Light drawing nearer. The Book of Blessings provides a rite for blessing the Advent wreath.",
+    whyItMatters: "The liturgical Advent wreath gives the assembly a visible, progressive sign of hope, teaching that salvation history moves steadily toward the fullness of Christ's light.",
+    relatedTerms: ["liturgy-advent", "liturgy-liturgical-symbolism", "liturgy-liturgical-colors"]
+  },
+  {
+    id: "liturgy-christmas-creche-liturgical",
+    term: "Christmas Creche (Liturgical)",
+    category: "liturgy",
+    tags: ["Christmas", "Nativity", "devotion"],
+    oneLiner: "The Nativity scene displayed in churches during the Christmas season as a liturgical and devotional aid to contemplating the Incarnation.",
+    body: "The Christmas creche, attributed to St. Francis of Assisi who created the first living Nativity in 1223, is a three-dimensional representation of the birth of Christ placed in the church during the Christmas season. The figures of the Holy Family, shepherds, angels, and magi make the mystery of the Incarnation visible and accessible. The Christ child figure is often placed in the manger during the Christmas Vigil Mass. The magi are added at Epiphany.",
+    whyItMatters: "The creche brings the mystery of God becoming an infant in a stable into the church's visual landscape, inviting the faithful to contemplate the humility and tenderness of the Incarnation.",
+    relatedTerms: ["liturgy-christmas", "liturgy-liturgical-symbolism", "liturgy-epiphany-star"]
+  },
+  {
+    id: "liturgy-epiphany-star",
+    term: "Epiphany Star",
+    category: "liturgy",
+    tags: ["Epiphany", "symbolism", "magi"],
+    oneLiner: "The star displayed during Epiphany celebrations symbolizing the light that guided the Magi to Christ and represents the revelation of Christ to the nations.",
+    body: "The Epiphany star is a prominent symbol during the feast of the Epiphany, representing the Star of Bethlehem that led the Magi to the Christ child. In liturgical practice, the star is displayed in churches, on vestments, and in the Nativity scene. The Epiphany celebration includes traditional customs such as the chalking of doors (writing the year and the initials of the Magi over doorways) and the solemn announcement of the date of Easter and other moveable feasts.",
+    whyItMatters: "The Epiphany star expresses the universal scope of Christ's salvation, reminding the faithful that he came not for one nation alone but as the light of all peoples.",
+    relatedTerms: ["liturgy-christmas-creche-liturgical", "liturgy-christmas", "liturgy-liturgical-symbolism"]
+  },
+  {
+    id: "liturgy-lenten-veil",
+    term: "Lenten Veil",
+    category: "liturgy",
+    tags: ["Lent", "penance", "symbolism"],
+    oneLiner: "The purple cloth used to cover crosses, statues, and images in churches during the final weeks of Lent as a sign of penitential sobriety.",
+    body: "The practice of veiling crosses and images during Lent, particularly from the Fifth Sunday of Lent (formerly called Passion Sunday) through Good Friday, strips the church of visual beauty as a form of liturgical fasting for the eyes. The veils are violet, matching the Lenten liturgical color. Crosses are unveiled on Good Friday during the Veneration of the Cross, while images remain veiled until the Easter Vigil. This practice creates a visual hunger that makes the Easter unveiling all the more powerful.",
+    whyItMatters: "Lenten veiling teaches through absence, creating a spiritual hunger for the beauty of Christ that is satisfied only in the glory of the Resurrection at Easter.",
+    relatedTerms: ["liturgy-lent", "liturgy-passion-cross", "liturgy-good-friday"]
+  },
+  {
+    id: "liturgy-passion-cross",
+    term: "Passion Cross",
+    category: "liturgy",
+    tags: ["cross", "Lent", "Good Friday"],
+    oneLiner: "The processional or altar cross given special prominence during Passiontide and venerated by the faithful on Good Friday.",
+    body: "During the last two weeks of Lent and especially on Good Friday, the cross receives heightened liturgical attention. The Good Friday liturgy includes the solemn Showing of the Cross, in which the veiled cross is progressively unveiled while the priest sings 'Behold the wood of the Cross,' followed by the Veneration of the Cross, when the faithful approach individually to reverence the cross by kissing it, genuflecting, or bowing. This is one of the most ancient and moving rites in the Roman liturgy.",
+    whyItMatters: "The veneration of the Passion cross draws the faithful into direct, personal encounter with the instrument of salvation, making the abstract doctrine of redemption intensely concrete.",
+    relatedTerms: ["liturgy-good-friday", "liturgy-lenten-veil", "liturgy-easter-triduum"]
+  },
+  {
+    id: "liturgy-easter-candle-deeper",
+    term: "Paschal Candle (Deeper)",
+    category: "liturgy",
+    tags: ["Easter", "light", "symbolism"],
+    oneLiner: "The large wax candle inscribed with the cross, Alpha and Omega, and the year, lit at the Easter Vigil to represent the Risen Christ as the Light of the World.",
+    body: "The Paschal candle is prepared and lit from the new fire at the Easter Vigil, then carried in procession into the darkened church as the deacon sings 'Lumen Christi' (Light of Christ). It is inscribed with a cross, the Alpha and Omega, and the digits of the current year, symbolizing that Christ, the beginning and the end, is Lord of all time. Five grains of incense inserted into the cross recall the five wounds. The candle burns at every liturgy through the Easter season and at baptisms and funerals throughout the year.",
+    whyItMatters: "The Paschal candle is the Church's primary symbol of the Resurrection, proclaiming that Christ's light conquers all darkness and accompanies the faithful from baptism to burial.",
+    relatedTerms: ["liturgy-easter-vigil-fire", "liturgy-easter-water", "liturgy-easter-season"]
+  },
+  {
+    id: "liturgy-baptismal-water-blessing",
+    term: "Blessing of Baptismal Water",
+    category: "liturgy",
+    tags: ["baptism", "water", "Easter Vigil"],
+    oneLiner: "The solemn prayer at the Easter Vigil that consecrates water for baptism by invoking the Holy Spirit and recalling salvation history's waters.",
+    body: "The blessing of baptismal water at the Easter Vigil is one of the most theologically rich prayers in the Roman liturgy. It recalls the waters of creation, the flood, the Red Sea crossing, and the Jordan, before invoking the Holy Spirit to descend upon the water as upon Mary at the Annunciation. The Paschal candle is lowered into the water, symbolizing Christ's descent into death and his rising to new life. This water is then used for the baptisms of the Vigil and throughout the year.",
+    whyItMatters: "The blessing of baptismal water reveals that Christian baptism is not a human invention but the culmination of God's saving action through water across all of salvation history.",
+    relatedTerms: ["liturgy-easter-candle-deeper", "liturgy-easter-vigil-fire", "liturgy-easter-water"]
+  },
+  {
+    id: "liturgy-oil-of-chrism-blessing",
+    term: "Blessing of the Oil of Chrism",
+    category: "liturgy",
+    tags: ["chrism", "oil", "bishop"],
+    oneLiner: "The bishop's solemn consecration of Sacred Chrism at the Chrism Mass, setting apart perfumed oil for baptism, confirmation, and ordination.",
+    body: "The Oil of Chrism is uniquely consecrated (not merely blessed) by the bishop, who breathes over the oil and prays a lengthy consecratory prayer invoking the Holy Spirit. Chrism is a mixture of olive oil and balsam (or perfume), and its fragrance symbolizes the 'good odor of Christ' that the anointed are to spread. Only bishops may consecrate Chrism, underscoring the connection between this sacramental oil and the fullness of apostolic ministry.",
+    whyItMatters: "The consecration of Chrism links every baptism, confirmation, and ordination in the diocese to the bishop's apostolic ministry and the entire sacramental economy of the Church.",
+    relatedTerms: ["liturgy-chrism-mass", "liturgy-holy-thursday-foot-washing", "liturgy-oil-of-chrism-blessing"]
+  },
+  {
+    id: "liturgy-chrism-mass",
+    term: "Chrism Mass",
+    category: "liturgy",
+    tags: ["Holy Week", "oils", "priesthood"],
+    oneLiner: "The diocesan liturgy, usually celebrated on Holy Thursday morning, at which the bishop blesses the holy oils and priests renew their ordination promises.",
+    body: "The Chrism Mass gathers the priests of the diocese around their bishop in the cathedral for one of the most significant annual celebrations of the local church. The bishop consecrates the Oil of Chrism and blesses the Oil of Catechumens and the Oil of the Sick for use throughout the coming year. Priests renew the promises they made at ordination. The oils are then distributed to every parish, connecting the sacramental life of the entire diocese to the bishop's ministry.",
+    whyItMatters: "The Chrism Mass manifests the unity of the diocesan church around the bishop and ensures that every sacrament celebrated with holy oils flows from a single apostolic source.",
+    relatedTerms: ["liturgy-oil-of-chrism-blessing", "liturgy-holy-thursday-foot-washing", "liturgy-easter-triduum"]
+  },
+  {
+    id: "liturgy-holy-thursday-foot-washing",
+    term: "Mandatum (Foot Washing)",
+    category: "liturgy",
+    tags: ["Holy Thursday", "service", "humility"],
+    oneLiner: "The ritual washing of feet during the Mass of the Lord's Supper on Holy Thursday, reenacting Christ's act of humble service at the Last Supper.",
+    body: "The Mandatum (from the Latin for 'commandment,' referencing John 13:34) is the ritual in which the presiding priest washes and dries the feet of selected members of the faithful during the Holy Thursday evening Mass. It reenacts Jesus' washing of the apostles' feet at the Last Supper, which he presented as a model of servant leadership. Pope Francis in 2016 expanded the rite to include all members of the people of God, not only men.",
+    whyItMatters: "The Mandatum makes Christ's commandment to serve visible in the liturgy, challenging every member of the Church to imitate the Lord who came not to be served but to serve.",
+    relatedTerms: ["liturgy-chrism-mass", "liturgy-easter-triduum", "liturgy-holy-thursday"]
+  },
+  {
+    id: "liturgy-good-friday-veneration",
+    term: "Veneration of the Cross",
+    category: "liturgy",
+    tags: ["Good Friday", "cross", "devotion"],
+    oneLiner: "The solemn liturgical rite on Good Friday in which the faithful approach and reverence the cross of Christ.",
+    body: "The Veneration of the Cross is the centerpiece of the Good Friday liturgy. The priest unveils the cross in three stages, each time singing 'Ecce lignum Crucis' (Behold the wood of the Cross), and the assembly responds 'Venite adoremus' (Come, let us adore). The faithful then process forward to reverence the cross by a kiss, genuflection, or bow. The Reproaches (Improperia), ancient chants in which Christ addresses his people, are traditionally sung during the veneration.",
+    whyItMatters: "The Veneration of the Cross transforms the theological truth of Christ's sacrificial death into a personal, physical act of devotion, uniting each believer to the mystery of the Cross.",
+    relatedTerms: ["liturgy-passion-cross", "liturgy-good-friday", "liturgy-lenten-veil"]
+  },
+  {
+    id: "liturgy-easter-vigil-fire",
+    term: "Easter Vigil Fire",
+    category: "liturgy",
+    tags: ["Easter Vigil", "fire", "light"],
+    oneLiner: "The new fire kindled outside the darkened church at the start of the Easter Vigil, from which the Paschal candle is lit.",
+    body: "The Easter Vigil begins in total darkness with the blessing and lighting of a new fire, symbolizing Christ rising from the darkness of the tomb. The priest blesses the fire, lights the Paschal candle from it, and processes into the dark church. The light spreads from the Paschal candle to the candles of the faithful until the entire church is illuminated. This Lucernarium (Service of Light) is one of the most ancient elements of Christian worship, dating to at least the fourth century.",
+    whyItMatters: "The Easter fire dramatically enacts the central Christian claim: that Christ's Resurrection is the definitive victory of light over darkness, life over death.",
+    relatedTerms: ["liturgy-easter-candle-deeper", "liturgy-easter-water", "liturgy-easter-vigil"]
+  },
+  {
+    id: "liturgy-easter-water",
+    term: "Easter Water",
+    category: "liturgy",
+    tags: ["Easter", "baptism", "water"],
+    oneLiner: "The water blessed at the Easter Vigil, used for baptisms and distributed to the faithful as a sacramental throughout the Easter season.",
+    body: "Easter water is the baptismal water solemnly blessed at the Easter Vigil and used for the baptisms celebrated that night. It may be carried home by the faithful and used for blessings throughout the Easter season, replacing the holy water in fonts. The custom of distributing Easter water connects the domestic church to the great liturgical celebration of the Vigil. Its use reminds the baptized of their own passage through the waters of death and resurrection.",
+    whyItMatters: "Easter water extends the grace of the Easter Vigil into the homes and daily lives of the faithful, making the baptismal mystery a lived reality beyond the church walls.",
+    relatedTerms: ["liturgy-baptismal-water-blessing", "liturgy-easter-vigil-fire", "liturgy-holy-water"]
+  },
+  {
+    id: "liturgy-blessing-of-food",
+    term: "Blessing of Food",
+    category: "liturgy",
+    tags: ["blessing", "Easter", "sacramental"],
+    oneLiner: "The liturgical blessing of food, especially at Easter, consecrating the fruits of the earth for festive celebration after the Lenten fast.",
+    body: "The blessing of Easter food is a beloved tradition in many Catholic cultures, particularly among Polish, Ukrainian, and other Central European communities. Baskets of food—eggs, bread, meat, salt, and horseradish—are brought to the church on Holy Saturday to be blessed by the priest. The Book of Blessings provides texts for this and other food blessings. The practice recognizes that the Resurrection transforms all of creation, including the simple act of eating together.",
+    whyItMatters: "The blessing of food reminds the faithful that grace permeates all of life, sanctifying even the most ordinary human activities and reconnecting the table to the altar.",
+    relatedTerms: ["liturgy-easter-water", "liturgy-easter-vigil-fire", "liturgy-liturgical-symbolism"]
+  },
+  {
+    id: "liturgy-corpus-christi-procession-deeper",
+    term: "Corpus Christi Procession (Deeper)",
+    category: "liturgy",
+    tags: ["Eucharist", "procession", "adoration"],
+    oneLiner: "The solemn public procession of the Blessed Sacrament through the streets on the Solemnity of Corpus Christi, professing faith in the Real Presence.",
+    body: "The Corpus Christi procession, established in the thirteenth century following the institution of the feast by Pope Urban IV, carries the consecrated Host in a monstrance through the streets under a canopy, accompanied by hymns (often those composed by St. Thomas Aquinas), incense, and flowers. The procession typically stops at outdoor altars for Benediction. It is a public profession of faith in the Real Presence and an act of Eucharistic evangelization, bringing Christ out of the church and into the community.",
+    whyItMatters: "The Corpus Christi procession boldly proclaims in the public square what the Church believes happens at every Mass: that Christ is truly, really, and substantially present in the Eucharist.",
+    relatedTerms: ["liturgy-eucharistic-procession", "liturgy-benediction-ceremony-deeper", "liturgy-exposition-and-reposition"]
+  },
+  {
+    id: "liturgy-forty-hours-deeper",
+    term: "Forty Hours Devotion (Deeper)",
+    category: "liturgy",
+    tags: ["Eucharist", "adoration", "devotion"],
+    oneLiner: "The solemn forty-hour period of continuous Eucharistic exposition and adoration commemorating the time Christ's body lay in the tomb.",
+    body: "The Forty Hours Devotion (Quarant'Ore) involves the continuous exposition of the Blessed Sacrament for approximately forty hours, recalling the time between Christ's burial and Resurrection. Originating in sixteenth-century Milan under St. Charles Borromeo, it typically begins with a Solemn Mass of Exposition and concludes with a Solemn Mass of Reposition. Parishes in a diocese often rotate the devotion so that perpetual adoration continues throughout the year. It fosters deep Eucharistic piety and parish-wide engagement.",
+    whyItMatters: "The Forty Hours Devotion teaches the faithful that Christ's presence in the Eucharist is not limited to the moment of reception but endures for adoration, deepening love for the Blessed Sacrament.",
+    relatedTerms: ["liturgy-exposition-and-reposition", "liturgy-benediction-ceremony-deeper", "liturgy-corpus-christi-procession-deeper"]
+  },
+  {
+    id: "liturgy-exposition-and-reposition",
+    term: "Exposition and Reposition",
+    category: "liturgy",
+    tags: ["Eucharist", "adoration", "Benediction"],
+    oneLiner: "The liturgical rites by which the Blessed Sacrament is placed in a monstrance for public adoration and later returned to the tabernacle.",
+    body: "Exposition of the Blessed Sacrament involves removing the consecrated Host from the tabernacle and placing it in a monstrance or ciborium on the altar for the faithful to adore. Reposition is the act of returning the Sacrament to the tabernacle at the conclusion of adoration. The rite of exposition includes incensation, and reposition concludes with Benediction. The Holy See's instruction Redemptionis Sacramentum provides norms to ensure that exposition is conducted with proper reverence and adequate attendance.",
+    whyItMatters: "Exposition and reposition frame the faithful's adoration with proper liturgical solemnity, ensuring that Eucharistic devotion remains rooted in the Church's public worship rather than becoming a private exercise.",
+    relatedTerms: ["liturgy-benediction-ceremony-deeper", "liturgy-forty-hours-deeper", "liturgy-tabernacle"]
+  },
+  {
+    id: "liturgy-benediction-ceremony-deeper",
+    term: "Benediction of the Blessed Sacrament (Deeper)",
+    category: "liturgy",
+    tags: ["Eucharist", "blessing", "adoration"],
+    oneLiner: "The solemn liturgical rite concluding Eucharistic exposition, in which the priest blesses the assembly with the monstrance containing the consecrated Host.",
+    body: "Benediction is the concluding rite of Eucharistic exposition. After a period of adoration, hymns (typically Tantum Ergo), and incensation, the priest dons a humeral veil, takes the monstrance, and makes the Sign of the Cross over the assembly with the Blessed Sacrament. The Divine Praises are then recited, and the Sacrament is reposed. The priest uses the humeral veil to signify that it is Christ, not the priest, who blesses the people.",
+    whyItMatters: "Benediction teaches that every blessing the Church bestows ultimately flows from Christ himself, present in the Eucharist, and that his Real Presence is the source of all grace.",
+    relatedTerms: ["liturgy-exposition-and-reposition", "liturgy-benediction", "liturgy-forty-hours-deeper"]
+  },
+  {
+    id: "liturgy-tenebrae-deeper",
+    term: "Tenebrae (Deeper)",
+    category: "liturgy",
+    tags: ["Holy Week", "darkness", "Liturgy of the Hours"],
+    oneLiner: "The solemn chanting of Matins and Lauds during the Triduum, marked by the progressive extinguishing of candles to symbolize the darkness of Christ's Passion.",
+    body: "Tenebrae (Latin for 'darkness') is the anticipated celebration of Matins and Lauds for Holy Thursday, Good Friday, and Holy Saturday. Fifteen candles on a triangular stand (hearse) are progressively extinguished after each psalm, plunging the church into darkness. The last candle, representing Christ, is hidden behind the altar rather than extinguished, symbolizing that his light is obscured but not destroyed by death. A loud noise (strepitus) concludes the service, evoking the earthquake at Christ's death.",
+    whyItMatters: "Tenebrae immerses the faithful in the growing darkness of the Passion, making them feel the loss that the disciples experienced and deepening their longing for the Easter light.",
+    relatedTerms: ["liturgy-tenebrae", "liturgy-easter-triduum", "liturgy-liturgy-of-the-hours"]
+  },
+  {
+    id: "liturgy-stations-liturgical",
+    term: "Stations of the Cross (Liturgical)",
+    category: "liturgy",
+    tags: ["Lent", "Way of the Cross", "devotion"],
+    oneLiner: "The liturgical devotion in which the faithful walk through fourteen stations commemorating Christ's journey from condemnation to burial.",
+    body: "The Stations of the Cross are a liturgical devotion consisting of fourteen scenes from Christ's Passion, represented by crosses, images, or plaques arranged around the church or outdoors. The faithful process from station to station, pausing for meditation and prayer at each. Traditionally prayed on Fridays in Lent, the devotion originated with Franciscan promotion of pilgrimage to the Holy Land. A plenary indulgence is attached to the devout completion of the stations.",
+    whyItMatters: "The Stations of the Cross make the Via Dolorosa accessible to every Catholic, enabling a physical and spiritual pilgrimage through the Passion without traveling to Jerusalem.",
+    relatedTerms: ["liturgy-lent", "liturgy-passion-cross", "liturgy-good-friday-veneration"]
+  },
+  {
+    id: "liturgy-palm-sunday-procession",
+    term: "Palm Sunday Procession",
+    category: "liturgy",
+    tags: ["Holy Week", "palms", "procession"],
+    oneLiner: "The solemn procession with blessed palm or olive branches that opens Holy Week, commemorating Christ's triumphal entry into Jerusalem.",
+    body: "The Palm Sunday liturgy begins with the blessing of palms or branches, the proclamation of the Gospel of Christ's entry into Jerusalem, and a solemn procession into the church. The faithful carry their blessed palms and sing 'Hosanna,' reenacting the crowd's welcome of Jesus. The liturgy then shifts dramatically to the reading of the Passion narrative, foreshadowing the week ahead. The blessed palms are taken home and traditionally burned the following year to produce Ash Wednesday ashes.",
+    whyItMatters: "The Palm Sunday procession plunges the faithful into the dramatic tension of Holy Week, moving from triumphal joy to the shadow of the Cross in a single liturgy.",
+    relatedTerms: ["liturgy-palm-sunday", "liturgy-easter-triduum", "liturgy-lenten-veil"]
+  },
+  {
+    id: "liturgy-candlemas-procession",
+    term: "Candlemas Procession",
+    category: "liturgy",
+    tags: ["Presentation", "candles", "procession"],
+    oneLiner: "The procession with blessed candles on the Feast of the Presentation of the Lord (February 2), symbolizing Christ as the light of the nations.",
+    body: "Candlemas, the Feast of the Presentation of the Lord, includes the blessing of candles and a procession before Mass. The candles symbolize Christ as the 'light for revelation to the Gentiles' proclaimed by Simeon in the Temple (Luke 2:32). The procession reenacts the bringing of the infant Jesus into the Temple. Candles blessed on this day are often kept by the faithful for use in times of illness, storm, or death. The feast falls forty days after Christmas.",
+    whyItMatters: "The Candlemas procession connects the Christmas mystery to the broader arc of salvation, proclaiming that the child born in Bethlehem is the light promised to illumine all nations.",
+    relatedTerms: ["liturgy-christmas", "liturgy-liturgical-symbolism", "liturgy-church-bells"]
+  },
+  {
+    id: "liturgy-rogation-litany",
+    term: "Rogation Litany",
+    category: "liturgy",
+    tags: ["Rogation Days", "litany", "procession"],
+    oneLiner: "The penitential processions and litanies prayed on Rogation Days to ask God's blessing on crops, labor, and protection from calamity.",
+    body: "Rogation Days (from the Latin rogare, 'to ask') are days of prayer and fasting associated with penitential processions through fields and neighborhoods, during which the Litany of the Saints and other prayers are chanted. The Major Rogation (April 25) and Minor Rogations (three days before Ascension Thursday) petition God for good harvests, protection from natural disaster, and blessing on human labor. Though suppressed from the universal calendar in 1969, they may still be celebrated by local decision.",
+    whyItMatters: "Rogation Days remind the faithful that all material blessings come from God and that the Church's prayer extends beyond the sanctuary to sanctify the land, labor, and daily bread of her people.",
+    relatedTerms: ["liturgy-rogation-days", "liturgy-litany-of-saints-liturgical", "liturgy-ember-days"]
+  },
+  {
+    id: "liturgy-litany-of-saints-liturgical",
+    term: "Litany of the Saints (Liturgical)",
+    category: "liturgy",
+    tags: ["litany", "saints", "intercession"],
+    oneLiner: "The ancient litanic prayer invoking the intercession of the saints, sung at ordinations, religious professions, baptisms, and other solemn liturgical rites.",
+    body: "The Litany of the Saints is one of the most venerable prayers in the Roman liturgy, consisting of a series of petitions invoking the Blessed Virgin Mary, the angels, and saints by name, followed by supplications for the Church and the world. It is sung during ordinations (while candidates lie prostrate), at the Easter Vigil before baptisms, at religious professions, and during Rogation processions. The litany can be adapted by adding saints appropriate to the occasion.",
+    whyItMatters: "The Litany of the Saints manifests the communion of the Church militant with the Church triumphant, assuring those being ordained, baptized, or professed that they are surrounded by a great cloud of witnesses.",
+    relatedTerms: ["liturgy-rogation-litany", "liturgy-solemn-blessing", "liturgy-easter-vigil"]
+  },
+  {
+    id: "liturgy-solemn-blessing",
+    term: "Solemn Blessing",
+    category: "liturgy",
+    tags: ["blessing", "dismissal", "Mass"],
+    oneLiner: "An expanded form of the final blessing at Mass, consisting of three invocations over the people before the dismissal.",
+    body: "The Solemn Blessing is an optional, more elaborate form of the final blessing at Mass, consisting of three phrases to which the people respond 'Amen' before the Trinitarian blessing. The Roman Missal provides Solemn Blessings for various seasons and occasions, including Advent, Christmas, Lent, Easter, apostles, and martyrs. The deacon or priest first invites the people to bow their heads, and then the celebrant extends his hands over the assembly for each invocation.",
+    whyItMatters: "The Solemn Blessing sends the faithful forth with a richer, more specific invocation of God's grace, tailoring the Church's final word to the liturgical occasion.",
+    relatedTerms: ["liturgy-dismissal-rite", "liturgy-papal-blessing", "liturgy-holy-mass"]
+  },
+  {
+    id: "liturgy-papal-blessing",
+    term: "Papal Blessing",
+    category: "liturgy",
+    tags: ["Pope", "blessing", "apostolic"],
+    oneLiner: "A special blessing imparted by the Pope or, by his delegation, by bishops and certain priests on solemn occasions.",
+    body: "The Papal Blessing (Benedictio Apostolica) is the most solemn form of blessing in the Roman Rite, normally reserved to the Pope. It may be given at the end of Mass, at audiences, or on special occasions. Certain religious superiors and priests have the faculty to impart the Papal Blessing at designated times. When given with a plenary indulgence attached, it provides the faithful with a powerful spiritual gift. The most famous form is the Urbi et Orbi blessing given from St. Peter's Basilica.",
+    whyItMatters: "The Papal Blessing expresses the unique spiritual authority of the successor of Peter and his solicitude for the universal Church.",
+    relatedTerms: ["liturgy-urbi-et-orbi", "liturgy-solemn-blessing", "liturgy-plenary-indulgence-liturgical"]
+  },
+  {
+    id: "liturgy-urbi-et-orbi",
+    term: "Urbi et Orbi",
+    category: "liturgy",
+    tags: ["Pope", "blessing", "Christmas", "Easter"],
+    oneLiner: "The Pope's solemn blessing 'to the City and to the World,' given from the loggia of St. Peter's Basilica on Christmas and Easter.",
+    body: "Urbi et Orbi (Latin for 'to the City [Rome] and to the World') is the Pope's most solemn public blessing, traditionally imparted from the central balcony of St. Peter's Basilica on Christmas Day, Easter Sunday, and immediately after a new pope's election. The blessing carries a plenary indulgence for all who receive it, whether present in St. Peter's Square, watching on television, or listening by radio, provided they fulfill the usual conditions. It expresses the pope's universal pastoral care.",
+    whyItMatters: "Urbi et Orbi manifests the Catholic conviction that the pope's spiritual authority extends to the entire world, offering Christ's blessing to all humanity.",
+    relatedTerms: ["liturgy-papal-blessing", "liturgy-plenary-indulgence-liturgical", "liturgy-solemn-blessing"]
+  },
+  {
+    id: "liturgy-plenary-indulgence-liturgical",
+    term: "Plenary Indulgence (Liturgical Context)",
+    category: "liturgy",
+    tags: ["indulgence", "grace", "penance"],
+    oneLiner: "The full remission of temporal punishment due to sin, granted through specific liturgical acts and devotions under prescribed conditions.",
+    body: "A plenary indulgence removes all temporal punishment due to forgiven sins, and it may be gained through certain liturgical acts such as Eucharistic adoration for at least thirty minutes, devout completion of the Stations of the Cross, recitation of the Rosary in a church, or reception of the Papal Blessing. The conditions include sacramental confession, Eucharistic Communion, prayer for the pope's intentions, and detachment from all sin. Indulgences may be applied to oneself or to the souls in Purgatory.",
+    whyItMatters: "Plenary indulgences connect the Church's liturgical life to the Treasury of Merit, enabling the faithful to draw on the infinite merits of Christ and the saints for the purification of souls.",
+    relatedTerms: ["liturgy-urbi-et-orbi", "liturgy-stations-liturgical", "liturgy-papal-blessing"]
+  },
+  {
+    id: "liturgy-liturgical-dance-debate",
+    term: "Liturgical Dance Debate",
+    category: "liturgy",
+    tags: ["inculturation", "dance", "controversy"],
+    oneLiner: "The ongoing theological and pastoral debate about whether dance is an appropriate form of expression within the Roman Rite liturgy.",
+    body: "The question of dance in the liturgy has generated significant discussion since Vatican II. The Congregation for Divine Worship stated in 1975 that dance is not a form of expression within the Roman liturgy's tradition, and its introduction risks reducing worship to entertainment. However, the principle of liturgical inculturation allows for the integration of cultural elements that are consonant with the liturgy's nature. In some African and Asian contexts, dance has been carefully incorporated with episcopal approval, while in Western cultures it remains controversial and generally discouraged.",
+    whyItMatters: "The liturgical dance debate illustrates the broader tension between inculturation and the preservation of the Roman Rite's sacred character, a tension the Church must navigate with both pastoral sensitivity and doctrinal fidelity.",
+    relatedTerms: ["liturgy-inculturation-of-liturgy", "liturgy-active-participation", "liturgy-sacred-music"]
   }
 ];
