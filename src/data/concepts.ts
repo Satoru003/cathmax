@@ -13,6 +13,7 @@ import { apologeticsConcepts } from "./categories/apologetics";
 import { socialTeachingConcepts } from "./categories/social-teaching";
 import { traditionConcepts } from "./categories/tradition";
 import { devotionsConcepts } from "./categories/devotions";
+import { mysticismConcepts } from "./categories/mysticism";
 
 export const concepts: Concept[] = [
   ...saintsConcepts,
@@ -29,4 +30,5 @@ export const concepts: Concept[] = [
   ...socialTeachingConcepts,
   ...traditionConcepts,
   ...devotionsConcepts,
+  ...mysticismConcepts,
 ];

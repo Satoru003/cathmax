@@ -24,7 +24,8 @@ export type Category =
   | "apologetics"
   | "social-teaching"
   | "tradition"
-  | "devotions";
+  | "devotions"
+  | "mysticism";
 
 export const CATEGORY_META: Record<Category, { label: string; icon: string; color: string }> = {
   saints: { label: "Saints", icon: "halo", color: "#f59e0b" },
@@ -41,4 +42,5 @@ export const CATEGORY_META: Record<Category, { label: string; icon: string; colo
   "social-teaching": { label: "Social Teaching", icon: "people", color: "#a855f7" },
   tradition: { label: "Sacred Tradition", icon: "scroll", color: "#eab308" },
   devotions: { label: "Devotions", icon: "flame", color: "#0ea5e9" },
+  mysticism: { label: "Mysticism", icon: "eye", color: "#c084fc" },
 };
