@@ -6,6 +6,7 @@ import { CATEGORY_META } from "@/lib/types";
 import { ConceptSummary, getConceptById, searchConcepts } from "@/lib/concepts";
 import { Sidebar } from "@/components/Sidebar";
 import { Feed } from "@/components/Feed";
+import { AiFeed } from "@/components/AiFeed";
 import { RightSidebar } from "@/components/RightSidebar";
 import { ConceptDetail } from "@/components/ConceptDetail";
 import { AchievementToast } from "@/components/AchievementToast";
@@ -25,6 +26,7 @@ export function HomeClient({
   initialSuggestions,
 }: HomeClientProps) {
   const [activeCategory, setActiveCategory] = useState<Category | null>(null);
+  const [aiMode, setAiMode] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [mobileStatsOpen, setMobileStatsOpen] = useState(false);
   const [selectedConcept, setSelectedConcept] = useState<Concept | null>(null);
@@ -100,8 +102,10 @@ export function HomeClient({
       <div className="w-[275px] shrink-0 border-r border-[var(--border)] hidden lg:block overflow-y-auto overscroll-contain" style={{ touchAction: "pan-y" }}>
         <Sidebar
           activeCategory={activeCategory}
-          onCategoryChange={setActiveCategory}
+          onCategoryChange={(cat) => { setAiMode(false); setActiveCategory(cat); }}
           categories={categories}
+          aiMode={aiMode}
+          onAiModeToggle={() => setAiMode((prev) => !prev)}
         />
       </div>
 
@@ -139,16 +143,32 @@ export function HomeClient({
               {/* Row 2: X-style underlined tabs - scrollable */}
               <div className="flex overflow-x-auto border-b border-[var(--border)]" style={{ scrollbarWidth: "none", WebkitOverflowScrolling: "touch" }}>
                 <button
-                  onClick={() => setActiveCategory(null)}
+                  onClick={() => { setAiMode(false); setActiveCategory(null); }}
                   className={`shrink-0 px-4 py-3 text-[14px] transition-colors relative ${
-                    activeCategory === null
+                    !aiMode && activeCategory === null
                       ? "text-[var(--foreground)] font-bold"
                       : "text-[var(--muted)] font-medium"
                   }`}
                 >
                   For You
-                  {activeCategory === null && (
+                  {!aiMode && activeCategory === null && (
                     <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-12 h-[3px] bg-[var(--accent)] rounded-full" />
+                  )}
+                </button>
+                <button
+                  onClick={() => setAiMode((prev) => !prev)}
+                  className={`shrink-0 px-4 py-3 text-[14px] transition-colors relative flex items-center gap-1.5 ${
+                    aiMode
+                      ? "text-[#00e676] font-bold"
+                      : "text-[var(--muted)] font-medium"
+                  }`}
+                >
+                  AI Gen
+                  {aiMode && (
+                    <>
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#00e676] animate-pulse" />
+                      <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-12 h-[3px] bg-[#00e676] rounded-full" />
+                    </>
                   )}
                 </button>
                 {categories.map(({ category }) => (
@@ -171,7 +191,9 @@ export function HomeClient({
             </div>
             {/* Feed label - desktop only */}
             <h2 className="px-4 py-3 text-[20px] font-bold text-[var(--foreground)] hidden lg:block border-b border-[var(--border)]">
-              {searchQuery?.trim()
+              {aiMode
+                ? <span className="flex items-center gap-2">AI Generated <span className="w-2 h-2 rounded-full bg-[#00e676] animate-pulse inline-block" /></span>
+                : searchQuery?.trim()
                 ? "Search"
                 : activeCategory
                   ? `${activeCategory.charAt(0).toUpperCase() + activeCategory.slice(1).replace("-", " ")}`
@@ -181,12 +203,16 @@ export function HomeClient({
 
           {/* Scrollable feed area */}
           <div ref={scrollRef} className="flex-1 overflow-y-auto overscroll-contain min-h-0" style={{ touchAction: "pan-y", WebkitOverflowScrolling: "touch" }}>
-            <Feed
-              category={activeCategory}
-              searchQuery={searchQuery}
-              seenIds={progress.seenIds}
-              onConceptSelect={handleSelectConcept}
-            />
+            {aiMode ? (
+              <AiFeed onConceptSelect={handleSelectConcept} />
+            ) : (
+              <Feed
+                category={activeCategory}
+                searchQuery={searchQuery}
+                seenIds={progress.seenIds}
+                onConceptSelect={handleSelectConcept}
+              />
+            )}
             {/* Mobile bottom spacer so content isn't hidden behind sticky banner */}
             <div className="h-12 lg:hidden" />
           </div>
