@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 const API_KEY = process.env.OPENCODE_API_KEY || "";
 const BASE_URL = "https://openrouter.ai/api/v1/chat/completions";
-const MODEL = "qwen/qwen3-235b-a22b:free";
+const MODEL = "qwen/qwen3.6-plus-preview:free";
 
 const CATEGORIES = [
   "saints", "sacraments", "scripture", "prayers", "doctrine",
