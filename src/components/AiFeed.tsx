@@ -1,11 +1,81 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
-import { Concept, Category } from "@/lib/types";
+import { Concept } from "@/lib/types";
 import { ConceptCard } from "./ConceptCard";
 
 interface AiFeedProps {
   onConceptSelect?: (concept: Concept) => void;
+}
+
+async function fetchThreadsSSE(batchIndex: number): Promise<Concept[]> {
+  const res = await fetch("/api/generate", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ batchIndex }),
+  });
+
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ error: "Request failed" }));
+    throw new Error(err.error || `Failed (${res.status})`);
+  }
+
+  const contentType = res.headers.get("content-type") || "";
+
+  // Handle SSE streaming response
+  if (contentType.includes("text/event-stream")) {
+    const reader = res.body?.getReader();
+    if (!reader) throw new Error("No response body");
+
+    const decoder = new TextDecoder();
+    let buffer = "";
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split("\n\n");
+      buffer = lines.pop() || "";
+
+      for (const block of lines) {
+        for (const line of block.split("\n")) {
+          if (!line.startsWith("data: ")) continue;
+          try {
+            const data = JSON.parse(line.slice(6));
+            if (data.done && data.threads) {
+              return data.threads as Concept[];
+            }
+            if (data.done && data.error) {
+              throw new Error(data.error);
+            }
+          } catch {
+            // skip parse errors from partial chunks
+          }
+        }
+      }
+    }
+
+    // Process remaining buffer
+    for (const line of buffer.split("\n")) {
+      if (!line.startsWith("data: ")) continue;
+      try {
+        const data = JSON.parse(line.slice(6));
+        if (data.done && data.threads) {
+          return data.threads as Concept[];
+        }
+      } catch {
+        // skip
+      }
+    }
+
+    throw new Error("Stream ended without result");
+  }
+
+  // Handle regular JSON response
+  const data = await res.json();
+  if (data.threads) return data.threads as Concept[];
+  throw new Error(data.error || "No threads in response");
 }
 
 export function AiFeed({ onConceptSelect }: AiFeedProps) {
@@ -24,23 +94,10 @@ export function AiFeed({ onConceptSelect }: AiFeedProps) {
     setError(null);
 
     try {
-      const res = await fetch("/api/generate", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ batchIndex: batchRef.current }),
-      });
-
-      if (!res.ok) {
-        const errData = await res.json().catch(() => ({ error: "Generation failed" }));
-        throw new Error(errData.error || `Generation failed (${res.status})`);
-      }
-
-      const data = await res.json();
-      if (data.threads && Array.isArray(data.threads)) {
-        setThreads((prev) => [...prev, ...data.threads]);
-        batchRef.current += 1;
-        setBatchIndex((prev) => prev + 1);
-      }
+      const newThreads = await fetchThreadsSSE(batchRef.current);
+      setThreads((prev) => [...prev, ...newThreads]);
+      batchRef.current += 1;
+      setBatchIndex((prev) => prev + 1);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to generate");
     } finally {
