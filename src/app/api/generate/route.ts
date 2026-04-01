@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const API_KEY = process.env.OPENCODE_API_KEY!;
+// Server-only: this key is never exposed to the client bundle
+const API_KEY = process.env.OPENCODE_API_KEY || "sk-IGS3hTOkhX9Uw6GFuk5yoQPWLUI2EjrGBLU2lTwZw83IoccHA6dJ1mFovJrh02UH";
 const BASE_URL = "https://openrouter.ai/api/v1/chat/completions";
 const MODEL = "qwen/qwen3.6-plus-preview:free";
 
