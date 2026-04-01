@@ -1,8 +1,72 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
-import { Concept } from "@/lib/types";
+import { Concept, Category } from "@/lib/types";
 import { ConceptCard } from "./ConceptCard";
+
+const CATEGORIES: Category[] = [
+  "saints", "sacraments", "scripture", "prayers", "doctrine",
+  "morality", "church-history", "mary", "liturgy", "virtues",
+  "apologetics", "social-teaching", "tradition", "devotions", "mysticism",
+];
+
+const API_URL = "https://opencode.ai/zen/v1/chat/completions";
+const API_KEY = "sk-IGS3hTOkhX9Uw6GFuk5yoQPWLUI2EjrGBLU2lTwZw83IoccHA6dJ1mFovJrh02UH";
+const MODEL = "qwen3.6-plus-free";
+
+const SYSTEM_PROMPT = `You are a Catholic theology expert. Generate exactly 5 unique Catholic teaching threads as a JSON array. Be concise. Do NOT include any thinking, reasoning, or explanation — output ONLY the raw JSON array.
+
+Each object must have these fields:
+- "id": kebab-case string (e.g., "ai-divine-mercy")
+- "term": concept name
+- "category": one of: ${CATEGORIES.join(", ")}
+- "tags": array of 2-3 lowercase tags
+- "oneLiner": catchy one-line summary (under 140 chars)
+- "body": 1-2 paragraph explanation
+- "example": brief real-world example (1 paragraph)
+- "whyItMatters": brief relevance (1-2 sentences)
+- "relatedTerms": array of 2-3 related concept names
+
+Use diverse categories. Output ONLY a valid JSON array, nothing else.`;
+
+function parseAiResponse(content: string): Concept[] {
+  let parsed;
+  try {
+    parsed = JSON.parse(content);
+  } catch {
+    const jsonMatch = content.match(/```(?:json)?\s*([\s\S]*?)```/);
+    if (jsonMatch) {
+      parsed = JSON.parse(jsonMatch[1].trim());
+    } else {
+      const arrayMatch = content.match(/\[[\s\S]*\]/);
+      if (arrayMatch) {
+        parsed = JSON.parse(arrayMatch[0]);
+      } else {
+        throw new Error("Could not parse AI response");
+      }
+    }
+  }
+
+  return (Array.isArray(parsed) ? parsed : [parsed]).map(
+    (item: Record<string, unknown>, i: number) => ({
+      id: (item.id as string) || `ai-gen-${Date.now()}-${i}`,
+      term: (item.term as string) || "Catholic Teaching",
+      category: (CATEGORIES.includes(item.category as Category)
+        ? item.category
+        : CATEGORIES[Math.floor(Math.random() * CATEGORIES.length)]) as Category,
+      tags: Array.isArray(item.tags) ? item.tags : ["catholic", "faith"],
+      oneLiner: (item.oneLiner as string) || (item.one_liner as string) || "A beautiful Catholic teaching.",
+      body: (item.body as string) || "",
+      example: (item.example as string) || "",
+      whyItMatters: (item.whyItMatters as string) || (item.why_it_matters as string) || "",
+      relatedTerms: Array.isArray(item.relatedTerms)
+        ? item.relatedTerms
+        : Array.isArray(item.related_terms)
+          ? item.related_terms
+          : [],
+    })
+  );
+}
 
 interface AiFeedProps {
   onConceptSelect?: (concept: Concept) => void;
@@ -24,22 +88,38 @@ export function AiFeed({ onConceptSelect }: AiFeedProps) {
     setError(null);
 
     try {
-      const res = await fetch("/api/generate", {
+      const res = await fetch(API_URL, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ batchIndex: batchRef.current }),
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${API_KEY}`,
+        },
+        body: JSON.stringify({
+          model: MODEL,
+          messages: [
+            { role: "system", content: SYSTEM_PROMPT },
+            {
+              role: "user",
+              content: `Generate batch #${batchRef.current + 1} of 5 Catholic threads. Different topics each time. JSON array only, no thinking.`,
+            },
+          ],
+          temperature: 0.9,
+          max_tokens: 3000,
+        }),
       });
 
       if (!res.ok) {
-        throw new Error(`Generation failed (${res.status})`);
+        const errText = await res.text();
+        throw new Error(`AI API error (${res.status}): ${errText.slice(0, 100)}`);
       }
 
       const data = await res.json();
-      if (data.threads && Array.isArray(data.threads)) {
-        setThreads((prev) => [...prev, ...data.threads]);
-        batchRef.current += 1;
-        setBatchIndex((prev) => prev + 1);
-      }
+      const content = data.choices?.[0]?.message?.content || "";
+      const newThreads = parseAiResponse(content);
+
+      setThreads((prev) => [...prev, ...newThreads]);
+      batchRef.current += 1;
+      setBatchIndex((prev) => prev + 1);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to generate");
     } finally {
