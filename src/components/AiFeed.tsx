@@ -29,15 +29,44 @@ export function AiFeed({ onConceptSelect }: AiFeedProps) {
         body: JSON.stringify({ batchIndex: batchRef.current }),
       });
 
-      const data = await res.json();
-
       if (!res.ok) {
-        throw new Error(data.error || `Generation failed (${res.status})`);
+        const text = await res.text();
+        throw new Error(`Generation failed (${res.status}): ${text.slice(0, 100)}`);
       }
 
-      if (data.threads && Array.isArray(data.threads)) {
-        setThreads((prev) => [...prev, ...data.threads]);
-        batchRef.current += 1;
+      // Handle SSE response
+      const reader = res.body?.getReader();
+      if (!reader) throw new Error("No response body");
+
+      const decoder = new TextDecoder();
+      let buffer = "";
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        buffer += decoder.decode(value, { stream: true });
+
+        // Process complete SSE lines
+        const lines = buffer.split("\n");
+        buffer = lines.pop() || "";
+
+        for (const line of lines) {
+          if (line.startsWith(":")) continue; // skip comments/keepalives
+          if (!line.startsWith("data: ")) continue;
+          try {
+            const data = JSON.parse(line.slice(6));
+            if (data.threads) {
+              setThreads((prev) => [...prev, ...data.threads]);
+              batchRef.current += 1;
+            }
+            if (data.error) {
+              throw new Error(data.error);
+            }
+          } catch (e) {
+            if (e instanceof SyntaxError) continue; // skip partial JSON
+            throw e;
+          }
+        }
       }
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to generate");
