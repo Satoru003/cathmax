@@ -2,8 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 
 // Server-only: this key is never exposed to the client bundle
 const API_KEY = process.env.OPENCODE_API_KEY || "sk-IGS3hTOkhX9Uw6GFuk5yoQPWLUI2EjrGBLU2lTwZw83IoccHA6dJ1mFovJrh02UH";
-const BASE_URL = "https://openrouter.ai/api/v1/chat/completions";
-const MODEL = "qwen/qwen3.6-plus-preview:free";
+const BASE_URL = "https://opencode.ai/zen/v1/chat/completions";
+const MODEL = "qwen3.6-plus-free";
 
 const CATEGORIES = [
   "saints", "sacraments", "scripture", "prayers", "doctrine",
@@ -38,8 +38,6 @@ export async function POST(req: NextRequest) {
       headers: {
         "Content-Type": "application/json",
         "Authorization": `Bearer ${API_KEY}`,
-        "HTTP-Referer": "https://cathmaxx.vercel.app",
-        "X-Title": "catholicmaxxxing",
       },
       body: JSON.stringify({
         model: MODEL,
