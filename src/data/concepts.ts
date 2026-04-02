@@ -15,6 +15,10 @@ import { traditionConcepts } from "./categories/tradition";
 import { devotionsConcepts } from "./categories/devotions";
 import { mysticismConcepts } from "./categories/mysticism";
 import { summaAquinasConcepts } from "./categories/summa-aquinas";
+import { doctrineExtraConcepts } from "./categories/doctrine-extra";
+import { saintsExtraConcepts } from "./categories/saints-extra";
+import { spiritualityExtraConcepts } from "./categories/spirituality-extra";
+import { miscExtraConcepts } from "./categories/misc-extra";
 
 export const concepts: Concept[] = [
   ...saintsConcepts,
@@ -33,4 +37,8 @@ export const concepts: Concept[] = [
   ...devotionsConcepts,
   ...mysticismConcepts,
   ...summaAquinasConcepts,
+  ...doctrineExtraConcepts,
+  ...saintsExtraConcepts,
+  ...spiritualityExtraConcepts,
+  ...miscExtraConcepts,
 ];
